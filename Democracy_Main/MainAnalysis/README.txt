@@ -96,6 +96,11 @@ R FILES (run manually after Stata):
 ---------------------------------------------------------------
 The "input" folder should store all the raw data necessary to assemble the final dataset. 
 
+IMPORTANT: Download the input folder from: https://www.dropbox.com/scl/fo/vxrge7256gz7q0kb7vif1/AC0dpYPJazDieybg5APy-1Q?rlkey=l43wxqhynp60e0p8uv0n6tjx2&dl=0
+
+Place the downloaded "input" folder in the main project directory at:
+[YOUR_MAIN_PATH]/Democracy/Democracy_Main/MainAnalysis/input/
+
 ---------------------------------------------------------------
 The "output" folder stores all the code output.
 
