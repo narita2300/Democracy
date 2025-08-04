@@ -1,0 +1,34 @@
+
+Does democracy contribute to economic growth and safety of life? The long-standing debate has garnered yet even more attention with the outbreak of the Covid-19 pandemic. Many cannot help but observe the large number of deaths and economic devastation in democratic countries such as the US and France, which make a stark contrast with non-democratic states such as China.
+
+Indeed, Figure \ref{fig:ols} shows a strong global correlation between Freedom House's measure of democracy and Covid-19-related outcomes. We specifically look at the number of Covid-19-caused deaths per million during 2020 and the GDP growth rate in 2020. Worse performance in both outcomes is associated with democracy. 
+
+This fact motivates us to study whether this association has any causal meaning. To identify the causal effect of democracy, we adopt several exogenous sources of variation in political systems. 
+
+% explanation of IVs 
+
+We first use the instrumental variable (IV) used by \citet{ajr}, namely, European settler mortality. They justify this IV on the grounds that, where Europeans faced high settler mortality rates, they established extractive institutions that ultimately produced poor economic growth and low development. Our 2SLS estimates using this IV show a significant impact of democracy on worse Covid-19-related outcomes. A standard deviation increase in the democracy index causes 370.6 more Covid-19-related deaths per million and a 3.8 percentage point decrease in annual GDP between 2019 and 2020. To provide a benchmark, a standard deviation change in the democracy index corresponds to the difference between Slovakia and Sweden. Our estimates are statistically significant at the 1\% level. We also confirm that our result holds even if excluding China and the US from the sample. Neither introducing controls nor weighting countries differently changes the baseline results. 
+
+We also adopt \citet{hj}'s IVs based on the geographical and linguistic characteristics of a country. Hall and Jones hypothesize that these characteristics affect the extent to which a country has been influenced by Western Europe's democratic political systems. Adopting their alternative IV produces similar results to the baseline results.
+
+
+% explanation of results 
+
+We find that 
+
+% relevant literature 
+Our work is at the intersection of two strands of the literature: a longstanding literature on the relationship among democracy, economic growth and safety of life, and an emerging literature on the economics of pandemics. We integrate them to find that democracy causes worse outcomes in Covid-19 mortality and economic growth. 
+
+The effect of democracy is difficult to analyze, due to omitted variable biases, measurement errors, as well as limited data size. A consensus is hard to reach \citep{meta}. 
+Some scholars claim that the effect of democracy on economic growth and safety of life is negligible. \citet{barro}, one of the first to estimate the effect of democracy on economic outcomes, finds that democracy has a small negative effect on economic growth. \citet{tavares}, like Barro, use cross-country regressions to find a weak negative effect. Studies using panel data also find no significant effects of democracy on growth and general prosperity \citep{burkhart, giavazzi}. 
+
+At the same time, other scholars argue the opposite. Studies point out that democracies are more responsive to the public's demands in areas such as education, justice, health and public goods, all of which contribute to long-term growth \citep{edu-dem-growth, benabou, baum-lake2001, baum-lake2003, rodrik1998}. 
+Other studies stress the ability of democracies to provide more stability \citep{sah}, which is closely related to economic growth \citep{quinn-woolley}. More recent works rely on panel data to claim that although democratization is initially associated with low growth rates, democratic nations tend to experience long-term economic growth \citep{dem-growth, ajr2014}.
+
+The second literature we build on is the literature on the economics of pandemics. Many studies 
+
+% Some studies focus on trade-offs at the individual level. For example, \citet{civil-liberty-survey} study the trade-off between civil liberty and public health using large-scale surveys. They find great heterogeneity in attitudes. While only 5\% of respondents in China are unwilling to sacrifice any rights even during times of major crisis, nearly four times as many respondents in the United States are willing to do so. In terms of the trade-off between health and the economy, \citet{health-wealth} use surveys in the US and UK to find that people prioritize saving lives but this valuation changes as economic losses increase. 
+
+% Others focus on the interaction between governments and civilians. For example, \citet{politics-survey} focus on the political and electoral consequences of the Covid-19 pandemic and find that governments are punished in terms of political approval when Covid-19 infections accelerate, particularly in the absence of effective lockdown measures. Some also studied how obedience to travel restrictions or compliance with social distancing during the Covid-19 crisis differs according to factors such as collectivist culture, social capital, trust in governments and political beliefs \citep{frey, social-distancing, social-capital, covid-communication}. 
+
+We organize this paper as follows. Section \ref{sec:data} describes our data and provides descriptive statistics.  Section \ref{sec:ols} analyzes the correlation between Covid-19-related outcomes and democracy. Section \ref{sec:causal} presents our main 2SLS results. Section \ref{sec:robust} shows the results under alternative specifications, and Section \ref{sec:conclusion} concludes. 

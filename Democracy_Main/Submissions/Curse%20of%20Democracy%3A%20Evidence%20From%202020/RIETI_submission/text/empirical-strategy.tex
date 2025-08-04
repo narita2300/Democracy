@@ -1,0 +1,101 @@
+% The mortality IV is well-known, so it’s enough to precisely define the estimating equation and refer to AJR and follow-up studies
+Our paper presents an attempt to estimate the following equation: 
+
+\begin{equation}\tag{1}
+    \label{eqn:2sls-second}
+    Y_i = \mu + \alpha Democracy_i + X^{'}_i \gamma + \epsilon_i
+\end{equation}
+
+
+Our empirical strategy builds on the approach of \citet{ajr} that uses European settler mortality as an IV to estimate the causal effect of institutions on economic performance. 
+They justify this IV on the grounds that the quality of institutions today is a function of how deadly that colony was for European settlers. In places where Europeans faced higher mortality rates (Sub-Saharan Africa, Central America), they did not want to settle, and therefore installed extractive institutions to extract as many resources out of the colony as possible. In places like the US or New Zealand, where European settler mortality was lower, Europeans settled and installed inclusive institutions. The effect of these institutions persist to the present. 
+
+% The validity of this instrument has been extensively explored in recent papers.  
+
+\noindent \textbf{Estimating equation} We estimate the relationship between democracy and Covid-19 outcomes using the following empirical framework: 
+
+\begin{equation}\tag{1}
+    \label{eqn:2sls-second}
+    Y_i = \mu + \alpha Democracy_i + X^{'}_i \gamma + \epsilon_i
+\end{equation}
+
+\begin{equation}
+    \label{eqn:2sls-first}
+    \text{First Stage: } 
+    Democracy_i = \zeta + \beta log M_i + X^{'}_i \delta + \upsilon_i
+\end{equation}
+
+\noindent We already saw equation \ref{eqn:2sls-second} in Section \ref{sec:ols}'s OLS regression. Recall that the coefficient $\alpha$ represents the OLS estimate of the effect of $Democracy_i$, the normalized democracy measure, on $Y_i$, the outcome variable (Covid-19-related deaths per million or GDP growth in 2020), conditional on country characteristics represented by the control vector $X^{'}_i$. Equation \ref{eqn:2sls-first} estimates the first stage relationship between the normalized democracy index $Democracy_i$ and the log of European settler mortality rate, $\log{M_i}$. The coefficient $\beta$ estimates the effect of $\log{M_i}$ on $Democracy_i$, the normalized democracy measure, conditional on country characteristics represented by the control vector $X^{'}_i$. 
+
+%For all main results, we report the estimated OLS ($\alpha$) and two-stage least squares ($\frac{\tilde{\alpha}}{\beta}$) coefficients. 
+
+The reduced form effect of log European settler mortality on Covid-19-related outcomes is:
+
+\begin{equation}
+    \label{eqn:reduced}
+    Y_i = \tilde{\mu} + \tilde{\alpha}Democracy_i + X^{'}_i\tilde{\gamma} + \tilde{\epsilon}_i
+\end{equation}
+where $\tilde{\alpha}$ represents the reduced form impact of log European settler mortality on Covid-19-related outcomes. For all main results, we report the estimated OLS ($\alpha$) and two-stage least squares ($\frac{\tilde{\alpha}}{\beta}$) coefficients. 
+
+% derenoncourt's paper
+\begin{comment}
+{\color{blue}
+The intuition behind the empirical strategy is well captured by the migration histories of Detroit and Baltimore. Both were major destinations for black migrants during the Great Migration, and both were major industrial centers in 1940. However, black migrants arriving in these locations in 1940 came from parts of the South that experienced very different patterns of outmigra- tion between 1940 and 1970. Figure 4 depicts variation in black migration for these two cities. Detroit drew the plurality of its migrants from Alabama while Baltimore drew the plurality from Virginia. Migrants from Alabama tended to come from counties specialized in cotton production, and negative shocks to cotton spurred outmigration from these areas. Virginia, by contrast, was a major recipient of war production spending during World War II. War pro- duction jobs attracted black workers and consequently lowered outmigration rates. 
+The empirical strategy generalizes from the example above and builds on a standard shift-share approach used to estimate local labor market impacts of migration (Altonji and Card, 1991). The technique was first adapted to the Great Migration context by Boustan (2010). Black southern migrants tended to move where previous migrants from their communities had settled, thus generating correlated origin-destination flows similar to those observed in the international migration context. Shocks to migrants’ origin locations (“push factors”) are plausibly orthogonal to shocks to the destinations (“pull factors”) that could also influence the location choices of future migrants. Interacting exogenous swings in migration at the origin level with historical migration patterns in the destinations yields a potential instrument for black population changes in the North.}
+
+The empirical strategy to use European settler mortality as an IV is based on 
+
+{\color{blue}
+
+The validity of this type of instrument has been extensively explored in recent papers (Goldsmith-Pinkham et al., 2018; Adao et al., 2019; Borusyak et al., 2019). After describing how I construct the instrument and how it differs from previous papers studying the Great Migration, I discuss the relevant identification and inference concerns raised by the shift-share literature, and how I address them, in Section 5.4.
+
+
+To construct my instrument for black population change in northern cities, I interact variation in the cities’ pre-1940 migrant composition with variation in outmigration from southern counties driven by push factors alone. These push factors include defense facility spending in southern counties during World War II and shocks to cotton and other economic sectors in the South, e.g., tobacco and mining. More precisely, I replace the numerator in Equation 1 with the predicted, as opposed to actual, increase in the black population:
+
+
+The term mˆ is predicted black migration from southern county j over the j
+decades 1940 to 1970; ωjc is the share of recently migrated pre-1940 black southern migrants from county j living in city c in 1940. The term mˆ 1940−1970
+consists of the sum of fitted values of decadal predictions of southern county net migration 
+
+Functional form My instrument for the percentile of black population in- ˆ
+crease during the Great Migration, GMCZ, is GMCZ, the percentile of the predicted black population increase defined above. I use the percentile of the predicted increase as the key independent variable because the distribution of predicted black population increases mirrors that of the actual increases—both are heavily right skewed. In reporting the effects of percentile changes in the black population, I follow Sequeira et al. (2019) who report the impact of a zero to 50th percentile increase in European immigration during the Age of Mass Migration on the long-run economic development of US counties.
+
+My empirical strategy builds off the identification strategy developed by Boustan (2010) and used in subsequent papers to estimate impacts of the Great Migration on destination cities (Tabellini, 2018; Fouka et al., 2018). I introduce two innovations to this empirical strategy. First, I use the complete count 1940 census, which contains microdata on the universe of recent black southern migrants into northern cities, including their county of residence in 1935. Using county of residence in 1935 and city of residence in 1940, I construct a matrix of southern-county-to-northern-city linkages containing the share of each southern county’s outmigrants who settled in each northern city. This detailed linkage contrasts with the state-level linkage used in the prior literature. Using the complete count census data, I am able to leverage shocks to over 1200 origin counties as opposed to just 14 southern states. As I explain in Section 5.4, a large number of shocks is important for the validity of the empirical strategy when identification relies on shocks to origin locations being orthogonal to shocks to the destinations (Goldsmith-Pinkham et al., 2018; Adao et al., 2019; Borusyak et al., 2019).
+
+The second innovation is that I use machine learning to improve the pre-
+diction of net migration from southern counties. The motivation for this ap-
+proach is that the set of potential predictors from southern county variables
+is large. Given that the first stage prediction of an endogenous variable by
+an instrument can be viewed as a pure prediction problem (Belloni et al.,
+2011), I select among the predictors for migration used by Boustan (2010)
+using a Post-LASSO estimation procedure. In this procedure, for each decade
+of migration between 1940 and 1970, I use LASSO to select predictors among
+county characteristics in the previous decade with a penalty on the absolute
+number of predictors, where the tuning parameter has been chosen by 5-fold
+cross-validation. I then use the variables chosen by this procedure to estimate their relationship with county net-migration rates using OLS. 
+
+To ensure that I am leveraging variation from specific southern-county shocks, I control for the total share of the 1940 urban population made up of recent black migrants from any southern county. My preferred specifica-
+tion also includes the following baseline 1940 characteristics for robustness:
+educational upward mobility and the share of the labor force in manufactur-
+ing. These regressions can be interpreted as estimating the effect of historical
+change in the black population on the change in upward mobility in the sample
+commuting zones, where I allow for dynamics in upward mobility. If upward
+mobility changed in the treated commuting zones for reasons other than the
+Great Migration, forcing the coefficient on historical upward mobility to be 1
+may be a mis-specification of the true relationship between the Migration and upward mobility. Finally, I include census region fixed effects. The inclusion of these controls does not significantly alter the point estimates, and I report key results with and without this baseline set of controls. }
+\end{comment}
+
+% acemoglu's paper
+\begin{comment}
+{\color{blue}
+Equation (1) describes the relationship be- tween current institutions and log GDP. In ad- dition we have
+
+where R is the measure of current institutions (protection against expropriation between 1985 and 1995), C is our measure of early (circa 1900) institutions, S is the measure of European settlements in the colony (fraction of the popu- lation with European descent in 1900), and M is mortality rates faced by settlers. X is a vector of covariates that affect all variables.
+The simplest identification strategy might be to use Si (or Ci) as an instrument for Ri in equation (1), and we report some of these re- gressions in Table 8. However, to the extent that settlers are more likely to migrate to richer areas and early institutions reflect other characteris- tics that are important for income today, this identification strategy would be invalid (i.e., Ci and Si could be correlated with i). Instead, we use the mortality rates faced by the settlers, log Mi , as an instrument for Ri. This identification strategy will be valid as long as log Mi is uncorrelated with i—that is, if mortality rates of settlers between the seventeenth and nine- teenth centuries have no effect on income today other than through their influence on institu- tional development. We argued above that this exclusion restriction is plausible.
+Figure 3 illustrates the relationship between the (potential) settler mortality rates and the index of institutions. We use the logarithm of the settler mortality rates, since there are no theoretical rea- sons to prefer the level as a determinant of insti- tutions rather than the log, and using the log ensures that the extreme African mortality rates do not play a disproportionate role. As it happens, there is an almost linear relationship between the log settler mortality and our measure of institu- tions. This relationship shows that ex-colonies where Europeans faced higher mortality rates have substantially worse institutions today.
+In Table 3, we document that this relationship works through the channels hypothesized in Sec- tion I. In particular, we present OLS regressions of equations (2), (3), and (4). In the top panel, we regress the protection against expropriation vari- able on the other variables. Column (1) uses con- straints faced by the executive in 1900 as the regressor, and shows a close association between early institutions and institutions today. For exam- ple, past institutions alone explain 20 percent of the variation in the index of current institutions. The second column adds the latitude variable, with little effect on the estimate. Columns (3) and (4) use the democracy index, and confirm the results in columns (1) and (2).
+Both constraints on the executive and democ- racy indices assign low scores to countries that were colonies in 1900, and do not use the ear- liest postindependence information for Latin American countries and the Neo-Europes. In columns (5) and (6), we adopt an alternative approach and use the constraints on the execu- tive in the first year of independence and also control separately for time since independence. The results are similar, and indicate that early institutions tend to persist.
+Columns (7) and (8) show the association be- tween protection against expropriation and Euro- pean settlements. The fraction of Europeans in 1900 alone explains approximately 30 percent of the variation in our institutions variable today. Columns (9) and (10) show the relationship be- tween the protection against expropriation vari- able and the mortality rates faced by settlers. This specification will be the first stage for our main two-stage least-squares estimates (2SLS). It shows that settler mortality alone explains 27 percent of the differences in institutions we observe today.
+Panel B of Table 3 provides evidence in support of the hypothesis that early institutions were shaped, at least in part, by settlements, and that settlements were affected by mortality. Col- umns (1)–(2) and (5)–(6) relate our measure of constraint on the executive and democracy in 1900 to the measure of European settlements in 1900 (fraction of the population of European decent). Columns (3)–(4) and (7)–(8) relate the same variables to settler mortality. These regres- sions show that settlement patterns explain around 50 percent of the variation in early institutions. Finally, columns (9) and (10) show the relation- ship between settlements and mortality rates.}
+
+\end{comment}

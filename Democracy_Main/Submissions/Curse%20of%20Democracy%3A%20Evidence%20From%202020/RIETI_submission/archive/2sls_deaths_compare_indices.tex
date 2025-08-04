@@ -1,0 +1,33 @@
+
+\begin{landscape}
+\begin{table}[!htbp] \centering 
+  \caption{2SLS Regression on Covid-19-related deaths per million} 
+  \label{tab:2sls-deaths-compare-indices} 
+\begin{tabular}{@{\extracolsep{0pt}}lcccccccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{10}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-11} 
+\\[-1.8ex] & \multicolumn{10}{c}{Covid-19-related Deaths Per Million} \\ 
+\\[-1.8ex] & (1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) & (10)\\ 
+\hline \\[-1.8ex] 
+Democracy Index & 425.0$^{***}$ & 390.3$^{***}$ & 542.2$^{**}$ & 500.2$^{***}$ & 112.6 & 346.9$^{***}$ & 500.5 & 358.1$^{***}$ & 1,148.1 & 747.8$^{*}$ \\ 
+(Freedom House)  & (150.1) & (66.0) & (227.8) & (94.0) & (103.8) & (71.3) & (352.9) & (71.9) & (1,403.0) & (393.2) \\ 
+ %\hline \\[-1.8ex] 
+ Democracy Index & 529.5 & 349.8$^{***}$ & 603.2 & 479.9$^{***}$ & 92.3 & 295.1$^{***}$ & 279.7 & 325.8$^{***}$ & 1,113.6 & 929.7 \\ 
+  (Center for Systemic Peace)  & (331.7) & (75.3) & (444.2) & (113.2) & (80.8) & (98.8) & (245.0) & (122.8) & (1,485.2) & (639.4) \\ 
+ %\hline \\[-1.8ex] 
+Democracy Index & 380.1$^{***}$ & 373.9$^{***}$ & 549.7$^{**}$ & 519.7$^{***}$ & 101.3 & 325.3$^{***}$ & 459.2$^{*}$ & 375.8$^{***}$ & 1,136.3 & 713.1$^{**}$ \\ 
+(Economist Intelligence Unit)  & (119.0) & (63.9) & (219.0) & (99.6) & (109.9) & (72.9) & (249.0) & (66.9) & (1,294.4) & (330.1) \\  
+ \hline \\[-1.8ex]
+   IVs & \multicolumn{2}{c}{settler mortality} & \multicolumn{2}{c}{lang.\&trade} & \multicolumn{2}{c}{legal origins} &  \multicolumn{2}{c}{crops} &  \multicolumn{2}{c}{pop. density} \\
+  %\hline \\[-1.8ex] 
+ Weighting & Pop & Pop & Pop & Pop & Pop & Pop & Pop & Pop & Pop & Pop \\ 
+Controls & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark\\ 
+ N & 81 & 81 & 124 & 124 & 147 & 147 & 152 & 152 & 147 & 147 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{10}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 
+\end{landscape}

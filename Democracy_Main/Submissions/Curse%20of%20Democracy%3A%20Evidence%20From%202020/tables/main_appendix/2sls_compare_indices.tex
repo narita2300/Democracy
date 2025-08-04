@@ -1,0 +1,49 @@
+
+\begin{landscape}
+\begin{table}[!htbp] \centering 
+  \caption{2SLS Regression with Alternative Democracy Indices} 
+  \label{tab:2sls-compare-indices} 
+    \begin{threeparttable}
+\begin{tabular}{@{\extracolsep{0pt}}lcccccccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+\\[-1.8ex] & (1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) & (10)\\ 
+\hline \\[-1.8ex] 
+ & \multicolumn{10}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-11} 
+\\[-1.8ex] & \multicolumn{10}{c}{Panel A: GDP Growth Rates in 2020} \\  \\
+Democracy Index (Freedom House)   &        -3.1\sym{***}&        -2.7\sym{***}&        -2.7\sym{***}&        -2.1\sym{***}&        -3.5\sym{*}  &        -2.6\sym{***}&        -2.5\sym{***}&        -2.4\sym{***}&        -0.2         &        -2.1\sym{**} \\
+                    &       (0.7)         &       (0.7)         &       (0.7)         &       (0.6)         &       (1.4)         &       (0.6)         &       (0.7)         &       (0.4)         &       (3.2)         &       (0.7)         \\
+Democracy Index (Center for Systemic Peace)    &        -3.7\sym{***}&        -2.8\sym{***}&        -3.4\sym{***}&        -2.7\sym{***}&        -4.3\sym{**} &        -3.4\sym{***}&        -2.8\sym{***}&        -2.6\sym{***}&        -0.2         &        -2.4\sym{**} \\
+                    &       (1.0)         &       (0.7)         &       (0.7)         &       (0.6)         &       (1.6)         &       (0.8)         &       (0.6)         &       (0.4)         &       (3.5)         &       (0.7)         \\
+Democracy Index (Economist Intelligence Unit) &  -3.1\sym{***}&        -2.8\sym{***}&        -2.7\sym{***}&        -2.0\sym{***}&        -3.0\sym{*}  &        -2.5\sym{***}&        -2.6\sym{***}&        -2.5\sym{***}&        -0.2         &        -2.1\sym{**} \\
+                    &       (0.7)         &       (0.7)         &       (0.7)         &       (0.6)         &       (1.2)         &       (0.5)         &       (0.8)         &       (0.5)         &       (2.7)         &       (0.7)         \\
+
+ \hline \\[-1.8ex] 
+ 
+  & \multicolumn{10}{c}{\textit{Dependent variable:} } \\ 
+\cline{2-11} 
+\\[-1.8ex] & \multicolumn{10}{c}{Panel B: Covid-19-related Deaths Per Million} \\ \\
+Democracy Index (Freedom House)     &       440.4\sym{***}&       493.1\sym{***}&       417.6\sym{**} &       519.4\sym{***}&       552.6         &       484.2\sym{***}&       297.4\sym{***}&       389.4\sym{***}&      1033.0         &       486.1\sym{***}\\
+                    &      (87.5)         &     (119.8)         &     (128.0)         &     (105.8)         &     (337.4)         &      (95.1)         &      (90.2)         &      (70.2)         &    (1047.9)         &     (137.9)         \\
+Democracy Index (Center for Systemic Peace)    &       539.9\sym{**} &       525.7\sym{***}&       494.5\sym{*}  &       644.3\sym{***}&       588.9         &       603.0\sym{***}&       312.6\sym{**} &       388.8\sym{***}&      1153.7         &       543.5\sym{**} \\
+                    &     (169.3)         &     (144.2)         &     (203.4)         &     (178.6)         &     (390.4)         &     (159.0)         &     (108.5)         &      (92.2)         &    (1215.1)         &     (178.2)         \\
+
+Democracy Index  (Economist Intelligence Unit)   &       442.0\sym{***}&       515.6\sym{***}&       415.5\sym{***}&       519.0\sym{***}&       492.2         &       460.0\sym{***}&       306.9\sym{***}&       415.7\sym{***}&       875.1         &       470.5\sym{***}\\
+                    &      (90.4)         &     (132.6)         &     (121.8)         &     (107.0)         &     (257.4)         &      (95.5)         &      (86.3)         &      (71.1)         &     (689.6)         &     (134.4)         \\
+ \hline \\[-1.8ex] 
+   IVs & \multicolumn{2}{c}{settler mortality} & \multicolumn{2}{c}{language \& trade} & \multicolumn{2}{c}{legal origins} &  \multicolumn{2}{c}{crops \& minerals} &  \multicolumn{2}{c}{pop. density} \\
+Controls & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark\\ 
+N  &          81         &          81         &         128         &         128         &         152         &         152         &         134         &         134         &         145         &         145         \\
+
+\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{10}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\begin{tablenotes}
+\item {\footnotesize {\textit{Notes:} This table compares the results of 2SLS regressions on Covid-19 outcomes using democracy indices by Freedom House, the Center for Systemic Peace, and the Economist Intelligence Unit. We normalize all indices to have standard deviation one. Panel A shows the 2SLS estimates of democracy's effect on GDP growth rates in 2020. Panel B shows the 2SLS estimates of democracy's effect on Covid-19 related deaths per million. Columns 1, 3, 5, 7, and 9 have no controls, while columns 2, 4, 6, 8, and 10 have the following controls: absolute latitude, mean temperature, mean precipitation, population density, median age, and diabetes prevalence. For IVs, columns 1 and 2 use log European settler mortality, columns 3 and 4 use the fraction speaking English, the fraction speaking European, and the Frankel-Romer trade share, columns 5 and 6 use British legal origin, French legal origin, and German legal origin, columns 7 and 8 use the ability to grow crops and mine minerals (bananas, coffee, copper, maize, millet, silver, sugarcane, rice, rubber, and wheat), and columns 9 and 10 use log population density in the 1500s. For all regressions, we weight observations by GDP. The estimates in this table are slightly different from those in Table \ref{tab:2sls} because some observations with missing data for the other democracy indices are removed for comparability across indices. Robust standard errors are in parentheses.}}
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+\end{landscape}
+

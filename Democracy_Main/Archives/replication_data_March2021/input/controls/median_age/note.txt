@@ -1,0 +1,8 @@
+Data for population density
+source link: https://population.un.org/wpp/DataQuery/
+
+Steps:
+* Choose "Median age of the total population (years)" as indicator.
+* In the next page, select "World" and answer "Yes" to "Do you want to select all the sub-locations as well?"
+* Select 2020 as the desired year for which we get data.
+* Click on "Export to Excel.""

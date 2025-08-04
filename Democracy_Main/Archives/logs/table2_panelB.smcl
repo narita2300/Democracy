@@ -1,0 +1,864 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}/Users/ayumis/Dropbox/Democracy/MainAnalysis/code/2_analyze/tables/main/logs/table2_panelB.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}21 Sep 2021, 17:50:20
+
+{com}. do "/var/folders/f1/rfzhvqh92gggg8dnlpw60sm80000gn/T//SD10141.000000"
+{txt}
+{com}. 
+. ********************************************************************************
+. * Table 2, Panel B: OLS Estimates of Democracy's Effects
+. ********************************************************************************
+. clear 
+{txt}
+{com}. 
+. *** Change to appropriate directory
+. cd ${c -(}path_dropbox{c )-}/tables
+{res}/Users/ayumis/Dropbox/アプリ/Overleaf/Curse_of_Democracy/supporting_files/tables
+{txt}
+{com}. 
+. *** Load data 
+. use ${c -(}path_data{c )-}/total.dta, replace
+{txt}
+{com}. 
+. ********************************************************************************
+. * Dependent Variable: Mean GDP Growth Rate in 2001-2019 * 
+. // column 1
+. reg mean_growth_rate_2001_2019 democracy_vdem2000 [w=total_gdp2000] if logem4!=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 16,528.246)
+
+Linear regression                               Number of obs     = {res}        77
+                                                {txt}F(1, 75)          =  {res}    46.12
+                                                {txt}Prob > F          = {res}    0.0000
+                                                {txt}R-squared         = {res}    0.6817
+                                                {txt}Root MSE          =    {res} 1.2085
+
+{txt}{hline 19}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 20}{c |}{col 32}    Robust
+{col 1}mean_growt~01_2019{col 20}{c |}      Coef.{col 32}   Std. Err.{col 44}      t{col 52}   P>|t|{col 60}     [95% Con{col 73}f. Interval]
+{hline 19}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+democracy_vdem2000 {c |}{col 20}{res}{space 2}-2.037253{col 32}{space 2} .2999879{col 43}{space 1}   -6.79{col 52}{space 3}0.000{col 60}{space 4} -2.63486{col 73}{space 3}-1.439647
+{txt}{space 13}_cons {c |}{col 20}{res}{space 2} 4.736196{col 32}{space 2} .4068455{col 43}{space 1}   11.64{col 52}{space 3}0.000{col 60}{space 4} 3.925718{col 73}{space 3} 5.546674
+{txt}{hline 19}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. // column 2
+. reg mean_growth_rate_2001_2019 democracy_vdem2000 ${c -(}base_covariates2000{c )-} [w=total_gdp2000] if logem4!=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 16,528.246)
+
+Linear regression                               Number of obs     = {res}        77
+                                                {txt}F(6, 70)          =  {res}     8.97
+                                                {txt}Prob > F          = {res}    0.0000
+                                                {txt}R-squared         = {res}    0.6850
+                                                {txt}Root MSE          =    {res} 1.2444
+
+{txt}{hline 22}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 23}{c |}{col 35}    Robust
+{col 1}mean_growth_r~01_2019{col 23}{c |}      Coef.{col 35}   Std. Err.{col 47}      t{col 55}   P>|t|{col 63}     [95% Con{col 76}f. Interval]
+{hline 22}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 3}democracy_vdem2000 {c |}{col 23}{res}{space 2}-2.161694{col 35}{space 2} .4347804{col 46}{space 1}   -4.97{col 55}{space 3}0.000{col 63}{space 4}-3.028836{col 76}{space 3}-1.294552
+{txt}{space 14}abs_lat {c |}{col 23}{res}{space 2} .0130585{col 35}{space 2} .0546093{col 46}{space 1}    0.24{col 55}{space 3}0.812{col 63}{space 4}-.0958564{col 76}{space 3} .1219734
+{txt}{space 2}mean_temp_1991_2000 {c |}{col 23}{res}{space 2} .0281293{col 35}{space 2} .0745301{col 46}{space 1}    0.38{col 55}{space 3}0.707{col 63}{space 4}-.1205162{col 76}{space 3} .1767749
+{txt}mean_precip_1991_2000 {c |}{col 23}{res}{space 2} .0024535{col 35}{space 2} .0063251{col 46}{space 1}    0.39{col 55}{space 3}0.699{col 63}{space 4}-.0101615{col 76}{space 3} .0150685
+{txt}{space 6}pop_density2000 {c |}{col 23}{res}{space 2}-7.28e-06{col 35}{space 2} .0004715{col 46}{space 1}   -0.02{col 55}{space 3}0.988{col 63}{space 4}-.0009476{col 76}{space 3}  .000933
+{txt}{space 7}median_age2000 {c |}{col 23}{res}{space 2} .0454658{col 35}{space 2} .1003475{col 46}{space 1}    0.45{col 55}{space 3}0.652{col 63}{space 4}-.1546709{col 76}{space 3} .2456026
+{txt}{space 16}_cons {c |}{col 23}{res}{space 2} 2.480493{col 35}{space 2} 3.220062{col 46}{space 1}    0.77{col 55}{space 3}0.444{col 63}{space 4}-3.941718{col 76}{space 3} 8.902705
+{txt}{hline 22}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. // column 3
+. reg mean_growth_rate_2001_2019 democracy_vdem2000 [w=total_gdp2000] if lpd1500s !=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 16,690.078)
+
+Linear regression                               Number of obs     = {res}        89
+                                                {txt}F(1, 87)          =  {res}    40.13
+                                                {txt}Prob > F          = {res}    0.0000
+                                                {txt}R-squared         = {res}    0.6658
+                                                {txt}Root MSE          =    {res} 1.2373
+
+{txt}{hline 19}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 20}{c |}{col 32}    Robust
+{col 1}mean_growt~01_2019{col 20}{c |}      Coef.{col 32}   Std. Err.{col 44}      t{col 52}   P>|t|{col 60}     [95% Con{col 73}f. Interval]
+{hline 19}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+democracy_vdem2000 {c |}{col 20}{res}{space 2}-1.996338{col 32}{space 2} .3151289{col 43}{space 1}   -6.33{col 52}{space 3}0.000{col 60}{space 4}-2.622691{col 73}{space 3}-1.369985
+{txt}{space 13}_cons {c |}{col 20}{res}{space 2} 4.691618{col 32}{space 2} .4191508{col 43}{space 1}   11.19{col 52}{space 3}0.000{col 60}{space 4}  3.85851{col 73}{space 3} 5.524725
+{txt}{hline 19}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. // column 4
+. reg mean_growth_rate_2001_2019 democracy_vdem2000 ${c -(}base_covariates2000{c )-} [w=total_gdp2000] if lpd1500s !=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 16,690.078)
+
+Linear regression                               Number of obs     = {res}        89
+                                                {txt}F(6, 82)          =  {res}     8.22
+                                                {txt}Prob > F          = {res}    0.0000
+                                                {txt}R-squared         = {res}    0.6707
+                                                {txt}Root MSE          =    {res} 1.2651
+
+{txt}{hline 22}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 23}{c |}{col 35}    Robust
+{col 1}mean_growth_r~01_2019{col 23}{c |}      Coef.{col 35}   Std. Err.{col 47}      t{col 55}   P>|t|{col 63}     [95% Con{col 76}f. Interval]
+{hline 22}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 3}democracy_vdem2000 {c |}{col 23}{res}{space 2}-2.119113{col 35}{space 2}  .458858{col 46}{space 1}   -4.62{col 55}{space 3}0.000{col 63}{space 4}-3.031928{col 76}{space 3}-1.206299
+{txt}{space 14}abs_lat {c |}{col 23}{res}{space 2} .0154064{col 35}{space 2} .0528773{col 46}{space 1}    0.29{col 55}{space 3}0.772{col 63}{space 4}-.0897834{col 76}{space 3} .1205962
+{txt}{space 2}mean_temp_1991_2000 {c |}{col 23}{res}{space 2} .0230972{col 35}{space 2} .0756215{col 46}{space 1}    0.31{col 55}{space 3}0.761{col 63}{space 4}-.1273381{col 76}{space 3} .1735324
+{txt}mean_precip_1991_2000 {c |}{col 23}{res}{space 2} .0043308{col 35}{space 2} .0058912{col 46}{space 1}    0.74{col 55}{space 3}0.464{col 63}{space 4}-.0073886{col 76}{space 3} .0160503
+{txt}{space 6}pop_density2000 {c |}{col 23}{res}{space 2} 3.33e-07{col 35}{space 2} .0004795{col 46}{space 1}    0.00{col 55}{space 3}0.999{col 63}{space 4}-.0009535{col 76}{space 3} .0009542
+{txt}{space 7}median_age2000 {c |}{col 23}{res}{space 2} .0409351{col 35}{space 2} .0978457{col 46}{space 1}    0.42{col 55}{space 3}0.677{col 63}{space 4} -.153711{col 76}{space 3} .2355813
+{txt}{space 16}_cons {c |}{col 23}{res}{space 2} 2.428648{col 35}{space 2} 3.258103{col 46}{space 1}    0.75{col 55}{space 3}0.458{col 63}{space 4}-4.052757{col 76}{space 3} 8.910053
+{txt}{hline 22}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. // column 5
+. reg mean_growth_rate_2001_2019 democracy_vdem2000 [w=total_gdp2000] if legor_uk!=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 16,697.974)
+
+Linear regression                               Number of obs     = {res}        93
+                                                {txt}F(1, 91)          =  {res}    40.04
+                                                {txt}Prob > F          = {res}    0.0000
+                                                {txt}R-squared         = {res}    0.6655
+                                                {txt}Root MSE          =    {res} 1.2372
+
+{txt}{hline 19}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 20}{c |}{col 32}    Robust
+{col 1}mean_growt~01_2019{col 20}{c |}      Coef.{col 32}   Std. Err.{col 44}      t{col 52}   P>|t|{col 60}     [95% Con{col 73}f. Interval]
+{hline 19}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+democracy_vdem2000 {c |}{col 20}{res}{space 2}-1.995247{col 32}{space 2} .3153094{col 43}{space 1}   -6.33{col 52}{space 3}0.000{col 60}{space 4} -2.62157{col 73}{space 3}-1.368924
+{txt}{space 13}_cons {c |}{col 20}{res}{space 2} 4.690549{col 32}{space 2} .4191931{col 43}{space 1}   11.19{col 52}{space 3}0.000{col 60}{space 4} 3.857874{col 73}{space 3} 5.523225
+{txt}{hline 19}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. // column 6
+. reg mean_growth_rate_2001_2019 democracy_vdem2000 ${c -(}base_covariates2000{c )-} [w=total_gdp2000] if legor_uk!=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 16,697.974)
+
+Linear regression                               Number of obs     = {res}        93
+                                                {txt}F(6, 86)          =  {res}     8.23
+                                                {txt}Prob > F          = {res}    0.0000
+                                                {txt}R-squared         = {res}    0.6703
+                                                {txt}Root MSE          =    {res} 1.2634
+
+{txt}{hline 22}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 23}{c |}{col 35}    Robust
+{col 1}mean_growth_r~01_2019{col 23}{c |}      Coef.{col 35}   Std. Err.{col 47}      t{col 55}   P>|t|{col 63}     [95% Con{col 76}f. Interval]
+{hline 22}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 3}democracy_vdem2000 {c |}{col 23}{res}{space 2} -2.11669{col 35}{space 2} .4584895{col 46}{space 1}   -4.62{col 55}{space 3}0.000{col 63}{space 4}-3.028137{col 76}{space 3}-1.205243
+{txt}{space 14}abs_lat {c |}{col 23}{res}{space 2} .0147595{col 35}{space 2} .0525891{col 46}{space 1}    0.28{col 55}{space 3}0.780{col 63}{space 4}-.0897843{col 76}{space 3} .1193032
+{txt}{space 2}mean_temp_1991_2000 {c |}{col 23}{res}{space 2} .0224683{col 35}{space 2} .0752094{col 46}{space 1}    0.30{col 55}{space 3}0.766{col 63}{space 4} -.127043{col 76}{space 3} .1719796
+{txt}mean_precip_1991_2000 {c |}{col 23}{res}{space 2} .0042323{col 35}{space 2} .0058523{col 46}{space 1}    0.72{col 55}{space 3}0.472{col 63}{space 4}-.0074016{col 76}{space 3} .0158662
+{txt}{space 6}pop_density2000 {c |}{col 23}{res}{space 2} 3.01e-06{col 35}{space 2} .0004792{col 46}{space 1}    0.01{col 55}{space 3}0.995{col 63}{space 4}-.0009497{col 76}{space 3} .0009557
+{txt}{space 7}median_age2000 {c |}{col 23}{res}{space 2} .0408443{col 35}{space 2} .0977039{col 46}{space 1}    0.42{col 55}{space 3}0.677{col 63}{space 4}-.1533847{col 76}{space 3} .2350732
+{txt}{space 16}_cons {c |}{col 23}{res}{space 2} 2.464113{col 35}{space 2} 3.244863{col 46}{space 1}    0.76{col 55}{space 3}0.450{col 63}{space 4} -3.98646{col 76}{space 3} 8.914686
+{txt}{hline 22}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. // column 7
+. reg mean_growth_rate_2001_2019 democracy_vdem2000 [w=total_gdp2000] if EurFrac!=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 33,073.649)
+
+Linear regression                               Number of obs     = {res}       136
+                                                {txt}F(1, 134)         =  {res}    16.15
+                                                {txt}Prob > F          = {res}    0.0001
+                                                {txt}R-squared         = {res}    0.5167
+                                                {txt}Root MSE          =    {res} 1.2842
+
+{txt}{hline 19}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 20}{c |}{col 32}    Robust
+{col 1}mean_growt~01_2019{col 20}{c |}      Coef.{col 32}   Std. Err.{col 44}      t{col 52}   P>|t|{col 60}     [95% Con{col 73}f. Interval]
+{hline 19}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+democracy_vdem2000 {c |}{col 20}{res}{space 2}-1.749323{col 32}{space 2} .4352416{col 43}{space 1}   -4.02{col 52}{space 3}0.000{col 60}{space 4}-2.610155{col 73}{space 3}-.8884907
+{txt}{space 13}_cons {c |}{col 20}{res}{space 2} 3.969547{col 32}{space 2} .5495585{col 43}{space 1}    7.22{col 52}{space 3}0.000{col 60}{space 4} 2.882616{col 73}{space 3} 5.056478
+{txt}{hline 19}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. // column 8
+. reg mean_growth_rate_2001_2019 democracy_vdem2000 ${c -(}base_covariates2000{c )-} [w=total_gdp2000] if EurFrac!=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 33,073.649)
+
+Linear regression                               Number of obs     = {res}       136
+                                                {txt}F(6, 129)         =  {res}     5.92
+                                                {txt}Prob > F          = {res}    0.0000
+                                                {txt}R-squared         = {res}    0.6204
+                                                {txt}Root MSE          =    {res}   1.16
+
+{txt}{hline 22}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 23}{c |}{col 35}    Robust
+{col 1}mean_growth_r~01_2019{col 23}{c |}      Coef.{col 35}   Std. Err.{col 47}      t{col 55}   P>|t|{col 63}     [95% Con{col 76}f. Interval]
+{hline 22}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 3}democracy_vdem2000 {c |}{col 23}{res}{space 2}-1.248214{col 35}{space 2} .5836978{col 46}{space 1}   -2.14{col 55}{space 3}0.034{col 63}{space 4}-2.403074{col 76}{space 3}-.0933534
+{txt}{space 14}abs_lat {c |}{col 23}{res}{space 2} -.011309{col 35}{space 2} .0177842{col 46}{space 1}   -0.64{col 55}{space 3}0.526{col 63}{space 4}-.0464954{col 76}{space 3} .0238774
+{txt}{space 2}mean_temp_1991_2000 {c |}{col 23}{res}{space 2}-.1041716{col 35}{space 2} .0468871{col 46}{space 1}   -2.22{col 55}{space 3}0.028{col 63}{space 4}-.1969389{col 76}{space 3}-.0114043
+{txt}mean_precip_1991_2000 {c |}{col 23}{res}{space 2} .0012621{col 35}{space 2} .0041394{col 46}{space 1}    0.30{col 55}{space 3}0.761{col 63}{space 4}-.0069278{col 76}{space 3} .0094521
+{txt}{space 6}pop_density2000 {c |}{col 23}{res}{space 2} .0006025{col 35}{space 2} .0003556{col 46}{space 1}    1.69{col 55}{space 3}0.093{col 63}{space 4} -.000101{col 76}{space 3}  .001306
+{txt}{space 7}median_age2000 {c |}{col 23}{res}{space 2}-.1529016{col 35}{space 2} .0590224{col 46}{space 1}   -2.59{col 55}{space 3}0.011{col 63}{space 4}-.2696789{col 76}{space 3}-.0361243
+{txt}{space 16}_cons {c |}{col 23}{res}{space 2}   10.177{col 35}{space 2} 1.547989{col 46}{space 1}    6.57{col 55}{space 3}0.000{col 63}{space 4} 7.114265{col 76}{space 3} 13.23973
+{txt}{hline 22}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. // column 9
+. reg mean_growth_rate_2001_2019 democracy_vdem2000 [w=total_gdp2000] if bananas!=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 33,159.361)
+
+Linear regression                               Number of obs     = {res}       142
+                                                {txt}F(1, 140)         =  {res}    16.34
+                                                {txt}Prob > F          = {res}    0.0001
+                                                {txt}R-squared         = {res}    0.5166
+                                                {txt}Root MSE          =    {res} 1.2881
+
+{txt}{hline 19}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 20}{c |}{col 32}    Robust
+{col 1}mean_growt~01_2019{col 20}{c |}      Coef.{col 32}   Std. Err.{col 44}      t{col 52}   P>|t|{col 60}     [95% Con{col 73}f. Interval]
+{hline 19}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+democracy_vdem2000 {c |}{col 20}{res}{space 2}-1.732683{col 32}{space 2} .4285845{col 43}{space 1}   -4.04{col 52}{space 3}0.000{col 60}{space 4}-2.580018{col 73}{space 3}-.8853483
+{txt}{space 13}_cons {c |}{col 20}{res}{space 2}  3.94886{col 32}{space 2} .5409935{col 43}{space 1}    7.30{col 52}{space 3}0.000{col 60}{space 4} 2.879286{col 73}{space 3} 5.018433
+{txt}{hline 19}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. // column 10 
+. reg mean_growth_rate_2001_2019 democracy_vdem2000 ${c -(}base_covariates2000{c )-} [w=total_gdp2000] if bananas!=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 33,159.361)
+
+Linear regression                               Number of obs     = {res}       142
+                                                {txt}F(6, 135)         =  {res}     5.94
+                                                {txt}Prob > F          = {res}    0.0000
+                                                {txt}R-squared         = {res}    0.6199
+                                                {txt}Root MSE          =    {res} 1.1631
+
+{txt}{hline 22}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 23}{c |}{col 35}    Robust
+{col 1}mean_growth_r~01_2019{col 23}{c |}      Coef.{col 35}   Std. Err.{col 47}      t{col 55}   P>|t|{col 63}     [95% Con{col 76}f. Interval]
+{hline 22}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 3}democracy_vdem2000 {c |}{col 23}{res}{space 2}-1.237245{col 35}{space 2} .5791212{col 46}{space 1}   -2.14{col 55}{space 3}0.034{col 63}{space 4}-2.382568{col 76}{space 3}-.0919211
+{txt}{space 14}abs_lat {c |}{col 23}{res}{space 2}-.0115581{col 35}{space 2}  .017981{col 46}{space 1}   -0.64{col 55}{space 3}0.521{col 63}{space 4} -.047119{col 76}{space 3} .0240027
+{txt}{space 2}mean_temp_1991_2000 {c |}{col 23}{res}{space 2}-.1056188{col 35}{space 2} .0473013{col 46}{space 1}   -2.23{col 55}{space 3}0.027{col 63}{space 4}-.1991663{col 76}{space 3}-.0120713
+{txt}mean_precip_1991_2000 {c |}{col 23}{res}{space 2} .0015414{col 35}{space 2} .0041165{col 46}{space 1}    0.37{col 55}{space 3}0.709{col 63}{space 4}-.0065998{col 76}{space 3} .0096826
+{txt}{space 6}pop_density2000 {c |}{col 23}{res}{space 2} .0006002{col 35}{space 2}  .000353{col 46}{space 1}    1.70{col 55}{space 3}0.091{col 63}{space 4}-.0000979{col 76}{space 3} .0012983
+{txt}{space 7}median_age2000 {c |}{col 23}{res}{space 2}-.1535051{col 35}{space 2} .0594045{col 46}{space 1}   -2.58{col 55}{space 3}0.011{col 63}{space 4}-.2709889{col 76}{space 3}-.0360212
+{txt}{space 16}_cons {c |}{col 23}{res}{space 2} 10.18772{col 35}{space 2} 1.557437{col 46}{space 1}    6.54{col 55}{space 3}0.000{col 63}{space 4} 7.107587{col 76}{space 3} 13.26785
+{txt}{hline 22}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. // column 11
+. reg mean_growth_rate_2001_2019 democracy_vdem2000 [w=total_gdp2000] if logem4!=. & lpd1500s!=. & legor_uk!=. & EurFrac!=. & bananas!=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 16,481.188)
+
+Linear regression                               Number of obs     = {res}        73
+                                                {txt}F(1, 71)          =  {res}    45.88
+                                                {txt}Prob > F          = {res}    0.0000
+                                                {txt}R-squared         = {res}    0.6800
+                                                {txt}Root MSE          =    {res} 1.2096
+
+{txt}{hline 19}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 20}{c |}{col 32}    Robust
+{col 1}mean_growt~01_2019{col 20}{c |}      Coef.{col 32}   Std. Err.{col 44}      t{col 52}   P>|t|{col 60}     [95% Con{col 73}f. Interval]
+{hline 19}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+democracy_vdem2000 {c |}{col 20}{res}{space 2}-2.044188{col 32}{space 2} .3018068{col 43}{space 1}   -6.77{col 52}{space 3}0.000{col 60}{space 4}-2.645974{col 73}{space 3}-1.442403
+{txt}{space 13}_cons {c |}{col 20}{res}{space 2} 4.744453{col 32}{space 2}   .40999{col 43}{space 1}   11.57{col 52}{space 3}0.000{col 60}{space 4} 3.926956{col 73}{space 3}  5.56195
+{txt}{hline 19}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. // column 12
+. reg mean_growth_rate_2001_2019 democracy_vdem2000 ${c -(}base_covariates2000{c )-} [w=total_gdp2000] if logem4!=. & lpd1500s!=. & legor_uk!=. & EurFrac!=. & bananas!=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 16,481.188)
+
+Linear regression                               Number of obs     = {res}        73
+                                                {txt}F(6, 66)          =  {res}     8.81
+                                                {txt}Prob > F          = {res}    0.0000
+                                                {txt}R-squared         = {res}    0.6837
+                                                {txt}Root MSE          =    {res} 1.2473
+
+{txt}{hline 22}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 23}{c |}{col 35}    Robust
+{col 1}mean_growth_r~01_2019{col 23}{c |}      Coef.{col 35}   Std. Err.{col 47}      t{col 55}   P>|t|{col 63}     [95% Con{col 76}f. Interval]
+{hline 22}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 3}democracy_vdem2000 {c |}{col 23}{res}{space 2}-2.182975{col 35}{space 2} .4396548{col 46}{space 1}   -4.97{col 55}{space 3}0.000{col 63}{space 4}-3.060775{col 76}{space 3}-1.305176
+{txt}{space 14}abs_lat {c |}{col 23}{res}{space 2}  .016934{col 35}{space 2} .0554851{col 46}{space 1}    0.31{col 55}{space 3}0.761{col 63}{space 4}-.0938455{col 76}{space 3} .1277135
+{txt}{space 2}mean_temp_1991_2000 {c |}{col 23}{res}{space 2} .0337549{col 35}{space 2} .0757711{col 46}{space 1}    0.45{col 55}{space 3}0.657{col 63}{space 4}-.1175269{col 76}{space 3} .1850368
+{txt}mean_precip_1991_2000 {c |}{col 23}{res}{space 2} .0029436{col 35}{space 2}  .006492{col 46}{space 1}    0.45{col 55}{space 3}0.652{col 63}{space 4}-.0100181{col 76}{space 3} .0159053
+{txt}{space 6}pop_density2000 {c |}{col 23}{res}{space 2}-.0000221{col 35}{space 2} .0004739{col 46}{space 1}   -0.05{col 55}{space 3}0.963{col 63}{space 4}-.0009683{col 76}{space 3}  .000924
+{txt}{space 7}median_age2000 {c |}{col 23}{res}{space 2} .0484661{col 35}{space 2} .1002946{col 46}{space 1}    0.48{col 55}{space 3}0.631{col 63}{space 4}-.1517785{col 76}{space 3} .2487108
+{txt}{space 16}_cons {c |}{col 23}{res}{space 2} 2.183839{col 35}{space 2} 3.263482{col 46}{space 1}    0.67{col 55}{space 3}0.506{col 63}{space 4}-4.331913{col 76}{space 3}  8.69959
+{txt}{hline 22}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. 
+. ********************************************************************************
+. * Dependent Variable: GDP Growth Rate in 2020
+. // column 1
+. reg gdp_growth2020 democracy_vdem2019 [w=total_gdp2019] if logem4!=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 52,386.531)
+
+Linear regression                               Number of obs     = {res}        77
+                                                {txt}F(1, 75)          =  {res}    25.52
+                                                {txt}Prob > F          = {res}    0.0000
+                                                {txt}R-squared         = {res}    0.4892
+                                                {txt}Root MSE          =    {res} 2.6656
+
+{txt}{hline 19}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 20}{c |}{col 32}    Robust
+{col 1}    gdp_growth2020{col 20}{c |}      Coef.{col 32}   Std. Err.{col 44}      t{col 52}   P>|t|{col 60}     [95% Con{col 73}f. Interval]
+{hline 19}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+democracy_vdem2019 {c |}{col 20}{res}{space 2}-1.991075{col 32}{space 2}  .394154{col 43}{space 1}   -5.05{col 52}{space 3}0.000{col 60}{space 4} -2.77627{col 73}{space 3} -1.20588
+{txt}{space 13}_cons {c |}{col 20}{res}{space 2}-2.274634{col 32}{space 2} .6124291{col 43}{space 1}   -3.71{col 52}{space 3}0.000{col 60}{space 4}-3.494655{col 73}{space 3}-1.054612
+{txt}{hline 19}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. // column 2
+. reg gdp_growth2020 democracy_vdem2019 ${c -(}base_covariates2019{c )-} [w=total_gdp2019] if logem4!=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 52,386.531)
+
+Linear regression                               Number of obs     = {res}        77
+                                                {txt}F(7, 69)          =  {res}    42.00
+                                                {txt}Prob > F          = {res}    0.0000
+                                                {txt}R-squared         = {res}    0.6220
+                                                {txt}Root MSE          =    {res} 2.3908
+
+{txt}{hline 24}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 25}{c |}{col 37}    Robust
+{col 1}         gdp_growth2020{col 25}{c |}      Coef.{col 37}   Std. Err.{col 49}      t{col 57}   P>|t|{col 65}     [95% Con{col 78}f. Interval]
+{hline 24}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 5}democracy_vdem2019 {c |}{col 25}{res}{space 2}-1.930928{col 37}{space 2} .3017453{col 48}{space 1}   -6.40{col 57}{space 3}0.000{col 65}{space 4}-2.532894{col 78}{space 3}-1.328963
+{txt}{space 16}abs_lat {c |}{col 25}{res}{space 2}-.0702092{col 37}{space 2} .1537352{col 48}{space 1}   -0.46{col 57}{space 3}0.649{col 65}{space 4}-.3769024{col 78}{space 3} .2364841
+{txt}{space 4}mean_temp_1991_2016 {c |}{col 25}{res}{space 2}-.1304309{col 37}{space 2} .1910336{col 48}{space 1}   -0.68{col 57}{space 3}0.497{col 65}{space 4}-.5115325{col 78}{space 3} .2506706
+{txt}{space 2}mean_precip_1991_2016 {c |}{col 25}{res}{space 2}-.0035392{col 37}{space 2} .0147564{col 48}{space 1}   -0.24{col 57}{space 3}0.811{col 65}{space 4}-.0329773{col 78}{space 3}  .025899
+{txt}{space 8}pop_density2019 {c |}{col 25}{res}{space 2}-.0006913{col 37}{space 2} .0002804{col 48}{space 1}   -2.47{col 57}{space 3}0.016{col 65}{space 4}-.0012506{col 78}{space 3}-.0001319
+{txt}{space 9}median_age2020 {c |}{col 25}{res}{space 2}  .178113{col 37}{space 2}  .122991{col 48}{space 1}    1.45{col 57}{space 3}0.152{col 65}{space 4}-.0672475{col 78}{space 3} .4234734
+{txt}diabetes_prevalence2019 {c |}{col 25}{res}{space 2}-.1529621{col 37}{space 2} .1703831{col 48}{space 1}   -0.90{col 57}{space 3}0.372{col 65}{space 4}-.4928671{col 78}{space 3} .1869429
+{txt}{space 18}_cons {c |}{col 25}{res}{space 2}-3.103357{col 37}{space 2}  7.47962{col 48}{space 1}   -0.41{col 57}{space 3}0.679{col 65}{space 4}-18.02479{col 78}{space 3} 11.81808
+{txt}{hline 24}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. // column 3
+. reg gdp_growth2020 democracy_vdem2019 [w=total_gdp2019] if lpd1500s !=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 52,949.416)
+
+Linear regression                               Number of obs     = {res}        89
+                                                {txt}F(1, 87)          =  {res}    19.01
+                                                {txt}Prob > F          = {res}    0.0000
+                                                {txt}R-squared         = {res}    0.3874
+                                                {txt}Root MSE          =    {res} 3.1859
+
+{txt}{hline 19}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 20}{c |}{col 32}    Robust
+{col 1}    gdp_growth2020{col 20}{c |}      Coef.{col 32}   Std. Err.{col 44}      t{col 52}   P>|t|{col 60}     [95% Con{col 73}f. Interval]
+{hline 19}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+democracy_vdem2019 {c |}{col 20}{res}{space 2}-1.945461{col 32}{space 2} .4461468{col 43}{space 1}   -4.36{col 52}{space 3}0.000{col 60}{space 4}-2.832226{col 73}{space 3}-1.058696
+{txt}{space 13}_cons {c |}{col 20}{res}{space 2}-2.380124{col 32}{space 2} .6431648{col 43}{space 1}   -3.70{col 52}{space 3}0.000{col 60}{space 4}-3.658484{col 73}{space 3}-1.101765
+{txt}{hline 19}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. // column 4
+. reg gdp_growth2020 democracy_vdem2019 ${c -(}base_covariates2019{c )-} [w=total_gdp2019] if lpd1500s !=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 52,949.416)
+
+Linear regression                               Number of obs     = {res}        89
+                                                {txt}F(7, 81)          =  {res}    41.67
+                                                {txt}Prob > F          = {res}    0.0000
+                                                {txt}R-squared         = {res}    0.5250
+                                                {txt}Root MSE          =    {res} 2.9076
+
+{txt}{hline 24}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 25}{c |}{col 37}    Robust
+{col 1}         gdp_growth2020{col 25}{c |}      Coef.{col 37}   Std. Err.{col 49}      t{col 57}   P>|t|{col 65}     [95% Con{col 78}f. Interval]
+{hline 24}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 5}democracy_vdem2019 {c |}{col 25}{res}{space 2}-1.858807{col 37}{space 2} .2928022{col 48}{space 1}   -6.35{col 57}{space 3}0.000{col 65}{space 4}-2.441391{col 78}{space 3}-1.276222
+{txt}{space 16}abs_lat {c |}{col 25}{res}{space 2}-.1031159{col 37}{space 2} .1492859{col 48}{space 1}   -0.69{col 57}{space 3}0.492{col 65}{space 4}-.4001481{col 78}{space 3} .1939163
+{txt}{space 4}mean_temp_1991_2016 {c |}{col 25}{res}{space 2}-.1763727{col 37}{space 2} .1911202{col 48}{space 1}   -0.92{col 57}{space 3}0.359{col 65}{space 4}-.5566421{col 78}{space 3} .2038966
+{txt}{space 2}mean_precip_1991_2016 {c |}{col 25}{res}{space 2}-.0043781{col 37}{space 2}  .015152{col 48}{space 1}   -0.29{col 57}{space 3}0.773{col 65}{space 4}-.0345259{col 78}{space 3} .0257697
+{txt}{space 8}pop_density2019 {c |}{col 25}{res}{space 2}-.0006688{col 37}{space 2} .0002924{col 48}{space 1}   -2.29{col 57}{space 3}0.025{col 65}{space 4}-.0012506{col 78}{space 3}-.0000871
+{txt}{space 9}median_age2020 {c |}{col 25}{res}{space 2}  .196152{col 37}{space 2}  .125517{col 48}{space 1}    1.56{col 57}{space 3}0.122{col 65}{space 4}-.0535875{col 78}{space 3} .4458915
+{txt}diabetes_prevalence2019 {c |}{col 25}{res}{space 2}-.1299699{col 37}{space 2} .1776104{col 48}{space 1}   -0.73{col 57}{space 3}0.466{col 65}{space 4}-.4833588{col 78}{space 3}  .223419
+{txt}{space 18}_cons {c |}{col 25}{res}{space 2}-2.418847{col 37}{space 2}  7.82819{col 48}{space 1}   -0.31{col 57}{space 3}0.758{col 65}{space 4}-17.99449{col 78}{space 3}  13.1568
+{txt}{hline 24}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. // column 5
+. reg gdp_growth2020 democracy_vdem2019 [w=total_gdp2019] if legor_uk!=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 52,974.795)
+
+Linear regression                               Number of obs     = {res}        93
+                                                {txt}F(1, 91)          =  {res}    18.94
+                                                {txt}Prob > F          = {res}    0.0000
+                                                {txt}R-squared         = {res}    0.3863
+                                                {txt}Root MSE          =    {res} 3.1941
+
+{txt}{hline 19}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 20}{c |}{col 32}    Robust
+{col 1}    gdp_growth2020{col 20}{c |}      Coef.{col 32}   Std. Err.{col 44}      t{col 52}   P>|t|{col 60}     [95% Con{col 73}f. Interval]
+{hline 19}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+democracy_vdem2019 {c |}{col 20}{res}{space 2}-1.946775{col 32}{space 2} .4473818{col 43}{space 1}   -4.35{col 52}{space 3}0.000{col 60}{space 4}-2.835444{col 73}{space 3}-1.058106
+{txt}{space 13}_cons {c |}{col 20}{res}{space 2} -2.38486{col 32}{space 2} .6443267{col 43}{space 1}   -3.70{col 52}{space 3}0.000{col 60}{space 4}-3.664736{col 73}{space 3}-1.104984
+{txt}{hline 19}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. // column 6
+. reg gdp_growth2020 democracy_vdem2019 ${c -(}base_covariates2019{c )-} [w=total_gdp2019] if legor_uk!=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 52,974.795)
+
+Linear regression                               Number of obs     = {res}        93
+                                                {txt}F(7, 85)          =  {res}    41.82
+                                                {txt}Prob > F          = {res}    0.0000
+                                                {txt}R-squared         = {res}    0.5248
+                                                {txt}Root MSE          =    {res} 2.9081
+
+{txt}{hline 24}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 25}{c |}{col 37}    Robust
+{col 1}         gdp_growth2020{col 25}{c |}      Coef.{col 37}   Std. Err.{col 49}      t{col 57}   P>|t|{col 65}     [95% Con{col 78}f. Interval]
+{hline 24}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 5}democracy_vdem2019 {c |}{col 25}{res}{space 2}-1.852492{col 37}{space 2} .2925653{col 48}{space 1}   -6.33{col 57}{space 3}0.000{col 65}{space 4}-2.434191{col 78}{space 3}-1.270794
+{txt}{space 16}abs_lat {c |}{col 25}{res}{space 2}-.1058829{col 37}{space 2} .1490881{col 48}{space 1}   -0.71{col 57}{space 3}0.480{col 65}{space 4}-.4023099{col 78}{space 3} .1905441
+{txt}{space 4}mean_temp_1991_2016 {c |}{col 25}{res}{space 2}-.1799348{col 37}{space 2} .1898026{col 48}{space 1}   -0.95{col 57}{space 3}0.346{col 65}{space 4}-.5573133{col 78}{space 3} .1974437
+{txt}{space 2}mean_precip_1991_2016 {c |}{col 25}{res}{space 2}-.0048251{col 37}{space 2} .0150993{col 48}{space 1}   -0.32{col 57}{space 3}0.750{col 65}{space 4}-.0348466{col 78}{space 3} .0251963
+{txt}{space 8}pop_density2019 {c |}{col 25}{res}{space 2}-.0006672{col 37}{space 2} .0002919{col 48}{space 1}   -2.29{col 57}{space 3}0.025{col 65}{space 4}-.0012476{col 78}{space 3}-.0000868
+{txt}{space 9}median_age2020 {c |}{col 25}{res}{space 2} .1947841{col 37}{space 2} .1246439{col 48}{space 1}    1.56{col 57}{space 3}0.122{col 65}{space 4}-.0530413{col 78}{space 3} .4426095
+{txt}diabetes_prevalence2019 {c |}{col 25}{res}{space 2}-.1382764{col 37}{space 2} .1755727{col 48}{space 1}   -0.79{col 57}{space 3}0.433{col 65}{space 4} -.487362{col 78}{space 3} .2108091
+{txt}{space 18}_cons {c |}{col 25}{res}{space 2}-2.131727{col 37}{space 2} 7.750006{col 48}{space 1}   -0.28{col 57}{space 3}0.784{col 65}{space 4}-17.54082{col 78}{space 3} 13.27736
+{txt}{hline 24}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. // column 7
+. reg gdp_growth2020 democracy_vdem2019 [w=total_gdp2019] if EurFrac!=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 84,636.005)
+
+Linear regression                               Number of obs     = {res}       136
+                                                {txt}F(1, 134)         =  {res}    15.01
+                                                {txt}Prob > F          = {res}    0.0002
+                                                {txt}R-squared         = {res}    0.3908
+                                                {txt}Root MSE          =    {res} 2.9829
+
+{txt}{hline 19}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 20}{c |}{col 32}    Robust
+{col 1}    gdp_growth2020{col 20}{c |}      Coef.{col 32}   Std. Err.{col 44}      t{col 52}   P>|t|{col 60}     [95% Con{col 73}f. Interval]
+{hline 19}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+democracy_vdem2019 {c |}{col 20}{res}{space 2}-1.895907{col 32}{space 2} .4894193{col 43}{space 1}   -3.87{col 52}{space 3}0.000{col 60}{space 4}-2.863893{col 73}{space 3}-.9279214
+{txt}{space 13}_cons {c |}{col 20}{res}{space 2}-2.897238{col 32}{space 2} .6215154{col 43}{space 1}   -4.66{col 52}{space 3}0.000{col 60}{space 4}-4.126487{col 73}{space 3}-1.667989
+{txt}{hline 19}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. // column 8
+. reg gdp_growth2020 democracy_vdem2019 ${c -(}base_covariates2019{c )-} [w=total_gdp2019] if EurFrac!=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 84,636.005)
+
+Linear regression                               Number of obs     = {res}       136
+                                                {txt}F(7, 128)         =  {res}    11.21
+                                                {txt}Prob > F          = {res}    0.0000
+                                                {txt}R-squared         = {res}    0.5491
+                                                {txt}Root MSE          =    {res} 2.6259
+
+{txt}{hline 24}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 25}{c |}{col 37}    Robust
+{col 1}         gdp_growth2020{col 25}{c |}      Coef.{col 37}   Std. Err.{col 49}      t{col 57}   P>|t|{col 65}     [95% Con{col 78}f. Interval]
+{hline 24}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 5}democracy_vdem2019 {c |}{col 25}{res}{space 2}-1.612836{col 37}{space 2} .2817424{col 48}{space 1}   -5.72{col 57}{space 3}0.000{col 65}{space 4}-2.170311{col 78}{space 3} -1.05536
+{txt}{space 16}abs_lat {c |}{col 25}{res}{space 2}-.1347995{col 37}{space 2} .0696354{col 48}{space 1}   -1.94{col 57}{space 3}0.055{col 65}{space 4}-.2725851{col 78}{space 3} .0029861
+{txt}{space 4}mean_temp_1991_2016 {c |}{col 25}{res}{space 2}-.3271425{col 37}{space 2} .0779915{col 48}{space 1}   -4.19{col 57}{space 3}0.000{col 65}{space 4}-.4814621{col 78}{space 3} -.172823
+{txt}{space 2}mean_precip_1991_2016 {c |}{col 25}{res}{space 2}-.0023726{col 37}{space 2} .0132271{col 48}{space 1}   -0.18{col 57}{space 3}0.858{col 65}{space 4}-.0285447{col 78}{space 3} .0237995
+{txt}{space 8}pop_density2019 {c |}{col 25}{res}{space 2}-.0001297{col 37}{space 2} .0002839{col 48}{space 1}   -0.46{col 57}{space 3}0.649{col 65}{space 4}-.0006915{col 78}{space 3} .0004321
+{txt}{space 9}median_age2020 {c |}{col 25}{res}{space 2} .0169674{col 37}{space 2} .0868104{col 48}{space 1}    0.20{col 57}{space 3}0.845{col 65}{space 4}-.1548018{col 78}{space 3} .1887365
+{txt}diabetes_prevalence2019 {c |}{col 25}{res}{space 2} .0537064{col 37}{space 2} .1390917{col 48}{space 1}    0.39{col 57}{space 3}0.700{col 65}{space 4}-.2215103{col 78}{space 3}  .328923
+{txt}{space 18}_cons {c |}{col 25}{res}{space 2} 4.709435{col 37}{space 2} 3.747448{col 48}{space 1}    1.26{col 57}{space 3}0.211{col 65}{space 4}-2.705531{col 78}{space 3}  12.1244
+{txt}{hline 24}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. // column 9
+. reg gdp_growth2020 democracy_vdem2019 [w=total_gdp2019] if bananas!=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 85,040.717)
+
+Linear regression                               Number of obs     = {res}       142
+                                                {txt}F(1, 140)         =  {res}    13.98
+                                                {txt}Prob > F          = {res}    0.0003
+                                                {txt}R-squared         = {res}    0.3387
+                                                {txt}Root MSE          =    {res}  3.306
+
+{txt}{hline 19}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 20}{c |}{col 32}    Robust
+{col 1}    gdp_growth2020{col 20}{c |}      Coef.{col 32}   Std. Err.{col 44}      t{col 52}   P>|t|{col 60}     [95% Con{col 73}f. Interval]
+{hline 19}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+democracy_vdem2019 {c |}{col 20}{res}{space 2}-1.875346{col 32}{space 2} .5015678{col 43}{space 1}   -3.74{col 52}{space 3}0.000{col 60}{space 4}-2.866973{col 73}{space 3}-.8837195
+{txt}{space 13}_cons {c |}{col 20}{res}{space 2}-2.936425{col 32}{space 2} .6311558{col 43}{space 1}   -4.65{col 52}{space 3}0.000{col 60}{space 4}-4.184254{col 73}{space 3}-1.688596
+{txt}{hline 19}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. // column 10 
+. reg gdp_growth2020 democracy_vdem2019 ${c -(}base_covariates2019{c )-} [w=total_gdp2019] if bananas!=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 85,040.717)
+
+Linear regression                               Number of obs     = {res}       142
+                                                {txt}F(7, 134)         =  {res}    11.04
+                                                {txt}Prob > F          = {res}    0.0000
+                                                {txt}R-squared         = {res}    0.4847
+                                                {txt}Root MSE          =    {res}  2.983
+
+{txt}{hline 24}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 25}{c |}{col 37}    Robust
+{col 1}         gdp_growth2020{col 25}{c |}      Coef.{col 37}   Std. Err.{col 49}      t{col 57}   P>|t|{col 65}     [95% Con{col 78}f. Interval]
+{hline 24}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 5}democracy_vdem2019 {c |}{col 25}{res}{space 2}-1.638603{col 37}{space 2} .2850034{col 48}{space 1}   -5.75{col 57}{space 3}0.000{col 65}{space 4} -2.20229{col 78}{space 3}-1.074916
+{txt}{space 16}abs_lat {c |}{col 25}{res}{space 2}-.1358056{col 37}{space 2} .0706327{col 48}{space 1}   -1.92{col 57}{space 3}0.057{col 65}{space 4}-.2755048{col 78}{space 3} .0038936
+{txt}{space 4}mean_temp_1991_2016 {c |}{col 25}{res}{space 2}-.3339079{col 37}{space 2} .0781762{col 48}{space 1}   -4.27{col 57}{space 3}0.000{col 65}{space 4}-.4885267{col 78}{space 3} -.179289
+{txt}{space 2}mean_precip_1991_2016 {c |}{col 25}{res}{space 2} .0003051{col 37}{space 2} .0134922{col 48}{space 1}    0.02{col 57}{space 3}0.982{col 65}{space 4}-.0263801{col 78}{space 3} .0269902
+{txt}{space 8}pop_density2019 {c |}{col 25}{res}{space 2}-.0001905{col 37}{space 2} .0002733{col 48}{space 1}   -0.70{col 57}{space 3}0.487{col 65}{space 4} -.000731{col 78}{space 3}   .00035
+{txt}{space 9}median_age2020 {c |}{col 25}{res}{space 2}  .023638{col 37}{space 2} .0867689{col 48}{space 1}    0.27{col 57}{space 3}0.786{col 65}{space 4}-.1479757{col 78}{space 3} .1952516
+{txt}diabetes_prevalence2019 {c |}{col 25}{res}{space 2} .0525468{col 37}{space 2} .1423634{col 48}{space 1}    0.37{col 57}{space 3}0.713{col 65}{space 4}-.2290231{col 78}{space 3} .3341167
+{txt}{space 18}_cons {c |}{col 25}{res}{space 2}  4.38006{col 37}{space 2} 3.809871{col 48}{space 1}    1.15{col 57}{space 3}0.252{col 65}{space 4}-3.155202{col 78}{space 3} 11.91532
+{txt}{hline 24}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. // column 11
+. reg gdp_growth2020 democracy_vdem2019 [w=total_gdp2019] if logem4!=. & lpd1500s!=. & legor_uk!=. & EurFrac!=. & bananas!=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 52,034.103)
+
+Linear regression                               Number of obs     = {res}        73
+                                                {txt}F(1, 71)          =  {res}    23.87
+                                                {txt}Prob > F          = {res}    0.0000
+                                                {txt}R-squared         = {res}    0.4879
+                                                {txt}Root MSE          =    {res} 2.6551
+
+{txt}{hline 19}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 20}{c |}{col 32}    Robust
+{col 1}    gdp_growth2020{col 20}{c |}      Coef.{col 32}   Std. Err.{col 44}      t{col 52}   P>|t|{col 60}     [95% Con{col 73}f. Interval]
+{hline 19}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+democracy_vdem2019 {c |}{col 20}{res}{space 2}-1.976606{col 32}{space 2} .4046094{col 43}{space 1}   -4.89{col 52}{space 3}0.000{col 60}{space 4}-2.783374{col 73}{space 3}-1.169838
+{txt}{space 13}_cons {c |}{col 20}{res}{space 2} -2.28681{col 32}{space 2} .6197804{col 43}{space 1}   -3.69{col 52}{space 3}0.000{col 60}{space 4}-3.522617{col 73}{space 3}-1.051003
+{txt}{hline 19}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. // column 12
+. reg gdp_growth2020 democracy_vdem2019 ${c -(}base_covariates2019{c )-} [w=total_gdp2019] if logem4!=. & lpd1500s!=. & legor_uk!=. & EurFrac!=. & bananas!=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 52,034.103)
+
+Linear regression                               Number of obs     = {res}        73
+                                                {txt}F(7, 65)          =  {res}    45.12
+                                                {txt}Prob > F          = {res}    0.0000
+                                                {txt}R-squared         = {res}    0.6250
+                                                {txt}Root MSE          =    {res} 2.3744
+
+{txt}{hline 24}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 25}{c |}{col 37}    Robust
+{col 1}         gdp_growth2020{col 25}{c |}      Coef.{col 37}   Std. Err.{col 49}      t{col 57}   P>|t|{col 65}     [95% Con{col 78}f. Interval]
+{hline 24}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 5}democracy_vdem2019 {c |}{col 25}{res}{space 2}-1.889651{col 37}{space 2} .3107333{col 48}{space 1}   -6.08{col 57}{space 3}0.000{col 65}{space 4}-2.510228{col 78}{space 3}-1.269074
+{txt}{space 16}abs_lat {c |}{col 25}{res}{space 2}-.0852497{col 37}{space 2} .1607459{col 48}{space 1}   -0.53{col 57}{space 3}0.598{col 65}{space 4}-.4062814{col 78}{space 3}  .235782
+{txt}{space 4}mean_temp_1991_2016 {c |}{col 25}{res}{space 2}-.1539737{col 37}{space 2} .2029855{col 48}{space 1}   -0.76{col 57}{space 3}0.451{col 65}{space 4}-.5593637{col 78}{space 3} .2514163
+{txt}{space 2}mean_precip_1991_2016 {c |}{col 25}{res}{space 2}-.0049695{col 37}{space 2} .0157459{col 48}{space 1}   -0.32{col 57}{space 3}0.753{col 65}{space 4}-.0364162{col 78}{space 3} .0264772
+{txt}{space 8}pop_density2019 {c |}{col 25}{res}{space 2}-.0006472{col 37}{space 2} .0002876{col 48}{space 1}   -2.25{col 57}{space 3}0.028{col 65}{space 4}-.0012215{col 78}{space 3}-.0000728
+{txt}{space 9}median_age2020 {c |}{col 25}{res}{space 2} .1684136{col 37}{space 2} .1272315{col 48}{space 1}    1.32{col 57}{space 3}0.190{col 65}{space 4}-.0856853{col 78}{space 3} .4225124
+{txt}diabetes_prevalence2019 {c |}{col 25}{res}{space 2}-.1268039{col 37}{space 2} .1754537{col 48}{space 1}   -0.72{col 57}{space 3}0.472{col 65}{space 4}-.4772092{col 78}{space 3} .2236014
+{txt}{space 18}_cons {c |}{col 25}{res}{space 2}-2.188692{col 37}{space 2} 8.036764{col 48}{space 1}   -0.27{col 57}{space 3}0.786{col 65}{space 4}-18.23922{col 78}{space 3} 13.86183
+{txt}{hline 24}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. ********************************************************************************
+. * Dependent Variable: Covid-19 Deaths Per Million in 2020
+. // column 1
+. reg total_deaths_per_million democracy_vdem2019 [w=total_gdp2019] if logem4!=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 52,386.531)
+
+Linear regression                               Number of obs     = {res}        77
+                                                {txt}F(1, 75)          =  {res}    35.04
+                                                {txt}Prob > F          = {res}    0.0000
+                                                {txt}R-squared         = {res}    0.6958
+                                                {txt}Root MSE          =    {res} 280.28
+
+{txt}{hline 19}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 20}{c |}{col 32}    Robust
+{col 1}total_deaths_per~n{col 20}{c |}      Coef.{col 32}   Std. Err.{col 44}      t{col 52}   P>|t|{col 60}     [95% Con{col 73}f. Interval]
+{hline 19}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+democracy_vdem2019 {c |}{col 20}{res}{space 2}  323.485{col 32}{space 2} 54.64628{col 43}{space 1}    5.92{col 52}{space 3}0.000{col 60}{space 4}  214.624{col 73}{space 3}  432.346
+{txt}{space 13}_cons {c |}{col 20}{res}{space 2} 540.2079{col 32}{space 2} 81.15677{col 43}{space 1}    6.66{col 52}{space 3}0.000{col 60}{space 4} 378.5353{col 73}{space 3} 701.8804
+{txt}{hline 19}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. // column 2
+. reg total_deaths_per_million democracy_vdem2019 ${c -(}base_covariates2019{c )-} [w=total_gdp2019] if logem4!=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 52,386.531)
+
+Linear regression                               Number of obs     = {res}        77
+                                                {txt}F(7, 69)          =  {res}    56.13
+                                                {txt}Prob > F          = {res}    0.0000
+                                                {txt}R-squared         = {res}    0.8703
+                                                {txt}Root MSE          =    {res} 190.82
+
+{txt}{hline 24}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 25}{c |}{col 37}    Robust
+{col 1}total_deaths_per_mill~n{col 25}{c |}      Coef.{col 37}   Std. Err.{col 49}      t{col 57}   P>|t|{col 65}     [95% Con{col 78}f. Interval]
+{hline 24}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 5}democracy_vdem2019 {c |}{col 25}{res}{space 2} 363.2647{col 37}{space 2} 26.88739{col 48}{space 1}   13.51{col 57}{space 3}0.000{col 65}{space 4} 309.6258{col 78}{space 3} 416.9035
+{txt}{space 16}abs_lat {c |}{col 25}{res}{space 2} -42.3405{col 37}{space 2} 13.95866{col 48}{space 1}   -3.03{col 57}{space 3}0.003{col 65}{space 4}-70.18726{col 78}{space 3}-14.49374
+{txt}{space 4}mean_temp_1991_2016 {c |}{col 25}{res}{space 2}-53.08099{col 37}{space 2} 19.98359{col 48}{space 1}   -2.66{col 57}{space 3}0.010{col 65}{space 4}-92.94717{col 78}{space 3}-13.21481
+{txt}{space 2}mean_precip_1991_2016 {c |}{col 25}{res}{space 2}-2.772696{col 37}{space 2} 1.797295{col 48}{space 1}   -1.54{col 57}{space 3}0.127{col 65}{space 4}-6.358201{col 78}{space 3} .8128096
+{txt}{space 8}pop_density2019 {c |}{col 25}{res}{space 2}-.0109809{col 37}{space 2} .0372218{col 48}{space 1}   -0.30{col 57}{space 3}0.769{col 65}{space 4}-.0852365{col 78}{space 3} .0632746
+{txt}{space 9}median_age2020 {c |}{col 25}{res}{space 2} 7.672215{col 37}{space 2} 17.33037{col 48}{space 1}    0.44{col 57}{space 3}0.659{col 65}{space 4}-26.90092{col 78}{space 3} 42.24535
+{txt}diabetes_prevalence2019 {c |}{col 25}{res}{space 2} 63.82453{col 37}{space 2} 21.96197{col 48}{space 1}    2.91{col 57}{space 3}0.005{col 65}{space 4}  20.0116{col 78}{space 3} 107.6375
+{txt}{space 18}_cons {c |}{col 25}{res}{space 2} 1797.518{col 37}{space 2} 803.7979{col 48}{space 1}    2.24{col 57}{space 3}0.029{col 65}{space 4} 193.9853{col 78}{space 3} 3401.051
+{txt}{hline 24}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. // column 3
+. reg total_deaths_per_million democracy_vdem2019 [w=total_gdp2019] if lpd1500s !=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 52,949.416)
+
+Linear regression                               Number of obs     = {res}        89
+                                                {txt}F(1, 87)          =  {res}    33.79
+                                                {txt}Prob > F          = {res}    0.0000
+                                                {txt}R-squared         = {res}    0.6935
+                                                {txt}Root MSE          =    {res} 280.64
+
+{txt}{hline 19}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 20}{c |}{col 32}    Robust
+{col 1}total_deaths_per~n{col 20}{c |}      Coef.{col 32}   Std. Err.{col 44}      t{col 52}   P>|t|{col 60}     [95% Con{col 73}f. Interval]
+{hline 19}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+democracy_vdem2019 {c |}{col 20}{res}{space 2} 324.1285{col 32}{space 2} 55.76227{col 43}{space 1}    5.81{col 52}{space 3}0.000{col 60}{space 4}  213.295{col 73}{space 3} 434.9621
+{txt}{space 13}_cons {c |}{col 20}{res}{space 2} 536.7411{col 32}{space 2} 81.53194{col 43}{space 1}    6.58{col 52}{space 3}0.000{col 60}{space 4} 374.6875{col 73}{space 3} 698.7946
+{txt}{hline 19}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. // column 4
+. reg total_deaths_per_million democracy_vdem2019 ${c -(}base_covariates2019{c )-} [w=total_gdp2019] if lpd1500s !=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 52,949.416)
+
+Linear regression                               Number of obs     = {res}        89
+                                                {txt}F(7, 81)          =  {res}    54.36
+                                                {txt}Prob > F          = {res}    0.0000
+                                                {txt}R-squared         = {res}    0.8699
+                                                {txt}Root MSE          =    {res} 189.46
+
+{txt}{hline 24}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 25}{c |}{col 37}    Robust
+{col 1}total_deaths_per_mill~n{col 25}{c |}      Coef.{col 37}   Std. Err.{col 49}      t{col 57}   P>|t|{col 65}     [95% Con{col 78}f. Interval]
+{hline 24}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 5}democracy_vdem2019 {c |}{col 25}{res}{space 2} 359.6381{col 37}{space 2} 25.46938{col 48}{space 1}   14.12{col 57}{space 3}0.000{col 65}{space 4}  308.962{col 78}{space 3} 410.3142
+{txt}{space 16}abs_lat {c |}{col 25}{res}{space 2}-40.51794{col 37}{space 2} 12.99193{col 48}{space 1}   -3.12{col 57}{space 3}0.003{col 65}{space 4}-66.36782{col 78}{space 3}-14.66807
+{txt}{space 4}mean_temp_1991_2016 {c |}{col 25}{res}{space 2}-51.52736{col 37}{space 2} 19.29412{col 48}{space 1}   -2.67{col 57}{space 3}0.009{col 65}{space 4} -89.9166{col 78}{space 3}-13.13812
+{txt}{space 2}mean_precip_1991_2016 {c |}{col 25}{res}{space 2}-2.505936{col 37}{space 2}   1.6329{col 48}{space 1}   -1.53{col 57}{space 3}0.129{col 65}{space 4}-5.754895{col 78}{space 3} .7430232
+{txt}{space 8}pop_density2019 {c |}{col 25}{res}{space 2}-.0119769{col 37}{space 2} .0366054{col 48}{space 1}   -0.33{col 57}{space 3}0.744{col 65}{space 4}-.0848101{col 78}{space 3} .0608563
+{txt}{space 9}median_age2020 {c |}{col 25}{res}{space 2} 6.790262{col 37}{space 2} 16.47532{col 48}{space 1}    0.41{col 57}{space 3}0.681{col 65}{space 4}-25.99046{col 78}{space 3} 39.57098
+{txt}diabetes_prevalence2019 {c |}{col 25}{res}{space 2} 63.89939{col 37}{space 2} 22.09697{col 48}{space 1}    2.89{col 57}{space 3}0.005{col 65}{space 4} 19.93335{col 78}{space 3} 107.8654
+{txt}{space 18}_cons {c |}{col 25}{res}{space 2} 1736.557{col 37}{space 2} 765.3571{col 48}{space 1}    2.27{col 57}{space 3}0.026{col 65}{space 4} 213.7368{col 78}{space 3} 3259.378
+{txt}{hline 24}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. // column 5
+. reg total_deaths_per_million democracy_vdem2019 [w=total_gdp2019] if legor_uk!=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 52,974.795)
+
+Linear regression                               Number of obs     = {res}        93
+                                                {txt}F(1, 91)          =  {res}    33.69
+                                                {txt}Prob > F          = {res}    0.0000
+                                                {txt}R-squared         = {res}    0.6927
+                                                {txt}Root MSE          =    {res} 280.87
+
+{txt}{hline 19}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 20}{c |}{col 32}    Robust
+{col 1}total_deaths_per~n{col 20}{c |}      Coef.{col 32}   Std. Err.{col 44}      t{col 52}   P>|t|{col 60}     [95% Con{col 73}f. Interval]
+{hline 19}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+democracy_vdem2019 {c |}{col 20}{res}{space 2} 323.9867{col 32}{space 2}  55.8155{col 43}{space 1}    5.80{col 52}{space 3}0.000{col 60}{space 4}  213.116{col 73}{space 3} 434.8573
+{txt}{space 13}_cons {c |}{col 20}{res}{space 2} 536.4374{col 32}{space 2}  81.5955{col 43}{space 1}    6.57{col 52}{space 3}0.000{col 60}{space 4}  374.358{col 73}{space 3} 698.5169
+{txt}{hline 19}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. // column 6
+. reg total_deaths_per_million democracy_vdem2019 ${c -(}base_covariates2019{c )-} [w=total_gdp2019] if legor_uk!=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 52,974.795)
+
+Linear regression                               Number of obs     = {res}        93
+                                                {txt}F(7, 85)          =  {res}    52.90
+                                                {txt}Prob > F          = {res}    0.0000
+                                                {txt}R-squared         = {res}    0.8679
+                                                {txt}Root MSE          =    {res} 190.54
+
+{txt}{hline 24}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 25}{c |}{col 37}    Robust
+{col 1}total_deaths_per_mill~n{col 25}{c |}      Coef.{col 37}   Std. Err.{col 49}      t{col 57}   P>|t|{col 65}     [95% Con{col 78}f. Interval]
+{hline 24}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 5}democracy_vdem2019 {c |}{col 25}{res}{space 2} 360.0316{col 37}{space 2} 25.59371{col 48}{space 1}   14.07{col 57}{space 3}0.000{col 65}{space 4} 309.1444{col 78}{space 3} 410.9187
+{txt}{space 16}abs_lat {c |}{col 25}{res}{space 2}-40.68789{col 37}{space 2} 13.04563{col 48}{space 1}   -3.12{col 57}{space 3}0.002{col 65}{space 4}-66.62609{col 78}{space 3}-14.74968
+{txt}{space 4}mean_temp_1991_2016 {c |}{col 25}{res}{space 2}-51.85995{col 37}{space 2}  19.3588{col 48}{space 1}   -2.68{col 57}{space 3}0.009{col 65}{space 4}-90.35044{col 78}{space 3}-13.36947
+{txt}{space 2}mean_precip_1991_2016 {c |}{col 25}{res}{space 2}-2.536201{col 37}{space 2} 1.624588{col 48}{space 1}   -1.56{col 57}{space 3}0.122{col 65}{space 4}-5.766317{col 78}{space 3} .6939144
+{txt}{space 8}pop_density2019 {c |}{col 25}{res}{space 2}-.0120012{col 37}{space 2} .0366485{col 48}{space 1}   -0.33{col 57}{space 3}0.744{col 65}{space 4}-.0848681{col 78}{space 3} .0608658
+{txt}{space 9}median_age2020 {c |}{col 25}{res}{space 2} 6.534098{col 37}{space 2} 16.51954{col 48}{space 1}    0.40{col 57}{space 3}0.693{col 65}{space 4}-26.31117{col 78}{space 3} 39.37936
+{txt}diabetes_prevalence2019 {c |}{col 25}{res}{space 2} 62.83143{col 37}{space 2} 21.83602{col 48}{space 1}    2.88{col 57}{space 3}0.005{col 65}{space 4} 19.41557{col 78}{space 3} 106.2473
+{txt}{space 18}_cons {c |}{col 25}{res}{space 2} 1767.176{col 37}{space 2} 768.7059{col 48}{space 1}    2.30{col 57}{space 3}0.024{col 65}{space 4} 238.7832{col 78}{space 3}  3295.57
+{txt}{hline 24}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. // column 7
+. reg total_deaths_per_million democracy_vdem2019 [w=total_gdp2019] if EurFrac!=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 84,636.005)
+
+Linear regression                               Number of obs     = {res}       136
+                                                {txt}F(1, 134)         =  {res}    22.62
+                                                {txt}Prob > F          = {res}    0.0000
+                                                {txt}R-squared         = {res}    0.4169
+                                                {txt}Root MSE          =    {res} 370.45
+
+{txt}{hline 19}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 20}{c |}{col 32}    Robust
+{col 1}total_deaths_per~n{col 20}{c |}      Coef.{col 32}   Std. Err.{col 44}      t{col 52}   P>|t|{col 60}     [95% Con{col 73}f. Interval]
+{hline 19}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+democracy_vdem2019 {c |}{col 20}{res}{space 2} 248.5251{col 32}{space 2} 52.25162{col 43}{space 1}    4.76{col 52}{space 3}0.000{col 60}{space 4} 145.1805{col 73}{space 3} 351.8697
+{txt}{space 13}_cons {c |}{col 20}{res}{space 2} 470.9503{col 32}{space 2} 84.09918{col 43}{space 1}    5.60{col 52}{space 3}0.000{col 60}{space 4} 304.6168{col 73}{space 3} 637.2838
+{txt}{hline 19}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. // column 8
+. reg total_deaths_per_million democracy_vdem2019 ${c -(}base_covariates2019{c )-} [w=total_gdp2019] if EurFrac!=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 84,636.005)
+
+Linear regression                               Number of obs     = {res}       136
+                                                {txt}F(7, 128)         =  {res}    11.19
+                                                {txt}Prob > F          = {res}    0.0000
+                                                {txt}R-squared         = {res}    0.5423
+                                                {txt}Root MSE          =    {res} 335.78
+
+{txt}{hline 24}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 25}{c |}{col 37}    Robust
+{col 1}total_deaths_per_mill~n{col 25}{c |}      Coef.{col 37}   Std. Err.{col 49}      t{col 57}   P>|t|{col 65}     [95% Con{col 78}f. Interval]
+{hline 24}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 5}democracy_vdem2019 {c |}{col 25}{res}{space 2} 310.9655{col 37}{space 2} 47.12952{col 48}{space 1}    6.60{col 57}{space 3}0.000{col 65}{space 4} 217.7117{col 78}{space 3} 404.2194
+{txt}{space 16}abs_lat {c |}{col 25}{res}{space 2}-4.825552{col 37}{space 2} 11.24333{col 48}{space 1}   -0.43{col 57}{space 3}0.669{col 65}{space 4}-27.07241{col 78}{space 3}  17.4213
+{txt}{space 4}mean_temp_1991_2016 {c |}{col 25}{res}{space 2}-14.22283{col 37}{space 2} 14.24759{col 48}{space 1}   -1.00{col 57}{space 3}0.320{col 65}{space 4}-42.41413{col 78}{space 3} 13.96847
+{txt}{space 2}mean_precip_1991_2016 {c |}{col 25}{res}{space 2}-2.546241{col 37}{space 2} 1.773593{col 48}{space 1}   -1.44{col 57}{space 3}0.154{col 65}{space 4}-6.055597{col 78}{space 3}  .963115
+{txt}{space 8}pop_density2019 {c |}{col 25}{res}{space 2}-.0111526{col 37}{space 2} .0605094{col 48}{space 1}   -0.18{col 57}{space 3}0.854{col 65}{space 4}-.1308808{col 78}{space 3} .1085756
+{txt}{space 9}median_age2020 {c |}{col 25}{res}{space 2}-14.34967{col 37}{space 2} 16.57584{col 48}{space 1}   -0.87{col 57}{space 3}0.388{col 65}{space 4} -47.1478{col 78}{space 3} 18.44846
+{txt}diabetes_prevalence2019 {c |}{col 25}{res}{space 2} 17.68783{col 37}{space 2} 23.22742{col 48}{space 1}    0.76{col 57}{space 3}0.448{col 65}{space 4}-28.27159{col 78}{space 3} 63.64726
+{txt}{space 18}_cons {c |}{col 25}{res}{space 2} 1373.185{col 37}{space 2} 798.7052{col 48}{space 1}    1.72{col 57}{space 3}0.088{col 65}{space 4}-207.1901{col 78}{space 3} 2953.559
+{txt}{hline 24}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. // column 9
+. reg total_deaths_per_million democracy_vdem2019 [w=total_gdp2019] if bananas!=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 85,040.717)
+
+Linear regression                               Number of obs     = {res}       142
+                                                {txt}F(1, 140)         =  {res}    22.72
+                                                {txt}Prob > F          = {res}    0.0000
+                                                {txt}R-squared         = {res}    0.4204
+                                                {txt}Root MSE          =    {res}  369.4
+
+{txt}{hline 19}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 20}{c |}{col 32}    Robust
+{col 1}total_deaths_per~n{col 20}{c |}      Coef.{col 32}   Std. Err.{col 44}      t{col 52}   P>|t|{col 60}     [95% Con{col 73}f. Interval]
+{hline 19}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+democracy_vdem2019 {c |}{col 20}{res}{space 2} 249.3806{col 32}{space 2} 52.32144{col 43}{space 1}    4.77{col 52}{space 3}0.000{col 60}{space 4} 145.9383{col 73}{space 3} 352.8229
+{txt}{space 13}_cons {c |}{col 20}{res}{space 2} 470.0759{col 32}{space 2} 83.92723{col 43}{space 1}    5.60{col 52}{space 3}0.000{col 60}{space 4} 304.1473{col 73}{space 3} 636.0046
+{txt}{hline 19}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. // column 10 
+. reg total_deaths_per_million democracy_vdem2019 ${c -(}base_covariates2019{c )-} [w=total_gdp2019] if bananas!=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 85,040.717)
+
+Linear regression                               Number of obs     = {res}       142
+                                                {txt}F(7, 134)         =  {res}    11.13
+                                                {txt}Prob > F          = {res}    0.0000
+                                                {txt}R-squared         = {res}    0.5447
+                                                {txt}Root MSE          =    {res} 334.67
+
+{txt}{hline 24}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 25}{c |}{col 37}    Robust
+{col 1}total_deaths_per_mill~n{col 25}{c |}      Coef.{col 37}   Std. Err.{col 49}      t{col 57}   P>|t|{col 65}     [95% Con{col 78}f. Interval]
+{hline 24}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 5}democracy_vdem2019 {c |}{col 25}{res}{space 2} 309.6436{col 37}{space 2}  47.0215{col 48}{space 1}    6.59{col 57}{space 3}0.000{col 65}{space 4} 216.6433{col 78}{space 3}  402.644
+{txt}{space 16}abs_lat {c |}{col 25}{res}{space 2}-4.697139{col 37}{space 2} 11.24361{col 48}{space 1}   -0.42{col 57}{space 3}0.677{col 65}{space 4}-26.93504{col 78}{space 3} 17.54076
+{txt}{space 4}mean_temp_1991_2016 {c |}{col 25}{res}{space 2}-14.08524{col 37}{space 2} 14.18368{col 48}{space 1}   -0.99{col 57}{space 3}0.322{col 65}{space 4}-42.13809{col 78}{space 3}  13.9676
+{txt}{space 2}mean_precip_1991_2016 {c |}{col 25}{res}{space 2}-2.488772{col 37}{space 2} 1.762204{col 48}{space 1}   -1.41{col 57}{space 3}0.160{col 65}{space 4}-5.974104{col 78}{space 3} .9965595
+{txt}{space 8}pop_density2019 {c |}{col 25}{res}{space 2}-.0126248{col 37}{space 2} .0603179{col 48}{space 1}   -0.21{col 57}{space 3}0.835{col 65}{space 4} -.131923{col 78}{space 3} .1066735
+{txt}{space 9}median_age2020 {c |}{col 25}{res}{space 2}-14.46969{col 37}{space 2} 16.59339{col 48}{space 1}   -0.87{col 57}{space 3}0.385{col 65}{space 4}-47.28853{col 78}{space 3} 18.34915
+{txt}diabetes_prevalence2019 {c |}{col 25}{res}{space 2} 17.39699{col 37}{space 2} 23.09243{col 48}{space 1}    0.75{col 57}{space 3}0.453{col 65}{space 4}-28.27581{col 78}{space 3}  63.0698
+{txt}{space 18}_cons {c |}{col 25}{res}{space 2} 1371.294{col 37}{space 2} 798.7869{col 48}{space 1}    1.72{col 57}{space 3}0.088{col 65}{space 4}-208.5672{col 78}{space 3} 2951.156
+{txt}{hline 24}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. // column 11
+. reg total_deaths_per_million democracy_vdem2019 [w=total_gdp2019] if logem4!=. & lpd1500s!=. & legor_uk!=. & EurFrac!=. & bananas!=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 52,034.103)
+
+Linear regression                               Number of obs     = {res}        73
+                                                {txt}F(1, 71)          =  {res}    35.26
+                                                {txt}Prob > F          = {res}    0.0000
+                                                {txt}R-squared         = {res}    0.6946
+                                                {txt}Root MSE          =    {res} 280.83
+
+{txt}{hline 19}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 20}{c |}{col 32}    Robust
+{col 1}total_deaths_per~n{col 20}{c |}      Coef.{col 32}   Std. Err.{col 44}      t{col 52}   P>|t|{col 60}     [95% Con{col 73}f. Interval]
+{hline 19}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+democracy_vdem2019 {c |}{col 20}{res}{space 2} 323.0064{col 32}{space 2} 54.39511{col 43}{space 1}    5.94{col 52}{space 3}0.000{col 60}{space 4} 214.5456{col 73}{space 3} 431.4671
+{txt}{space 13}_cons {c |}{col 20}{res}{space 2} 541.2941{col 32}{space 2} 81.14019{col 43}{space 1}    6.67{col 52}{space 3}0.000{col 60}{space 4} 379.5051{col 73}{space 3}  703.083
+{txt}{hline 19}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+. // column 12
+. reg total_deaths_per_million democracy_vdem2019 ${c -(}base_covariates2019{c )-} [w=total_gdp2019] if logem4!=. & lpd1500s!=. & legor_uk!=. & EurFrac!=. & bananas!=., robust 
+{txt}(analytic weights assumed)
+(sum of wgt is 52,034.103)
+
+Linear regression                               Number of obs     = {res}        73
+                                                {txt}F(7, 65)          =  {res}    70.56
+                                                {txt}Prob > F          = {res}    0.0000
+                                                {txt}R-squared         = {res}    0.8769
+                                                {txt}Root MSE          =    {res}  186.3
+
+{txt}{hline 24}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 25}{c |}{col 37}    Robust
+{col 1}total_deaths_per_mill~n{col 25}{c |}      Coef.{col 37}   Std. Err.{col 49}      t{col 57}   P>|t|{col 65}     [95% Con{col 78}f. Interval]
+{hline 24}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 5}democracy_vdem2019 {c |}{col 25}{res}{space 2} 368.7465{col 37}{space 2} 26.88006{col 48}{space 1}   13.72{col 57}{space 3}0.000{col 65}{space 4} 315.0633{col 78}{space 3} 422.4297
+{txt}{space 16}abs_lat {c |}{col 25}{res}{space 2}-44.38285{col 37}{space 2} 14.54823{col 48}{space 1}   -3.05{col 57}{space 3}0.003{col 65}{space 4}-73.43766{col 78}{space 3}-15.32803
+{txt}{space 4}mean_temp_1991_2016 {c |}{col 25}{res}{space 2}-56.04272{col 37}{space 2}  19.9691{col 48}{space 1}   -2.81{col 57}{space 3}0.007{col 65}{space 4}-95.92376{col 78}{space 3}-16.16167
+{txt}{space 2}mean_precip_1991_2016 {c |}{col 25}{res}{space 2}-2.981122{col 37}{space 2}   1.8098{col 48}{space 1}   -1.65{col 57}{space 3}0.104{col 65}{space 4}-6.595542{col 78}{space 3} .6332971
+{txt}{space 8}pop_density2019 {c |}{col 25}{res}{space 2}-.0054089{col 37}{space 2} .0367382{col 48}{space 1}   -0.15{col 57}{space 3}0.883{col 65}{space 4}-.0787801{col 78}{space 3} .0679624
+{txt}{space 9}median_age2020 {c |}{col 25}{res}{space 2} 6.654634{col 37}{space 2}  16.8183{col 48}{space 1}    0.40{col 57}{space 3}0.694{col 65}{space 4}-26.93383{col 78}{space 3} 40.24309
+{txt}diabetes_prevalence2019 {c |}{col 25}{res}{space 2} 67.04928{col 37}{space 2} 21.86231{col 48}{space 1}    3.07{col 57}{space 3}0.003{col 65}{space 4} 23.38724{col 78}{space 3} 110.7113
+{txt}{space 18}_cons {c |}{col 25}{res}{space 2} 1912.696{col 37}{space 2} 816.5183{col 48}{space 1}    2.34{col 57}{space 3}0.022{col 65}{space 4} 281.9969{col 78}{space 3} 3543.396
+{txt}{hline 24}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. log close
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}/Users/ayumis/Dropbox/Democracy/MainAnalysis/code/2_analyze/tables/main/logs/table2_panelB.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res}21 Sep 2021, 17:50:27
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}

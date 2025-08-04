@@ -1,0 +1,58 @@
+######################################################################################
+1. Democracy/MainAnalysis
+######################################################################################
+
+This is the main project folder, and the README details how to navigate it. The entire code can be run on a personal computer.
+
+While doing the replication, it may be a good idea to update the results in case some variables we use have changed.
+
+Some bugs/unexpected Stata problems
+
+- Bug with rowmean(): 
+The rowmean(v1 - v10) function in Stata calculates the mean of variables v1 to v10, requiring these variables to be sequentially ordered in the dataset. Incorrect averages may result if they aren't adjacent, making the function unreliable for computing means across non-consecutive years, such as labor_growth2001 to labor_growth2019, especially if similar variable names (e.g., loglabor_growth) are mistakenly included
+
+Solution: There are two solutions. 1) Calculate the average using long dataset format and not use rowmean() at all. OR 2) when using rowmean, double check that the variables listed are adjacent. In cases where you have to calculate the average mean for multiple variables, it is recommended you write a loop for each variable:
+```
+foreach var in china_import_gdp china_export_gdp {
+	local varlist
+	forval year = 2001(1)2019 {
+		local varlist `varlist' `var'`year'
+	}
+	egen mean_`var' = rowmean(`varlist')
+}
+
+```
+
+######################################################################################
+2.  Dem_Growth_Extend
+######################################################################################
+
+There is a separate Dropbox folder, Dem_Growth_Extend, for the extension of another paper. We report results from that extension in the following tables and figures:
+- Table: Effect of Democracy on (Log) GDP per Capita
+- Table: IV Estimates of the Effect of Democracy on (Log) GDP per Capita
+- Figure: Dynamic Panel Model Estimates of the Effects of Democratization on the Log of GDP Per Capita
+
+This code should be run on Yale’s Grace cluster.
+
+Also note that the results become more unstable once post 2010 data are added.
+
+Table: Effect of Democracy on (Log) GDP per Capita
+- Run Table2_final.do on Yale’s Grace cluster with the following arguments:
+	START_YEAR = 1960 and END_YEAR = 2020
+	START_YEAR = 1980 and END_YEAR = 2020
+	START_YEAR = 1995 and END_YEAR = 2020
+	START_YEAR = 2001 and END_YEAR = 2020
+
+Table: IV Estimates of the Effect of Democracy on (Log) GDP per Capita
+- Run Table6_final.do on Yale’s Grace cluster with the following arguments:
+	START_YEAR = 1960 and END_YEAR = 2020
+	START_YEAR = 1980 and END_YEAR = 2020
+	START_YEAR = 1995 and END_YEAR = 2020
+	START_YEAR = 2001 and END_YEAR = 2020
+
+Figure: Dynamic Panel Model Estimates of the Effects of Democratization on the Log of GDP Per Capita
+- Run Figure2_final.do on Yale’s Grace cluster with the following arguments:
+	START_YEAR = 1960 and END_YEAR = 2020
+	START_YEAR = 1980 and END_YEAR = 2020
+	START_YEAR = 1995 and END_YEAR = 2020
+	START_YEAR = 2001 and END_YEAR = 2020

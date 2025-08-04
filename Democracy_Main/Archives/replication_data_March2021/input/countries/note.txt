@@ -1,0 +1,7 @@
+Data for iso.xlsx
+source link: https://www.iso.org/obp/ui/#search
+date accessed: Feb 27, 2021
+
+Steps: 
+* Click on "Country codes" and "Officially assigned codes" -> 249 search results
+* Copy and paste the list of countries onto excel

@@ -1,0 +1,776 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}/Users/ayumis/Dropbox/Democracy/MainAnalysis/code/2_analyze/tables/main/logs/table1.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}21 Sep 2021, 18:15:47
+
+{com}. do "/var/folders/f1/rfzhvqh92gggg8dnlpw60sm80000gn/T//SD10141.000000"
+{txt}
+{com}. 
+. ********************************************************************************
+. * Table 1: Descriptive Statistics
+. ********************************************************************************
+. 
+. clear 
+{txt}
+{com}. 
+. *** Change to appropriate directory
+. cd ${c -(}path_dropbox{c )-}/tables
+{res}/Users/ayumis/Dropbox/アプリ/Overleaf/Curse_of_Democracy/supporting_files/tables
+{txt}
+{com}. 
+. *** Load data 
+. use ${c -(}path_data{c )-}/total.dta, replace
+{txt}
+{com}. 
+. ********************************************************************************
+. * Outcomes
+. 
+. summ mean_growth_rate_2001_2019, detail
+
+              {txt}Mean GDP Growth Rate in 2001-2019
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}-.1368421      -2.721053
+{txt} 5%    {res} .7736842      -.1368421
+{txt}10%    {res} 1.536842       .1631579       {txt}Obs         {res}        164
+{txt}25%    {res} 2.673684       .2210526       {txt}Sum of Wgt. {res}        164
+
+{txt}50%    {res} 3.736842                      {txt}Mean          {res}  3.91595
+                        {txt}Largest       Std. Dev.     {res} 2.068432
+{txt}75%    {res} 4.921053       9.026316
+{txt}90%    {res} 6.763158       9.047368       {txt}Variance      {res} 4.278412
+{txt}95%    {res} 7.563158       9.068421       {txt}Skewness      {res}  .399445
+{txt}99%    {res} 9.068421       10.38421       {txt}Kurtosis      {res} 3.602476
+{txt}
+{com}. 
+. summ gdp_growth2020, detail
+
+                   {txt}GDP Growth Rate in 2020
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}    -32.2          -59.7
+{txt} 5%    {res}    -15.2          -32.2
+{txt}10%    {res}      -10            -30       {txt}Obs         {res}        164
+{txt}25%    {res}     -7.1            -25       {txt}Sum of Wgt. {res}        164
+
+{txt}50%    {res}    -3.95                      {txt}Mean          {res}-4.766463
+                        {txt}Largest       Std. Dev.     {res} 7.949621
+{txt}75%    {res}    -1.15            4.5
+{txt}90%    {res}        1            5.2       {txt}Variance      {res} 63.19648
+{txt}95%    {res}      2.5            6.1       {txt}Skewness      {res}-1.255974
+{txt}99%    {res}      6.1           43.4       {txt}Kurtosis      {res} 24.51317
+{txt}
+{com}. 
+. summ total_deaths_per_million, detail
+
+         {txt}Covid-19-related Deaths Per Million in 2020
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}        0              0
+{txt} 5%    {res} .3515573              0
+{txt}10%    {res} 4.066348              0       {txt}Obs         {res}        164
+{txt}25%    {res}  15.4815              0       {txt}Sum of Wgt. {res}        164
+
+{txt}50%    {res} 86.91895                      {txt}Mean          {res} 297.1319
+                        {txt}Largest       Std. Dev.     {res} 381.7429
+{txt}75%    {res} 434.8993       1226.542
+{txt}90%    {res} 954.8707       1234.449       {txt}Variance      {res} 145727.7
+{txt}95%    {res}  1085.88       1297.301       {txt}Skewness      {res} 1.315068
+{txt}99%    {res} 1297.301       1684.957       {txt}Kurtosis      {res} 3.666718
+{txt}
+{com}. 
+. ********************************************************************************
+. * Treatments
+. 
+. summ democracy_vdem2000, detail
+
+                {txt}Democracy Index (V-Dem, 2000)
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}-1.817002      -1.828045
+{txt} 5%    {res}-1.559335      -1.817002
+{txt}10%    {res}-1.327435      -1.787555       {txt}Obs         {res}        164
+{txt}25%    {res}-.8636339       -1.69185       {txt}Sum of Wgt. {res}        164
+
+{txt}50%    {res} .0050726                      {txt}Mean          {res} 1.10e-09
+                        {txt}Largest       Std. Dev.     {res}        1
+{txt}75%    {res} .9878887       1.411199
+{txt}90%    {res} 1.333899       1.425923       {txt}Variance      {res}        1
+{txt}95%    {res} 1.370708       1.425923       {txt}Skewness      {res}-.0371685
+{txt}99%    {res} 1.425923       1.455371       {txt}Kurtosis      {res} 1.669745
+{txt}
+{com}. 
+. summ democracy_vdem2019, detail
+
+                {txt}Democracy Index (V-Dem, 2019)
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}-1.886009      -2.107405
+{txt} 5%    {res} -1.62436      -1.886009
+{txt}10%    {res}-1.366736      -1.865882       {txt}Obs         {res}        164
+{txt}25%    {res}-.7870828       -1.84173       {txt}Sum of Wgt. {res}        164
+
+{txt}50%    {res}-.0162242                      {txt}Mean          {res}-2.27e-09
+                        {txt}Largest       Std. Dev.     {res}        1
+{txt}75%    {res}    .9237       1.438948
+{txt}90%    {res} 1.346364       1.451024       {txt}Variance      {res}        1
+{txt}95%    {res}  1.41077       1.459074       {txt}Skewness      {res}-.1487608
+{txt}99%    {res} 1.459074       1.495303       {txt}Kurtosis      {res} 1.819869
+{txt}
+{com}. 
+. ********************************************************************************
+. * Controls
+. 
+. summ total_gdp2000, detail
+
+          {txt}GDP in 2000 (billion USD, current prices)
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}     .272           .077
+{txt} 5%    {res}     .615           .272
+{txt}10%    {res}     .966           .339       {txt}Obs         {res}        164
+{txt}25%    {res}   3.5615           .392       {txt}Sum of Wgt. {res}        164
+
+{txt}50%    {res}   11.655                      {txt}Mean          {res} 203.4642
+                        {txt}Largest       Std. Dev.     {res} 919.9685
+{txt}75%    {res}   89.872       1661.335
+{txt}90%    {res}  317.759       1948.843       {txt}Variance      {res} 846342.1
+{txt}95%    {res}  707.909       4968.359       {txt}Skewness      {res} 8.965927
+{txt}99%    {res} 4968.359       10252.35       {txt}Kurtosis      {res} 92.46744
+{txt}
+{com}. 
+. summ total_gdp2019, detail
+
+          {txt}GDP in 2019 (billion USD, current prices)
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}     .924           .422
+{txt} 5%    {res}    1.982           .924
+{txt}10%    {res}    4.119           1.19       {txt}Obs         {res}        164
+{txt}25%    {res}   14.191           1.44       {txt}Sum of Wgt. {res}        164
+
+{txt}50%    {res}   53.376                      {txt}Mean          {res}  524.774
+                        {txt}Largest       Std. Dev.     {res} 2094.708
+{txt}75%    {res} 290.8025        3861.55
+{txt}90%    {res}  907.151       5148.781       {txt}Variance      {res}  4387803
+{txt}95%    {res} 1877.114        14340.6       {txt}Skewness      {res}   7.9997
+{txt}99%    {res}  14340.6       21433.22       {txt}Kurtosis      {res} 73.17263
+{txt}
+{com}. 
+. summ abs_lat, detail
+
+                      {txt}Absolute Latitude
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}        1              0
+{txt} 5%    {res}        2              1
+{txt}10%    {res}        5              1       {txt}Obs         {res}        164
+{txt}25%    {res}   12.085              1       {txt}Sum of Wgt. {res}        164
+
+{txt}50%    {res}       23                      {txt}Mean          {res} 26.17854
+                        {txt}Largest       Std. Dev.     {res} 17.38112
+{txt}75%    {res}       41             62
+{txt}90%    {res}    50.83             62       {txt}Variance      {res} 302.1033
+{txt}95%    {res}       56             64       {txt}Skewness      {res} .3688455
+{txt}99%    {res}       64             65       {txt}Kurtosis      {res} 2.014485
+{txt}
+{com}. 
+. summ mean_temp_1991_2000, detail
+
+     {txt}Mean Temperature in 1991-:word 1 of 2000 2010 2016
+                    2016 2016 1980 1990'
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}-5.703516       -6.24453
+{txt} 5%    {res} 3.512475      -5.703516
+{txt}10%    {res} 7.015926       .4996707       {txt}Obs         {res}        164
+{txt}25%    {res} 10.54229       1.416817       {txt}Sum of Wgt. {res}        164
+
+{txt}50%    {res} 22.19589                      {txt}Mean          {res} 18.56923
+                        {txt}Largest       Std. Dev.     {res} 8.353448
+{txt}75%    {res} 25.46353         28.155
+{txt}90%    {res} 27.23609       28.43227       {txt}Variance      {res}  69.7801
+{txt}95%    {res} 27.57763       28.43542       {txt}Skewness      {res}-.7375975
+{txt}99%    {res} 28.43542       28.60529       {txt}Kurtosis      {res} 2.432156
+{txt}
+{com}. 
+. summ mean_temp_2001_2016, detail
+
+     {txt}Mean Temperature in 2001-:word 4 of 2000 2010 2016
+                    2016 2016 1980 1990'
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}-4.975917      -5.788464
+{txt} 5%    {res} 4.306912      -4.975917
+{txt}10%    {res} 7.442459       .6598473       {txt}Obs         {res}        164
+{txt}25%    {res}  11.2269       1.920637       {txt}Sum of Wgt. {res}        164
+
+{txt}50%    {res} 22.52062                      {txt}Mean          {res} 18.98927
+                        {txt}Largest       Std. Dev.     {res} 8.287722
+{txt}75%    {res} 25.73544       28.59716
+{txt}90%    {res} 27.60453       28.75519       {txt}Variance      {res} 68.68633
+{txt}95%    {res} 28.09493       28.86311       {txt}Skewness      {res}-.7369934
+{txt}99%    {res} 28.86311       29.05737       {txt}Kurtosis      {res} 2.444753
+{txt}
+{com}. 
+. summ mean_precip_1991_2000, detail
+
+       {txt}Mean Precipitation in 1991-:word 1 of 2000 2010
+                  2016 2016 2016 1980 1990'
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res} 3.770891       2.741734
+{txt} 5%    {res} 7.600864       3.770891
+{txt}10%    {res} 19.67042        6.23434       {txt}Obs         {res}        164
+{txt}25%    {res} 44.08656       6.619608       {txt}Sum of Wgt. {res}        164
+
+{txt}50%    {res} 78.20206                      {txt}Mean          {res} 91.42554
+                        {txt}Largest       Std. Dev.     {res} 63.77418
+{txt}75%    {res} 134.9189       245.4487
+{txt}90%    {res} 195.2772       249.8182       {txt}Variance      {res} 4067.146
+{txt}95%    {res} 207.5921       250.8861       {txt}Skewness      {res}  .705065
+{txt}99%    {res} 250.8861        252.711       {txt}Kurtosis      {res} 2.609622
+{txt}
+{com}. 
+. summ mean_precip_1991_2016, detail
+
+       {txt}Mean Precipitation in 1991-:word 5 of 2000 2010
+                  2016 2016 2016 1980 1990'
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res} 3.409302       2.485025
+{txt} 5%    {res} 8.235993       3.409302
+{txt}10%    {res}  18.5688       4.720581       {txt}Obs         {res}        164
+{txt}25%    {res} 44.87761       5.061757       {txt}Sum of Wgt. {res}        164
+
+{txt}50%    {res} 78.89108                      {txt}Mean          {res}  92.6238
+                        {txt}Largest       Std. Dev.     {res} 64.70272
+{txt}75%    {res} 133.5342       243.6692
+{txt}90%    {res} 193.0745       252.0203       {txt}Variance      {res} 4186.442
+{txt}95%    {res} 211.1663       256.4115       {txt}Skewness      {res}  .716243
+{txt}99%    {res} 256.4115        259.078       {txt}Kurtosis      {res}  2.66392
+{txt}
+{com}. 
+. summ pop_density2000, detail
+
+                 {txt}Population Density in 2000
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}  2.17977       1.543176
+{txt} 5%    {res} 3.363759        2.17977
+{txt}10%    {res} 8.939736       2.472103       {txt}Obs         {res}        164
+{txt}25%    {res} 22.08398       2.551874       {txt}Sum of Wgt. {res}        164
+
+{txt}50%    {res}  59.8243                      {txt}Mean          {res} 152.5588
+                        {txt}Largest       Std. Dev.     {res} 475.6344
+{txt}75%    {res}  124.552         931.32
+{txt}90%    {res} 291.4336       980.7011       {txt}Variance      {res} 226228.1
+{txt}95%    {res} 472.3069       1230.153       {txt}Skewness      {res}  10.2195
+{txt}99%    {res} 1230.153       5755.531       {txt}Kurtosis      {res} 119.1778
+{txt}
+{com}.  
+. summ pop_density2019, detail
+
+                 {txt}Population Density in 2019
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res} 3.029946       2.075984
+{txt} 5%    {res} 4.114037       3.029946
+{txt}10%    {res} 14.72579       3.280684       {txt}Obs         {res}        164
+{txt}25%    {res} 31.16809       3.381915       {txt}Sum of Wgt. {res}        164
+
+{txt}50%    {res}  81.0611                      {txt}Mean          {res} 209.5128
+                        {txt}Largest       Std. Dev.     {res} 692.7938
+{txt}75%    {res} 158.3946       1376.178
+{txt}90%    {res} 381.0874       1769.857       {txt}Variance      {res} 479963.2
+{txt}95%    {res} 526.8469       2159.426       {txt}Skewness      {res} 10.02777
+{txt}99%    {res} 2159.426       8291.919       {txt}Kurtosis      {res} 114.9788
+{txt}
+{com}. 
+. summ median_age2000, detail
+
+                     {txt}Median Age in 2000
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}     15.2             15
+{txt} 5%    {res}     16.6           15.2
+{txt}10%    {res}     17.2           15.5       {txt}Obs         {res}        164
+{txt}25%    {res}    18.25           15.5       {txt}Sum of Wgt. {res}        164
+
+{txt}50%    {res}     22.7                      {txt}Mean          {res} 25.56585
+                        {txt}Largest       Std. Dev.     {res} 7.978487
+{txt}75%    {res}     33.8           39.7
+{txt}90%    {res}     37.8           40.1       {txt}Variance      {res} 63.65625
+{txt}95%    {res}     38.6           40.3       {txt}Skewness      {res} .4946018
+{txt}99%    {res}     40.3           41.2       {txt}Kurtosis      {res} 1.757534
+{txt}
+{com}. 
+. summ median_age2020, detail
+
+                     {txt}Median Age in 2020
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}     16.3           15.2
+{txt} 5%    {res}     17.6           16.3
+{txt}10%    {res}     18.5           16.6       {txt}Obs         {res}        164
+{txt}25%    {res}    21.65           16.7       {txt}Sum of Wgt. {res}        164
+
+{txt}50%    {res}     29.6                      {txt}Mean          {res} 30.32622
+                        {txt}Largest       Std. Dev.     {res} 9.225856
+{txt}75%    {res}     38.6           45.7
+{txt}90%    {res}     43.2           46.2       {txt}Variance      {res} 85.11642
+{txt}95%    {res}     44.5           47.3       {txt}Skewness      {res} .1377672
+{txt}99%    {res}     47.3           48.4       {txt}Kurtosis      {res} 1.740531
+{txt}
+{com}. 
+. summ diabetes_prevalence2019, detail
+
+               {txt}Prevalence of Diabetes in 2019
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}      1.8              1
+{txt} 5%    {res}      2.4            1.8
+{txt}10%    {res}      3.1            1.9       {txt}Obs         {res}        164
+{txt}25%    {res}     5.05            2.4       {txt}Sum of Wgt. {res}        164
+
+{txt}50%    {res}      6.4                      {txt}Mean          {res} 7.517683
+                        {txt}Largest       Std. Dev.     {res} 4.004215
+{txt}75%    {res}     9.25             19
+{txt}90%    {res}     12.5           19.9       {txt}Variance      {res} 16.03373
+{txt}95%    {res}     15.8             22       {txt}Skewness      {res} 1.279451
+{txt}99%    {res}       22           22.1       {txt}Kurtosis      {res} 4.904459
+{txt}
+{com}. 
+. ********************************************************************************
+. * IVs
+. 
+. summ logem4, detail
+
+               {txt}Log European Settler Mortality
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res} 2.145931       2.145931
+{txt} 5%    {res}  2.70805       2.145931
+{txt}10%    {res} 2.873565       2.433613       {txt}Obs         {res}         77
+{txt}25%    {res} 4.232656        2.70805       {txt}Sum of Wgt. {res}         77
+
+{txt}50%    {res} 4.442651                      {txt}Mean          {res} 4.706409
+                        {txt}Largest       Std. Dev.     {res} 1.200063
+{txt}75%    {res} 5.634789       6.504288
+{txt}90%    {res} 6.180017       7.293018       {txt}Variance      {res}  1.44015
+{txt}95%    {res} 6.504288       7.602901       {txt}Skewness      {res} .1541524
+{txt}99%    {res} 7.986165       7.986165       {txt}Kurtosis      {res} 3.154802
+{txt}
+{com}. 
+. summ lpd1500s, detail
+
+               {txt}Log Population Density in 1500s
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}-3.830918      -3.830918
+{txt} 5%    {res}-2.210722      -3.648357
+{txt}10%    {res}-1.966113      -2.437894       {txt}Obs         {res}         89
+{txt}25%    {res}-.1863689      -2.437894       {txt}Sum of Wgt. {res}         89
+
+{txt}50%    {res} .4317824                      {txt}Mean          {res} .5852122
+                        {txt}Largest       Std. Dev.     {res} 1.576197
+{txt}75%    {res} 1.442202       3.165475
+{txt}90%    {res}  2.64114       3.218876       {txt}Variance      {res} 2.484397
+{txt}95%    {res} 3.165475       3.218876       {txt}Skewness      {res}-.3598334
+{txt}99%    {res} 4.609731       4.609731       {txt}Kurtosis      {res} 3.400202
+{txt}
+{com}. 
+. summ legor_uk, detail
+
+                    {txt}British Legal Origin
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}        0              0
+{txt} 5%    {res}        0              0
+{txt}10%    {res}        0              0       {txt}Obs         {res}         93
+{txt}25%    {res}        0              0       {txt}Sum of Wgt. {res}         93
+
+{txt}50%    {res}        0                      {txt}Mean          {res} .3655914
+                        {txt}Largest       Std. Dev.     {res} .4842059
+{txt}75%    {res}        1              1
+{txt}90%    {res}        1              1       {txt}Variance      {res} .2344554
+{txt}95%    {res}        1              1       {txt}Skewness      {res} .5581804
+{txt}99%    {res}        1              1       {txt}Kurtosis      {res} 1.311565
+{txt}
+{com}. 
+. summ EngFrac, detail
+
+                  {txt}Fraction Speaking English
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}        0              0
+{txt} 5%    {res}        0              0
+{txt}10%    {res}        0              0       {txt}Obs         {res}        136
+{txt}25%    {res}        0              0       {txt}Sum of Wgt. {res}        136
+
+{txt}50%    {res}        0                      {txt}Mean          {res} .0687132
+                        {txt}Largest       Std. Dev.     {res} .2309431
+{txt}75%    {res}        0            .94
+{txt}90%    {res}     .074            .95       {txt}Variance      {res} .0533347
+{txt}95%    {res}     .886           .974       {txt}Skewness      {res} 3.324778
+{txt}99%    {res}     .974              1       {txt}Kurtosis      {res} 12.30755
+{txt}
+{com}. 
+. summ EurFrac, detail
+
+                 {txt}Fraction Speaking European
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}        0              0
+{txt} 5%    {res}        0              0
+{txt}10%    {res}        0              0       {txt}Obs         {res}        136
+{txt}25%    {res}        0              0       {txt}Sum of Wgt. {res}        136
+
+{txt}50%    {res}        0                      {txt}Mean          {res} .2271765
+                        {txt}Largest       Std. Dev.     {res}  .377276
+{txt}75%    {res}     .468              1
+{txt}90%    {res}      .94              1       {txt}Variance      {res} .1423372
+{txt}95%    {res}      .98              1       {txt}Skewness      {res} 1.208377
+{txt}99%    {res}        1          1.004       {txt}Kurtosis      {res} 2.605857
+{txt}
+{com}. 
+. summ bananas, detail
+
+                           {txt}Bananas
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}        0              0
+{txt} 5%    {res}        0              0
+{txt}10%    {res}        0              0       {txt}Obs         {res}        142
+{txt}25%    {res}        0              0       {txt}Sum of Wgt. {res}        142
+
+{txt}50%    {res}        1                      {txt}Mean          {res} .6619718
+                        {txt}Largest       Std. Dev.     {res} .4747127
+{txt}75%    {res}        1              1
+{txt}90%    {res}        1              1       {txt}Variance      {res} .2253521
+{txt}95%    {res}        1              1       {txt}Skewness      {res} -.684815
+{txt}99%    {res}        1              1       {txt}Kurtosis      {res} 1.468972
+{txt}
+{com}. 
+. summ coffee, detail
+
+                           {txt}Coffee
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}        0              0
+{txt} 5%    {res}        0              0
+{txt}10%    {res}        0              0       {txt}Obs         {res}        142
+{txt}25%    {res}        0              0       {txt}Sum of Wgt. {res}        142
+
+{txt}50%    {res}        0                      {txt}Mean          {res} .4788732
+                        {txt}Largest       Std. Dev.     {res} .5013218
+{txt}75%    {res}        1              1
+{txt}90%    {res}        1              1       {txt}Variance      {res} .2513235
+{txt}95%    {res}        1              1       {txt}Skewness      {res} .0845826
+{txt}99%    {res}        1              1       {txt}Kurtosis      {res} 1.007154
+{txt}
+{com}. 
+. summ copper, detail
+
+                           {txt}Copper
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}        0              0
+{txt} 5%    {res}        0              0
+{txt}10%    {res}        0              0       {txt}Obs         {res}        151
+{txt}25%    {res}        0              0       {txt}Sum of Wgt. {res}        151
+
+{txt}50%    {res}        0                      {txt}Mean          {res} .3443709
+                        {txt}Largest       Std. Dev.     {res} .4767439
+{txt}75%    {res}        1              1
+{txt}90%    {res}        1              1       {txt}Variance      {res} .2272848
+{txt}95%    {res}        1              1       {txt}Skewness      {res} .6550562
+{txt}99%    {res}        1              1       {txt}Kurtosis      {res} 1.429099
+{txt}
+{com}. 
+. summ maize, detail
+
+                            {txt}Maize
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}        0              0
+{txt} 5%    {res}        0              0
+{txt}10%    {res}        0              0       {txt}Obs         {res}        142
+{txt}25%    {res}        1              0       {txt}Sum of Wgt. {res}        142
+
+{txt}50%    {res}        1                      {txt}Mean          {res} .8873239
+                        {txt}Largest       Std. Dev.     {res} .3173157
+{txt}75%    {res}        1              1
+{txt}90%    {res}        1              1       {txt}Variance      {res} .1006892
+{txt}95%    {res}        1              1       {txt}Skewness      {res}-2.449895
+{txt}99%    {res}        1              1       {txt}Kurtosis      {res} 7.001984
+{txt}
+{com}. 
+. summ millet, detail
+
+                           {txt}Millet
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}        0              0
+{txt} 5%    {res}        0              0
+{txt}10%    {res}        0              0       {txt}Obs         {res}        142
+{txt}25%    {res}        0              0       {txt}Sum of Wgt. {res}        142
+
+{txt}50%    {res}        0                      {txt}Mean          {res} .4788732
+                        {txt}Largest       Std. Dev.     {res} .5013218
+{txt}75%    {res}        1              1
+{txt}90%    {res}        1              1       {txt}Variance      {res} .2513235
+{txt}95%    {res}        1              1       {txt}Skewness      {res} .0845826
+{txt}99%    {res}        1              1       {txt}Kurtosis      {res} 1.007154
+{txt}
+{com}. 
+. summ rice, detail
+
+                            {txt}Rice
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}        0              0
+{txt} 5%    {res}        0              0
+{txt}10%    {res}        0              0       {txt}Obs         {res}        142
+{txt}25%    {res}        0              0       {txt}Sum of Wgt. {res}        142
+
+{txt}50%    {res}        1                      {txt}Mean          {res} .6901408
+                        {txt}Largest       Std. Dev.     {res} .4640723
+{txt}75%    {res}        1              1
+{txt}90%    {res}        1              1       {txt}Variance      {res} .2153631
+{txt}95%    {res}        1              1       {txt}Skewness      {res}-.8223456
+{txt}99%    {res}        1              1       {txt}Kurtosis      {res} 1.676252
+{txt}
+{com}. 
+. summ silver, detail
+
+                           {txt}Silver
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}        0              0
+{txt} 5%    {res}        0              0
+{txt}10%    {res}        0              0       {txt}Obs         {res}        148
+{txt}25%    {res}        0              0       {txt}Sum of Wgt. {res}        148
+
+{txt}50%    {res}        0                      {txt}Mean          {res} .3716216
+                        {txt}Largest       Std. Dev.     {res} .4848789
+{txt}75%    {res}        1              1
+{txt}90%    {res}        1              1       {txt}Variance      {res} .2351076
+{txt}95%    {res}        1              1       {txt}Skewness      {res} .5313256
+{txt}99%    {res}        1              1       {txt}Kurtosis      {res} 1.282307
+{txt}
+{com}. 
+. summ sugarcane, detail
+
+                          {txt}Sugarcane
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}        0              0
+{txt} 5%    {res}        0              0
+{txt}10%    {res}        0              0       {txt}Obs         {res}        142
+{txt}25%    {res}        0              0       {txt}Sum of Wgt. {res}        142
+
+{txt}50%    {res}        1                      {txt}Mean          {res} .6197183
+                        {txt}Largest       Std. Dev.     {res} .4871744
+{txt}75%    {res}        1              1
+{txt}90%    {res}        1              1       {txt}Variance      {res} .2373389
+{txt}95%    {res}        1              1       {txt}Skewness      {res}  -.49322
+{txt}99%    {res}        1              1       {txt}Kurtosis      {res} 1.243266
+{txt}
+{com}. 
+. summ rubber, detail
+
+                           {txt}Rubber
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}        0              0
+{txt} 5%    {res}        0              0
+{txt}10%    {res}        0              0       {txt}Obs         {res}        142
+{txt}25%    {res}        0              0       {txt}Sum of Wgt. {res}        142
+
+{txt}50%    {res}        0                      {txt}Mean          {res} .1901408
+                        {txt}Largest       Std. Dev.     {res} .3938012
+{txt}75%    {res}        0              1
+{txt}90%    {res}        1              1       {txt}Variance      {res} .1550794
+{txt}95%    {res}        1              1       {txt}Skewness      {res} 1.579254
+{txt}99%    {res}        1              1       {txt}Kurtosis      {res} 3.494042
+{txt}
+{com}. 
+. summ wheat, detail
+
+                            {txt}Wheat
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}        0              0
+{txt} 5%    {res}        0              0
+{txt}10%    {res}        0              0       {txt}Obs         {res}        142
+{txt}25%    {res}        0              0       {txt}Sum of Wgt. {res}        142
+
+{txt}50%    {res}        1                      {txt}Mean          {res} .6760563
+                        {txt}Largest       Std. Dev.     {res} .4696354
+{txt}75%    {res}        1              1
+{txt}90%    {res}        1              1       {txt}Variance      {res} .2205574
+{txt}95%    {res}        1              1       {txt}Skewness      {res}-.7524116
+{txt}99%    {res}        1              1       {txt}Kurtosis      {res} 1.566123
+{txt}
+{com}. 
+. ********************************************************************************
+. * Mechanisms
+. 
+. summ mean_agr_va_growth_2001_2019, detail
+
+                {txt}mean_agr_va_growth_2001_2019
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}-2.210567      -3.611236
+{txt} 5%    {res}-.4900639      -2.210567
+{txt}10%    {res} .0147379      -1.975157       {txt}Obs         {res}        162
+{txt}25%    {res}  1.25597      -1.907758       {txt}Sum of Wgt. {res}        162
+
+{txt}50%    {res} 2.473308                      {txt}Mean          {res} 2.561678
+                        {txt}Largest       Std. Dev.     {res} 2.098443
+{txt}75%    {res} 3.723874       7.625271
+{txt}90%    {res} 5.334024       7.711706       {txt}Variance      {res} 4.403462
+{txt}95%    {res} 6.219995       8.835175       {txt}Skewness      {res} .3864568
+{txt}99%    {res} 8.835175       9.677282       {txt}Kurtosis      {res} 3.952677
+{txt}
+{com}. 
+. summ mean_manu_va_growth_2001_2019, detail
+
+                {txt}mean_manu_va_growth_2001_2019
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}-5.001174      -5.586118
+{txt} 5%    {res}-.4751785      -5.001174
+{txt}10%    {res} .6113245      -4.690194       {txt}Obs         {res}        162
+{txt}25%    {res} 1.669006      -2.166151       {txt}Sum of Wgt. {res}        162
+
+{txt}50%    {res}  3.39041                      {txt}Mean          {res} 3.742151
+                        {txt}Largest       Std. Dev.     {res} 3.685718
+{txt}75%    {res}  4.92224       11.01889
+{txt}90%    {res} 7.578752       14.65974       {txt}Variance      {res} 13.58452
+{txt}95%    {res} 9.137863       17.68752       {txt}Skewness      {res} 2.282693
+{txt}99%    {res} 17.68752       28.76358       {txt}Kurtosis      {res} 16.33496
+{txt}
+{com}. 
+. summ mean_serv_va_growth_2001_2019, detail
+
+                {txt}mean_serv_va_growth_2001_2019
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res} .5661667       .4772564
+{txt} 5%    {res} 1.476987       .5661667
+{txt}10%    {res} 2.018404       .8333532       {txt}Obs         {res}        160
+{txt}25%    {res} 3.001074       .8879368       {txt}Sum of Wgt. {res}        160
+
+{txt}50%    {res} 4.200673                      {txt}Mean          {res} 4.466942
+                        {txt}Largest       Std. Dev.     {res} 2.070016
+{txt}75%    {res}   5.6736       9.536754
+{txt}90%    {res} 7.086172       9.849995       {txt}Variance      {res} 4.284965
+{txt}95%    {res} 8.211351       10.88801       {txt}Skewness      {res} .6710912
+{txt}99%    {res} 10.88801       11.94654       {txt}Kurtosis      {res} 3.767264
+{txt}
+{com}. 
+. summ mean_capital_growth_2001_2019, detail
+
+                {txt}mean_capital_growth_2001_2019
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}-4.513828       -308.657
+{txt} 5%    {res}-.3121452      -4.513828
+{txt}10%    {res} 1.390122      -2.207065       {txt}Obs         {res}        150
+{txt}25%    {res} 2.687737       -2.17322       {txt}Sum of Wgt. {res}        150
+
+{txt}50%    {res} 6.097992                      {txt}Mean          {res} 4.290211
+                        {txt}Largest       Std. Dev.     {res} 26.13928
+{txt}75%    {res}  9.01272       16.46792
+{txt}90%    {res} 12.03547       19.80984       {txt}Variance      {res} 683.2621
+{txt}95%    {res}  14.7048       22.22058       {txt}Skewness      {res}-11.54317
+{txt}99%    {res} 22.22058       24.25957       {txt}Kurtosis      {res} 138.8195
+{txt}
+{com}. 
+. summ mean_labor_growth_2001_2019, detail
+
+                 {txt}mean_labor_growth_2001_2019
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}-2.590046      -2.768171
+{txt} 5%    {res}-2.302616      -2.590046
+{txt}10%    {res}-2.144145      -2.567699       {txt}Obs         {res}        163
+{txt}25%    {res}-1.959958      -2.561193       {txt}Sum of Wgt. {res}        163
+
+{txt}50%    {res}-1.788523                      {txt}Mean          {res}-1.785389
+                        {txt}Largest       Std. Dev.     {res} .3307041
+{txt}75%    {res}-1.633462      -.9896587
+{txt}90%    {res}-1.465193      -.8525736       {txt}Variance      {res} .1093652
+{txt}95%    {res}-1.162307      -.7117533       {txt}Skewness      {res} .4408044
+{txt}99%    {res}-.7117533      -.5061513       {txt}Kurtosis      {res} 5.291774
+{txt}
+{com}. 
+. summ mean_tfpgrowth_2001_2019, detail
+
+              {txt}Mean TFP Growth Rate in 2001-2019
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}-14.80513      -22.86064
+{txt} 5%    {res}-9.051757      -14.80513
+{txt}10%    {res}-5.508022      -12.57121       {txt}Obs         {res}        115
+{txt}25%    {res}-3.207266      -10.74549       {txt}Sum of Wgt. {res}        115
+
+{txt}50%    {res}-.8983917                      {txt}Mean          {res}-1.099745
+                        {txt}Largest       Std. Dev.     {res} 5.260883
+{txt}75%    {res} .4730975       13.51111
+{txt}90%    {res} 3.461712       14.10332       {txt}Variance      {res} 27.67689
+{txt}95%    {res}  6.26446       15.76128       {txt}Skewness      {res} .2460791
+{txt}99%    {res} 15.76128       18.48743       {txt}Kurtosis      {res} 7.686965
+{txt}
+{com}. 
+. summ mean_import_value_2001_2019, detail
+
+                 {txt}mean_import_value_2001_2019
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res} 135.6803       122.5095
+{txt} 5%    {res} 159.3326       135.6803
+{txt}10%    {res}   176.65       144.0483       {txt}Obs         {res}        163
+{txt}25%    {res} 218.8923        150.751       {txt}Sum of Wgt. {res}        163
+
+{txt}50%    {res} 301.8738                      {txt}Mean          {res} 330.5544
+                        {txt}Largest       Std. Dev.     {res} 145.5652
+{txt}75%    {res} 399.6223        732.856
+{txt}90%    {res} 557.5338       733.9361       {txt}Variance      {res} 21189.22
+{txt}95%    {res} 625.5208       770.1831       {txt}Skewness      {res} 1.062549
+{txt}99%    {res} 770.1831       781.1262       {txt}Kurtosis      {res} 3.707441
+{txt}
+{com}. 
+. summ mean_export_value_2001_2019, detail
+
+                 {txt}mean_export_value_2001_2019
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res} 87.72066       86.63494
+{txt} 5%    {res} 137.0609       87.72066
+{txt}10%    {res} 154.6466       101.0483       {txt}Obs         {res}        163
+{txt}25%    {res} 204.4975       119.5349       {txt}Sum of Wgt. {res}        163
+
+{txt}50%    {res} 270.4068                      {txt}Mean          {res} 364.4172
+                        {txt}Largest       Std. Dev.     {res} 371.7341
+{txt}75%    {res} 430.6432       1059.549
+{txt}90%    {res} 589.4116       1556.927       {txt}Variance      {res} 138186.2
+{txt}95%    {res} 747.7361       2188.785       {txt}Skewness      {res} 6.228167
+{txt}99%    {res} 2188.785       3872.494       {txt}Kurtosis      {res} 53.76359
+{txt}
+{com}. 
+. 
+{txt}end of do-file
+
+{com}. log close
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}/Users/ayumis/Dropbox/Democracy/MainAnalysis/code/2_analyze/tables/main/logs/table1.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res}21 Sep 2021, 18:15:53
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}

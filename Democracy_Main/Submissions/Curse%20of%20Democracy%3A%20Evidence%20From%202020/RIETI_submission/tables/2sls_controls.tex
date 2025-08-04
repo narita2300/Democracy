@@ -1,0 +1,31 @@
+\begin{table}[!htbp] \centering 
+  \caption{2SLS Regression on COVID-related outcomes using European Settler Mortality as IV} 
+    \begin{tabular}{@{\extracolsep{0pt}}lcccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{4}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-5} 
+\\[-1.8ex] & \multicolumn{2}{c}{Covid-19-related Deaths Per Million} & \multicolumn{2}{c}{GDP Change 2019-20} \\ 
+\\[-1.8ex] & (1) & (2) & (3) & (4)\\ 
+\hline \\[-1.8ex] 
+ Democracy Index & 370.6$^{***}$ & 296.8$^{**}$ & $-$3.8$^{***}$ & $-$5.7$^{***}$ \\ 
+  & (122.4) & (129.5) & (1.2) & (2.1) \\ 
+  Absolute Latitude &  & $-$6.7 &  & 0.1 \\ 
+  &  & (7.3) &  & (0.2) \\ 
+  Mean Temperature &  & $-$16.1 &  & 0.1 \\ 
+  &  & (15.0) &  & (0.3) \\ 
+  Mean Precipitation &  & $-$0.6 &  & 0.03 \\ 
+  &  & (1.1) &  & (0.02) \\ 
+  GDP Per Capita &  & 0.01 &  & 0.000 \\ 
+  &  & (0.01) &  & (0.000) \\ 
+  Population Density &  & $-$0.2$^{*}$ &  & 0.001 \\ 
+  &  & (0.1) &  & (0.002) \\ 
+ \hline \\[-1.8ex] 
+Weighting & Pop & Pop & Pop & Pop \\ 
+Observations & 81 & 81 & 81 & 81 \\ 
+R$^{2}$ & 0.1 & 0.6 & 0.5 & 0.6 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{4}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 

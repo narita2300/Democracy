@@ -1,0 +1,80 @@
+
+\begin{landscape}
+\begin{table}[!htbp]
+    \centering
+    \caption{Data Sources and Description} \label{tab:sources}
+\begin{tabularx}{\linewidth}{p{0.07\linewidth} p{0.2\linewidth} p{0.2\linewidth} p{0.47\linewidth}} 
+    \hline \\[-1.8ex]
+    & \textbf{Variable}  &  \textbf{Data Source} & \textbf{Short Description}\\ 
+    \hline \\[-1.8ex]
+    Outcomes & Covid-19-related Deaths Per Million & Covid-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University.  & Total number of deaths per million attributed to Covid-19 between 2020/01/01 and 2020/12/31. \\
+    % Covid-19 Cases Per Million & Covid-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University.  & Total confirmed cases of Covid-19 per million between 2020/01/01 and 2020/12/31. \\
+    & GDP Growth 2019-20 & International Monetary Fund & Annual percentage change in GDP (i.e. real annual GDP growth). Sourced from the \emph{World Economic Outlook}, which was published in October 2020.   \\ \hline \\[-1.8ex]
+    
+    Treatment & Democracy Index & Economist Intelligence Unit & Index measuring the state of democracy. Ranges from 0 (least democratic) to 100 (most democratic). We use the values from \emph{Democracy Index 2019: A Year of Democratic Setbacks and Popular Protest}, which was published in January 2020. \\
+    
+    & Representative Government Index & International IDEA & Index measuring the extent of free and equal access to political power. Ranges from 0 to 1. We use the values from \emph{The Global State of Democracy 2019: Addressing the Ills, Reviving the Promise}, which was published in November 2019. \\
+    
+    & Polity Index & Center for Systemic Peace &  Index measuring the level of democracy by subtracting the autocracy score from the democracy score. Ranges from +10 (strongly democratic) to -10 (strongly autocratic). We use the Polity IV 2018 values as it is the most recent available.\\ \hline \\[-1.8ex]
+    %Freedom House Index & Freedom House & Index measuring... \\ \\
+
+    Control & Absolute Latitude & Google Public Data & The latitude in absolute terms of the centroid of each country. \\
+  & Mean Temperature & World Bank & The average of average monthly temperature from 1991-2016. \\
+    & Mean Precipitation & World Bank & The average of average monthly precipitation from 1991-2016. \\
+    & Population & United Nations & Total population in 2020 as recorded by the United Nations, Department of Economic and Social Affairs, Population Division, World Population Prospects 2019 Revision. \\
+    & GDP Per Capita & World Bank & Gross domestic product at purchasing power parity (constant 2011 international dollars) as most recently recorded by the World Bank International Comparison Program database.\\
+    & Population Density & World Bank & Number of people divided by land area, measured in square kilometers. \\ \hline \\[-1.8ex]
+
+    IVs & Log European Settler Mortality & \citet{ajr}  & Annualized deaths per thousand mean strength of European settlers; used as an instrument for institutions by Acemoglu et. al. Largely sourced from the work of \citet{curtin_1989}.\\
+    & Fraction Speaking English & \citet{hj} & The fraction of the population speaking English as a mother tongue; sourced from \citet{hunter, gunnemark} \\
+    & Fraction Speaking European & \citet{hj} & The fraction of the population speaking English, French, German, Portuguese or Spanish as a mother tongue; sourced from \citet{hunter, gunnemark}\\
+    & Log Frankel-Romer Trade Share & \citet{hj} & The log of Frankel-Romer predicted share; sourced from \citet{frankelromer}.\\ \hline
+
+\end{tabularx}
+\end{table}
+\end{landscape}
+
+
+
+\begin{comment}
+\begin{landscape}
+\begin{table}[!htbp]
+    \centering
+    \caption{Data Sources and Description}
+    \label{tab:data_sources}
+\begin{tabularx}{\linewidth}{p{0.2\linewidth} p{0.2\linewidth} p{0.5\linewidth}} 
+    \hline \\[-1.8ex]
+    \textbf{Label}  &  \textbf{Data Source} & \textbf{Short Description}\\ 
+    \hline \\[-1.8ex]
+    \textbf{Outcomes} & & \\
+    Covid-19-related Deaths Per Million & Covid-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University.  & Total number of deaths per million attributed to Covid-19 between 2020/01/01 and 2020/12/31. \\
+    % Covid-19 Cases Per Million & Covid-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University.  & Total confirmed cases of Covid-19 per million between 2020/01/01 and 2020/12/31. \\
+    GDP Change 2019-20 & International Monetary Fund & Annual percentage change in GDP (i.e. real annual GDP growth). Sourced from the \emph{World Economic Outlook}, which was published in October 2020.   \\ \\
+    
+    \multicolumn{2}{l}{\textbf{Indicators for democracy}}  & \\
+    
+    Democracy Index & Economist Intelligence Unit & Index measuring the state of democracy. Ranges from 0 (least democratic) to 100 (most democratic). We use the values from \emph{Democracy Index 2019: A Year of Democratic Setbacks and Popular Protest}, which was published in January 2020. \\
+    
+    Representative Government Index & International IDEA & Index measuring the extent of free and equal access to political power. Ranges from 0 to 1. We use the values from \emph{The Global State of Democracy 2019: Addressing the Ills, Reviving the Promise}, which was published in November 2019. \\
+    
+    Polity Index & Center for Systemic Peace &  Index measuring the level of democracy by subtracting the autocracy score, which measures institutionalized autocracy, from the democracy score, which measures institutionalized democracy. Ranges from +10 (strongly democratic) to -10 (strongly autocratic). We use the Polity IV 2018 values as it is the most recent available.\\ \\
+    %Freedom House Index & Freedom House & Index measuring... \\ \\
+    
+    \textbf{Controls/Weightings} & & \\ 
+    
+    Absolute Latitude & Google Public Data & The latitude in absolute terms of the centroid of each country. \\
+    Mean Temperature & World Bank & The average of average monthly temperature from 1991-2016. \\
+    Mean Precipitation & World Bank & The average of average monthly precipitation from 1991-2016. \\
+    Population & United Nations & Total population in 2020 as recorded by the United Nations, Department of Economic and Social Affairs, Population Division, World Population Prospects 2019 Revision. \\
+    GDP Per Capita & World Bank & Gross domestic product at purchasing power parity (constant 2011 international dollars) as most recently recorded by the World Bank International Comparison Program database.\\
+    Population Density & World Bank & Number of people divided by land area, measured in square kilometers. \\ \\
+    
+    \textbf{Instruments} &  & \\
+    Log European Settler Mortality & \cite{ajr}  & Annualized deaths per thousand mean strength of European settlers; used as an instrument for institutions by Acemoglu et. al in their work, \emph{The Colonial Origins of Comparative Development: An Empirical Investigation}. Largely sourced from the work of \textcite{curtin_1989}.\\
+    Fraction Speaking English and Fraction Speaking European & \cite {hj} & The fraction of the population speaking English and a Western European language; used as an instrument for social infrastructure by Hall and Jones; sourced from \textcite{hunter, gunnemark}\\
+    Log Frankel-Romer Trade Share & \cite {hj} & The log of Frankel-Romer predicted share; used as an instrument for social infrastructure by Hall and Jones.\\
+
+\end{tabularx}
+\end{table}
+\end{landscape}
+\end{comment}

@@ -1,0 +1,155 @@
+
+\begin{table}[!htbp] \centering 
+  \caption{OLS Regression with Alternative Democracy Indices} 
+  \label{ols-indices} 
+  \begin{threeparttable}
+\begin{tabular}{@{\extracolsep{0pt}}lcccccc} 
+\\[-1.8ex]\hline 
+\hline 
+\\[-1.8ex] & (1) & (2) & (3) & (4) & (5) & (6)\\
+
+
+  \hline \\[-1.8ex]  & \multicolumn{6}{c}{Panel A: Covid-19-related Deaths Per Million} \\
+ \cline{2-7} \\[-1.8ex]
+ Democracy Index & 180.8$^{***}$ & 149.1$^{***}$ &  &  &  & \\ 
+  & (56.8) & (42.2) &  &  &  &  \\ 
+  Representative Gov. Index &  &  & 162.9$^{***}$ & 150.0$^{***}$ &  &  \\ 
+  &  &  & (44.2) & (26.9) &  &  \\ 
+  Polity Index &  &  &  &  & 125.0$^{***}$ & 98.1$^{***}$ \\ 
+  &  &  &  &  & (45.6) & (31.7) \\ 
+  R$^{2}$ & 0.3 & 0.5 & 0.3 & 0.6 & 0.2 & 0.5\\
+ 
+  
+  
+    \hline \\[-1.8ex]  & \multicolumn{6}{c}{Panel B: GDP Growth 2019-20} \\
+ \cline{2-7} \\[-1.8ex]
+  Democracy Index & $-$3.1$^{***}$ & $-$3.0$^{***}$ &  &  &  & \\ 
+  & (0.8) & (0.9) &  &  &  & \\ 
+  Representative Gov. Index &  &  & $-$2.5$^{***}$ & $-$2.1$^{***}$ &  & \\ 
+  &  &  & (0.5) & (0.7) &  &\\ 
+  Polity Index &  &  &  &  & $-$2.9$^{***}$ & $-$2.4$^{***}$\\ 
+  &  &  &  &  & (0.6) & (0.7)\\ 
+  R$^{2}$ & 0.3 & 0.4 & 0.3 & 0.4 & 0.4 & 0.4\\ 
+ \hline \\[-1.8ex] 
+Weighting & Pop & Pop & Pop & Pop & Pop & Pop\\ 
+Control & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark\\ 
+N & 156 & 156 & 149 & 149 & 153 & 153\\ 
+\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{6}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\begin{tablenotes} 
+\item  \textit{Note:} All democracy indices have been normalized by their respective standard deviations. Panel A reports the results of the OLS regression on Covid-19 related deaths per million; Panel B reports the results of the OLS regression on GDP growth 2019-20. All regressions have been weighted by population. Columns (1) (3) and (5) correspond to regressions without controls, while the regressions in columns (2) (4) and (6) have the following control variables: absolute latitude, mean temperature, mean precipitation, GDP per capita and population density. Robust standard errors are in parentheses.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+
+
+\begin{comment}
+\begin{table}[H] \centering 
+  \caption{OLS Regression with Alternative Democracy Indices} 
+  \label{ols-indices} 
+  \footnotesize
+  \begin{threeparttable}
+\begin{tabular}{@{\extracolsep{0pt}}lcccccccc} 
+\\[-1.8ex]\hline 
+\hline 
+\\[-1.8ex] & (1) & (2) & (3) & (4) & (5) & (6) & (7) & (8)\\
+
+
+  \hline \\[-1.8ex]  & \multicolumn{8}{c}{Panel A: Covid-19-related Deaths Per Million} \\
+ \cline{2-9} \\[-1.8ex]
+ Democracy Index & 180.8$^{***}$ & 149.1$^{***}$ &  &  &  &  &  &  \\ 
+  & (56.8) & (42.2) &  &  &  &  &  &  \\ 
+  Representative Gov. Index &  &  & 162.9$^{***}$ & 150.0$^{***}$ &  &  &  &  \\ 
+  &  &  & (44.2) & (26.9) &  &  &  &  \\ 
+  Polity Index &  &  &  &  & 125.0$^{***}$ & 98.1$^{***}$ &  &  \\ 
+  &  &  &  &  & (45.6) & (31.7) &  &  \\ 
+  Freedom House Index &  &  &  &  &  &  & 249.2$^{***}$ & 200.5$^{***}$ \\ 
+  &  &  &  &  &  &  & (47.7) & (43.4) \\ 
+  R$^{2}$ & 0.3 & 0.5 & 0.3 & 0.6 & 0.2 & 0.5 & 0.4 & 0.6 \\
+  
+  
+  \hline \\[-1.8ex]  & \multicolumn{8}{c}{Panel B: Covid-19 Cases Per Million} \\
+ \cline{2-9} \\[-1.8ex]
+ Democracy Index & 8,490.1$^{***}$ & 6,570.9$^{***}$ &  &  &  &  &  &  \\ 
+  & (2,762.2) & (1,570.5) &  &  &  &  &  &  \\ 
+   Representative Gov. Index &  &  & 7,173.6$^{***}$ & 6,195.9$^{***}$ &  &  &  &  \\ 
+  &  &  & (2,135.2) & (1,140.1) &  &  &  &  \\ 
+  Polity Index &  &  &  &  & 5,478.9$^{***}$ & 4,298.1$^{***}$ &  &  \\ 
+  &  &  &  &  & (1,934.6) & (1,284.0) &  &  \\ 
+  Freedom House Index &  &  &  &  &  &  & 10,673.0$^{***}$ & 6,609.5$^{***}$ \\ 
+  &  &  &  &  &  &  & (2,759.1) & (1,858.7) \\ 
+  R$^{2}$ & 0.3 & 0.6 & 0.3 & 0.6 & 0.2 & 0.6 & 0.4 & 0.6 \\ 
+  
+  
+    \hline \\[-1.8ex]  & \multicolumn{8}{c}{Panel C: Percentage Change in GDP 2019-20} \\
+ \cline{2-9} \\[-1.8ex]
+  Democracy Index & $-$3.1$^{***}$ & $-$3.0$^{***}$ &  &  &  &  &  &  \\ 
+  & (0.8) & (0.9) &  &  &  &  &  &  \\ 
+  Representative Gov. Index &  &  & $-$2.5$^{***}$ & $-$2.1$^{***}$ &  &  &  &  \\ 
+  &  &  & (0.5) & (0.7) &  &  &  &  \\ 
+  Polity Index &  &  &  &  & $-$2.9$^{***}$ & $-$2.4$^{***}$ &  &  \\ 
+  &  &  &  &  & (0.6) & (0.7) &  &  \\ 
+  Freedom House Index &  &  &  &  &  &  & $-$1.7 & $-$0.7 \\ 
+  &  &  &  &  &  &  & (1.2) & (0.8) \\ 
+  R$^{2}$ & 0.3 & 0.4 & 0.3 & 0.4 & 0.4 & 0.4 & 0.1 & 0.3 \\ 
+ \hline \\[-1.8ex] 
+Weighting & Pop & Pop & Pop & Pop & Pop & Pop & Pop & Pop \\ 
+Control & No & Yes & No & Yes & No & Yes & No & Yes \\ 
+N & 156 & 156 & 149 & 149 & 153 & 153 & 156 & 156 \\ 
+\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{8}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\begin{tablenotes} 
+\item  \textit{Note:} All democracy indices have been normalized by their respective standard deviations. Panel A reports the results of the OLS regression on Covid-19 related deaths per million; Panel B reports the results of the OLS regression on Covid-19 cases per million; Panel C reports the results of the OLS regression on annual percentage change in GDP in 2019-20. All regressions have been weighted by population. Columns (1) (3) and (5) correspond to regressions without controls, while the regressions in columns (2) (4) and (6) have the following control variables: absolute latitude, mean temperature, mean precipitation, GDP per capita and population density. Robust standard errors are in parentheses.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+\end{comment}
+
+\begin{comment}
+\begin{table}[H] \centering 
+  \caption{OLS Regression with Alternative Democracy Indices} 
+  \label{ols-indices} 
+  \small
+  \begin{threeparttable}
+\begin{tabular}{@{\extracolsep{0pt}}lccccccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{9}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-10} 
+\\[-1.8ex] & \multicolumn{3}{c}{Covid-19-related Deaths} & \multicolumn{3}{c}{Covid-19 Cases} & \multicolumn{3}{c}{GDP Change} \\ 
+& \multicolumn{3}{c}{Per Million} & \multicolumn{3}{c}{Per Million} & \multicolumn{3}{c}{2019-20}\\
+\\[-1.8ex] & (1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9)\\ 
+\hline \\[-1.8ex] & \multicolumn{6}{c}{Panel A: Covid-19-related Deaths Per Million} \\
+\cline{2-7} \\[-1.8ex]
+ Democracy Index & 8.2$^{***}$ &  &  & 385.6$^{***}$ &  &  & $-$0.1$^{***}$ &  &  \\ 
+  & (1.1) &  &  & (49.1) &  &  & (0.02) &  &  \\ 
+  Representative Gov. Index &  & 6.9$^{***}$ &  &  & 303.8$^{***}$ &  &  & $-$0.1$^{***}$ &  \\ 
+  &  & (0.9) &  &  & (38.1) &  &  & (0.01) &  \\ 
+  Polity Index &  &  & 4.2$^{***}$ &  &  & 183.6$^{***}$ &  &  & $-$0.1$^{***}$ \\ 
+  &  &  & (0.8) &  &  & (34.8) &  &  & (0.01) \\
+  R$^{2}$ & 0.3 & 0.3 & 0.2 & 0.3 & 0.3 & 0.2 & 0.3 & 0.3 & 0.4 \\
+   \hline \\[-1.8ex]  & \multicolumn{6}{c}{Panel B: Covid-19 Cases Per Million} \\
+ \cline{2-7} \\[-1.8ex]
+ 
+ 
+ \hline \\[-1.8ex] 
+Weighting & Pop & Pop & Pop & Pop & Pop & Pop & Pop & Pop & Pop \\ 
+Controls & No & No & No & No & No & No & No & No & No\\
+N & 154 & 147 & 151 & 154 & 147 & 151 & 154 & 147 & 151 \\ 
+\hline 
+\hline \\[-1.8ex] 
+  & \multicolumn{9}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+
+\begin{tablenotes} 
+\item  \textit{Note:} The Democracy Index is the Economist Intelligence Unit's Democracy Index 2019 and is on a scale from 0 to 100. The Representative Government Index is from the Global State of Democracy Report 2019 issued by International IDEA; it was originally on a scale from 0 to 1 but has been multiplied by 100 to take on values between 0 and 100. The Polity Index is obtained from the Polity 5 Project issued by the Center for Systemic Peace in 2018; it was originally on a scale from -10 to 10 but has been standardized to take values between 0 to 100. All regressions are OLS with observations weighted by population with no controls. Standard errors are in parentheses.
+\end{tablenotes}
+
+\end{threeparttable}
+\end{table}
+\end{comment}

@@ -1,0 +1,72 @@
+
+
+\begin{table}[!htbp] \centering 
+  \caption{OLS Regressions} 
+  \label{tab:ols} 
+  \begin{threeparttable}
+\begin{tabular}{@{\extracolsep{0pt}}lcccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] & (1) & (2) & (3) & (4) & (5) & (6)\\\hline \\ & \multicolumn{6}{c}{Panel A: Covid-19-related Deaths Per Million} \\ 
+\cline{2-7} \\[-1.8ex] 
+ Democracy Index & 165.6$^{***}$ & 180.8$^{***}$ & 228.8$^{***}$ & 90.6$^{***}$ & 149.1$^{***}$ & 213.6$^{***}$ \\ 
+  & (25.5) & (56.8) & (58.9) & (29.0) & (42.2) & (59.9) \\ 
+R$^{2}$ & 0.2 & 0.3 & 0.3 & 0.3 & 0.5 & 0.5 \\  \hline \\[-1.8ex] 
+  Weighting & None & Pop & GDP & None & Pop & GDP \\ 
+Controls & \xmark & \xmark & \xmark & \cmark & \cmark & \cmark \\
+\hline \\ & \multicolumn{6}{c}{Panel B: GDP Growth 2019-20} \\ 
+\cline{2-7} \\[-1.8ex] 
+  Democracy Index & $-$0.6 & $-$3.1$^{***}$ & $-$2.2$^{***}$ & $-$0.1 & $-$3.0$^{***}$ & $-$2.1$^{***}$ \\ 
+  & (0.7) & (0.8) & (0.8) & (0.8) & (0.9) & (0.6) \\
+  R$^{2}$ & 0.01 & 0.3 & 0.3 & 0.03 & 0.4 & 0.4  \\ 
+ \hline \\[-1.8ex] 
+Weighting & None & Pop & GDP & None & Pop & GDP \\ 
+Controls & \xmark & \xmark & \xmark & \cmark & \cmark & \cmark \\  \hline \\[-1.8ex] 
+N & 154 & 154 & 154 & 149 & 149 & 149 \\ 
+\hline 
+\hline \\[-1.8ex] 
+  & \multicolumn{6}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\begin{tablenotes}
+    \item {\textit{Note:} The Democracy Index is the Economist Intelligence Unit's Democracy Index 2019 and has been normalized by its standard deviation. Panel A shows OLS estimates on Covid-19-related deaths per million; Panel B shows OLS estimates on GDP Growth between 2019 and 2020. Columns (1), (2) and (3) show the results without controls; columns (4), (5) and (6) show the results with the following controls: absolute latitude, mean temperature, mean precipitation, GDP per capita and population density. In columns (1) and (4) we do not weight observations, while in columns (2) and (5) we weight them by population and in  columns (3) and (6) by GDP. Robust standard errors are in parentheses. For more detailed descriptions, refer to Table \ref{tab:data_sources} in the Appendix.}
+\end{tablenotes}
+
+\end{threeparttable}
+\end{table}
+
+\begin{comment}
+
+\begin{table}[!htbp] \centering 
+  \caption{OLS Regressions} 
+  \label{tab:ols} 
+  \begin{threeparttable}
+  \small 
+\begin{tabular}{@{\extracolsep{0pt}}lcccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] & (1) & (2) & (3) & (4) & (5) & (6)\\\hline \\ & \multicolumn{6}{c}{Panel A: Covid-19-related Deaths Per Million} \\ 
+\cline{2-7} \\[-1.8ex] 
+ Democracy Index & 165.6$^{***}$ & 180.8$^{***}$ & 228.8$^{***}$ & 90.6$^{***}$ & 149.1$^{***}$ & 213.6$^{***}$ \\ 
+  & (25.5) & (56.8) & (58.9) & (29.0) & (42.2) & (59.9) \\ 
+R$^{2}$ & 0.2 & 0.3 & 0.3 & 0.3 & 0.5 & 0.5 \\  \hline \\[-1.8ex] 
+  Weighting & None & Pop & GDP & None & Pop & GDP \\ 
+Controls & No & No & No & Yes & Yes & Yes \\ 
+\hline \\ & \multicolumn{6}{c}{Panel B: GDP Change 2019-20} \\ 
+\cline{2-7} \\[-1.8ex] 
+ Democracy Index & $-$0.03 & $-$0.1$^{***}$ & $-$0.1$^{***}$ & $-$0.01 & $-$0.1$^{***}$ & $-$0.1$^{***}$ \\ 
+  & (0.03) & (0.02) & (0.01) & (0.04) & (0.02) & (0.02) \\ 
+  R$^{2}$ & 0.01 & 0.3 & 0.3 & 0.03 & 0.4 & 0.4  \\ 
+ \hline \\[-1.8ex] 
+Weighting & None & Pop & GDP & None & Pop & GDP \\ 
+Controls & No & No & No & Yes & Yes & Yes \\  \hline \\[-1.8ex] 
+N & 154 & 154 & 154 & 149 & 149 & 149 \\ 
+\hline 
+\hline \\[-1.8ex] 
+  & \multicolumn{6}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\begin{tablenotes}
+    \item {\textit{Note:} The Democracy Index is the Economist Intelligence Unit's Democracy Index 2019 and has been normalized by its standard deviation. Panel A shows OLS estimates on Covid-19-related deaths per million; Panel B shows OLS estimates on GDP Change 2019-20. Columns (1), (2) and (3) show the results without controls; columns (4), (5) and (6) show the results with the following controls: absolute latitude, mean temperature, mean precipitation, GDP per capita and population density. In columns (1) and (4) do not weight observations, while columns (2) and (5) weight them by population and columns (3) and (6) by GDP. Standard errors are in parentheses.}
+\end{tablenotes}
+
+\end{threeparttable}
+\end{table} 
+
+\end{comment}

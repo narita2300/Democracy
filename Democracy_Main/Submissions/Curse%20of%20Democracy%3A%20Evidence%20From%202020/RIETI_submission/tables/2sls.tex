@@ -1,0 +1,269 @@
+
+
+\begin{landscape}
+\begin{table}[!htbp] \centering 
+  \caption{2SLS Regression using European Settler Mortality as IV}
+  \label{tab:2sls} 
+  \begin{threeparttable}
+\begin{tabular}{@{\extracolsep{0pt}}lcccccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{8}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-9} 
+\\[-1.8ex] & \multicolumn{4}{c}{Covid-19-related Deaths Per Million} & \multicolumn{4}{c}{GDP Growth 2019-20} \\ 
+\\[-1.8ex] & (1) & (2) & (3) & (4) & (5) & (6) & (7) & (8)\\ 
+\hline \\[-1.8ex] 
+  & \multicolumn{8}{c}{Panel A: Two-Stage Least Squares} \\
+ Democracy Index & 370.6$^{***}$ & 355.4$^{**}$ & 296.8$^{**}$ & 341.1 & $-$3.8$^{***}$ & $-$5.0$^{***}$ & $-$5.7$^{***}$ & $-$7.2$^{**}$ \\ 
+  & (122.4) & (138.3) & (129.5) & (250.5) & (1.2) & (1.7) & (2.1) & (2.9) \\ 
+  Absolute Latitude &  &  & $-$6.7 & $-$5.8 &  &  & 0.1 & 0.1 \\ 
+  &  &  & (7.3) & (7.1) &  &  & (0.2) & (0.1) \\ 
+  Mean Temperature &  &  & $-$16.1 & $-$8.6 &  &  & 0.1 & $-$0.2 \\ 
+  &  &  & (15.0) & (16.8) &  &  & (0.3) & (0.2) \\ 
+  Mean Precipitation &  &  & $-$0.6 & $-$0.7 &  &  & 0.03 & 0.04$^{**}$ \\ 
+  &  &  & (1.1) & (1.4) &  &  & (0.02) & (0.02) \\ 
+  GDP Per Capita &  &  & 0.01 & 0.01 &  &  & 0.000 & 0.000 \\ 
+  &  &  & (0.01) & (0.01) &  &  & (0.000) & (0.000) \\ 
+  Population Density &  &  & $-$0.2$^{*}$ & $-$0.3$^{*}$ &  &  & 0.001 & 0.001 \\ 
+  &  &  & (0.1) & (0.2) &  &  & (0.002) & (0.002) \\ 
+ \hline \\[-1.8ex] 
+   & \multicolumn{8}{c}{Panel B: First Stage for Democracy Index} \\
+Log European Settler Mortality & $-$0.4$^{***}$ & $-$0.3$^{***}$ & $-$0.3$^{***}$ & $-$0.2$^{*}$ & $-$0.4$^{***}$ & $-$0.3$^{***}$ & $-$0.3$^{***}$ & $-$0.2$^{*}$ \\ 
+ & (0.1) & (0.1) & (0.1) & (0.1) & (0.1) & (0.1) & (0.1) & (0.1) \\ 
+  R$^{2}$ & 0.2 & 0.2 & 0.7 & 0.4 & 0.2 & 0.2 & 0.7 & 0.4 \\ 
+F Statistic & 26.2$^{***}$  & 22.0$^{***}$  & 29.2$^{***}$  & 7.8$^{***}$ & 26.2$^{***}$ & 22.0$^{***}$ & 29.2$^{***}$ & 7.8$^{***}$  \\ 
+ &  (df = 1; 79) & (df = 1; 77) & (df = 6; 74) &(df = 6; 72) &  (df = 1; 79)& (df = 1; 77) & (df = 6; 74) &  (df = 6; 72) \\
+ \hline \\[-1.8ex] 
+ & \multicolumn{8}{c}{Panel C: Ordinary Least Squares} \\
+ Democracy Index & 202.4$^{***}$ & 167.0$^{**}$ & 137.9$^{***}$ & 144.5$^{***}$ & $-$3.9$^{***}$ & $-$2.6$^{***}$ & $-$4.3$^{***}$ & $-$3.7$^{***}$ \\ 
+  & (74.4) & (71.7) & (46.1) & (49.5) & (0.8) & (0.9) & (1.3) & (1.2) \\ 
+R$^{2}$ & 0.3 & 0.2 & 0.6 & 0.5 & 0.5 & 0.2 & 0.6 & 0.3 \\ 
+F Statistic & 36.0$^{***}$  & 14.2$^{***}$  &  20.2$^{***}$ & 12.4$^{***}$& 75.6$^{***}$&  14.9$^{***}$ & 16.8$^{***}$ & 4.3$^{***}$ \\ 
+& (df = 1; 79) &  (df = 1; 79) & (df = 6; 74)& (df = 6; 74) &  (df = 1; 79) & (df = 1; 79)  & (df = 6; 74) &  (df = 6; 74) \\
+ \hline \\[-1.8ex] 
+Include US \& China? & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark\\
+Control & \xmark & \xmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark \\
+Weighting & Pop & Pop & Pop & Pop & Pop & Pop & Pop & Pop \\ 
+N & 81 & 79 & 81 & 79 & 81 & 79 & 81 & 79 \\ 
+\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{8}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular}
+\begin{tablenotes} 
+\item {\footnotesize {\textit{Note:} The Democracy Index is the Economist Intelligence Unit's Democracy Index 2019 and has been normalized by its standard deviation. Panel A reports the two-stage least squares estimates, using log European settler mortality as an IV. Panel B reports the corresponding first stage regressions. Panel C reports the coefficients from an OLS regression of the dependent variable against the democracy index. Note that the coefficients here differ from those in Table \ref{tab:ols} because the sample is limited to the countries for which we have European settler mortality data. Columns (1), (3), (5) and (7) include US and China in the sample, while columns (2), (4), (6) and (8) exclude them. All regressions have been weighted by population.}}
+\end{tablenotes}
+\end{threeparttable}
+
+\end{table} 
+\end{landscape}
+
+
+
+\begin{comment}
+\begin{table}[!htbp] \centering 
+  \caption{2SLS Regression using European Settler Mortality as IV}
+  \label{tab:2sls} 
+  \begin{threeparttable}
+\begin{tabular}{@{\extracolsep{0pt}}lcccccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{8}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-9} 
+\\[-1.8ex] & \multicolumn{4}{c}{Covid-19-related Deaths Per Million} & \multicolumn{4}{c}{GDP Growth 2019-20} \\ 
+\\[-1.8ex] & (1) & (2) & (3) & (4) & (5) & (6) & (7) & (8)\\ 
+\hline \\[-1.8ex] 
+  & \multicolumn{8}{c}{Panel A: Two-Stage Least Squares} \\ \\
+ Democracy Index & 370.6$^{***}$ & 355.4$^{**}$ & 296.8$^{**}$ & 341.1 & $-$3.8$^{***}$ & $-$5.0$^{***}$ & $-$5.7$^{***}$ & $-$7.2$^{**}$ \\ 
+  & (122.4) & (138.3) & (129.5) & (250.5) & (1.2) & (1.7) & (2.1) & (2.9) \\ 
+  Absolute Latitude &  &  & $-$6.7 & $-$5.8 &  &  & 0.1 & 0.1 \\ 
+  &  &  & (7.3) & (7.1) &  &  & (0.2) & (0.1) \\ 
+  Mean Temperature &  &  & $-$16.1 & $-$8.6 &  &  & 0.1 & $-$0.2 \\ 
+  &  &  & (15.0) & (16.8) &  &  & (0.3) & (0.2) \\ 
+  Mean Precipitation &  &  & $-$0.6 & $-$0.7 &  &  & 0.03 & 0.04$^{**}$ \\ 
+  &  &  & (1.1) & (1.4) &  &  & (0.02) & (0.02) \\ 
+  GDP Per Capita &  &  & 0.01 & 0.01 &  &  & 0.000 & 0.000 \\ 
+  &  &  & (0.01) & (0.01) &  &  & (0.000) & (0.000) \\ 
+  Population Density &  &  & $-$0.2$^{*}$ & $-$0.3$^{*}$ &  &  & 0.001 & 0.001 \\ 
+  &  &  & (0.1) & (0.2) &  &  & (0.002) & (0.002) \\ 
+ \hline \\[-1.8ex] 
+   & \multicolumn{8}{c}{Panel B: First Stage for Democracy Index} \\ \\
+Log European & $-$0.4$^{***}$ & $-$0.3$^{***}$ & $-$0.3$^{***}$ & $-$0.2$^{*}$ & $-$0.4$^{***}$ & $-$0.3$^{***}$ & $-$0.3$^{***}$ & $-$0.2$^{*}$ \\ 
+ Settler Mortality & (0.1) & (0.1) & (0.1) & (0.1) & (0.1) & (0.1) & (0.1) & (0.1) \\ 
+  R$^{2}$ & 0.2 & 0.2 & 0.7 & 0.4 & 0.2 & 0.2 & 0.7 & 0.4 \\ 
+F Statistic & 26.2$^{***}$  & 22.0$^{***}$  & 29.2$^{***}$  & 7.8$^{***}$ & 26.2$^{***}$ & 22.0$^{***}$ & 29.2$^{***}$ & 7.8$^{***}$  \\ 
+ & {\tiny (df = 1; 79)} & {\tiny (df = 1; 77)} & {\tiny (df = 6; 74)} & {\tiny  (df = 6; 72)} & {\tiny  (df = 1; 79)} & {\tiny (df = 1; 77)}  &  {\tiny (df = 6; 74)} & {\tiny (df = 6; 72)} \\
+ \hline \\[-1.8ex] 
+ & \multicolumn{8}{c}{Panel C: Ordinary Least Squares} \\ \\
+ Democracy Index & 202.4$^{***}$ & 167.0$^{**}$ & 137.9$^{***}$ & 144.5$^{***}$ & $-$3.9$^{***}$ & $-$2.6$^{***}$ & $-$4.3$^{***}$ & $-$3.7$^{***}$ \\ 
+  & (74.4) & (71.7) & (46.1) & (49.5) & (0.8) & (0.9) & (1.3) & (1.2) \\ 
+R$^{2}$ & 0.3 & 0.2 & 0.6 & 0.5 & 0.5 & 0.2 & 0.6 & 0.3 \\ 
+F Statistic & 36.0$^{***}$  & 14.2$^{***}$  &  20.2$^{***}$ & 12.4$^{***}$& 75.6$^{***}$&  14.9$^{***}$ & 16.8$^{***}$ & 4.3$^{***}$ \\ 
+& {\tiny (df = 1; 79)} &   {\tiny(df = 1; 79)} &  {\tiny (df = 6; 74)} &  {\tiny(df = 6; 74)} &  {\tiny (df = 1; 79)} &  {\tiny(df = 1; 79)}  &  {\tiny(df = 6; 74)} &  {\tiny(df = 6; 74)} \\
+ \hline \\[-1.8ex] 
+Include US \& China? & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark\\
+Control & \xmark & \xmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark \\
+Weighting & Pop & Pop & Pop & Pop & Pop & Pop & Pop & Pop \\ 
+N & 81 & 79 & 81 & 79 & 81 & 79 & 81 & 79 \\ 
+\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{8}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular}
+\begin{tablenotes} 
+\item {\textit{Note:} The Democracy Index is the Economist Intelligence Unit's Democracy Index 2019 and has been normalized by its standard deviation. Panel A reports the two-stage least squares estimates, instrumenting for the Democracy Index using log European settler mortality on Covid-19-related deaths per million and GDP change 2019-20. Panel B reports the corresponding first stage regressions. Panel C reports the coefficients from an OLS regression of the dependent variable against the democracy index. Note that the coefficients here differ from those in Table \ref{tab:ols} because the sample is limited to the countries for which we have European settler mortality data. Columns (1), (3), (5) and (7) include US and China in the sample, while columns (2), (4), (6) and (8) exclude them. All regressions have been weighted by population.}
+\end{tablenotes}
+\end{threeparttable}
+
+\end{table} 
+\end{comment}
+
+\begin{comment}
+\begin{table}[!htbp] \centering 
+  \caption{2SLS Regressions on Democracy's Effects on Covid-19-related Outcomes} 
+  \label{tab:2sls} 
+  \footnotesize
+  \begin{threeparttable}
+  
+\begin{tabular}{@{\extracolsep{0pt}}lcccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{4}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-5} 
+\\[-1.8ex] & \multicolumn{2}{c}{\small Covid-19-related Deaths} & \multicolumn{2}{c}{GDP Change} \\
+& \multicolumn{2}{c}{Per Million} & \multicolumn{2}{c}{2019-20}\\
+\\[-1.8ex] & (1) & (2) & (3) & (4) \\ 
+\hline \\[-1.8ex]
+  & \multicolumn{4}{c}{Panel A: Two-Stage Least Squares} \\ \\
+ Democracy Index & 370.6$^{***}$ & 296.8$^{*}$ & $-$3.8$^{***}$ & $-$5.7$^{***}$ \\ 
+  & (122.4) & (129.5) & (1.2) & (2.1) \\ 
+  Absolute Latitude &  & $-$6.7 &  & 0.1 \\ 
+  &  & (7.3) &  & (0.2) \\ 
+  Mean Temperature &  & $-$16.1 &  & 0.1 \\ 
+  &  & (15.0) &  & (0.3) \\ 
+  Mean Precipitation &  & $-$0.6 &  & 0.03 \\ 
+  &  & (1.1) &  & (0.02) \\ 
+  GDP Per Capita &  & 0.01 &  & 0.000 \\ 
+  &  & (0.01) &  & (0.000) \\ 
+  Population Density &  & $-$0.2$^{*}$ &  & 0.001 \\ 
+  &  & (0.1) &  & (0.002) \\ 
+ \hline \\[-1.8ex] 
+  & \multicolumn{4}{c}{Panel B: First Stage for Democracy Index} \\ \\
+ Log European Settler Mortality & $-$0.4$^{***}$ & $-$0.3$^{***}$ & $-$0.4$^{***}$ & $-$0.3$^{***}$ \\ 
+  & (0.1) & (0.1) & (0.1) & (0.1) \\ 
+ R$^{2}$ & 0.2 & 0.7 & 0.2 & 0.7 \\ 
+  F Statistic & 26.2$^{***}$  & 29.2$^{***}$ & 26.2$^{***}$  & 29.2$^{***}$ \\ 
+   & (df = 1; 79) & (df = 6; 74)  & (df = 1; 79) & (df = 6; 74) \\
+\hline \\[-1.8ex] 
+& \multicolumn{4}{c}{Panel C: Ordinary Least Squares} \\ \\
+ Democracy Index & 202.4$^{***}$ & 137.9$^{***}$ & $-$3.9$^{***}$ & $-$4.3$^{***}$ \\ 
+  & (74.4) & (46.1) & (0.8) & (1.3) \\ 
+
+\hline \\[-1.8ex]
+Weighting & Pop & Pop & Pop & Pop \\
+Control & No & Yes & No & Yes \\ 
+N & 81 & 81 & 81 & 81 \\ 
+\hline 
+\hline \\[-1.8ex] 
+  & \multicolumn{4}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\begin{tablenotes} 
+\item {\textit{Note:} The Democracy Index is the Economist Intelligence Unit's Democracy Index 2019 and has been normalized by its standard deviation. Panel A reports the two-stage least squares estimates, instrumenting for the Democracy Index using log European settler mortality on Covid-19-related deaths per million and GDP change 2019-20. Panel B reports the corresponding first stage regressions. Panel C reports the coefficients from an OLS regression of the dependent variable against the democracy index. Note that the coefficients here differ from those in Table \ref{tab:ols} because the sample is limited to the countries for which we have European settler mortality data. Columns (1) and (3) have no controls while columns (2) and (4) have controls for country characteristics, namely absolute latitude, mean temperature, mean precipitation, GDP per capita and population density. Robust standard errors are in parentheses.}
+\end{tablenotes}
+
+
+\end{threeparttable}
+\end{table}
+\end{comment}
+% includes covid-19 cases as dependent variable
+\begin{comment}
+\begin{table}[!htbp] \centering 
+  \caption{2SLS Regressions on Democracy's Effects on Covid-19-related Outcomes} 
+  \label{tab:2sls} 
+  \footnotesize
+  \begin{threeparttable}
+\begin{tabular}{@{\extracolsep{0pt}}lcccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{6}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-7} 
+\\[-1.8ex] & \multicolumn{2}{c}{\small Covid-19-related Deaths} & \multicolumn{2}{c}{Covid-19 Cases} & \multicolumn{2}{c}{GDP Change} \\
+& \multicolumn{2}{c}{Per Million} & \multicolumn{2}{c}{Per Million} & \multicolumn{2}{c}{2019-20}\\
+\\[-1.8ex] & (1) & (2) & (3) & (4) & (5) & (6) \\ 
+\hline \\[-1.8ex]
+  & \multicolumn{6}{c}{Panel A: Two-Stage Least Squares} \\ \\
+ Democracy Index & 370.6$^{***}$ & 296.8$^{*}$ & 17,974.4$^{***}$ & 12,566.1$^{***}$ & $-$3.8$^{***}$ & $-$5.7$^{***}$ \\ 
+  & (122.4) & (129.5) & (6,596.3) & (4,421.3) & (1.2) & (2.1) \\
+  
+ \hline \\[-1.8ex] 
+  & \multicolumn{6}{c}{Panel B: First Stage for Democracy Index} \\ \\
+ Log European Settler Mortality & $-$0.4$^{***}$ & $-$0.3$^{***}$ & $-$0.4$^{***}$ & $-$0.3$^{***}$ & $-$0.4$^{***}$ & $-$0.3$^{***}$ \\ 
+  & (0.1) & (0.1) & (0.1) & (0.1) & (0.1) & (0.1) \\ 
+ R$^{2}$ & 0.2 & 0.7 & 0.2 & 0.7 & 0.2 & 0.7 \\ 
+  F Statistic & 26.2$^{***}$  & 29.2$^{***}$  & 26.2$^{***}$  & 29.2$^{***}$ & 26.2$^{***}$  & 29.2$^{***}$ \\ 
+   & (df = 1; 79) & (df = 6; 74) & (df = 1; 79) &  (df = 6; 74)  & (df = 1; 79) & (df = 6; 74) \\
+\hline \\[-1.8ex] 
+& \multicolumn{6}{c}{Panel C: Ordinary Least Squares} \\ \\
+ Democracy Index & 202.4$^{***}$ & 137.9$^{***}$ & 9,621.2$^{**}$ & 6,090.4$^{***}$ & $-$3.9$^{***}$ & $-$4.3$^{***}$ \\ 
+  & (74.4) & (46.1) & (3,736.9) & (1,537.7) & (0.8) & (1.3) \\ 
+  R$^{2}$ & 0.3 & 0.6 & 0.3 & 0.7 & 0.5 & 0.6 \\ \hline \\[-1.8ex]
+Weighting & Pop & Pop & Pop & Pop & Pop & Pop \\
+Control & No & Yes & No & Yes & No & Yes \\ 
+N & 81 & 81 & 81 & 81 & 81 & 81 \\ 
+\hline 
+\hline \\[-1.8ex] 
+  & \multicolumn{6}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\begin{tablenotes} 
+\item {\textit{Note:} The Democracy Index is the Economist Intelligence Unit's Democracy Index 2019 and has been normalized by its standard deviation. Panel A reports the two-stage least squares estimates, instrumenting for the Democracy Index using log European settler mortality on three outcome variables: Covid-19-related deaths per million, Covid-19 cases per million and GDP change 2019-20. Panel B reports the corresponding first stage. Panel C reports the coefficients from an OLS regression of the dependent variable against the democracy index. Note that the coefficients here differ from those in Table \ref{tab:ols} because the sample is limited to the countries for which we have European settler mortality data. Columns (1), (3) and (5) have no controls and (2), (4) and (6) have controls for country characteristics, namely absolute latitude, mean temperature, mean precipitation, GDP per capita and population density. Robust 2SLS standard errors are in parentheses.}
+\end{tablenotes}
+
+
+\end{threeparttable}
+\end{table}
+
+
+\end{comment}
+\begin{comment}
+\begin{table}[!htbp] \centering 
+  \caption{2SLS Regressions on Democracy's Effects on Covid-19-related Outcomes} 
+  \label{tab:2sls} 
+  \footnotesize
+  \begin{threeparttable}
+\begin{tabular}{@{\extracolsep{0pt}}lcccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{6}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-7} 
+\\[-1.8ex] & \multicolumn{2}{c}{\small Covid-19-related Deaths} & \multicolumn{2}{c}{Covid-19 Cases} & \multicolumn{2}{c}{GDP Change} \\
+& \multicolumn{2}{c}{Per Million} & \multicolumn{2}{c}{Per Million} & \multicolumn{2}{c}{2019-20}\\
+\\[-1.8ex] & (1) & (2) & (3) & (4) & (5) & (6) \\ 
+\hline \\[-1.8ex]
+  & \multicolumn{6}{c}{Panel A: Two-Stage Least Squares} \\ \\
+  Democracy Index & 16.8$^{***}$ & 13.5$^{**}$ & 816.4$^{***}$ & 570.8$^{***}$ & $-$0.2$^{***}$ & $-$0.3$^{***}$ \\ 
+  & (3.5) & (5.5) & (158.0) & (208.5) & (0.04) & (0.1) \\ 
+ \hline \\[-1.8ex] 
+  & \multicolumn{6}{c}{Panel B: First Stage for Democracy Index} \\ \\
+ Log European Settler Mortality & $-$9.6$^{***}$ & $-$6.0$^{***}$ & $-$9.6$^{***}$ & $-$6.0$^{***}$ & $-$9.6$^{***}$ & $-$6.0$^{***}$ \\ 
+  & (1.9) & (1.7) & (1.9) & (1.7) & (1.9) & (1.7) \\ 
+  R$^{2}$ & 0.2 & 0.7 & 0.2 & 0.7 & 0.2 & 0.7 \\
+  F Statistic & 26.2$^{***}$  & 29.2$^{***}$  & 26.2$^{***}$  & 29.2$^{***}$ & 26.2$^{***}$  & 29.2$^{***}$ \\ 
+   & (df = 1; 79) & (df = 6; 74) & (df = 1; 79) &  (df = 6; 74)  & (df = 1; 79) & (df = 6; 74) \\
+\hline \\[-1.8ex] 
+& \multicolumn{6}{c}{Panel C: Ordinary Least Squares} \\ \\
+ Democracy Index & 9.2$^{***}$ & 6.3$^{***}$ & 385.6$^{***}$ & 276.6$^{***}$ & $-$0.2$^{***}$ & $-$0.2$^{***}$ \\ 
+  & (1.5) & (2.0) & (49.1) & (73.8) & (0.02) & (0.03) \\ 
+  R$^{2}$ & 0.3 & 0.6 & 0.3 & 0.7 & 0.5 & 0.6 \\ \hline \\[-1.8ex]
+Weighting & Pop & Pop & Pop & Pop & Pop & Pop \\
+Control & No & Yes & No & Yes & No & Yes \\ 
+N & 81 & 81 & 81 & 81 & 81 & 81 \\ 
+\hline 
+\hline \\[-1.8ex] 
+  & \multicolumn{6}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\begin{tablenotes} 
+\item {\textit{Note:} The Democracy Index is the Economist Intelligence Unit's Democracy Index 2019 and is on a scale from 0 to 100. Panel A reports the two-stage least squares estimates, instrumenting for the Democracy Index using log European settler mortality on three outcome variables: Covid-19-related deaths per million, Covid-19 cases per million and GDP change 2019-20. Panel B reports the corresponding first stage. Panel C reports the coefficients from an OLS regression of the dependent variable against the democracy index. Note that the coefficients here differ from those in Table \ref{tab:ols} because the sample is limited to the countries for which we have European settler mortality data. Columns (1), (3) and (5) have no controls and (2), (4) and (6) have controls for country characteristics, namely absolute latitude, mean temperature, mean precipitation, GDP per capita and population density. Standard errors are in parentheses.}
+\end{tablenotes}
+
+
+\end{threeparttable}
+\end{table}
+\end{comment}

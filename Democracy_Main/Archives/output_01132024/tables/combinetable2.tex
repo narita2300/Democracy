@@ -1,0 +1,18 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{10}{c}}
+\hline\hline
+&\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         &\multicolumn{1}{c}{(4)}         &\multicolumn{1}{c}{(5)}         &\multicolumn{1}{c}{(6)}         &\multicolumn{1}{c}{(7)}         &\multicolumn{1}{c}{(8)}         &\multicolumn{1}{c}{(9)}         &\multicolumn{1}{c}{(10)}         \\
+\hline & \multicolumn{10}{c}{Dependent Variable is GDP Growth Rate in 2020} \\\cline{2-11}\\[-1.8ex]
+Democracy Index (V-Dem, 2019)&        -2.6\sym{***}&        -2.1\sym{***}&        -2.2\sym{***}&        -1.8\sym{***}&        -1.9         &        -2.2\sym{***}&        -2.2\sym{***}&        -2.1\sym{***}&        -1.5\sym{*}  &        -1.7\sym{***}\\
+&       (0.7)         &       (0.6)         &       (0.6)         &       (0.4)         &       (1.5)         &       (0.6)         &       (0.6)         &       (0.3)         &       (0.7)         &       (0.3)         \\
+& \multicolumn{10}{c}{Dependent Variable is Mean Growth Rate in 2001-2019} \\\cline{2-11}\\[-1.8ex]
+Democracy Index (V-Dem, 2000)&        -2.6\sym{***}&        -4.5         &        -1.5         &        -1.4\sym{*}  &         1.3         &        -1.2         &        -2.4\sym{***}&        -1.9\sym{**} &        -2.4\sym{***}&        -3.4\sym{***}\\
+&       (0.4)         &       (3.0)         &       (0.9)         &       (0.6)         &       (4.1)         &       (1.0)         &       (0.5)         &       (0.6)         &       (0.4)         &       (0.8)         \\
+& \multicolumn{10}{c}{Dependent Variable is Covid-19-related Deaths Per Million in 2020} \\\cline{2-11}\\[-1.8ex]
+Democracy Index (V-Dem, 2019)&       392.2\sym{***}&       428.5\sym{***}&       360.0\sym{***}&       431.5\sym{***}&       529.8         &       366.8\sym{***}&       283.6\sym{***}&       366.1\sym{***}&       356.5\sym{***}&       371.3\sym{***}\\
+&      (77.1)         &     (110.4)         &      (97.2)         &      (74.3)         &     (328.6)         &      (98.5)         &      (69.7)         &      (49.5)         &      (72.0)         &      (26.2)         \\
+IVs & \multicolumn{2}{c}{settler mortality} & \multicolumn{2}{c}{language \& trade} & \multicolumn{2}{c}{legal origin} &  \multicolumn{2}{c}{crops \& minerals} &  \multicolumn{2}{c}{pop. density} \\
+Number of IVs & 1 & 1 & 3 & 3 & 1 & 1 & 10 & 10 & 1 & 1 \\
+F-Statistic (First stage)&         9.6         &         7.2         &         6.6         &        10.6         &         1.4         &         6.8         &         6.5         &         5.7         &        27.0         &       133.2         \\
+

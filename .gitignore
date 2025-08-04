@@ -1,0 +1,31 @@
+# Ignore the input data directory
+Democracy_Main/MainAnalysis/input/ 
+
+# Ignore all files in the output directory, but not the directories themselves
+Democracy_Main/MainAnalysis/output/*
+!Democracy_Main/MainAnalysis/output/.gitkeep
+Democracy_Main/MainAnalysis/output/data/*
+!Democracy_Main/MainAnalysis/output/data/.gitkeep
+Democracy_Main/MainAnalysis/output/figures/*
+!Democracy_Main/MainAnalysis/output/figures/.gitkeep
+Democracy_Main/MainAnalysis/output/tables/*
+!Democracy_Main/MainAnalysis/output/tables/.gitkeep
+
+# Ignore files in subdirectories, but not the directories
+Democracy_Main/MainAnalysis/output/figures/mechanism_fig/*
+!Democracy_Main/MainAnalysis/output/figures/mechanism_fig/.gitkeep
+Democracy_Main/MainAnalysis/output/figures/appendix/*
+!Democracy_Main/MainAnalysis/output/figures/appendix/.gitkeep
+Democracy_Main/MainAnalysis/output/figures/extensions/*
+!Democracy_Main/MainAnalysis/output/figures/extensions/.gitkeep
+Democracy_Main/MainAnalysis/output/tables/appendix/*
+!Democracy_Main/MainAnalysis/output/tables/appendix/.gitkeep
+Democracy_Main/MainAnalysis/output/tables/coefs/*
+!Democracy_Main/MainAnalysis/output/tables/coefs/.gitkeep
+Democracy_Main/MainAnalysis/output/tables/extensions/*
+!Democracy_Main/MainAnalysis/output/tables/extensions/.gitkeep
+
+# Ignore specific file types that are often generated
+*.DS_Store
+*.RData
+*.Rhistory 

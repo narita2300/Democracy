@@ -1,0 +1,74 @@
+
+\begin{table}[!htbp] 
+  \caption{2SLS Regressions on GDP Growth Rates in 2020}
+  \label{tab:2sls-gdp-exclude-US-China} 
+  \footnotesize
+  \begin{threeparttable}
+\begin{tabular}{@{\extracolsep{0pt}}lcccccccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{10}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-11} 
+\\[-1.8ex] & \multicolumn{10}{c}{GDP Growth Rates in 2020} \\ 
+\\[-1.8ex] & (1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) & (10)\\ 
+\hline \\[-1.8ex] 
+
+  & \multicolumn{10}{c}{Panel A: Two-Stage Least Squares} \\
+ Democracy Index  & $-$6.4$^{***}$ & $-$7.3 & $-$5.2$^{***}$ & $-$5.6$^{***}$ & $-$3.5 & $-$4.9$^{**}$ & $-$6.1$^{***}$ & $-$7.0$^{***}$ & $-$3.0 & 5.2 \\ 
+ (Freedom House) & (1.8) & (9.6) & (1.3) & (1.3) & (5.8) & (2.2) & (2.1) & (1.6) & (7.3) & (14.7) \\ 
+ \hline \\[-1.8ex] 
+ 
+ 
+   & \multicolumn{10}{c}{Panel B: First Stage for the Democracy Index (Freedom House)} \\
+  Log European Settler Mortality & $-$0.2$^{***}$ & $-$0.1 &  &  &  &  &  &  &  &  \\ 
+  & (0.1) & (0.1) &  &  &  &  &  &  &  &  \\ 
+  Fraction Speaking English &  &  & 0.9$^{***}$ & 0.05 &  &  &  &  &  &  \\ 
+  &  &  & (0.3) & (0.2) &  &  &  &  &  &  \\ 
+  Fraction Speaking European &  &  & 0.7$^{***}$ & 0.3$^{*}$ &  &  &  &  &  &  \\ 
+  &  &  & (0.3) & (0.2) &  &  &  &  &  &  \\ 
+  Frankel-Romer Trade Share &  &  & $-$0.3$^{**}$ & $-$0.5$^{***}$ &  &  &  &  &  &  \\ 
+  &  &  & (0.1) & (0.1) &  &  &  &  &  &  \\ 
+  British Legal Origin &  &  &  &  & $-$0.01 & 0.9$^{***}$ &  &  &  &  \\ 
+  &  &  &  &  & (0.5) & (0.3) &  &  &  &  \\ 
+  French Legal Origin &  &  &  &  & $-$0.3 & 0.4 &  &  &  &  \\ 
+  &  &  &  &  & (0.5) & (0.3) &  &  &  &  \\ 
+  Bananas &  &  &  &  &  &  & 0.2 & 0.1 &  &  \\ 
+  &  &  &  &  &  &  & (0.2) & (0.2) &  &  \\ 
+  Coffee &  &  &  &  &  &  & 0.03 & 0.4 &  &  \\ 
+  &  &  &  &  &  &  & (0.3) & (0.3) &  &  \\ 
+  Maize &  &  &  &  &  &  & 0.5 & 0.2 &  &  \\ 
+  &  &  &  &  &  &  & (0.5) & (0.4) &  &  \\ 
+  Millet &  &  &  &  &  &  & $-$0.3 & $-$0.01 &  &  \\ 
+  &  &  &  &  &  &  & (0.2) & (0.2) &  &  \\ 
+  Rice &  &  &  &  &  &  & $-$0.4 & $-$0.3 &  &  \\ 
+  &  &  &  &  &  &  & (0.4) & (0.3) &  &  \\ 
+  Sugar &  &  &  &  &  &  & $-$0.4 & 0.1 &  &  \\ 
+  &  &  &  &  &  &  & (0.4) & (0.3) &  &  \\ 
+  Rubber &  &  &  &  &  &  & 0.5$^{*}$ & 0.2 &  &  \\ 
+  &  &  &  &  &  &  & (0.3) & (0.2) &  &  \\ 
+  Wheat &  &  &  &  &  &  & 0.6$^{**}$ & 0.5 &  &  \\ 
+  &  &  &  &  &  &  & (0.2) & (0.4) &  &  \\ 
+  Log Population Density in 1500s &  &  &  &  &  &  &  &  & 0.1 & 0.04 \\ 
+  &  &  &  &  &  &  &  &  & (0.1) & (0.1) \\ 
+R$^{2}$ & 0.1 & 0.3 & 0.3 & 0.6 & 0.03 & 0.4 & 0.2 & 0.4 & 0.02 & 0.3 \\ 
+F Statistic & 13.1$^{***}$ & 4.7$^{***}$ & 15.3$^{***}$ & 22.2$^{***}$ & 2.0 & 11.5$^{***}$ & 3.4$^{***}$ & 8.3$^{***}$ & 2.4 & 9.6$^{***}$ \\
+
+ \hline \\[-1.8ex] 
+   & \multicolumn{10}{c}{Panel C: Ordinary Least Squares} \\
+Democracy Index & $-$4.3$^{***}$ & $-$4.2$^{***}$ & $-$2.8$^{***}$ & $-$3.3$^{***}$ & $-$2.7$^{***}$ & $-$2.8$^{***}$ & $-$2.6$^{***}$ & $-$2.7$^{***}$ & $-$2.7$^{***}$ & $-$2.7$^{***}$ \\ 
+ (Freedom House)  & (1.2) & (1.3) & (0.9) & (1.3) & (0.9) & (1.0) & (0.8) & (1.0) & (0.5) & (0.6) \\ 
+R$^{2}$ & 0.3 & 0.5 & 0.2 & 0.4 & 0.2 & 0.3 & 0.2 & 0.3 & 0.2 & 0.3 \\ 
+  \hline \\[-1.8ex] 
+Weighting & Pop & Pop & Pop & Pop & Pop & Pop & Pop & Pop & Pop & Pop \\ 
+Controls & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark\\ 
+N & 82 & 82 & 127 & 127 & 151 & 151 & 159 & 159 & 151 & 151 \\ 
+\hline 
+\hline \\[-1.8ex] 
+  & \multicolumn{10}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\begin{tablenotes} 
+\item {\footnotesize {\textit{Notes:}  The Democracy Index (Freedom House) is the sum of the political rights and civil liberties scales from Freedom in the World 2020 by Freedom House and has been normalized by its standard deviation. Panel A reports the two-stage least squares estimates of the effect of democracy on GDP growth rates in 2020, using five different instrumental variable strategies. Panel B reports the corresponding first stage regressions. Panel C reports the coefficients from an OLS regression of GDP growth rates in 2020 against the Freedom House index. Columns (1), (3), (5), (7) and (9) have no controls, while columns (2), (4), (6), (8) and (10) have the following controls: absolute latitude, mean temperature, mean precipitation, population density, median age and diabetes prevalence. All regressions have been weighted by population. Robust standard errors are in parentheses. }}
+\end{tablenotes}
+\end{threeparttable}
+\end{table} 
+

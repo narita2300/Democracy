@@ -1,0 +1,61 @@
+\documentclass[8pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[flushleft]{threeparttable}
+\usepackage{adjustbox, amssymb,amsmath,amsfonts,appendix, booktabs, comment, epigraph, eurosym,graphicx, geometry,ulem,caption, color,setspace,sectsty,comment,float,footmisc,caption,multirow,pdflscape,array,hyperref, tabularx, subcaption, multirow}
+\usepackage{mathptmx}
+\usepackage[]{natbib}
+\renewcommand{\bibsection}{}
+\usepackage{chapterbib}
+\usepackage[paper=A4,pagesize]{typearea}
+\usepackage{afterpage}
+\usepackage{changepage}
+\usepackage{pifont}%
+\usepackage{csquotes}
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+\graphicspath{ {./plots/} }
+\geometry{a4paper,  margin=1in}
+\normalem
+\doublespacing
+\renewcommand{\thesection}{\Roman{section}} 
+\renewcommand{\thesubsection}{\Alph{subsection}}
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{document}
+
+\begin{titlepage}
+\title{Curse of Democracy: Evidence from the 21st Century}
+\author{Yusuke Narita\thanks{Narita: Department of Economics and Cowles Foundation, Yale University, email: \url{yusuke.narita@yale.edu}} \and Ayumi Sudo\thanks{Sudo: Yale University, email: \url{ayumi.sudo@yale.edu}}}
+\date{\today}
+\maketitle
+
+\begin{abstract}
+\noindent 
+Countries with more democratic political regimes experienced greater GDP loss and more deaths from Covid-19 in 2020. Using five different instrumental variable strategies, we find that democracy is a major cause of the wealth and health losses. More importantly, democracy turns out to have persistent negative effects on economic growth since the beginning of the 21st century. This adverse impact of democracy is global and is not driven by China and the US alone.\\
+%A key channel for democracy's negative impact is weaker and narrower containment policies at the beginning of the outbreak, \textit{not} the speed of introducing policies.\\
+\vspace{0in}\\
+\noindent\textit{Keywords:} Democracy, Economic Growth, Public Health, Pandemic, Instrumental Variables\\
+\vspace{0in}\\
+%\noindent\textbf{JEL Codes:} key1, key2, key3\\
+
+\bigskip
+\end{abstract}
+%\begin{center}
+%\LARGE{\textit{Preliminary and Not for Circulation}}
+%\end{center}
+
+\setcounter{page}{0}
+\thispagestyle{empty}
+\end{titlepage}
+
+\include{main_text}
+
+\newpage
+\appendix
+\setcounter{table}{0}
+\renewcommand{\thetable}{\thesubsection\arabic{table}}
+\setcounter{figure}{0}
+\renewcommand{\thefigure}{\thesubsection\arabic{figure}}
+\include{appendix}
+
+\end{document}
+

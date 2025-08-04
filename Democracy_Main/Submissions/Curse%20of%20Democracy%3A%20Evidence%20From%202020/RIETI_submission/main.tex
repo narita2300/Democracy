@@ -1,0 +1,107 @@
+\documentclass[8pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[flushleft]{threeparttable}
+\usepackage{amssymb,amsmath,amsfonts,booktabs, comment, eurosym,graphicx, geometry,ulem,caption,color,setspace,sectsty,comment,float,footmisc,caption,multirow,pdflscape,array,hyperref, tabularx, subcaption, multirow}
+\usepackage{mathptmx}
+%\usepackage{natbib}
+
+\usepackage{pifont}%
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+
+\usepackage[style=chicago-authordate,strict,backend=bibtex,babel=other,bibencoding=inputenc, doi=false,isbn=false,url=false,eprint=false]{biblatex}
+\include{text/biblatex-aer}
+
+
+\usepackage{appendix}
+\graphicspath{ {./plots/} }
+\geometry{a4paper,  margin=0.8in}
+\normalem
+\doublespacing
+
+\begin{document}
+
+\begin{titlepage}
+\title{Curse of Democracy: Evidence from a Pandemic}
+\author{Yusuke Narita\thanks{Narita: Department of Economics and Cowles Foundation, Yale University, New Haven, CT 06511, email: \url{yusuke.narita@yale.edu}} \and Ayumi Sudo\thanks{Sudo: Yale University, email: \url{ayumi.sudo@yale.edu}}}
+\date{\today}
+\maketitle
+
+\begin{abstract}
+\noindent Many believe that democracy contributes to economic growth and safety of life. We provide a case against it. Countries with more democratic political regimes are associated with more deaths from Covid-19 and bigger GDP loss from 2019 to 2020. This correlation is causal according to several instrumental variable strategies. This impact is a global pattern and is not driven by China and the US alone. We also investigate potential channels behind our result.\\
+\vspace{0in}\\
+\noindent\textbf{Keywords:} Democracy, Economic Growth, Public Health, Pandemic, Instrumental Variables\\
+\vspace{0in}\\
+%\noindent\textbf{JEL Codes:} key1, key2, key3\\
+
+\bigskip
+\end{abstract}
+\begin{center}
+\LARGE{\textit{Preliminary and Not for Circulation}}
+\end{center}
+
+\setcounter{page}{0}
+\thispagestyle{empty}
+\end{titlepage}
+\pagebreak \newpage
+
+%\tableofcontents
+%\listoftables
+%\listoffigures
+
+
+\section{Introduction} \label{sec:intro}
+\input{text/intro}
+
+
+\section{Data and Descriptive Statistics} \label{sec:data}
+\input{text/data}
+
+
+\section{First Look at Covid-19-related Outcomes across Countries} \label{sec:ols}
+\input{text/ols}
+
+\section{Empirical Strategy} \label{sec:empirical-strategy}
+\input{text/empirical_strategy}
+
+\section{Causal Effect of Democracy on Covid-19-related Outcomes} \label{sec:causal}
+\input{text/causal}
+
+\section{Alternative Specifications} \label{sec:robust}
+\input{text/robust}
+
+
+% \section{Exploring Why Democracy Failed} \label{sec:reasons}
+% \input{text/reasons}
+
+%\section{Discussions} \label{sec:discussions}
+%\input{text/discussions}
+
+\section{Conclusion} \label{sec:conclusion}
+\input{text/conclusion}
+
+\newpage
+\printbibliography[title={References}]
+% \bibliographystyle{aer}
+
+\include{text/figures}
+
+\newpage
+\appendix
+\renewcommand{\appendixtocname}{Appendix}
+% \addappheadtotoc
+\setcounter{table}{0}
+\renewcommand{\thetable}{A\arabic{table}}
+\setcounter{figure}{0}
+\renewcommand{\thefigure}{A\arabic{figure}}
+% \section*{Appendix}
+\input{appendix}
+
+
+
+% \clearpage
+
+
+\end{document}
+
+%Does democracy contribute to economic growth and improve public welfare? We examine this question by looking at cross-country differences in performance during the Covid-19 pandemic. We find that countries with more democratic political regimes are highly associated with more deaths from Covid-19 and bigger GDP loss from 2019 to 2020. This correlation is causal according to several instrumental variable strategies. This result is a global pattern not driven by China and the US alone. We also investigate potential channels behind our result.

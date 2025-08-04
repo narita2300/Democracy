@@ -1,0 +1,86 @@
+\renewcommand{\thesubsection}{\Alph{subsection}}
+
+\setcounter{table}{0}
+\subsection{Additional Tables}
+\input{tables/main_appendix/data_sources}
+
+\newgeometry{left=0cm, right = 0cm}
+\input{tables/main_appendix/first_stage}
+\restoregeometry
+
+\newgeometry{left=0cm, right = 0cm}
+\input{tables/main_appendix/subtract_democracy_effect}
+\restoregeometry
+
+
+\newgeometry{top=0cm, bottom = 0cm}
+\input{tables/main_appendix/2sls_compare_indices}
+\restoregeometry
+
+\newgeometry{top=0cm, bottom = 0cm, right = 1cm, left = 1.5cm}
+\input{tables/main_appendix/2sls_compare_weightings}
+\input{tables/main_appendix/2sls_compare_samples}
+\restoregeometry
+
+\newgeometry{left=0cm, right = 0cm}
+\input{tables/main_appendix/causal_mediation_analysis}
+\restoregeometry
+
+
+%\setcounter{subsubsection}{4} 
+\subsection{Extending \citet{easterlyReplicationData}'s Dataset} \label{subsubsec:easterly-data}
+Since \citet{easterlyReplicationData}'s dataset only covers 71 countries, we replicate their data gathering process to extend their dataset to 152 countries. For the dummy variables for crop production in 1990, we first use the values from the replication file. Then, we replace the missing values using data from the \citet{foodandagricultureassociationoftheunitednationsFAOGlobalStatistical2020} on crop production in 1990. This data is equivalent to the data that the authors describe in their work. Analogously, for the dummy variables for minerals production in 1990, we first use the replication file's values and then replace the missing values using production data for 1990 from \citet{CopperStatistics} and \citet{SilverStatistics}. 
+\newpage
+\section*{Data Sets}
+\bibliographystyle{aea}
+{\footnotesize \bibliography{data_references}}
+
+% \newpage
+% \setcounter{figures}{0}
+% \subsection{Additional Reduced Form Figures}
+% \input{figures/appendix/reduced_form_eurfrac}
+% \input{figures/appendix/reduced_form_lpd}
+
+% \newpage
+% \setcounter{table}{0}
+% \subsection{Use the Same Sample among Different IVs}
+% \input{tables/appendix/2sls_gdp_freedom_restrict_sample}
+% \input{tables/appendix/2sls_deaths_freedom_restrict_sample}
+
+% \newpage
+% \setcounter{table}{0}
+% \subsection{Exclude US and China from Sample}
+% \input{tables/appendix/2sls_gdp_freedom_exclude_US_China}
+% \input{tables/appendix/2sls_deaths_freedom_exclude_US_China}
+
+% \newpage
+% \setcounter{table}{0}
+% \subsection{Include Continent Dummies}
+% \input{tables/appendix/2sls_gdp_freedom_continent_dummies}
+% \input{tables/appendix/2sls_deaths_freedom_continent_dummies}
+
+% \newpage
+% \setcounter{table}{0}
+% \subsection{Weight Countries by GDP}
+% \input{tables/appendix/2sls_gdp_freedom_gdp_weighting}
+% \input{tables/appendix/2sls_deaths_freedom_gdp_weighting}
+
+% \newpage
+% \setcounter{table}{0}
+% \subsection{Use Center for Systemic Peace's Polity Index as Democracy Index}
+% \input{tables/appendix/2sls_gdp_polity}
+% \input{tables/appendix/2sls_deaths_polity}
+
+% \newpage
+% \setcounter{table}{0}
+% \subsection{Use Economist Intelligence Unit's Democracy Index as Democracy Index}
+% \input{tables/appendix/2sls_gdp_economist}
+% \input{tables/appendix/2sls_deaths_economist}
+
+
+% \newpage
+% \setcounter{table}{0}
+% \subsection{Use total cases as outcome variable}
+% \input{tables/appendix/2sls_cases_freedom}
+
+

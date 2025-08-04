@@ -1,0 +1,6561 @@
+country,year,rating
+Afghanistan,1990,NF
+Afghanistan,1991,NF
+Afghanistan,1992,NF
+Afghanistan,1993,NF
+Afghanistan,1994,NF
+Afghanistan,1995,NF
+Afghanistan,1996,NF
+Afghanistan,1997,NF
+Afghanistan,1998,NF
+Afghanistan,1999,NF
+Afghanistan,2000,NF
+Afghanistan,2001,NF
+Afghanistan,2002,NF
+Afghanistan,2003,NF
+Afghanistan,2004,NF
+Afghanistan,2005,PF
+Afghanistan,2006,PF
+Afghanistan,2007,PF
+Afghanistan,2008,NF
+Afghanistan,2009,NF
+Afghanistan,2010,NF
+Afghanistan,2011,NF
+Afghanistan,2012,NF
+Afghanistan,2013,NF
+Afghanistan,2014,NF
+Afghanistan,2015,NF
+Afghanistan,2016,NF
+Afghanistan,2017,NF
+Afghanistan,2018,NF
+Afghanistan,2019,NF
+Afghanistan,2020,NF
+Afghanistan,2021,NF
+Albania,1990,NF
+Albania,1991,PF
+Albania,1992,PF
+Albania,1993,PF
+Albania,1994,PF
+Albania,1995,PF
+Albania,1996,PF
+Albania,1997,PF
+Albania,1998,PF
+Albania,1999,PF
+Albania,2000,PF
+Albania,2001,PF
+Albania,2002,PF
+Albania,2003,PF
+Albania,2004,PF
+Albania,2005,PF
+Albania,2006,PF
+Albania,2007,PF
+Albania,2008,PF
+Albania,2009,PF
+Albania,2010,PF
+Albania,2011,PF
+Albania,2012,PF
+Albania,2013,PF
+Albania,2014,PF
+Albania,2015,PF
+Albania,2016,PF
+Albania,2017,PF
+Albania,2018,PF
+Albania,2019,PF
+Albania,2020,PF
+Albania,2021,PF
+Algeria,1990,PF
+Algeria,1991,PF
+Algeria,1992,NF
+Algeria,1993,NF
+Algeria,1994,NF
+Algeria,1995,NF
+Algeria,1996,NF
+Algeria,1997,NF
+Algeria,1998,NF
+Algeria,1999,NF
+Algeria,2000,NF
+Algeria,2001,NF
+Algeria,2002,NF
+Algeria,2003,NF
+Algeria,2004,NF
+Algeria,2005,NF
+Algeria,2006,NF
+Algeria,2007,NF
+Algeria,2008,NF
+Algeria,2009,NF
+Algeria,2010,NF
+Algeria,2011,NF
+Algeria,2012,NF
+Algeria,2013,NF
+Algeria,2014,NF
+Algeria,2015,NF
+Algeria,2016,NF
+Algeria,2017,NF
+Algeria,2018,NF
+Algeria,2019,NF
+Algeria,2020,NF
+Algeria,2021,NF
+Andorra,1990,-
+Andorra,1991,-
+Andorra,1992,-
+Andorra,1993,F
+Andorra,1994,F
+Andorra,1995,F
+Andorra,1996,F
+Andorra,1997,F
+Andorra,1998,F
+Andorra,1999,F
+Andorra,2000,F
+Andorra,2001,F
+Andorra,2002,F
+Andorra,2003,F
+Andorra,2004,F
+Andorra,2005,F
+Andorra,2006,F
+Andorra,2007,F
+Andorra,2008,F
+Andorra,2009,F
+Andorra,2010,F
+Andorra,2011,F
+Andorra,2012,F
+Andorra,2013,F
+Andorra,2014,F
+Andorra,2015,F
+Andorra,2016,F
+Andorra,2017,F
+Andorra,2018,F
+Andorra,2019,F
+Andorra,2020,F
+Andorra,2021,F
+Angola,1990,NF
+Angola,1991,PF
+Angola,1992,NF
+Angola,1993,NF
+Angola,1994,NF
+Angola,1995,NF
+Angola,1996,NF
+Angola,1997,NF
+Angola,1998,NF
+Angola,1999,NF
+Angola,2000,NF
+Angola,2001,NF
+Angola,2002,NF
+Angola,2003,NF
+Angola,2004,NF
+Angola,2005,NF
+Angola,2006,NF
+Angola,2007,NF
+Angola,2008,NF
+Angola,2009,NF
+Angola,2010,NF
+Angola,2011,NF
+Angola,2012,NF
+Angola,2013,NF
+Angola,2014,NF
+Angola,2015,NF
+Angola,2016,NF
+Angola,2017,NF
+Angola,2018,NF
+Angola,2019,NF
+Angola,2020,NF
+Angola,2021,NF
+Antigua and Barbuda,1990,F
+Antigua and Barbuda,1991,PF
+Antigua and Barbuda,1992,PF
+Antigua and Barbuda,1993,PF
+Antigua and Barbuda,1994,PF
+Antigua and Barbuda,1995,PF
+Antigua and Barbuda,1996,PF
+Antigua and Barbuda,1997,PF
+Antigua and Barbuda,1998,PF
+Antigua and Barbuda,1999,PF
+Antigua and Barbuda,2000,PF
+Antigua and Barbuda,2001,PF
+Antigua and Barbuda,2002,PF
+Antigua and Barbuda,2003,PF
+Antigua and Barbuda,2004,F
+Antigua and Barbuda,2005,F
+Antigua and Barbuda,2006,F
+Antigua and Barbuda,2007,F
+Antigua and Barbuda,2008,F
+Antigua and Barbuda,2009,F
+Antigua and Barbuda,2010,F
+Antigua and Barbuda,2011,F
+Antigua and Barbuda,2012,F
+Antigua and Barbuda,2013,F
+Antigua and Barbuda,2014,F
+Antigua and Barbuda,2015,F
+Antigua and Barbuda,2016,F
+Antigua and Barbuda,2017,F
+Antigua and Barbuda,2018,F
+Antigua and Barbuda,2019,F
+Antigua and Barbuda,2020,F
+Antigua and Barbuda,2021,F
+Argentina,1990,F
+Argentina,1991,F
+Argentina,1992,F
+Argentina,1993,F
+Argentina,1994,F
+Argentina,1995,F
+Argentina,1996,F
+Argentina,1997,F
+Argentina,1998,F
+Argentina,1999,F
+Argentina,2000,F
+Argentina,2001,PF
+Argentina,2002,PF
+Argentina,2003,F
+Argentina,2004,F
+Argentina,2005,F
+Argentina,2006,F
+Argentina,2007,F
+Argentina,2008,F
+Argentina,2009,F
+Argentina,2010,F
+Argentina,2011,F
+Argentina,2012,F
+Argentina,2013,F
+Argentina,2014,F
+Argentina,2015,F
+Argentina,2016,F
+Argentina,2017,F
+Argentina,2018,F
+Argentina,2019,F
+Argentina,2020,F
+Argentina,2021,F
+Armenia,1990,-
+Armenia,1991,PF
+Armenia,1992,PF
+Armenia,1993,PF
+Armenia,1994,PF
+Armenia,1995,PF
+Armenia,1996,PF
+Armenia,1997,PF
+Armenia,1998,PF
+Armenia,1999,PF
+Armenia,2000,PF
+Armenia,2001,PF
+Armenia,2002,PF
+Armenia,2003,PF
+Armenia,2004,PF
+Armenia,2005,PF
+Armenia,2006,PF
+Armenia,2007,PF
+Armenia,2008,PF
+Armenia,2009,PF
+Armenia,2010,PF
+Armenia,2011,PF
+Armenia,2012,PF
+Armenia,2013,PF
+Armenia,2014,PF
+Armenia,2015,PF
+Armenia,2016,PF
+Armenia,2017,PF
+Armenia,2018,PF
+Armenia,2019,PF
+Armenia,2020,PF
+Armenia,2021,PF
+Australia,1990,F
+Australia,1991,F
+Australia,1992,F
+Australia,1993,F
+Australia,1994,F
+Australia,1995,F
+Australia,1996,F
+Australia,1997,F
+Australia,1998,F
+Australia,1999,F
+Australia,2000,F
+Australia,2001,F
+Australia,2002,F
+Australia,2003,F
+Australia,2004,F
+Australia,2005,F
+Australia,2006,F
+Australia,2007,F
+Australia,2008,F
+Australia,2009,F
+Australia,2010,F
+Australia,2011,F
+Australia,2012,F
+Australia,2013,F
+Australia,2014,F
+Australia,2015,F
+Australia,2016,F
+Australia,2017,F
+Australia,2018,F
+Australia,2019,F
+Australia,2020,F
+Australia,2021,F
+Austria,1990,F
+Austria,1991,F
+Austria,1992,F
+Austria,1993,F
+Austria,1994,F
+Austria,1995,F
+Austria,1996,F
+Austria,1997,F
+Austria,1998,F
+Austria,1999,F
+Austria,2000,F
+Austria,2001,F
+Austria,2002,F
+Austria,2003,F
+Austria,2004,F
+Austria,2005,F
+Austria,2006,F
+Austria,2007,F
+Austria,2008,F
+Austria,2009,F
+Austria,2010,F
+Austria,2011,F
+Austria,2012,F
+Austria,2013,F
+Austria,2014,F
+Austria,2015,F
+Austria,2016,F
+Austria,2017,F
+Austria,2018,F
+Austria,2019,F
+Austria,2020,F
+Austria,2021,F
+Azerbaijan,1990,-
+Azerbaijan,1991,PF
+Azerbaijan,1992,PF
+Azerbaijan,1993,NF
+Azerbaijan,1994,NF
+Azerbaijan,1995,NF
+Azerbaijan,1996,NF
+Azerbaijan,1997,PF
+Azerbaijan,1998,PF
+Azerbaijan,1999,PF
+Azerbaijan,2000,PF
+Azerbaijan,2001,PF
+Azerbaijan,2002,PF
+Azerbaijan,2003,NF
+Azerbaijan,2004,NF
+Azerbaijan,2005,NF
+Azerbaijan,2006,NF
+Azerbaijan,2007,NF
+Azerbaijan,2008,NF
+Azerbaijan,2009,NF
+Azerbaijan,2010,NF
+Azerbaijan,2011,NF
+Azerbaijan,2012,NF
+Azerbaijan,2013,NF
+Azerbaijan,2014,NF
+Azerbaijan,2015,NF
+Azerbaijan,2016,NF
+Azerbaijan,2017,NF
+Azerbaijan,2018,NF
+Azerbaijan,2019,NF
+Azerbaijan,2020,NF
+Azerbaijan,2021,NF
+Bahamas,1990,F
+Bahamas,1991,F
+Bahamas,1992,F
+Bahamas,1993,F
+Bahamas,1994,F
+Bahamas,1995,F
+Bahamas,1996,F
+Bahamas,1997,F
+Bahamas,1998,F
+Bahamas,1999,F
+Bahamas,2000,F
+Bahamas,2001,F
+Bahamas,2002,F
+Bahamas,2003,F
+Bahamas,2004,F
+Bahamas,2005,F
+Bahamas,2006,F
+Bahamas,2007,F
+Bahamas,2008,F
+Bahamas,2009,F
+Bahamas,2010,F
+Bahamas,2011,F
+Bahamas,2012,F
+Bahamas,2013,F
+Bahamas,2014,F
+Bahamas,2015,F
+Bahamas,2016,F
+Bahamas,2017,F
+Bahamas,2018,F
+Bahamas,2019,F
+Bahamas,2020,F
+Bahamas,2021,F
+Bahrain,1990,PF
+Bahrain,1991,PF
+Bahrain,1992,PF
+Bahrain,1993,NF
+Bahrain,1994,NF
+Bahrain,1995,NF
+Bahrain,1996,NF
+Bahrain,1997,NF
+Bahrain,1998,NF
+Bahrain,1999,NF
+Bahrain,2000,NF
+Bahrain,2001,NF
+Bahrain,2002,PF
+Bahrain,2003,PF
+Bahrain,2004,PF
+Bahrain,2005,PF
+Bahrain,2006,PF
+Bahrain,2007,PF
+Bahrain,2008,PF
+Bahrain,2009,NF
+Bahrain,2010,NF
+Bahrain,2011,NF
+Bahrain,2012,NF
+Bahrain,2013,NF
+Bahrain,2014,NF
+Bahrain,2015,NF
+Bahrain,2016,NF
+Bahrain,2017,NF
+Bahrain,2018,NF
+Bahrain,2019,NF
+Bahrain,2020,NF
+Bahrain,2021,NF
+Bangladesh,1990,PF
+Bangladesh,1991,F
+Bangladesh,1992,F
+Bangladesh,1993,PF
+Bangladesh,1994,PF
+Bangladesh,1995,PF
+Bangladesh,1996,PF
+Bangladesh,1997,PF
+Bangladesh,1998,PF
+Bangladesh,1999,PF
+Bangladesh,2000,PF
+Bangladesh,2001,PF
+Bangladesh,2002,PF
+Bangladesh,2003,PF
+Bangladesh,2004,PF
+Bangladesh,2005,PF
+Bangladesh,2006,PF
+Bangladesh,2007,PF
+Bangladesh,2008,PF
+Bangladesh,2009,PF
+Bangladesh,2010,PF
+Bangladesh,2011,PF
+Bangladesh,2012,PF
+Bangladesh,2013,PF
+Bangladesh,2014,PF
+Bangladesh,2015,PF
+Bangladesh,2016,PF
+Bangladesh,2017,PF
+Bangladesh,2018,PF
+Bangladesh,2019,PF
+Bangladesh,2020,PF
+Bangladesh,2021,PF
+Barbados,1990,F
+Barbados,1991,F
+Barbados,1992,F
+Barbados,1993,F
+Barbados,1994,F
+Barbados,1995,F
+Barbados,1996,F
+Barbados,1997,F
+Barbados,1998,F
+Barbados,1999,F
+Barbados,2000,F
+Barbados,2001,F
+Barbados,2002,F
+Barbados,2003,F
+Barbados,2004,F
+Barbados,2005,F
+Barbados,2006,F
+Barbados,2007,F
+Barbados,2008,F
+Barbados,2009,F
+Barbados,2010,F
+Barbados,2011,F
+Barbados,2012,F
+Barbados,2013,F
+Barbados,2014,F
+Barbados,2015,F
+Barbados,2016,F
+Barbados,2017,F
+Barbados,2018,F
+Barbados,2019,F
+Barbados,2020,F
+Barbados,2021,F
+Belarus,1990,-
+Belarus,1991,PF
+Belarus,1992,PF
+Belarus,1993,PF
+Belarus,1994,PF
+Belarus,1995,PF
+Belarus,1996,NF
+Belarus,1997,NF
+Belarus,1998,NF
+Belarus,1999,NF
+Belarus,2000,NF
+Belarus,2001,NF
+Belarus,2002,NF
+Belarus,2003,NF
+Belarus,2004,NF
+Belarus,2005,NF
+Belarus,2006,NF
+Belarus,2007,NF
+Belarus,2008,NF
+Belarus,2009,NF
+Belarus,2010,NF
+Belarus,2011,NF
+Belarus,2012,NF
+Belarus,2013,NF
+Belarus,2014,NF
+Belarus,2015,NF
+Belarus,2016,NF
+Belarus,2017,NF
+Belarus,2018,NF
+Belarus,2019,NF
+Belarus,2020,NF
+Belarus,2021,NF
+Belgium,1990,F
+Belgium,1991,F
+Belgium,1992,F
+Belgium,1993,F
+Belgium,1994,F
+Belgium,1995,F
+Belgium,1996,F
+Belgium,1997,F
+Belgium,1998,F
+Belgium,1999,F
+Belgium,2000,F
+Belgium,2001,F
+Belgium,2002,F
+Belgium,2003,F
+Belgium,2004,F
+Belgium,2005,F
+Belgium,2006,F
+Belgium,2007,F
+Belgium,2008,F
+Belgium,2009,F
+Belgium,2010,F
+Belgium,2011,F
+Belgium,2012,F
+Belgium,2013,F
+Belgium,2014,F
+Belgium,2015,F
+Belgium,2016,F
+Belgium,2017,F
+Belgium,2018,F
+Belgium,2019,F
+Belgium,2020,F
+Belgium,2021,F
+Belize,1990,F
+Belize,1991,F
+Belize,1992,F
+Belize,1993,F
+Belize,1994,F
+Belize,1995,F
+Belize,1996,F
+Belize,1997,F
+Belize,1998,F
+Belize,1999,F
+Belize,2000,F
+Belize,2001,F
+Belize,2002,F
+Belize,2003,F
+Belize,2004,F
+Belize,2005,F
+Belize,2006,F
+Belize,2007,F
+Belize,2008,F
+Belize,2009,F
+Belize,2010,F
+Belize,2011,F
+Belize,2012,F
+Belize,2013,F
+Belize,2014,F
+Belize,2015,F
+Belize,2016,F
+Belize,2017,F
+Belize,2018,F
+Belize,2019,F
+Belize,2020,F
+Belize,2021,F
+Benin,1990,PF
+Benin,1991,F
+Benin,1992,F
+Benin,1993,F
+Benin,1994,F
+Benin,1995,F
+Benin,1996,F
+Benin,1997,F
+Benin,1998,F
+Benin,1999,F
+Benin,2000,F
+Benin,2001,F
+Benin,2002,F
+Benin,2003,F
+Benin,2004,F
+Benin,2005,F
+Benin,2006,F
+Benin,2007,F
+Benin,2008,F
+Benin,2009,F
+Benin,2010,F
+Benin,2011,F
+Benin,2012,F
+Benin,2013,F
+Benin,2014,F
+Benin,2015,F
+Benin,2016,F
+Benin,2017,F
+Benin,2018,F
+Benin,2019,PF
+Benin,2020,PF
+Benin,2021,PF
+Bhutan,1990,PF
+Bhutan,1991,PF
+Bhutan,1992,NF
+Bhutan,1993,NF
+Bhutan,1994,NF
+Bhutan,1995,NF
+Bhutan,1996,NF
+Bhutan,1997,NF
+Bhutan,1998,NF
+Bhutan,1999,NF
+Bhutan,2000,NF
+Bhutan,2001,NF
+Bhutan,2002,NF
+Bhutan,2003,NF
+Bhutan,2004,NF
+Bhutan,2005,NF
+Bhutan,2006,NF
+Bhutan,2007,NF
+Bhutan,2008,PF
+Bhutan,2009,PF
+Bhutan,2010,PF
+Bhutan,2011,PF
+Bhutan,2012,PF
+Bhutan,2013,PF
+Bhutan,2014,PF
+Bhutan,2015,PF
+Bhutan,2016,PF
+Bhutan,2017,PF
+Bhutan,2018,PF
+Bhutan,2019,PF
+Bhutan,2020,PF
+Bhutan,2021,PF
+Bolivia,1990,F
+Bolivia,1991,F
+Bolivia,1992,F
+Bolivia,1993,F
+Bolivia,1994,F
+Bolivia,1995,PF
+Bolivia,1996,F
+Bolivia,1997,F
+Bolivia,1998,F
+Bolivia,1999,F
+Bolivia,2000,F
+Bolivia,2001,F
+Bolivia,2002,F
+Bolivia,2003,PF
+Bolivia,2004,PF
+Bolivia,2005,PF
+Bolivia,2006,PF
+Bolivia,2007,PF
+Bolivia,2008,PF
+Bolivia,2009,PF
+Bolivia,2010,PF
+Bolivia,2011,PF
+Bolivia,2012,PF
+Bolivia,2013,PF
+Bolivia,2014,PF
+Bolivia,2015,PF
+Bolivia,2016,PF
+Bolivia,2017,PF
+Bolivia,2018,PF
+Bolivia,2019,PF
+Bolivia,2020,PF
+Bolivia,2021,PF
+Bosnia and Herzegovina,1990,-
+Bosnia and Herzegovina,1991,-
+Bosnia and Herzegovina,1992,NF
+Bosnia and Herzegovina,1993,NF
+Bosnia and Herzegovina,1994,NF
+Bosnia and Herzegovina,1995,NF
+Bosnia and Herzegovina,1996,PF
+Bosnia and Herzegovina,1997,PF
+Bosnia and Herzegovina,1998,PF
+Bosnia and Herzegovina,1999,PF
+Bosnia and Herzegovina,2000,PF
+Bosnia and Herzegovina,2001,PF
+Bosnia and Herzegovina,2002,PF
+Bosnia and Herzegovina,2003,PF
+Bosnia and Herzegovina,2004,PF
+Bosnia and Herzegovina,2005,PF
+Bosnia and Herzegovina,2006,PF
+Bosnia and Herzegovina,2007,PF
+Bosnia and Herzegovina,2008,PF
+Bosnia and Herzegovina,2009,PF
+Bosnia and Herzegovina,2010,PF
+Bosnia and Herzegovina,2011,PF
+Bosnia and Herzegovina,2012,PF
+Bosnia and Herzegovina,2013,PF
+Bosnia and Herzegovina,2014,PF
+Bosnia and Herzegovina,2015,PF
+Bosnia and Herzegovina,2016,PF
+Bosnia and Herzegovina,2017,PF
+Bosnia and Herzegovina,2018,PF
+Bosnia and Herzegovina,2019,PF
+Bosnia and Herzegovina,2020,PF
+Bosnia and Herzegovina,2021,PF
+Botswana,1990,F
+Botswana,1991,F
+Botswana,1992,F
+Botswana,1993,F
+Botswana,1994,F
+Botswana,1995,F
+Botswana,1996,F
+Botswana,1997,F
+Botswana,1998,F
+Botswana,1999,F
+Botswana,2000,F
+Botswana,2001,F
+Botswana,2002,F
+Botswana,2003,F
+Botswana,2004,F
+Botswana,2005,F
+Botswana,2006,F
+Botswana,2007,F
+Botswana,2008,F
+Botswana,2009,F
+Botswana,2010,F
+Botswana,2011,F
+Botswana,2012,F
+Botswana,2013,F
+Botswana,2014,F
+Botswana,2015,F
+Botswana,2016,F
+Botswana,2017,F
+Botswana,2018,F
+Botswana,2019,F
+Botswana,2020,F
+Botswana,2021,F
+Brazil,1990,F
+Brazil,1991,F
+Brazil,1992,F
+Brazil,1993,PF
+Brazil,1994,PF
+Brazil,1995,PF
+Brazil,1996,PF
+Brazil,1997,PF
+Brazil,1998,PF
+Brazil,1999,PF
+Brazil,2000,PF
+Brazil,2001,PF
+Brazil,2002,F
+Brazil,2003,F
+Brazil,2004,F
+Brazil,2005,F
+Brazil,2006,F
+Brazil,2007,F
+Brazil,2008,F
+Brazil,2009,F
+Brazil,2010,F
+Brazil,2011,F
+Brazil,2012,F
+Brazil,2013,F
+Brazil,2014,F
+Brazil,2015,F
+Brazil,2016,F
+Brazil,2017,F
+Brazil,2018,F
+Brazil,2019,F
+Brazil,2020,F
+Brazil,2021,F
+Brunei,1990,NF
+Brunei,1991,NF
+Brunei,1992,NF
+Brunei,1993,NF
+Brunei,1994,NF
+Brunei,1995,NF
+Brunei,1996,NF
+Brunei,1997,NF
+Brunei,1998,NF
+Brunei,1999,NF
+Brunei,2000,NF
+Brunei,2001,NF
+Brunei,2002,NF
+Brunei,2003,NF
+Brunei,2004,NF
+Brunei,2005,NF
+Brunei,2006,NF
+Brunei,2007,NF
+Brunei,2008,NF
+Brunei,2009,NF
+Brunei,2010,NF
+Brunei,2011,NF
+Brunei,2012,NF
+Brunei,2013,NF
+Brunei,2014,NF
+Brunei,2015,NF
+Brunei,2016,NF
+Brunei,2017,NF
+Brunei,2018,NF
+Brunei,2019,NF
+Brunei,2020,NF
+Brunei,2021,NF
+Bulgaria,1990,PF
+Bulgaria,1991,F
+Bulgaria,1992,F
+Bulgaria,1993,F
+Bulgaria,1994,F
+Bulgaria,1995,F
+Bulgaria,1996,F
+Bulgaria,1997,F
+Bulgaria,1998,F
+Bulgaria,1999,F
+Bulgaria,2000,F
+Bulgaria,2001,F
+Bulgaria,2002,F
+Bulgaria,2003,F
+Bulgaria,2004,F
+Bulgaria,2005,F
+Bulgaria,2006,F
+Bulgaria,2007,F
+Bulgaria,2008,F
+Bulgaria,2009,F
+Bulgaria,2010,F
+Bulgaria,2011,F
+Bulgaria,2012,F
+Bulgaria,2013,F
+Bulgaria,2014,F
+Bulgaria,2015,F
+Bulgaria,2016,F
+Bulgaria,2017,F
+Bulgaria,2018,F
+Bulgaria,2019,F
+Bulgaria,2020,F
+Bulgaria,2021,F
+Burkina Faso,1990,NF
+Burkina Faso,1991,NF
+Burkina Faso,1992,PF
+Burkina Faso,1993,PF
+Burkina Faso,1994,PF
+Burkina Faso,1995,PF
+Burkina Faso,1996,PF
+Burkina Faso,1997,PF
+Burkina Faso,1998,PF
+Burkina Faso,1999,PF
+Burkina Faso,2000,PF
+Burkina Faso,2001,PF
+Burkina Faso,2002,PF
+Burkina Faso,2003,PF
+Burkina Faso,2004,PF
+Burkina Faso,2005,PF
+Burkina Faso,2006,PF
+Burkina Faso,2007,PF
+Burkina Faso,2008,PF
+Burkina Faso,2009,PF
+Burkina Faso,2010,PF
+Burkina Faso,2011,PF
+Burkina Faso,2012,PF
+Burkina Faso,2013,PF
+Burkina Faso,2014,PF
+Burkina Faso,2015,PF
+Burkina Faso,2016,PF
+Burkina Faso,2017,PF
+Burkina Faso,2018,PF
+Burkina Faso,2019,PF
+Burkina Faso,2020,PF
+Burkina Faso,2021,PF
+Burundi,1990,NF
+Burundi,1991,NF
+Burundi,1992,PF
+Burundi,1993,NF
+Burundi,1994,NF
+Burundi,1995,NF
+Burundi,1996,NF
+Burundi,1997,NF
+Burundi,1998,NF
+Burundi,1999,NF
+Burundi,2000,NF
+Burundi,2001,NF
+Burundi,2002,NF
+Burundi,2003,PF
+Burundi,2004,PF
+Burundi,2005,PF
+Burundi,2006,PF
+Burundi,2007,PF
+Burundi,2008,PF
+Burundi,2009,PF
+Burundi,2010,PF
+Burundi,2011,PF
+Burundi,2012,PF
+Burundi,2013,PF
+Burundi,2014,NF
+Burundi,2015,NF
+Burundi,2016,NF
+Burundi,2017,NF
+Burundi,2018,NF
+Burundi,2019,NF
+Burundi,2020,NF
+Burundi,2021,NF
+Cabo Verde,1990,PF
+Cabo Verde,1991,F
+Cabo Verde,1992,F
+Cabo Verde,1993,F
+Cabo Verde,1994,F
+Cabo Verde,1995,F
+Cabo Verde,1996,F
+Cabo Verde,1997,F
+Cabo Verde,1998,F
+Cabo Verde,1999,F
+Cabo Verde,2000,F
+Cabo Verde,2001,F
+Cabo Verde,2002,F
+Cabo Verde,2003,F
+Cabo Verde,2004,F
+Cabo Verde,2005,F
+Cabo Verde,2006,F
+Cabo Verde,2007,F
+Cabo Verde,2008,F
+Cabo Verde,2009,F
+Cabo Verde,2010,F
+Cabo Verde,2011,F
+Cabo Verde,2012,F
+Cabo Verde,2013,F
+Cabo Verde,2014,F
+Cabo Verde,2015,F
+Cabo Verde,2016,F
+Cabo Verde,2017,F
+Cabo Verde,2018,F
+Cabo Verde,2019,F
+Cabo Verde,2020,F
+Cabo Verde,2021,F
+Cambodia,1990,NF
+Cambodia,1991,NF
+Cambodia,1992,NF
+Cambodia,1993,PF
+Cambodia,1994,PF
+Cambodia,1995,NF
+Cambodia,1996,NF
+Cambodia,1997,NF
+Cambodia,1998,NF
+Cambodia,1999,NF
+Cambodia,2000,NF
+Cambodia,2001,NF
+Cambodia,2002,NF
+Cambodia,2003,NF
+Cambodia,2004,NF
+Cambodia,2005,NF
+Cambodia,2006,NF
+Cambodia,2007,NF
+Cambodia,2008,NF
+Cambodia,2009,NF
+Cambodia,2010,NF
+Cambodia,2011,NF
+Cambodia,2012,NF
+Cambodia,2013,NF
+Cambodia,2014,NF
+Cambodia,2015,NF
+Cambodia,2016,NF
+Cambodia,2017,NF
+Cambodia,2018,NF
+Cambodia,2019,NF
+Cambodia,2020,NF
+Cambodia,2021,NF
+Cameroon,1990,NF
+Cameroon,1991,NF
+Cameroon,1992,NF
+Cameroon,1993,NF
+Cameroon,1994,NF
+Cameroon,1995,NF
+Cameroon,1996,NF
+Cameroon,1997,NF
+Cameroon,1998,NF
+Cameroon,1999,NF
+Cameroon,2000,NF
+Cameroon,2001,NF
+Cameroon,2002,NF
+Cameroon,2003,NF
+Cameroon,2004,NF
+Cameroon,2005,NF
+Cameroon,2006,NF
+Cameroon,2007,NF
+Cameroon,2008,NF
+Cameroon,2009,NF
+Cameroon,2010,NF
+Cameroon,2011,NF
+Cameroon,2012,NF
+Cameroon,2013,NF
+Cameroon,2014,NF
+Cameroon,2015,NF
+Cameroon,2016,NF
+Cameroon,2017,NF
+Cameroon,2018,NF
+Cameroon,2019,NF
+Cameroon,2020,NF
+Cameroon,2021,NF
+Canada,1990,F
+Canada,1991,F
+Canada,1992,F
+Canada,1993,F
+Canada,1994,F
+Canada,1995,F
+Canada,1996,F
+Canada,1997,F
+Canada,1998,F
+Canada,1999,F
+Canada,2000,F
+Canada,2001,F
+Canada,2002,F
+Canada,2003,F
+Canada,2004,F
+Canada,2005,F
+Canada,2006,F
+Canada,2007,F
+Canada,2008,F
+Canada,2009,F
+Canada,2010,F
+Canada,2011,F
+Canada,2012,F
+Canada,2013,F
+Canada,2014,F
+Canada,2015,F
+Canada,2016,F
+Canada,2017,F
+Canada,2018,F
+Canada,2019,F
+Canada,2020,F
+Canada,2021,F
+Central African Republic,1990,NF
+Central African Republic,1991,PF
+Central African Republic,1992,PF
+Central African Republic,1993,PF
+Central African Republic,1994,PF
+Central African Republic,1995,PF
+Central African Republic,1996,PF
+Central African Republic,1997,PF
+Central African Republic,1998,PF
+Central African Republic,1999,PF
+Central African Republic,2000,PF
+Central African Republic,2001,PF
+Central African Republic,2002,PF
+Central African Republic,2003,NF
+Central African Republic,2004,NF
+Central African Republic,2005,PF
+Central African Republic,2006,PF
+Central African Republic,2007,PF
+Central African Republic,2008,PF
+Central African Republic,2009,PF
+Central African Republic,2010,PF
+Central African Republic,2011,PF
+Central African Republic,2012,PF
+Central African Republic,2013,NF
+Central African Republic,2014,NF
+Central African Republic,2015,NF
+Central African Republic,2016,NF
+Central African Republic,2017,NF
+Central African Republic,2018,NF
+Central African Republic,2019,NF
+Central African Republic,2020,NF
+Central African Republic,2021,NF
+Chad,1990,NF
+Chad,1991,NF
+Chad,1992,NF
+Chad,1993,NF
+Chad,1994,NF
+Chad,1995,NF
+Chad,1996,NF
+Chad,1997,NF
+Chad,1998,NF
+Chad,1999,NF
+Chad,2000,NF
+Chad,2001,NF
+Chad,2002,NF
+Chad,2003,NF
+Chad,2004,NF
+Chad,2005,NF
+Chad,2006,NF
+Chad,2007,NF
+Chad,2008,NF
+Chad,2009,NF
+Chad,2010,NF
+Chad,2011,NF
+Chad,2012,NF
+Chad,2013,NF
+Chad,2014,NF
+Chad,2015,NF
+Chad,2016,NF
+Chad,2017,NF
+Chad,2018,NF
+Chad,2019,NF
+Chad,2020,NF
+Chad,2021,NF
+Chile,1990,F
+Chile,1991,F
+Chile,1992,F
+Chile,1993,F
+Chile,1994,F
+Chile,1995,F
+Chile,1996,F
+Chile,1997,F
+Chile,1998,F
+Chile,1999,F
+Chile,2000,F
+Chile,2001,F
+Chile,2002,F
+Chile,2003,F
+Chile,2004,F
+Chile,2005,F
+Chile,2006,F
+Chile,2007,F
+Chile,2008,F
+Chile,2009,F
+Chile,2010,F
+Chile,2011,F
+Chile,2012,F
+Chile,2013,F
+Chile,2014,F
+Chile,2015,F
+Chile,2016,F
+Chile,2017,F
+Chile,2018,F
+Chile,2019,F
+Chile,2020,F
+Chile,2021,F
+China,1990,NF
+China,1991,NF
+China,1992,NF
+China,1993,NF
+China,1994,NF
+China,1995,NF
+China,1996,NF
+China,1997,NF
+China,1998,NF
+China,1999,NF
+China,2000,NF
+China,2001,NF
+China,2002,NF
+China,2003,NF
+China,2004,NF
+China,2005,NF
+China,2006,NF
+China,2007,NF
+China,2008,NF
+China,2009,NF
+China,2010,NF
+China,2011,NF
+China,2012,NF
+China,2013,NF
+China,2014,NF
+China,2015,NF
+China,2016,NF
+China,2017,NF
+China,2018,NF
+China,2019,NF
+China,2020,NF
+China,2021,NF
+Colombia,1990,PF
+Colombia,1991,PF
+Colombia,1992,PF
+Colombia,1993,PF
+Colombia,1994,PF
+Colombia,1995,PF
+Colombia,1996,PF
+Colombia,1997,PF
+Colombia,1998,PF
+Colombia,1999,PF
+Colombia,2000,PF
+Colombia,2001,PF
+Colombia,2002,PF
+Colombia,2003,PF
+Colombia,2004,PF
+Colombia,2005,PF
+Colombia,2006,PF
+Colombia,2007,PF
+Colombia,2008,PF
+Colombia,2009,PF
+Colombia,2010,PF
+Colombia,2011,PF
+Colombia,2012,PF
+Colombia,2013,PF
+Colombia,2014,PF
+Colombia,2015,PF
+Colombia,2016,PF
+Colombia,2017,PF
+Colombia,2018,PF
+Colombia,2019,PF
+Colombia,2020,PF
+Colombia,2021,PF
+Comoros,1990,PF
+Comoros,1991,PF
+Comoros,1992,PF
+Comoros,1993,PF
+Comoros,1994,PF
+Comoros,1995,PF
+Comoros,1996,PF
+Comoros,1997,PF
+Comoros,1998,PF
+Comoros,1999,PF
+Comoros,2000,PF
+Comoros,2001,PF
+Comoros,2002,PF
+Comoros,2003,PF
+Comoros,2004,PF
+Comoros,2005,PF
+Comoros,2006,PF
+Comoros,2007,PF
+Comoros,2008,PF
+Comoros,2009,PF
+Comoros,2010,PF
+Comoros,2011,PF
+Comoros,2012,PF
+Comoros,2013,PF
+Comoros,2014,PF
+Comoros,2015,PF
+Comoros,2016,PF
+Comoros,2017,PF
+Comoros,2018,PF
+Comoros,2019,PF
+Comoros,2020,PF
+Comoros,2021,PF
+Congo (Brazzaville),1990,NF
+Congo (Brazzaville),1991,PF
+Congo (Brazzaville),1992,PF
+Congo (Brazzaville),1993,PF
+Congo (Brazzaville),1994,PF
+Congo (Brazzaville),1995,PF
+Congo (Brazzaville),1996,PF
+Congo (Brazzaville),1997,NF
+Congo (Brazzaville),1998,NF
+Congo (Brazzaville),1999,NF
+Congo (Brazzaville),2000,PF
+Congo (Brazzaville),2001,PF
+Congo (Brazzaville),2002,PF
+Congo (Brazzaville),2003,PF
+Congo (Brazzaville),2004,PF
+Congo (Brazzaville),2005,PF
+Congo (Brazzaville),2006,NF
+Congo (Brazzaville),2007,NF
+Congo (Brazzaville),2008,NF
+Congo (Brazzaville),2009,NF
+Congo (Brazzaville),2010,NF
+Congo (Brazzaville),2011,NF
+Congo (Brazzaville),2012,NF
+Congo (Brazzaville),2013,NF
+Congo (Brazzaville),2014,NF
+Congo (Brazzaville),2015,NF
+Congo (Brazzaville),2016,NF
+Congo (Brazzaville),2017,NF
+Congo (Brazzaville),2018,NF
+Congo (Brazzaville),2019,NF
+Congo (Brazzaville),2020,NF
+Congo (Brazzaville),2021,NF
+Congo (Kinshasa),1990,NF
+Congo (Kinshasa),1991,NF
+Congo (Kinshasa),1992,NF
+Congo (Kinshasa),1993,NF
+Congo (Kinshasa),1994,NF
+Congo (Kinshasa),1995,NF
+Congo (Kinshasa),1996,NF
+Congo (Kinshasa),1997,NF
+Congo (Kinshasa),1998,NF
+Congo (Kinshasa),1999,NF
+Congo (Kinshasa),2000,NF
+Congo (Kinshasa),2001,NF
+Congo (Kinshasa),2002,NF
+Congo (Kinshasa),2003,NF
+Congo (Kinshasa),2004,NF
+Congo (Kinshasa),2005,NF
+Congo (Kinshasa),2006,NF
+Congo (Kinshasa),2007,NF
+Congo (Kinshasa),2008,NF
+Congo (Kinshasa),2009,NF
+Congo (Kinshasa),2010,NF
+Congo (Kinshasa),2011,NF
+Congo (Kinshasa),2012,NF
+Congo (Kinshasa),2013,NF
+Congo (Kinshasa),2014,NF
+Congo (Kinshasa),2015,NF
+Congo (Kinshasa),2016,NF
+Congo (Kinshasa),2017,NF
+Congo (Kinshasa),2018,NF
+Congo (Kinshasa),2019,NF
+Congo (Kinshasa),2020,NF
+Congo (Kinshasa),2021,NF
+Costa Rica,1990,F
+Costa Rica,1991,F
+Costa Rica,1992,F
+Costa Rica,1993,F
+Costa Rica,1994,F
+Costa Rica,1995,F
+Costa Rica,1996,F
+Costa Rica,1997,F
+Costa Rica,1998,F
+Costa Rica,1999,F
+Costa Rica,2000,F
+Costa Rica,2001,F
+Costa Rica,2002,F
+Costa Rica,2003,F
+Costa Rica,2004,F
+Costa Rica,2005,F
+Costa Rica,2006,F
+Costa Rica,2007,F
+Costa Rica,2008,F
+Costa Rica,2009,F
+Costa Rica,2010,F
+Costa Rica,2011,F
+Costa Rica,2012,F
+Costa Rica,2013,F
+Costa Rica,2014,F
+Costa Rica,2015,F
+Costa Rica,2016,F
+Costa Rica,2017,F
+Costa Rica,2018,F
+Costa Rica,2019,F
+Costa Rica,2020,F
+Costa Rica,2021,F
+Cote d'Ivoire,1990,PF
+Cote d'Ivoire,1991,PF
+Cote d'Ivoire,1992,PF
+Cote d'Ivoire,1993,NF
+Cote d'Ivoire,1994,NF
+Cote d'Ivoire,1995,NF
+Cote d'Ivoire,1996,NF
+Cote d'Ivoire,1997,NF
+Cote d'Ivoire,1998,NF
+Cote d'Ivoire,1999,PF
+Cote d'Ivoire,2000,PF
+Cote d'Ivoire,2001,PF
+Cote d'Ivoire,2002,NF
+Cote d'Ivoire,2003,NF
+Cote d'Ivoire,2004,NF
+Cote d'Ivoire,2005,NF
+Cote d'Ivoire,2006,NF
+Cote d'Ivoire,2007,NF
+Cote d'Ivoire,2008,NF
+Cote d'Ivoire,2009,NF
+Cote d'Ivoire,2010,NF
+Cote d'Ivoire,2011,NF
+Cote d'Ivoire,2012,PF
+Cote d'Ivoire,2013,PF
+Cote d'Ivoire,2014,PF
+Cote d'Ivoire,2015,PF
+Cote d'Ivoire,2016,PF
+Cote d'Ivoire,2017,PF
+Cote d'Ivoire,2018,PF
+Cote d'Ivoire,2019,PF
+Cote d'Ivoire,2020,PF
+Cote d'Ivoire,2021,PF
+Croatia,1990,-
+Croatia,1991,PF
+Croatia,1992,PF
+Croatia,1993,PF
+Croatia,1994,PF
+Croatia,1995,PF
+Croatia,1996,PF
+Croatia,1997,PF
+Croatia,1998,PF
+Croatia,1999,PF
+Croatia,2000,F
+Croatia,2001,F
+Croatia,2002,F
+Croatia,2003,F
+Croatia,2004,F
+Croatia,2005,F
+Croatia,2006,F
+Croatia,2007,F
+Croatia,2008,F
+Croatia,2009,F
+Croatia,2010,F
+Croatia,2011,F
+Croatia,2012,F
+Croatia,2013,F
+Croatia,2014,F
+Croatia,2015,F
+Croatia,2016,F
+Croatia,2017,F
+Croatia,2018,F
+Croatia,2019,F
+Croatia,2020,F
+Croatia,2021,F
+Cuba,1990,NF
+Cuba,1991,NF
+Cuba,1992,NF
+Cuba,1993,NF
+Cuba,1994,NF
+Cuba,1995,NF
+Cuba,1996,NF
+Cuba,1997,NF
+Cuba,1998,NF
+Cuba,1999,NF
+Cuba,2000,NF
+Cuba,2001,NF
+Cuba,2002,NF
+Cuba,2003,NF
+Cuba,2004,NF
+Cuba,2005,NF
+Cuba,2006,NF
+Cuba,2007,NF
+Cuba,2008,NF
+Cuba,2009,NF
+Cuba,2010,NF
+Cuba,2011,NF
+Cuba,2012,NF
+Cuba,2013,NF
+Cuba,2014,NF
+Cuba,2015,NF
+Cuba,2016,NF
+Cuba,2017,NF
+Cuba,2018,NF
+Cuba,2019,NF
+Cuba,2020,NF
+Cuba,2021,NF
+Cyprus,1990,F
+Cyprus,1991,F
+Cyprus,1992,F
+Cyprus,1993,F
+Cyprus,1994,F
+Cyprus,1995,F
+Cyprus,1996,F
+Cyprus,1997,F
+Cyprus,1998,F
+Cyprus,1999,F
+Cyprus,2000,F
+Cyprus,2001,F
+Cyprus,2002,F
+Cyprus,2003,F
+Cyprus,2004,F
+Cyprus,2005,F
+Cyprus,2006,F
+Cyprus,2007,F
+Cyprus,2008,F
+Cyprus,2009,F
+Cyprus,2010,F
+Cyprus,2011,F
+Cyprus,2012,F
+Cyprus,2013,F
+Cyprus,2014,F
+Cyprus,2015,F
+Cyprus,2016,F
+Cyprus,2017,F
+Cyprus,2018,F
+Cyprus,2019,F
+Cyprus,2020,F
+Cyprus,2021,F
+Czech Republic,1990,-
+Czech Republic,1991,-
+Czech Republic,1992,-
+Czech Republic,1993,F
+Czech Republic,1994,F
+Czech Republic,1995,F
+Czech Republic,1996,F
+Czech Republic,1997,F
+Czech Republic,1998,F
+Czech Republic,1999,F
+Czech Republic,2000,F
+Czech Republic,2001,F
+Czech Republic,2002,F
+Czech Republic,2003,F
+Czech Republic,2004,F
+Czech Republic,2005,F
+Czech Republic,2006,F
+Czech Republic,2007,F
+Czech Republic,2008,F
+Czech Republic,2009,F
+Czech Republic,2010,F
+Czech Republic,2011,F
+Czech Republic,2012,F
+Czech Republic,2013,F
+Czech Republic,2014,F
+Czech Republic,2015,F
+Czech Republic,2016,F
+Czech Republic,2017,F
+Czech Republic,2018,F
+Czech Republic,2019,F
+Czech Republic,2020,F
+Czech Republic,2021,F
+Czechoslovakia,1990,F
+Czechoslovakia,1991,F
+Czechoslovakia,1992,F
+Czechoslovakia,1993,-
+Czechoslovakia,1994,-
+Czechoslovakia,1995,-
+Czechoslovakia,1996,-
+Czechoslovakia,1997,-
+Czechoslovakia,1998,-
+Czechoslovakia,1999,-
+Czechoslovakia,2000,-
+Czechoslovakia,2001,-
+Czechoslovakia,2002,-
+Czechoslovakia,2003,-
+Czechoslovakia,2004,-
+Czechoslovakia,2005,-
+Czechoslovakia,2006,-
+Czechoslovakia,2007,-
+Czechoslovakia,2008,-
+Czechoslovakia,2009,-
+Czechoslovakia,2010,-
+Czechoslovakia,2011,-
+Czechoslovakia,2012,-
+Czechoslovakia,2013,-
+Czechoslovakia,2014,-
+Czechoslovakia,2015,-
+Czechoslovakia,2016,-
+Czechoslovakia,2017,-
+Czechoslovakia,2018,-
+Czechoslovakia,2019,-
+Czechoslovakia,2020,-
+Czechoslovakia,2021,-
+Denmark,1990,F
+Denmark,1991,F
+Denmark,1992,F
+Denmark,1993,F
+Denmark,1994,F
+Denmark,1995,F
+Denmark,1996,F
+Denmark,1997,F
+Denmark,1998,F
+Denmark,1999,F
+Denmark,2000,F
+Denmark,2001,F
+Denmark,2002,F
+Denmark,2003,F
+Denmark,2004,F
+Denmark,2005,F
+Denmark,2006,F
+Denmark,2007,F
+Denmark,2008,F
+Denmark,2009,F
+Denmark,2010,F
+Denmark,2011,F
+Denmark,2012,F
+Denmark,2013,F
+Denmark,2014,F
+Denmark,2015,F
+Denmark,2016,F
+Denmark,2017,F
+Denmark,2018,F
+Denmark,2019,F
+Denmark,2020,F
+Denmark,2021,F
+Djibouti,1990,NF
+Djibouti,1991,NF
+Djibouti,1992,NF
+Djibouti,1993,NF
+Djibouti,1994,NF
+Djibouti,1995,NF
+Djibouti,1996,NF
+Djibouti,1997,NF
+Djibouti,1998,NF
+Djibouti,1999,PF
+Djibouti,2000,PF
+Djibouti,2001,PF
+Djibouti,2002,PF
+Djibouti,2003,PF
+Djibouti,2004,PF
+Djibouti,2005,PF
+Djibouti,2006,PF
+Djibouti,2007,PF
+Djibouti,2008,PF
+Djibouti,2009,PF
+Djibouti,2010,NF
+Djibouti,2011,NF
+Djibouti,2012,NF
+Djibouti,2013,NF
+Djibouti,2014,NF
+Djibouti,2015,NF
+Djibouti,2016,NF
+Djibouti,2017,NF
+Djibouti,2018,NF
+Djibouti,2019,NF
+Djibouti,2020,NF
+Djibouti,2021,NF
+Dominica,1990,F
+Dominica,1991,F
+Dominica,1992,F
+Dominica,1993,F
+Dominica,1994,F
+Dominica,1995,F
+Dominica,1996,F
+Dominica,1997,F
+Dominica,1998,F
+Dominica,1999,F
+Dominica,2000,F
+Dominica,2001,F
+Dominica,2002,F
+Dominica,2003,F
+Dominica,2004,F
+Dominica,2005,F
+Dominica,2006,F
+Dominica,2007,F
+Dominica,2008,F
+Dominica,2009,F
+Dominica,2010,F
+Dominica,2011,F
+Dominica,2012,F
+Dominica,2013,F
+Dominica,2014,F
+Dominica,2015,F
+Dominica,2016,F
+Dominica,2017,F
+Dominica,2018,F
+Dominica,2019,F
+Dominica,2020,F
+Dominica,2021,F
+Dominican Republic,1990,F
+Dominican Republic,1991,F
+Dominican Republic,1992,F
+Dominican Republic,1993,PF
+Dominican Republic,1994,PF
+Dominican Republic,1995,PF
+Dominican Republic,1996,PF
+Dominican Republic,1997,PF
+Dominican Republic,1998,F
+Dominican Republic,1999,F
+Dominican Republic,2000,F
+Dominican Republic,2001,F
+Dominican Republic,2002,F
+Dominican Republic,2003,F
+Dominican Republic,2004,F
+Dominican Republic,2005,F
+Dominican Republic,2006,F
+Dominican Republic,2007,F
+Dominican Republic,2008,F
+Dominican Republic,2009,F
+Dominican Republic,2010,F
+Dominican Republic,2011,F
+Dominican Republic,2012,F
+Dominican Republic,2013,F
+Dominican Republic,2014,F
+Dominican Republic,2015,PF
+Dominican Republic,2016,PF
+Dominican Republic,2017,PF
+Dominican Republic,2018,PF
+Dominican Republic,2019,PF
+Dominican Republic,2020,PF
+Dominican Republic,2021,PF
+Ecuador,1990,F
+Ecuador,1991,F
+Ecuador,1992,F
+Ecuador,1993,F
+Ecuador,1994,F
+Ecuador,1995,F
+Ecuador,1996,PF
+Ecuador,1997,PF
+Ecuador,1998,F
+Ecuador,1999,F
+Ecuador,2000,PF
+Ecuador,2001,PF
+Ecuador,2002,PF
+Ecuador,2003,PF
+Ecuador,2004,PF
+Ecuador,2005,PF
+Ecuador,2006,PF
+Ecuador,2007,PF
+Ecuador,2008,PF
+Ecuador,2009,PF
+Ecuador,2010,PF
+Ecuador,2011,PF
+Ecuador,2012,PF
+Ecuador,2013,PF
+Ecuador,2014,PF
+Ecuador,2015,PF
+Ecuador,2016,PF
+Ecuador,2017,PF
+Ecuador,2018,PF
+Ecuador,2019,PF
+Ecuador,2020,PF
+Ecuador,2021,F
+Egypt,1990,PF
+Egypt,1991,PF
+Egypt,1992,PF
+Egypt,1993,NF
+Egypt,1994,NF
+Egypt,1995,NF
+Egypt,1996,NF
+Egypt,1997,NF
+Egypt,1998,NF
+Egypt,1999,NF
+Egypt,2000,NF
+Egypt,2001,NF
+Egypt,2002,NF
+Egypt,2003,NF
+Egypt,2004,NF
+Egypt,2005,NF
+Egypt,2006,NF
+Egypt,2007,NF
+Egypt,2008,NF
+Egypt,2009,NF
+Egypt,2010,NF
+Egypt,2011,NF
+Egypt,2012,PF
+Egypt,2013,NF
+Egypt,2014,NF
+Egypt,2015,NF
+Egypt,2016,NF
+Egypt,2017,NF
+Egypt,2018,NF
+Egypt,2019,NF
+Egypt,2020,NF
+Egypt,2021,NF
+El Salvador,1990,PF
+El Salvador,1991,PF
+El Salvador,1992,PF
+El Salvador,1993,PF
+El Salvador,1994,PF
+El Salvador,1995,PF
+El Salvador,1996,PF
+El Salvador,1997,F
+El Salvador,1998,F
+El Salvador,1999,F
+El Salvador,2000,F
+El Salvador,2001,F
+El Salvador,2002,F
+El Salvador,2003,F
+El Salvador,2004,F
+El Salvador,2005,F
+El Salvador,2006,F
+El Salvador,2007,F
+El Salvador,2008,F
+El Salvador,2009,F
+El Salvador,2010,F
+El Salvador,2011,F
+El Salvador,2012,F
+El Salvador,2013,F
+El Salvador,2014,F
+El Salvador,2015,F
+El Salvador,2016,F
+El Salvador,2017,F
+El Salvador,2018,F
+El Salvador,2019,PF
+El Salvador,2020,PF
+El Salvador,2021,PF
+Equatorial Guinea,1990,NF
+Equatorial Guinea,1991,NF
+Equatorial Guinea,1992,NF
+Equatorial Guinea,1993,NF
+Equatorial Guinea,1994,NF
+Equatorial Guinea,1995,NF
+Equatorial Guinea,1996,NF
+Equatorial Guinea,1997,NF
+Equatorial Guinea,1998,NF
+Equatorial Guinea,1999,NF
+Equatorial Guinea,2000,NF
+Equatorial Guinea,2001,NF
+Equatorial Guinea,2002,NF
+Equatorial Guinea,2003,NF
+Equatorial Guinea,2004,NF
+Equatorial Guinea,2005,NF
+Equatorial Guinea,2006,NF
+Equatorial Guinea,2007,NF
+Equatorial Guinea,2008,NF
+Equatorial Guinea,2009,NF
+Equatorial Guinea,2010,NF
+Equatorial Guinea,2011,NF
+Equatorial Guinea,2012,NF
+Equatorial Guinea,2013,NF
+Equatorial Guinea,2014,NF
+Equatorial Guinea,2015,NF
+Equatorial Guinea,2016,NF
+Equatorial Guinea,2017,NF
+Equatorial Guinea,2018,NF
+Equatorial Guinea,2019,NF
+Equatorial Guinea,2020,NF
+Equatorial Guinea,2021,NF
+Eritrea,1990,-
+Eritrea,1991,-
+Eritrea,1992,-
+Eritrea,1993,NF
+Eritrea,1994,NF
+Eritrea,1995,PF
+Eritrea,1996,PF
+Eritrea,1997,PF
+Eritrea,1998,PF
+Eritrea,1999,NF
+Eritrea,2000,NF
+Eritrea,2001,NF
+Eritrea,2002,NF
+Eritrea,2003,NF
+Eritrea,2004,NF
+Eritrea,2005,NF
+Eritrea,2006,NF
+Eritrea,2007,NF
+Eritrea,2008,NF
+Eritrea,2009,NF
+Eritrea,2010,NF
+Eritrea,2011,NF
+Eritrea,2012,NF
+Eritrea,2013,NF
+Eritrea,2014,NF
+Eritrea,2015,NF
+Eritrea,2016,NF
+Eritrea,2017,NF
+Eritrea,2018,NF
+Eritrea,2019,NF
+Eritrea,2020,NF
+Eritrea,2021,NF
+Estonia,1990,-
+Estonia,1991,F
+Estonia,1992,PF
+Estonia,1993,F
+Estonia,1994,F
+Estonia,1995,F
+Estonia,1996,F
+Estonia,1997,F
+Estonia,1998,F
+Estonia,1999,F
+Estonia,2000,F
+Estonia,2001,F
+Estonia,2002,F
+Estonia,2003,F
+Estonia,2004,F
+Estonia,2005,F
+Estonia,2006,F
+Estonia,2007,F
+Estonia,2008,F
+Estonia,2009,F
+Estonia,2010,F
+Estonia,2011,F
+Estonia,2012,F
+Estonia,2013,F
+Estonia,2014,F
+Estonia,2015,F
+Estonia,2016,F
+Estonia,2017,F
+Estonia,2018,F
+Estonia,2019,F
+Estonia,2020,F
+Estonia,2021,F
+Eswatini,1990,PF
+Eswatini,1991,PF
+Eswatini,1992,PF
+Eswatini,1993,NF
+Eswatini,1994,NF
+Eswatini,1995,NF
+Eswatini,1996,NF
+Eswatini,1997,NF
+Eswatini,1998,NF
+Eswatini,1999,NF
+Eswatini,2000,NF
+Eswatini,2001,NF
+Eswatini,2002,NF
+Eswatini,2003,NF
+Eswatini,2004,NF
+Eswatini,2005,NF
+Eswatini,2006,NF
+Eswatini,2007,NF
+Eswatini,2008,NF
+Eswatini,2009,NF
+Eswatini,2010,NF
+Eswatini,2011,NF
+Eswatini,2012,NF
+Eswatini,2013,NF
+Eswatini,2014,NF
+Eswatini,2015,NF
+Eswatini,2016,NF
+Eswatini,2017,NF
+Eswatini,2018,NF
+Eswatini,2019,NF
+Eswatini,2020,NF
+Eswatini,2021,NF
+Ethiopia,1990,NF
+Ethiopia,1991,PF
+Ethiopia,1992,PF
+Ethiopia,1993,NF
+Ethiopia,1994,NF
+Ethiopia,1995,PF
+Ethiopia,1996,PF
+Ethiopia,1997,PF
+Ethiopia,1998,PF
+Ethiopia,1999,PF
+Ethiopia,2000,PF
+Ethiopia,2001,PF
+Ethiopia,2002,PF
+Ethiopia,2003,PF
+Ethiopia,2004,PF
+Ethiopia,2005,PF
+Ethiopia,2006,PF
+Ethiopia,2007,PF
+Ethiopia,2008,PF
+Ethiopia,2009,PF
+Ethiopia,2010,NF
+Ethiopia,2011,NF
+Ethiopia,2012,NF
+Ethiopia,2013,NF
+Ethiopia,2014,NF
+Ethiopia,2015,NF
+Ethiopia,2016,NF
+Ethiopia,2017,NF
+Ethiopia,2018,NF
+Ethiopia,2019,NF
+Ethiopia,2020,NF
+Ethiopia,2021,NF
+Fiji,1990,PF
+Fiji,1991,PF
+Fiji,1992,PF
+Fiji,1993,PF
+Fiji,1994,PF
+Fiji,1995,PF
+Fiji,1996,PF
+Fiji,1997,PF
+Fiji,1998,PF
+Fiji,1999,F
+Fiji,2000,PF
+Fiji,2001,PF
+Fiji,2002,PF
+Fiji,2003,PF
+Fiji,2004,PF
+Fiji,2005,PF
+Fiji,2006,PF
+Fiji,2007,PF
+Fiji,2008,PF
+Fiji,2009,PF
+Fiji,2010,PF
+Fiji,2011,PF
+Fiji,2012,PF
+Fiji,2013,PF
+Fiji,2014,PF
+Fiji,2015,PF
+Fiji,2016,PF
+Fiji,2017,PF
+Fiji,2018,PF
+Fiji,2019,PF
+Fiji,2020,PF
+Fiji,2021,PF
+Finland,1990,F
+Finland,1991,F
+Finland,1992,F
+Finland,1993,F
+Finland,1994,F
+Finland,1995,F
+Finland,1996,F
+Finland,1997,F
+Finland,1998,F
+Finland,1999,F
+Finland,2000,F
+Finland,2001,F
+Finland,2002,F
+Finland,2003,F
+Finland,2004,F
+Finland,2005,F
+Finland,2006,F
+Finland,2007,F
+Finland,2008,F
+Finland,2009,F
+Finland,2010,F
+Finland,2011,F
+Finland,2012,F
+Finland,2013,F
+Finland,2014,F
+Finland,2015,F
+Finland,2016,F
+Finland,2017,F
+Finland,2018,F
+Finland,2019,F
+Finland,2020,F
+Finland,2021,F
+France,1990,F
+France,1991,F
+France,1992,F
+France,1993,F
+France,1994,F
+France,1995,F
+France,1996,F
+France,1997,F
+France,1998,F
+France,1999,F
+France,2000,F
+France,2001,F
+France,2002,F
+France,2003,F
+France,2004,F
+France,2005,F
+France,2006,F
+France,2007,F
+France,2008,F
+France,2009,F
+France,2010,F
+France,2011,F
+France,2012,F
+France,2013,F
+France,2014,F
+France,2015,F
+France,2016,F
+France,2017,F
+France,2018,F
+France,2019,F
+France,2020,F
+France,2021,F
+Gabon,1990,PF
+Gabon,1991,PF
+Gabon,1992,PF
+Gabon,1993,PF
+Gabon,1994,PF
+Gabon,1995,PF
+Gabon,1996,PF
+Gabon,1997,PF
+Gabon,1998,PF
+Gabon,1999,PF
+Gabon,2000,PF
+Gabon,2001,PF
+Gabon,2002,PF
+Gabon,2003,PF
+Gabon,2004,PF
+Gabon,2005,PF
+Gabon,2006,PF
+Gabon,2007,PF
+Gabon,2008,PF
+Gabon,2009,NF
+Gabon,2010,NF
+Gabon,2011,NF
+Gabon,2012,NF
+Gabon,2013,NF
+Gabon,2014,NF
+Gabon,2015,NF
+Gabon,2016,NF
+Gabon,2017,NF
+Gabon,2018,NF
+Gabon,2019,NF
+Gabon,2020,NF
+Gabon,2021,NF
+Georgia,1990,-
+Georgia,1991,NF
+Georgia,1992,PF
+Georgia,1993,PF
+Georgia,1994,PF
+Georgia,1995,PF
+Georgia,1996,PF
+Georgia,1997,PF
+Georgia,1998,PF
+Georgia,1999,PF
+Georgia,2000,PF
+Georgia,2001,PF
+Georgia,2002,PF
+Georgia,2003,PF
+Georgia,2004,PF
+Georgia,2005,PF
+Georgia,2006,PF
+Georgia,2007,PF
+Georgia,2008,PF
+Georgia,2009,PF
+Georgia,2010,PF
+Georgia,2011,PF
+Georgia,2012,PF
+Georgia,2013,PF
+Georgia,2014,PF
+Georgia,2015,PF
+Georgia,2016,PF
+Georgia,2017,PF
+Georgia,2018,PF
+Georgia,2019,PF
+Georgia,2020,PF
+Georgia,2021,PF
+Germany,1990,F
+Germany,1991,F
+Germany,1992,F
+Germany,1993,F
+Germany,1994,F
+Germany,1995,F
+Germany,1996,F
+Germany,1997,F
+Germany,1998,F
+Germany,1999,F
+Germany,2000,F
+Germany,2001,F
+Germany,2002,F
+Germany,2003,F
+Germany,2004,F
+Germany,2005,F
+Germany,2006,F
+Germany,2007,F
+Germany,2008,F
+Germany,2009,F
+Germany,2010,F
+Germany,2011,F
+Germany,2012,F
+Germany,2013,F
+Germany,2014,F
+Germany,2015,F
+Germany,2016,F
+Germany,2017,F
+Germany,2018,F
+Germany,2019,F
+Germany,2020,F
+Germany,2021,F
+"Germany, E. ",1990,-
+"Germany, E. ",1991,-
+"Germany, E. ",1992,-
+"Germany, E. ",1993,-
+"Germany, E. ",1994,-
+"Germany, E. ",1995,-
+"Germany, E. ",1996,-
+"Germany, E. ",1997,-
+"Germany, E. ",1998,-
+"Germany, E. ",1999,-
+"Germany, E. ",2000,-
+"Germany, E. ",2001,-
+"Germany, E. ",2002,-
+"Germany, E. ",2003,-
+"Germany, E. ",2004,-
+"Germany, E. ",2005,-
+"Germany, E. ",2006,-
+"Germany, E. ",2007,-
+"Germany, E. ",2008,-
+"Germany, E. ",2009,-
+"Germany, E. ",2010,-
+"Germany, E. ",2011,-
+"Germany, E. ",2012,-
+"Germany, E. ",2013,-
+"Germany, E. ",2014,-
+"Germany, E. ",2015,-
+"Germany, E. ",2016,-
+"Germany, E. ",2017,-
+"Germany, E. ",2018,-
+"Germany, E. ",2019,-
+"Germany, E. ",2020,-
+"Germany, E. ",2021,-
+"Germany, W. ",1990,-
+"Germany, W. ",1991,-
+"Germany, W. ",1992,-
+"Germany, W. ",1993,-
+"Germany, W. ",1994,-
+"Germany, W. ",1995,-
+"Germany, W. ",1996,-
+"Germany, W. ",1997,-
+"Germany, W. ",1998,-
+"Germany, W. ",1999,-
+"Germany, W. ",2000,-
+"Germany, W. ",2001,-
+"Germany, W. ",2002,-
+"Germany, W. ",2003,-
+"Germany, W. ",2004,-
+"Germany, W. ",2005,-
+"Germany, W. ",2006,-
+"Germany, W. ",2007,-
+"Germany, W. ",2008,-
+"Germany, W. ",2009,-
+"Germany, W. ",2010,-
+"Germany, W. ",2011,-
+"Germany, W. ",2012,-
+"Germany, W. ",2013,-
+"Germany, W. ",2014,-
+"Germany, W. ",2015,-
+"Germany, W. ",2016,-
+"Germany, W. ",2017,-
+"Germany, W. ",2018,-
+"Germany, W. ",2019,-
+"Germany, W. ",2020,-
+"Germany, W. ",2021,-
+Ghana,1990,NF
+Ghana,1991,NF
+Ghana,1992,PF
+Ghana,1993,PF
+Ghana,1994,PF
+Ghana,1995,PF
+Ghana,1996,PF
+Ghana,1997,PF
+Ghana,1998,PF
+Ghana,1999,PF
+Ghana,2000,F
+Ghana,2001,F
+Ghana,2002,F
+Ghana,2003,F
+Ghana,2004,F
+Ghana,2005,F
+Ghana,2006,F
+Ghana,2007,F
+Ghana,2008,F
+Ghana,2009,F
+Ghana,2010,F
+Ghana,2011,F
+Ghana,2012,F
+Ghana,2013,F
+Ghana,2014,F
+Ghana,2015,F
+Ghana,2016,F
+Ghana,2017,F
+Ghana,2018,F
+Ghana,2019,F
+Ghana,2020,F
+Ghana,2021,F
+Greece,1990,F
+Greece,1991,F
+Greece,1992,F
+Greece,1993,F
+Greece,1994,F
+Greece,1995,F
+Greece,1996,F
+Greece,1997,F
+Greece,1998,F
+Greece,1999,F
+Greece,2000,F
+Greece,2001,F
+Greece,2002,F
+Greece,2003,F
+Greece,2004,F
+Greece,2005,F
+Greece,2006,F
+Greece,2007,F
+Greece,2008,F
+Greece,2009,F
+Greece,2010,F
+Greece,2011,F
+Greece,2012,F
+Greece,2013,F
+Greece,2014,F
+Greece,2015,F
+Greece,2016,F
+Greece,2017,F
+Greece,2018,F
+Greece,2019,F
+Greece,2020,F
+Greece,2021,F
+Grenada,1990,F
+Grenada,1991,F
+Grenada,1992,F
+Grenada,1993,F
+Grenada,1994,F
+Grenada,1995,F
+Grenada,1996,F
+Grenada,1997,F
+Grenada,1998,F
+Grenada,1999,F
+Grenada,2000,F
+Grenada,2001,F
+Grenada,2002,F
+Grenada,2003,F
+Grenada,2004,F
+Grenada,2005,F
+Grenada,2006,F
+Grenada,2007,F
+Grenada,2008,F
+Grenada,2009,F
+Grenada,2010,F
+Grenada,2011,F
+Grenada,2012,F
+Grenada,2013,F
+Grenada,2014,F
+Grenada,2015,F
+Grenada,2016,F
+Grenada,2017,F
+Grenada,2018,F
+Grenada,2019,F
+Grenada,2020,F
+Grenada,2021,F
+Guatemala,1990,PF
+Guatemala,1991,PF
+Guatemala,1992,PF
+Guatemala,1993,PF
+Guatemala,1994,PF
+Guatemala,1995,PF
+Guatemala,1996,PF
+Guatemala,1997,PF
+Guatemala,1998,PF
+Guatemala,1999,PF
+Guatemala,2000,PF
+Guatemala,2001,PF
+Guatemala,2002,PF
+Guatemala,2003,PF
+Guatemala,2004,PF
+Guatemala,2005,PF
+Guatemala,2006,PF
+Guatemala,2007,PF
+Guatemala,2008,PF
+Guatemala,2009,PF
+Guatemala,2010,PF
+Guatemala,2011,PF
+Guatemala,2012,PF
+Guatemala,2013,PF
+Guatemala,2014,PF
+Guatemala,2015,PF
+Guatemala,2016,PF
+Guatemala,2017,PF
+Guatemala,2018,PF
+Guatemala,2019,PF
+Guatemala,2020,PF
+Guatemala,2021,PF
+Guinea,1990,NF
+Guinea,1991,NF
+Guinea,1992,PF
+Guinea,1993,NF
+Guinea,1994,NF
+Guinea,1995,NF
+Guinea,1996,NF
+Guinea,1997,NF
+Guinea,1998,NF
+Guinea,1999,NF
+Guinea,2000,NF
+Guinea,2001,NF
+Guinea,2002,NF
+Guinea,2003,NF
+Guinea,2004,NF
+Guinea,2005,NF
+Guinea,2006,NF
+Guinea,2007,NF
+Guinea,2008,NF
+Guinea,2009,NF
+Guinea,2010,PF
+Guinea,2011,PF
+Guinea,2012,PF
+Guinea,2013,PF
+Guinea,2014,PF
+Guinea,2015,PF
+Guinea,2016,PF
+Guinea,2017,PF
+Guinea,2018,PF
+Guinea,2019,PF
+Guinea,2020,PF
+Guinea,2021,NF
+Guinea-Bissau,1990,NF
+Guinea-Bissau,1991,PF
+Guinea-Bissau,1992,PF
+Guinea-Bissau,1993,PF
+Guinea-Bissau,1994,PF
+Guinea-Bissau,1995,PF
+Guinea-Bissau,1996,PF
+Guinea-Bissau,1997,PF
+Guinea-Bissau,1998,PF
+Guinea-Bissau,1999,PF
+Guinea-Bissau,2000,PF
+Guinea-Bissau,2001,PF
+Guinea-Bissau,2002,PF
+Guinea-Bissau,2003,PF
+Guinea-Bissau,2004,PF
+Guinea-Bissau,2005,PF
+Guinea-Bissau,2006,PF
+Guinea-Bissau,2007,PF
+Guinea-Bissau,2008,PF
+Guinea-Bissau,2009,PF
+Guinea-Bissau,2010,PF
+Guinea-Bissau,2011,PF
+Guinea-Bissau,2012,NF
+Guinea-Bissau,2013,NF
+Guinea-Bissau,2014,PF
+Guinea-Bissau,2015,PF
+Guinea-Bissau,2016,PF
+Guinea-Bissau,2017,PF
+Guinea-Bissau,2018,PF
+Guinea-Bissau,2019,PF
+Guinea-Bissau,2020,PF
+Guinea-Bissau,2021,PF
+Guyana,1990,PF
+Guyana,1991,PF
+Guyana,1992,PF
+Guyana,1993,F
+Guyana,1994,F
+Guyana,1995,F
+Guyana,1996,F
+Guyana,1997,F
+Guyana,1998,F
+Guyana,1999,F
+Guyana,2000,F
+Guyana,2001,F
+Guyana,2002,F
+Guyana,2003,F
+Guyana,2004,F
+Guyana,2005,PF
+Guyana,2006,F
+Guyana,2007,F
+Guyana,2008,F
+Guyana,2009,F
+Guyana,2010,F
+Guyana,2011,F
+Guyana,2012,F
+Guyana,2013,F
+Guyana,2014,F
+Guyana,2015,F
+Guyana,2016,F
+Guyana,2017,F
+Guyana,2018,F
+Guyana,2019,F
+Guyana,2020,F
+Guyana,2021,F
+Haiti,1990,PF
+Haiti,1991,NF
+Haiti,1992,NF
+Haiti,1993,NF
+Haiti,1994,PF
+Haiti,1995,PF
+Haiti,1996,PF
+Haiti,1997,PF
+Haiti,1998,PF
+Haiti,1999,PF
+Haiti,2000,NF
+Haiti,2001,NF
+Haiti,2002,NF
+Haiti,2003,NF
+Haiti,2004,NF
+Haiti,2005,NF
+Haiti,2006,PF
+Haiti,2007,PF
+Haiti,2008,PF
+Haiti,2009,PF
+Haiti,2010,PF
+Haiti,2011,PF
+Haiti,2012,PF
+Haiti,2013,PF
+Haiti,2014,PF
+Haiti,2015,PF
+Haiti,2016,PF
+Haiti,2017,PF
+Haiti,2018,PF
+Haiti,2019,PF
+Haiti,2020,PF
+Haiti,2021,NF
+Honduras,1990,F
+Honduras,1991,F
+Honduras,1992,F
+Honduras,1993,PF
+Honduras,1994,PF
+Honduras,1995,PF
+Honduras,1996,PF
+Honduras,1997,F
+Honduras,1998,F
+Honduras,1999,PF
+Honduras,2000,PF
+Honduras,2001,PF
+Honduras,2002,PF
+Honduras,2003,PF
+Honduras,2004,PF
+Honduras,2005,PF
+Honduras,2006,PF
+Honduras,2007,PF
+Honduras,2008,PF
+Honduras,2009,PF
+Honduras,2010,PF
+Honduras,2011,PF
+Honduras,2012,PF
+Honduras,2013,PF
+Honduras,2014,PF
+Honduras,2015,PF
+Honduras,2016,PF
+Honduras,2017,PF
+Honduras,2018,PF
+Honduras,2019,PF
+Honduras,2020,PF
+Honduras,2021,PF
+Hungary,1990,F
+Hungary,1991,F
+Hungary,1992,F
+Hungary,1993,F
+Hungary,1994,F
+Hungary,1995,F
+Hungary,1996,F
+Hungary,1997,F
+Hungary,1998,F
+Hungary,1999,F
+Hungary,2000,F
+Hungary,2001,F
+Hungary,2002,F
+Hungary,2003,F
+Hungary,2004,F
+Hungary,2005,F
+Hungary,2006,F
+Hungary,2007,F
+Hungary,2008,F
+Hungary,2009,F
+Hungary,2010,F
+Hungary,2011,F
+Hungary,2012,F
+Hungary,2013,F
+Hungary,2014,F
+Hungary,2015,F
+Hungary,2016,F
+Hungary,2017,F
+Hungary,2018,PF
+Hungary,2019,PF
+Hungary,2020,PF
+Hungary,2021,PF
+Iceland,1990,F
+Iceland,1991,F
+Iceland,1992,F
+Iceland,1993,F
+Iceland,1994,F
+Iceland,1995,F
+Iceland,1996,F
+Iceland,1997,F
+Iceland,1998,F
+Iceland,1999,F
+Iceland,2000,F
+Iceland,2001,F
+Iceland,2002,F
+Iceland,2003,F
+Iceland,2004,F
+Iceland,2005,F
+Iceland,2006,F
+Iceland,2007,F
+Iceland,2008,F
+Iceland,2009,F
+Iceland,2010,F
+Iceland,2011,F
+Iceland,2012,F
+Iceland,2013,F
+Iceland,2014,F
+Iceland,2015,F
+Iceland,2016,F
+Iceland,2017,F
+Iceland,2018,F
+Iceland,2019,F
+Iceland,2020,F
+Iceland,2021,F
+India,1990,F
+India,1991,PF
+India,1992,PF
+India,1993,PF
+India,1994,PF
+India,1995,PF
+India,1996,PF
+India,1997,PF
+India,1998,F
+India,1999,F
+India,2000,F
+India,2001,F
+India,2002,F
+India,2003,F
+India,2004,F
+India,2005,F
+India,2006,F
+India,2007,F
+India,2008,F
+India,2009,F
+India,2010,F
+India,2011,F
+India,2012,F
+India,2013,F
+India,2014,F
+India,2015,F
+India,2016,F
+India,2017,F
+India,2018,F
+India,2019,F
+India,2020,PF
+India,2021,PF
+Indonesia,1990,PF
+Indonesia,1991,PF
+Indonesia,1992,PF
+Indonesia,1993,NF
+Indonesia,1994,NF
+Indonesia,1995,NF
+Indonesia,1996,NF
+Indonesia,1997,NF
+Indonesia,1998,PF
+Indonesia,1999,PF
+Indonesia,2000,PF
+Indonesia,2001,PF
+Indonesia,2002,PF
+Indonesia,2003,PF
+Indonesia,2004,PF
+Indonesia,2005,F
+Indonesia,2006,F
+Indonesia,2007,F
+Indonesia,2008,F
+Indonesia,2009,F
+Indonesia,2010,F
+Indonesia,2011,F
+Indonesia,2012,F
+Indonesia,2013,PF
+Indonesia,2014,PF
+Indonesia,2015,PF
+Indonesia,2016,PF
+Indonesia,2017,PF
+Indonesia,2018,PF
+Indonesia,2019,PF
+Indonesia,2020,PF
+Indonesia,2021,PF
+Iran,1990,NF
+Iran,1991,NF
+Iran,1992,NF
+Iran,1993,NF
+Iran,1994,NF
+Iran,1995,NF
+Iran,1996,NF
+Iran,1997,NF
+Iran,1998,NF
+Iran,1999,NF
+Iran,2000,NF
+Iran,2001,NF
+Iran,2002,NF
+Iran,2003,NF
+Iran,2004,NF
+Iran,2005,NF
+Iran,2006,NF
+Iran,2007,NF
+Iran,2008,NF
+Iran,2009,NF
+Iran,2010,NF
+Iran,2011,NF
+Iran,2012,NF
+Iran,2013,NF
+Iran,2014,NF
+Iran,2015,NF
+Iran,2016,NF
+Iran,2017,NF
+Iran,2018,NF
+Iran,2019,NF
+Iran,2020,NF
+Iran,2021,NF
+Iraq,1990,NF
+Iraq,1991,NF
+Iraq,1992,NF
+Iraq,1993,NF
+Iraq,1994,NF
+Iraq,1995,NF
+Iraq,1996,NF
+Iraq,1997,NF
+Iraq,1998,NF
+Iraq,1999,NF
+Iraq,2000,NF
+Iraq,2001,NF
+Iraq,2002,NF
+Iraq,2003,NF
+Iraq,2004,NF
+Iraq,2005,NF
+Iraq,2006,NF
+Iraq,2007,NF
+Iraq,2008,NF
+Iraq,2009,NF
+Iraq,2010,NF
+Iraq,2011,NF
+Iraq,2012,NF
+Iraq,2013,NF
+Iraq,2014,NF
+Iraq,2015,NF
+Iraq,2016,NF
+Iraq,2017,NF
+Iraq,2018,NF
+Iraq,2019,NF
+Iraq,2020,NF
+Iraq,2021,NF
+Ireland,1990,F
+Ireland,1991,F
+Ireland,1992,F
+Ireland,1993,F
+Ireland,1994,F
+Ireland,1995,F
+Ireland,1996,F
+Ireland,1997,F
+Ireland,1998,F
+Ireland,1999,F
+Ireland,2000,F
+Ireland,2001,F
+Ireland,2002,F
+Ireland,2003,F
+Ireland,2004,F
+Ireland,2005,F
+Ireland,2006,F
+Ireland,2007,F
+Ireland,2008,F
+Ireland,2009,F
+Ireland,2010,F
+Ireland,2011,F
+Ireland,2012,F
+Ireland,2013,F
+Ireland,2014,F
+Ireland,2015,F
+Ireland,2016,F
+Ireland,2017,F
+Ireland,2018,F
+Ireland,2019,F
+Ireland,2020,F
+Ireland,2021,F
+Israel,1990,F
+Israel,1991,F
+Israel,1992,F
+Israel,1993,F
+Israel,1994,F
+Israel,1995,F
+Israel,1996,F
+Israel,1997,F
+Israel,1998,F
+Israel,1999,F
+Israel,2000,F
+Israel,2001,F
+Israel,2002,F
+Israel,2003,F
+Israel,2004,F
+Israel,2005,F
+Israel,2006,F
+Israel,2007,F
+Israel,2008,F
+Israel,2009,F
+Israel,2010,F
+Israel,2011,F
+Israel,2012,F
+Israel,2013,F
+Israel,2014,F
+Israel,2015,F
+Israel,2016,F
+Israel,2017,F
+Israel,2018,F
+Israel,2019,F
+Israel,2020,F
+Israel,2021,F
+Italy,1990,F
+Italy,1991,F
+Italy,1992,F
+Italy,1993,F
+Italy,1994,F
+Italy,1995,F
+Italy,1996,F
+Italy,1997,F
+Italy,1998,F
+Italy,1999,F
+Italy,2000,F
+Italy,2001,F
+Italy,2002,F
+Italy,2003,F
+Italy,2004,F
+Italy,2005,F
+Italy,2006,F
+Italy,2007,F
+Italy,2008,F
+Italy,2009,F
+Italy,2010,F
+Italy,2011,F
+Italy,2012,F
+Italy,2013,F
+Italy,2014,F
+Italy,2015,F
+Italy,2016,F
+Italy,2017,F
+Italy,2018,F
+Italy,2019,F
+Italy,2020,F
+Italy,2021,F
+Jamaica,1990,F
+Jamaica,1991,F
+Jamaica,1992,F
+Jamaica,1993,F
+Jamaica,1994,F
+Jamaica,1995,F
+Jamaica,1996,F
+Jamaica,1997,F
+Jamaica,1998,F
+Jamaica,1999,F
+Jamaica,2000,F
+Jamaica,2001,F
+Jamaica,2002,F
+Jamaica,2003,F
+Jamaica,2004,F
+Jamaica,2005,F
+Jamaica,2006,F
+Jamaica,2007,F
+Jamaica,2008,F
+Jamaica,2009,F
+Jamaica,2010,F
+Jamaica,2011,F
+Jamaica,2012,F
+Jamaica,2013,F
+Jamaica,2014,F
+Jamaica,2015,F
+Jamaica,2016,F
+Jamaica,2017,F
+Jamaica,2018,F
+Jamaica,2019,F
+Jamaica,2020,F
+Jamaica,2021,F
+Japan,1990,F
+Japan,1991,F
+Japan,1992,F
+Japan,1993,F
+Japan,1994,F
+Japan,1995,F
+Japan,1996,F
+Japan,1997,F
+Japan,1998,F
+Japan,1999,F
+Japan,2000,F
+Japan,2001,F
+Japan,2002,F
+Japan,2003,F
+Japan,2004,F
+Japan,2005,F
+Japan,2006,F
+Japan,2007,F
+Japan,2008,F
+Japan,2009,F
+Japan,2010,F
+Japan,2011,F
+Japan,2012,F
+Japan,2013,F
+Japan,2014,F
+Japan,2015,F
+Japan,2016,F
+Japan,2017,F
+Japan,2018,F
+Japan,2019,F
+Japan,2020,F
+Japan,2021,F
+Jordan,1990,PF
+Jordan,1991,PF
+Jordan,1992,PF
+Jordan,1993,PF
+Jordan,1994,PF
+Jordan,1995,PF
+Jordan,1996,PF
+Jordan,1997,PF
+Jordan,1998,PF
+Jordan,1999,PF
+Jordan,2000,PF
+Jordan,2001,PF
+Jordan,2002,PF
+Jordan,2003,PF
+Jordan,2004,PF
+Jordan,2005,PF
+Jordan,2006,PF
+Jordan,2007,PF
+Jordan,2008,PF
+Jordan,2009,NF
+Jordan,2010,NF
+Jordan,2011,NF
+Jordan,2012,NF
+Jordan,2013,NF
+Jordan,2014,NF
+Jordan,2015,NF
+Jordan,2016,PF
+Jordan,2017,PF
+Jordan,2018,PF
+Jordan,2019,PF
+Jordan,2020,NF
+Jordan,2021,NF
+Kazakhstan,1990,-
+Kazakhstan,1991,PF
+Kazakhstan,1992,PF
+Kazakhstan,1993,PF
+Kazakhstan,1994,NF
+Kazakhstan,1995,NF
+Kazakhstan,1996,NF
+Kazakhstan,1997,NF
+Kazakhstan,1998,NF
+Kazakhstan,1999,NF
+Kazakhstan,2000,NF
+Kazakhstan,2001,NF
+Kazakhstan,2002,NF
+Kazakhstan,2003,NF
+Kazakhstan,2004,NF
+Kazakhstan,2005,NF
+Kazakhstan,2006,NF
+Kazakhstan,2007,NF
+Kazakhstan,2008,NF
+Kazakhstan,2009,NF
+Kazakhstan,2010,NF
+Kazakhstan,2011,NF
+Kazakhstan,2012,NF
+Kazakhstan,2013,NF
+Kazakhstan,2014,NF
+Kazakhstan,2015,NF
+Kazakhstan,2016,NF
+Kazakhstan,2017,NF
+Kazakhstan,2018,NF
+Kazakhstan,2019,NF
+Kazakhstan,2020,NF
+Kazakhstan,2021,NF
+Kenya,1990,NF
+Kenya,1991,NF
+Kenya,1992,PF
+Kenya,1993,NF
+Kenya,1994,NF
+Kenya,1995,NF
+Kenya,1996,NF
+Kenya,1997,NF
+Kenya,1998,NF
+Kenya,1999,NF
+Kenya,2000,NF
+Kenya,2001,NF
+Kenya,2002,PF
+Kenya,2003,PF
+Kenya,2004,PF
+Kenya,2005,PF
+Kenya,2006,PF
+Kenya,2007,PF
+Kenya,2008,PF
+Kenya,2009,PF
+Kenya,2010,PF
+Kenya,2011,PF
+Kenya,2012,PF
+Kenya,2013,PF
+Kenya,2014,PF
+Kenya,2015,PF
+Kenya,2016,PF
+Kenya,2017,PF
+Kenya,2018,PF
+Kenya,2019,PF
+Kenya,2020,PF
+Kenya,2021,PF
+Kiribati,1990,F
+Kiribati,1991,F
+Kiribati,1992,F
+Kiribati,1993,F
+Kiribati,1994,F
+Kiribati,1995,F
+Kiribati,1996,F
+Kiribati,1997,F
+Kiribati,1998,F
+Kiribati,1999,F
+Kiribati,2000,F
+Kiribati,2001,F
+Kiribati,2002,F
+Kiribati,2003,F
+Kiribati,2004,F
+Kiribati,2005,F
+Kiribati,2006,F
+Kiribati,2007,F
+Kiribati,2008,F
+Kiribati,2009,F
+Kiribati,2010,F
+Kiribati,2011,F
+Kiribati,2012,F
+Kiribati,2013,F
+Kiribati,2014,F
+Kiribati,2015,F
+Kiribati,2016,F
+Kiribati,2017,F
+Kiribati,2018,F
+Kiribati,2019,F
+Kiribati,2020,F
+Kiribati,2021,F
+Kosovo,1990,-
+Kosovo,1991,-
+Kosovo,1992,-
+Kosovo,1993,-
+Kosovo,1994,-
+Kosovo,1995,-
+Kosovo,1996,-
+Kosovo,1997,-
+Kosovo,1998,-
+Kosovo,1999,-
+Kosovo,2000,-
+Kosovo,2001,-
+Kosovo,2002,-
+Kosovo,2003,-
+Kosovo,2004,-
+Kosovo,2005,-
+Kosovo,2006,-
+Kosovo,2007,-
+Kosovo,2008,-
+Kosovo,2009,PF
+Kosovo,2010,PF
+Kosovo,2011,PF
+Kosovo,2012,PF
+Kosovo,2013,PF
+Kosovo,2014,PF
+Kosovo,2015,PF
+Kosovo,2016,PF
+Kosovo,2017,PF
+Kosovo,2018,PF
+Kosovo,2019,PF
+Kosovo,2020,PF
+Kosovo,2021,PF
+Kuwait,1990,NF
+Kuwait,1991,NF
+Kuwait,1992,PF
+Kuwait,1993,PF
+Kuwait,1994,PF
+Kuwait,1995,PF
+Kuwait,1996,PF
+Kuwait,1997,PF
+Kuwait,1998,PF
+Kuwait,1999,PF
+Kuwait,2000,PF
+Kuwait,2001,PF
+Kuwait,2002,PF
+Kuwait,2003,PF
+Kuwait,2004,PF
+Kuwait,2005,PF
+Kuwait,2006,PF
+Kuwait,2007,PF
+Kuwait,2008,PF
+Kuwait,2009,PF
+Kuwait,2010,PF
+Kuwait,2011,PF
+Kuwait,2012,PF
+Kuwait,2013,PF
+Kuwait,2014,PF
+Kuwait,2015,PF
+Kuwait,2016,PF
+Kuwait,2017,PF
+Kuwait,2018,PF
+Kuwait,2019,PF
+Kuwait,2020,PF
+Kuwait,2021,PF
+Kyrgyzstan,1990,-
+Kyrgyzstan,1991,PF
+Kyrgyzstan,1992,PF
+Kyrgyzstan,1993,PF
+Kyrgyzstan,1994,PF
+Kyrgyzstan,1995,PF
+Kyrgyzstan,1996,PF
+Kyrgyzstan,1997,PF
+Kyrgyzstan,1998,PF
+Kyrgyzstan,1999,PF
+Kyrgyzstan,2000,NF
+Kyrgyzstan,2001,NF
+Kyrgyzstan,2002,NF
+Kyrgyzstan,2003,NF
+Kyrgyzstan,2004,NF
+Kyrgyzstan,2005,PF
+Kyrgyzstan,2006,PF
+Kyrgyzstan,2007,PF
+Kyrgyzstan,2008,PF
+Kyrgyzstan,2009,NF
+Kyrgyzstan,2010,PF
+Kyrgyzstan,2011,PF
+Kyrgyzstan,2012,PF
+Kyrgyzstan,2013,PF
+Kyrgyzstan,2014,PF
+Kyrgyzstan,2015,PF
+Kyrgyzstan,2016,PF
+Kyrgyzstan,2017,PF
+Kyrgyzstan,2018,PF
+Kyrgyzstan,2019,PF
+Kyrgyzstan,2020,NF
+Kyrgyzstan,2021,NF
+Laos,1990,NF
+Laos,1991,NF
+Laos,1992,NF
+Laos,1993,NF
+Laos,1994,NF
+Laos,1995,NF
+Laos,1996,NF
+Laos,1997,NF
+Laos,1998,NF
+Laos,1999,NF
+Laos,2000,NF
+Laos,2001,NF
+Laos,2002,NF
+Laos,2003,NF
+Laos,2004,NF
+Laos,2005,NF
+Laos,2006,NF
+Laos,2007,NF
+Laos,2008,NF
+Laos,2009,NF
+Laos,2010,NF
+Laos,2011,NF
+Laos,2012,NF
+Laos,2013,NF
+Laos,2014,NF
+Laos,2015,NF
+Laos,2016,NF
+Laos,2017,NF
+Laos,2018,NF
+Laos,2019,NF
+Laos,2020,NF
+Laos,2021,NF
+Latvia,1990,-
+Latvia,1991,F
+Latvia,1992,PF
+Latvia,1993,PF
+Latvia,1994,F
+Latvia,1995,F
+Latvia,1996,F
+Latvia,1997,F
+Latvia,1998,F
+Latvia,1999,F
+Latvia,2000,F
+Latvia,2001,F
+Latvia,2002,F
+Latvia,2003,F
+Latvia,2004,F
+Latvia,2005,F
+Latvia,2006,F
+Latvia,2007,F
+Latvia,2008,F
+Latvia,2009,F
+Latvia,2010,F
+Latvia,2011,F
+Latvia,2012,F
+Latvia,2013,F
+Latvia,2014,F
+Latvia,2015,F
+Latvia,2016,F
+Latvia,2017,F
+Latvia,2018,F
+Latvia,2019,F
+Latvia,2020,F
+Latvia,2021,F
+Lebanon,1990,NF
+Lebanon,1991,PF
+Lebanon,1992,PF
+Lebanon,1993,PF
+Lebanon,1994,PF
+Lebanon,1995,NF
+Lebanon,1996,NF
+Lebanon,1997,NF
+Lebanon,1998,NF
+Lebanon,1999,NF
+Lebanon,2000,NF
+Lebanon,2001,NF
+Lebanon,2002,NF
+Lebanon,2003,NF
+Lebanon,2004,NF
+Lebanon,2005,PF
+Lebanon,2006,PF
+Lebanon,2007,PF
+Lebanon,2008,PF
+Lebanon,2009,PF
+Lebanon,2010,PF
+Lebanon,2011,PF
+Lebanon,2012,PF
+Lebanon,2013,PF
+Lebanon,2014,PF
+Lebanon,2015,PF
+Lebanon,2016,PF
+Lebanon,2017,PF
+Lebanon,2018,PF
+Lebanon,2019,PF
+Lebanon,2020,PF
+Lebanon,2021,PF
+Lesotho,1990,NF
+Lesotho,1991,PF
+Lesotho,1992,PF
+Lesotho,1993,PF
+Lesotho,1994,PF
+Lesotho,1995,PF
+Lesotho,1996,PF
+Lesotho,1997,PF
+Lesotho,1998,PF
+Lesotho,1999,PF
+Lesotho,2000,PF
+Lesotho,2001,PF
+Lesotho,2002,F
+Lesotho,2003,F
+Lesotho,2004,F
+Lesotho,2005,F
+Lesotho,2006,F
+Lesotho,2007,F
+Lesotho,2008,F
+Lesotho,2009,PF
+Lesotho,2010,PF
+Lesotho,2011,PF
+Lesotho,2012,F
+Lesotho,2013,F
+Lesotho,2014,F
+Lesotho,2015,PF
+Lesotho,2016,PF
+Lesotho,2017,PF
+Lesotho,2018,PF
+Lesotho,2019,PF
+Lesotho,2020,PF
+Lesotho,2021,PF
+Liberia,1990,NF
+Liberia,1991,NF
+Liberia,1992,NF
+Liberia,1993,NF
+Liberia,1994,NF
+Liberia,1995,NF
+Liberia,1996,NF
+Liberia,1997,PF
+Liberia,1998,PF
+Liberia,1999,PF
+Liberia,2000,PF
+Liberia,2001,NF
+Liberia,2002,NF
+Liberia,2003,NF
+Liberia,2004,PF
+Liberia,2005,PF
+Liberia,2006,PF
+Liberia,2007,PF
+Liberia,2008,PF
+Liberia,2009,PF
+Liberia,2010,PF
+Liberia,2011,PF
+Liberia,2012,PF
+Liberia,2013,PF
+Liberia,2014,PF
+Liberia,2015,PF
+Liberia,2016,PF
+Liberia,2017,PF
+Liberia,2018,PF
+Liberia,2019,PF
+Liberia,2020,PF
+Liberia,2021,PF
+Libya,1990,NF
+Libya,1991,NF
+Libya,1992,NF
+Libya,1993,NF
+Libya,1994,NF
+Libya,1995,NF
+Libya,1996,NF
+Libya,1997,NF
+Libya,1998,NF
+Libya,1999,NF
+Libya,2000,NF
+Libya,2001,NF
+Libya,2002,NF
+Libya,2003,NF
+Libya,2004,NF
+Libya,2005,NF
+Libya,2006,NF
+Libya,2007,NF
+Libya,2008,NF
+Libya,2009,NF
+Libya,2010,NF
+Libya,2011,NF
+Libya,2012,PF
+Libya,2013,PF
+Libya,2014,NF
+Libya,2015,NF
+Libya,2016,NF
+Libya,2017,NF
+Libya,2018,NF
+Libya,2019,NF
+Libya,2020,NF
+Libya,2021,NF
+Liechtenstein,1990,-
+Liechtenstein,1991,-
+Liechtenstein,1992,F
+Liechtenstein,1993,F
+Liechtenstein,1994,F
+Liechtenstein,1995,F
+Liechtenstein,1996,F
+Liechtenstein,1997,F
+Liechtenstein,1998,F
+Liechtenstein,1999,F
+Liechtenstein,2000,F
+Liechtenstein,2001,F
+Liechtenstein,2002,F
+Liechtenstein,2003,F
+Liechtenstein,2004,F
+Liechtenstein,2005,F
+Liechtenstein,2006,F
+Liechtenstein,2007,F
+Liechtenstein,2008,F
+Liechtenstein,2009,F
+Liechtenstein,2010,F
+Liechtenstein,2011,F
+Liechtenstein,2012,F
+Liechtenstein,2013,F
+Liechtenstein,2014,F
+Liechtenstein,2015,F
+Liechtenstein,2016,F
+Liechtenstein,2017,F
+Liechtenstein,2018,F
+Liechtenstein,2019,F
+Liechtenstein,2020,F
+Liechtenstein,2021,F
+Lithuania,1990,-
+Lithuania,1991,F
+Lithuania,1992,F
+Lithuania,1993,F
+Lithuania,1994,F
+Lithuania,1995,F
+Lithuania,1996,F
+Lithuania,1997,F
+Lithuania,1998,F
+Lithuania,1999,F
+Lithuania,2000,F
+Lithuania,2001,F
+Lithuania,2002,F
+Lithuania,2003,F
+Lithuania,2004,F
+Lithuania,2005,F
+Lithuania,2006,F
+Lithuania,2007,F
+Lithuania,2008,F
+Lithuania,2009,F
+Lithuania,2010,F
+Lithuania,2011,F
+Lithuania,2012,F
+Lithuania,2013,F
+Lithuania,2014,F
+Lithuania,2015,F
+Lithuania,2016,F
+Lithuania,2017,F
+Lithuania,2018,F
+Lithuania,2019,F
+Lithuania,2020,F
+Lithuania,2021,F
+Luxembourg,1990,F
+Luxembourg,1991,F
+Luxembourg,1992,F
+Luxembourg,1993,F
+Luxembourg,1994,F
+Luxembourg,1995,F
+Luxembourg,1996,F
+Luxembourg,1997,F
+Luxembourg,1998,F
+Luxembourg,1999,F
+Luxembourg,2000,F
+Luxembourg,2001,F
+Luxembourg,2002,F
+Luxembourg,2003,F
+Luxembourg,2004,F
+Luxembourg,2005,F
+Luxembourg,2006,F
+Luxembourg,2007,F
+Luxembourg,2008,F
+Luxembourg,2009,F
+Luxembourg,2010,F
+Luxembourg,2011,F
+Luxembourg,2012,F
+Luxembourg,2013,F
+Luxembourg,2014,F
+Luxembourg,2015,F
+Luxembourg,2016,F
+Luxembourg,2017,F
+Luxembourg,2018,F
+Luxembourg,2019,F
+Luxembourg,2020,F
+Luxembourg,2021,F
+Madagascar,1990,PF
+Madagascar,1991,PF
+Madagascar,1992,PF
+Madagascar,1993,PF
+Madagascar,1994,PF
+Madagascar,1995,PF
+Madagascar,1996,PF
+Madagascar,1997,PF
+Madagascar,1998,PF
+Madagascar,1999,PF
+Madagascar,2000,PF
+Madagascar,2001,PF
+Madagascar,2002,PF
+Madagascar,2003,PF
+Madagascar,2004,PF
+Madagascar,2005,PF
+Madagascar,2006,PF
+Madagascar,2007,PF
+Madagascar,2008,PF
+Madagascar,2009,PF
+Madagascar,2010,PF
+Madagascar,2011,PF
+Madagascar,2012,PF
+Madagascar,2013,PF
+Madagascar,2014,PF
+Madagascar,2015,PF
+Madagascar,2016,PF
+Madagascar,2017,PF
+Madagascar,2018,PF
+Madagascar,2019,PF
+Madagascar,2020,PF
+Madagascar,2021,PF
+Malawi,1990,NF
+Malawi,1991,NF
+Malawi,1992,NF
+Malawi,1993,NF
+Malawi,1994,F
+Malawi,1995,F
+Malawi,1996,F
+Malawi,1997,F
+Malawi,1998,F
+Malawi,1999,PF
+Malawi,2000,PF
+Malawi,2001,PF
+Malawi,2002,PF
+Malawi,2003,PF
+Malawi,2004,PF
+Malawi,2005,PF
+Malawi,2006,PF
+Malawi,2007,PF
+Malawi,2008,PF
+Malawi,2009,PF
+Malawi,2010,PF
+Malawi,2011,PF
+Malawi,2012,PF
+Malawi,2013,PF
+Malawi,2014,PF
+Malawi,2015,PF
+Malawi,2016,PF
+Malawi,2017,PF
+Malawi,2018,PF
+Malawi,2019,PF
+Malawi,2020,PF
+Malawi,2021,PF
+Malaysia,1990,PF
+Malaysia,1991,PF
+Malaysia,1992,PF
+Malaysia,1993,PF
+Malaysia,1994,PF
+Malaysia,1995,PF
+Malaysia,1996,PF
+Malaysia,1997,PF
+Malaysia,1998,PF
+Malaysia,1999,PF
+Malaysia,2000,PF
+Malaysia,2001,PF
+Malaysia,2002,PF
+Malaysia,2003,PF
+Malaysia,2004,PF
+Malaysia,2005,PF
+Malaysia,2006,PF
+Malaysia,2007,PF
+Malaysia,2008,PF
+Malaysia,2009,PF
+Malaysia,2010,PF
+Malaysia,2011,PF
+Malaysia,2012,PF
+Malaysia,2013,PF
+Malaysia,2014,PF
+Malaysia,2015,PF
+Malaysia,2016,PF
+Malaysia,2017,PF
+Malaysia,2018,PF
+Malaysia,2019,PF
+Malaysia,2020,PF
+Malaysia,2021,PF
+Maldives,1990,NF
+Maldives,1991,NF
+Maldives,1992,NF
+Maldives,1993,NF
+Maldives,1994,NF
+Maldives,1995,NF
+Maldives,1996,NF
+Maldives,1997,NF
+Maldives,1998,NF
+Maldives,1999,NF
+Maldives,2000,NF
+Maldives,2001,NF
+Maldives,2002,NF
+Maldives,2003,NF
+Maldives,2004,NF
+Maldives,2005,NF
+Maldives,2006,NF
+Maldives,2007,NF
+Maldives,2008,PF
+Maldives,2009,PF
+Maldives,2010,PF
+Maldives,2011,PF
+Maldives,2012,PF
+Maldives,2013,PF
+Maldives,2014,PF
+Maldives,2015,PF
+Maldives,2016,PF
+Maldives,2017,PF
+Maldives,2018,PF
+Maldives,2019,PF
+Maldives,2020,PF
+Maldives,2021,PF
+Mali,1990,NF
+Mali,1991,PF
+Mali,1992,F
+Mali,1993,F
+Mali,1994,PF
+Mali,1995,F
+Mali,1996,F
+Mali,1997,F
+Mali,1998,F
+Mali,1999,F
+Mali,2000,F
+Mali,2001,F
+Mali,2002,F
+Mali,2003,F
+Mali,2004,F
+Mali,2005,F
+Mali,2006,F
+Mali,2007,F
+Mali,2008,F
+Mali,2009,F
+Mali,2010,F
+Mali,2011,F
+Mali,2012,NF
+Mali,2013,PF
+Mali,2014,PF
+Mali,2015,PF
+Mali,2016,PF
+Mali,2017,PF
+Mali,2018,PF
+Mali,2019,PF
+Mali,2020,NF
+Mali,2021,NF
+Malta,1990,F
+Malta,1991,F
+Malta,1992,F
+Malta,1993,F
+Malta,1994,F
+Malta,1995,F
+Malta,1996,F
+Malta,1997,F
+Malta,1998,F
+Malta,1999,F
+Malta,2000,F
+Malta,2001,F
+Malta,2002,F
+Malta,2003,F
+Malta,2004,F
+Malta,2005,F
+Malta,2006,F
+Malta,2007,F
+Malta,2008,F
+Malta,2009,F
+Malta,2010,F
+Malta,2011,F
+Malta,2012,F
+Malta,2013,F
+Malta,2014,F
+Malta,2015,F
+Malta,2016,F
+Malta,2017,F
+Malta,2018,F
+Malta,2019,F
+Malta,2020,F
+Malta,2021,F
+Marshall Islands,1990,-
+Marshall Islands,1991,F
+Marshall Islands,1992,F
+Marshall Islands,1993,F
+Marshall Islands,1994,F
+Marshall Islands,1995,F
+Marshall Islands,1996,F
+Marshall Islands,1997,F
+Marshall Islands,1998,F
+Marshall Islands,1999,F
+Marshall Islands,2000,F
+Marshall Islands,2001,F
+Marshall Islands,2002,F
+Marshall Islands,2003,F
+Marshall Islands,2004,F
+Marshall Islands,2005,F
+Marshall Islands,2006,F
+Marshall Islands,2007,F
+Marshall Islands,2008,F
+Marshall Islands,2009,F
+Marshall Islands,2010,F
+Marshall Islands,2011,F
+Marshall Islands,2012,F
+Marshall Islands,2013,F
+Marshall Islands,2014,F
+Marshall Islands,2015,F
+Marshall Islands,2016,F
+Marshall Islands,2017,F
+Marshall Islands,2018,F
+Marshall Islands,2019,F
+Marshall Islands,2020,F
+Marshall Islands,2021,F
+Mauritania,1990,NF
+Mauritania,1991,NF
+Mauritania,1992,NF
+Mauritania,1993,NF
+Mauritania,1994,NF
+Mauritania,1995,NF
+Mauritania,1996,NF
+Mauritania,1997,NF
+Mauritania,1998,NF
+Mauritania,1999,NF
+Mauritania,2000,NF
+Mauritania,2001,PF
+Mauritania,2002,PF
+Mauritania,2003,NF
+Mauritania,2004,NF
+Mauritania,2005,PF
+Mauritania,2006,PF
+Mauritania,2007,PF
+Mauritania,2008,NF
+Mauritania,2009,NF
+Mauritania,2010,NF
+Mauritania,2011,NF
+Mauritania,2012,NF
+Mauritania,2013,NF
+Mauritania,2014,NF
+Mauritania,2015,NF
+Mauritania,2016,NF
+Mauritania,2017,NF
+Mauritania,2018,NF
+Mauritania,2019,PF
+Mauritania,2020,PF
+Mauritania,2021,PF
+Mauritius,1990,F
+Mauritius,1991,F
+Mauritius,1992,F
+Mauritius,1993,F
+Mauritius,1994,F
+Mauritius,1995,F
+Mauritius,1996,F
+Mauritius,1997,F
+Mauritius,1998,F
+Mauritius,1999,F
+Mauritius,2000,F
+Mauritius,2001,F
+Mauritius,2002,F
+Mauritius,2003,F
+Mauritius,2004,F
+Mauritius,2005,F
+Mauritius,2006,F
+Mauritius,2007,F
+Mauritius,2008,F
+Mauritius,2009,F
+Mauritius,2010,F
+Mauritius,2011,F
+Mauritius,2012,F
+Mauritius,2013,F
+Mauritius,2014,F
+Mauritius,2015,F
+Mauritius,2016,F
+Mauritius,2017,F
+Mauritius,2018,F
+Mauritius,2019,F
+Mauritius,2020,F
+Mauritius,2021,F
+Mexico,1990,PF
+Mexico,1991,PF
+Mexico,1992,PF
+Mexico,1993,PF
+Mexico,1994,PF
+Mexico,1995,PF
+Mexico,1996,PF
+Mexico,1997,PF
+Mexico,1998,PF
+Mexico,1999,PF
+Mexico,2000,F
+Mexico,2001,F
+Mexico,2002,F
+Mexico,2003,F
+Mexico,2004,F
+Mexico,2005,F
+Mexico,2006,F
+Mexico,2007,F
+Mexico,2008,F
+Mexico,2009,F
+Mexico,2010,PF
+Mexico,2011,PF
+Mexico,2012,PF
+Mexico,2013,PF
+Mexico,2014,PF
+Mexico,2015,PF
+Mexico,2016,PF
+Mexico,2017,PF
+Mexico,2018,PF
+Mexico,2019,PF
+Mexico,2020,PF
+Mexico,2021,PF
+Micronesia,1990,-
+Micronesia,1991,F
+Micronesia,1992,F
+Micronesia,1993,F
+Micronesia,1994,F
+Micronesia,1995,F
+Micronesia,1996,F
+Micronesia,1997,F
+Micronesia,1998,F
+Micronesia,1999,F
+Micronesia,2000,F
+Micronesia,2001,F
+Micronesia,2002,F
+Micronesia,2003,F
+Micronesia,2004,F
+Micronesia,2005,F
+Micronesia,2006,F
+Micronesia,2007,F
+Micronesia,2008,F
+Micronesia,2009,F
+Micronesia,2010,F
+Micronesia,2011,F
+Micronesia,2012,F
+Micronesia,2013,F
+Micronesia,2014,F
+Micronesia,2015,F
+Micronesia,2016,F
+Micronesia,2017,F
+Micronesia,2018,F
+Micronesia,2019,F
+Micronesia,2020,F
+Micronesia,2021,F
+Moldova,1990,-
+Moldova,1991,PF
+Moldova,1992,PF
+Moldova,1993,PF
+Moldova,1994,PF
+Moldova,1995,PF
+Moldova,1996,PF
+Moldova,1997,PF
+Moldova,1998,PF
+Moldova,1999,PF
+Moldova,2000,PF
+Moldova,2001,PF
+Moldova,2002,PF
+Moldova,2003,PF
+Moldova,2004,PF
+Moldova,2005,PF
+Moldova,2006,PF
+Moldova,2007,PF
+Moldova,2008,PF
+Moldova,2009,PF
+Moldova,2010,PF
+Moldova,2011,PF
+Moldova,2012,PF
+Moldova,2013,PF
+Moldova,2014,PF
+Moldova,2015,PF
+Moldova,2016,PF
+Moldova,2017,PF
+Moldova,2018,PF
+Moldova,2019,PF
+Moldova,2020,PF
+Moldova,2021,PF
+Monaco,1990,-
+Monaco,1991,-
+Monaco,1992,-
+Monaco,1993,F
+Monaco,1994,F
+Monaco,1995,F
+Monaco,1996,F
+Monaco,1997,F
+Monaco,1998,F
+Monaco,1999,F
+Monaco,2000,F
+Monaco,2001,F
+Monaco,2002,F
+Monaco,2003,F
+Monaco,2004,F
+Monaco,2005,F
+Monaco,2006,F
+Monaco,2007,F
+Monaco,2008,F
+Monaco,2009,F
+Monaco,2010,F
+Monaco,2011,F
+Monaco,2012,F
+Monaco,2013,F
+Monaco,2014,F
+Monaco,2015,F
+Monaco,2016,F
+Monaco,2017,F
+Monaco,2018,F
+Monaco,2019,F
+Monaco,2020,F
+Monaco,2021,F
+Mongolia,1990,PF
+Mongolia,1991,F
+Mongolia,1992,F
+Mongolia,1993,F
+Mongolia,1994,F
+Mongolia,1995,F
+Mongolia,1996,F
+Mongolia,1997,F
+Mongolia,1998,F
+Mongolia,1999,F
+Mongolia,2000,F
+Mongolia,2001,F
+Mongolia,2002,F
+Mongolia,2003,F
+Mongolia,2004,F
+Mongolia,2005,F
+Mongolia,2006,F
+Mongolia,2007,F
+Mongolia,2008,F
+Mongolia,2009,F
+Mongolia,2010,F
+Mongolia,2011,F
+Mongolia,2012,F
+Mongolia,2013,F
+Mongolia,2014,F
+Mongolia,2015,F
+Mongolia,2016,F
+Mongolia,2017,F
+Mongolia,2018,F
+Mongolia,2019,F
+Mongolia,2020,F
+Mongolia,2021,F
+Montenegro,1990,-
+Montenegro,1991,-
+Montenegro,1992,-
+Montenegro,1993,-
+Montenegro,1994,-
+Montenegro,1995,-
+Montenegro,1996,-
+Montenegro,1997,-
+Montenegro,1998,-
+Montenegro,1999,-
+Montenegro,2000,-
+Montenegro,2001,-
+Montenegro,2002,-
+Montenegro,2003,-
+Montenegro,2004,-
+Montenegro,2005,-
+Montenegro,2006,PF
+Montenegro,2007,PF
+Montenegro,2008,PF
+Montenegro,2009,F
+Montenegro,2010,F
+Montenegro,2011,F
+Montenegro,2012,F
+Montenegro,2013,F
+Montenegro,2014,F
+Montenegro,2015,PF
+Montenegro,2016,PF
+Montenegro,2017,PF
+Montenegro,2018,PF
+Montenegro,2019,PF
+Montenegro,2020,PF
+Montenegro,2021,PF
+Morocco,1990,PF
+Morocco,1991,PF
+Morocco,1992,PF
+Morocco,1993,PF
+Morocco,1994,PF
+Morocco,1995,PF
+Morocco,1996,PF
+Morocco,1997,PF
+Morocco,1998,PF
+Morocco,1999,PF
+Morocco,2000,PF
+Morocco,2001,PF
+Morocco,2002,PF
+Morocco,2003,PF
+Morocco,2004,PF
+Morocco,2005,PF
+Morocco,2006,PF
+Morocco,2007,PF
+Morocco,2008,PF
+Morocco,2009,PF
+Morocco,2010,PF
+Morocco,2011,PF
+Morocco,2012,PF
+Morocco,2013,PF
+Morocco,2014,PF
+Morocco,2015,PF
+Morocco,2016,PF
+Morocco,2017,PF
+Morocco,2018,PF
+Morocco,2019,PF
+Morocco,2020,PF
+Morocco,2021,PF
+Mozambique,1990,NF
+Mozambique,1991,PF
+Mozambique,1992,PF
+Mozambique,1993,NF
+Mozambique,1994,PF
+Mozambique,1995,PF
+Mozambique,1996,PF
+Mozambique,1997,PF
+Mozambique,1998,PF
+Mozambique,1999,PF
+Mozambique,2000,PF
+Mozambique,2001,PF
+Mozambique,2002,PF
+Mozambique,2003,PF
+Mozambique,2004,PF
+Mozambique,2005,PF
+Mozambique,2006,PF
+Mozambique,2007,PF
+Mozambique,2008,PF
+Mozambique,2009,PF
+Mozambique,2010,PF
+Mozambique,2011,PF
+Mozambique,2012,PF
+Mozambique,2013,PF
+Mozambique,2014,PF
+Mozambique,2015,PF
+Mozambique,2016,PF
+Mozambique,2017,PF
+Mozambique,2018,PF
+Mozambique,2019,PF
+Mozambique,2020,PF
+Mozambique,2021,PF
+Myanmar,1990,NF
+Myanmar,1991,NF
+Myanmar,1992,NF
+Myanmar,1993,NF
+Myanmar,1994,NF
+Myanmar,1995,NF
+Myanmar,1996,NF
+Myanmar,1997,NF
+Myanmar,1998,NF
+Myanmar,1999,NF
+Myanmar,2000,NF
+Myanmar,2001,NF
+Myanmar,2002,NF
+Myanmar,2003,NF
+Myanmar,2004,NF
+Myanmar,2005,NF
+Myanmar,2006,NF
+Myanmar,2007,NF
+Myanmar,2008,NF
+Myanmar,2009,NF
+Myanmar,2010,NF
+Myanmar,2011,NF
+Myanmar,2012,NF
+Myanmar,2013,NF
+Myanmar,2014,NF
+Myanmar,2015,NF
+Myanmar,2016,PF
+Myanmar,2017,PF
+Myanmar,2018,PF
+Myanmar,2019,NF
+Myanmar,2020,NF
+Myanmar,2021,NF
+Namibia,1990,F
+Namibia,1991,F
+Namibia,1992,F
+Namibia,1993,F
+Namibia,1994,F
+Namibia,1995,F
+Namibia,1996,F
+Namibia,1997,F
+Namibia,1998,F
+Namibia,1999,F
+Namibia,2000,F
+Namibia,2001,F
+Namibia,2002,F
+Namibia,2003,F
+Namibia,2004,F
+Namibia,2005,F
+Namibia,2006,F
+Namibia,2007,F
+Namibia,2008,F
+Namibia,2009,F
+Namibia,2010,F
+Namibia,2011,F
+Namibia,2012,F
+Namibia,2013,F
+Namibia,2014,F
+Namibia,2015,F
+Namibia,2016,F
+Namibia,2017,F
+Namibia,2018,F
+Namibia,2019,F
+Namibia,2020,F
+Namibia,2021,F
+Nauru,1990,F
+Nauru,1991,F
+Nauru,1992,F
+Nauru,1993,F
+Nauru,1994,F
+Nauru,1995,F
+Nauru,1996,F
+Nauru,1997,F
+Nauru,1998,F
+Nauru,1999,F
+Nauru,2000,F
+Nauru,2001,F
+Nauru,2002,F
+Nauru,2003,F
+Nauru,2004,F
+Nauru,2005,F
+Nauru,2006,F
+Nauru,2007,F
+Nauru,2008,F
+Nauru,2009,F
+Nauru,2010,F
+Nauru,2011,F
+Nauru,2012,F
+Nauru,2013,F
+Nauru,2014,F
+Nauru,2015,F
+Nauru,2016,F
+Nauru,2017,F
+Nauru,2018,F
+Nauru,2019,F
+Nauru,2020,F
+Nauru,2021,F
+Nepal,1990,PF
+Nepal,1991,F
+Nepal,1992,F
+Nepal,1993,PF
+Nepal,1994,PF
+Nepal,1995,PF
+Nepal,1996,PF
+Nepal,1997,PF
+Nepal,1998,PF
+Nepal,1999,PF
+Nepal,2000,PF
+Nepal,2001,PF
+Nepal,2002,PF
+Nepal,2003,PF
+Nepal,2004,PF
+Nepal,2005,NF
+Nepal,2006,PF
+Nepal,2007,PF
+Nepal,2008,PF
+Nepal,2009,PF
+Nepal,2010,PF
+Nepal,2011,PF
+Nepal,2012,PF
+Nepal,2013,PF
+Nepal,2014,PF
+Nepal,2015,PF
+Nepal,2016,PF
+Nepal,2017,PF
+Nepal,2018,PF
+Nepal,2019,PF
+Nepal,2020,PF
+Nepal,2021,PF
+Netherlands,1990,F
+Netherlands,1991,F
+Netherlands,1992,F
+Netherlands,1993,F
+Netherlands,1994,F
+Netherlands,1995,F
+Netherlands,1996,F
+Netherlands,1997,F
+Netherlands,1998,F
+Netherlands,1999,F
+Netherlands,2000,F
+Netherlands,2001,F
+Netherlands,2002,F
+Netherlands,2003,F
+Netherlands,2004,F
+Netherlands,2005,F
+Netherlands,2006,F
+Netherlands,2007,F
+Netherlands,2008,F
+Netherlands,2009,F
+Netherlands,2010,F
+Netherlands,2011,F
+Netherlands,2012,F
+Netherlands,2013,F
+Netherlands,2014,F
+Netherlands,2015,F
+Netherlands,2016,F
+Netherlands,2017,F
+Netherlands,2018,F
+Netherlands,2019,F
+Netherlands,2020,F
+Netherlands,2021,F
+New Zealand,1990,F
+New Zealand,1991,F
+New Zealand,1992,F
+New Zealand,1993,F
+New Zealand,1994,F
+New Zealand,1995,F
+New Zealand,1996,F
+New Zealand,1997,F
+New Zealand,1998,F
+New Zealand,1999,F
+New Zealand,2000,F
+New Zealand,2001,F
+New Zealand,2002,F
+New Zealand,2003,F
+New Zealand,2004,F
+New Zealand,2005,F
+New Zealand,2006,F
+New Zealand,2007,F
+New Zealand,2008,F
+New Zealand,2009,F
+New Zealand,2010,F
+New Zealand,2011,F
+New Zealand,2012,F
+New Zealand,2013,F
+New Zealand,2014,F
+New Zealand,2015,F
+New Zealand,2016,F
+New Zealand,2017,F
+New Zealand,2018,F
+New Zealand,2019,F
+New Zealand,2020,F
+New Zealand,2021,F
+Nicaragua,1990,PF
+Nicaragua,1991,PF
+Nicaragua,1992,PF
+Nicaragua,1993,PF
+Nicaragua,1994,PF
+Nicaragua,1995,PF
+Nicaragua,1996,PF
+Nicaragua,1997,PF
+Nicaragua,1998,PF
+Nicaragua,1999,PF
+Nicaragua,2000,PF
+Nicaragua,2001,PF
+Nicaragua,2002,PF
+Nicaragua,2003,PF
+Nicaragua,2004,PF
+Nicaragua,2005,PF
+Nicaragua,2006,PF
+Nicaragua,2007,PF
+Nicaragua,2008,PF
+Nicaragua,2009,PF
+Nicaragua,2010,PF
+Nicaragua,2011,PF
+Nicaragua,2012,PF
+Nicaragua,2013,PF
+Nicaragua,2014,PF
+Nicaragua,2015,PF
+Nicaragua,2016,PF
+Nicaragua,2017,PF
+Nicaragua,2018,NF
+Nicaragua,2019,NF
+Nicaragua,2020,NF
+Nicaragua,2021,NF
+Niger,1990,NF
+Niger,1991,PF
+Niger,1992,PF
+Niger,1993,PF
+Niger,1994,PF
+Niger,1995,PF
+Niger,1996,NF
+Niger,1997,NF
+Niger,1998,NF
+Niger,1999,PF
+Niger,2000,PF
+Niger,2001,PF
+Niger,2002,PF
+Niger,2003,PF
+Niger,2004,PF
+Niger,2005,PF
+Niger,2006,PF
+Niger,2007,PF
+Niger,2008,PF
+Niger,2009,PF
+Niger,2010,PF
+Niger,2011,PF
+Niger,2012,PF
+Niger,2013,PF
+Niger,2014,PF
+Niger,2015,PF
+Niger,2016,PF
+Niger,2017,PF
+Niger,2018,PF
+Niger,2019,PF
+Niger,2020,PF
+Niger,2021,PF
+Nigeria,1990,PF
+Nigeria,1991,PF
+Nigeria,1992,PF
+Nigeria,1993,NF
+Nigeria,1994,NF
+Nigeria,1995,NF
+Nigeria,1996,NF
+Nigeria,1997,NF
+Nigeria,1998,PF
+Nigeria,1999,PF
+Nigeria,2000,PF
+Nigeria,2001,PF
+Nigeria,2002,PF
+Nigeria,2003,PF
+Nigeria,2004,PF
+Nigeria,2005,PF
+Nigeria,2006,PF
+Nigeria,2007,PF
+Nigeria,2008,PF
+Nigeria,2009,PF
+Nigeria,2010,PF
+Nigeria,2011,PF
+Nigeria,2012,PF
+Nigeria,2013,PF
+Nigeria,2014,PF
+Nigeria,2015,PF
+Nigeria,2016,PF
+Nigeria,2017,PF
+Nigeria,2018,PF
+Nigeria,2019,PF
+Nigeria,2020,PF
+Nigeria,2021,PF
+North Korea,1990,NF
+North Korea,1991,NF
+North Korea,1992,NF
+North Korea,1993,NF
+North Korea,1994,NF
+North Korea,1995,NF
+North Korea,1996,NF
+North Korea,1997,NF
+North Korea,1998,NF
+North Korea,1999,NF
+North Korea,2000,NF
+North Korea,2001,NF
+North Korea,2002,NF
+North Korea,2003,NF
+North Korea,2004,NF
+North Korea,2005,NF
+North Korea,2006,NF
+North Korea,2007,NF
+North Korea,2008,NF
+North Korea,2009,NF
+North Korea,2010,NF
+North Korea,2011,NF
+North Korea,2012,NF
+North Korea,2013,NF
+North Korea,2014,NF
+North Korea,2015,NF
+North Korea,2016,NF
+North Korea,2017,NF
+North Korea,2018,NF
+North Korea,2019,NF
+North Korea,2020,NF
+North Korea,2021,NF
+North Macedonia,1990,-
+North Macedonia,1991,-
+North Macedonia,1992,PF
+North Macedonia,1993,PF
+North Macedonia,1994,PF
+North Macedonia,1995,PF
+North Macedonia,1996,PF
+North Macedonia,1997,PF
+North Macedonia,1998,PF
+North Macedonia,1999,PF
+North Macedonia,2000,PF
+North Macedonia,2001,PF
+North Macedonia,2002,PF
+North Macedonia,2003,PF
+North Macedonia,2004,PF
+North Macedonia,2005,PF
+North Macedonia,2006,PF
+North Macedonia,2007,PF
+North Macedonia,2008,PF
+North Macedonia,2009,PF
+North Macedonia,2010,PF
+North Macedonia,2011,PF
+North Macedonia,2012,PF
+North Macedonia,2013,PF
+North Macedonia,2014,PF
+North Macedonia,2015,PF
+North Macedonia,2016,PF
+North Macedonia,2017,PF
+North Macedonia,2018,PF
+North Macedonia,2019,PF
+North Macedonia,2020,PF
+North Macedonia,2021,PF
+Norway,1990,F
+Norway,1991,F
+Norway,1992,F
+Norway,1993,F
+Norway,1994,F
+Norway,1995,F
+Norway,1996,F
+Norway,1997,F
+Norway,1998,F
+Norway,1999,F
+Norway,2000,F
+Norway,2001,F
+Norway,2002,F
+Norway,2003,F
+Norway,2004,F
+Norway,2005,F
+Norway,2006,F
+Norway,2007,F
+Norway,2008,F
+Norway,2009,F
+Norway,2010,F
+Norway,2011,F
+Norway,2012,F
+Norway,2013,F
+Norway,2014,F
+Norway,2015,F
+Norway,2016,F
+Norway,2017,F
+Norway,2018,F
+Norway,2019,F
+Norway,2020,F
+Norway,2021,F
+Oman,1990,NF
+Oman,1991,NF
+Oman,1992,PF
+Oman,1993,NF
+Oman,1994,NF
+Oman,1995,NF
+Oman,1996,NF
+Oman,1997,NF
+Oman,1998,NF
+Oman,1999,NF
+Oman,2000,NF
+Oman,2001,NF
+Oman,2002,NF
+Oman,2003,NF
+Oman,2004,NF
+Oman,2005,NF
+Oman,2006,NF
+Oman,2007,NF
+Oman,2008,NF
+Oman,2009,NF
+Oman,2010,NF
+Oman,2011,NF
+Oman,2012,NF
+Oman,2013,NF
+Oman,2014,NF
+Oman,2015,NF
+Oman,2016,NF
+Oman,2017,NF
+Oman,2018,NF
+Oman,2019,NF
+Oman,2020,NF
+Oman,2021,NF
+Pakistan,1990,PF
+Pakistan,1991,PF
+Pakistan,1992,PF
+Pakistan,1993,PF
+Pakistan,1994,PF
+Pakistan,1995,PF
+Pakistan,1996,PF
+Pakistan,1997,PF
+Pakistan,1998,PF
+Pakistan,1999,NF
+Pakistan,2000,NF
+Pakistan,2001,NF
+Pakistan,2002,NF
+Pakistan,2003,NF
+Pakistan,2004,NF
+Pakistan,2005,NF
+Pakistan,2006,NF
+Pakistan,2007,NF
+Pakistan,2008,PF
+Pakistan,2009,PF
+Pakistan,2010,PF
+Pakistan,2011,PF
+Pakistan,2012,PF
+Pakistan,2013,PF
+Pakistan,2014,PF
+Pakistan,2015,PF
+Pakistan,2016,PF
+Pakistan,2017,PF
+Pakistan,2018,PF
+Pakistan,2019,PF
+Pakistan,2020,PF
+Pakistan,2021,PF
+Palau,1990,-
+Palau,1991,-
+Palau,1992,-
+Palau,1993,-
+Palau,1994,F
+Palau,1995,F
+Palau,1996,F
+Palau,1997,F
+Palau,1998,F
+Palau,1999,F
+Palau,2000,F
+Palau,2001,F
+Palau,2002,F
+Palau,2003,F
+Palau,2004,F
+Palau,2005,F
+Palau,2006,F
+Palau,2007,F
+Palau,2008,F
+Palau,2009,F
+Palau,2010,F
+Palau,2011,F
+Palau,2012,F
+Palau,2013,F
+Palau,2014,F
+Palau,2015,F
+Palau,2016,F
+Palau,2017,F
+Palau,2018,F
+Palau,2019,F
+Palau,2020,F
+Palau,2021,F
+Panama,1990,PF
+Panama,1991,PF
+Panama,1992,PF
+Panama,1993,PF
+Panama,1994,F
+Panama,1995,F
+Panama,1996,F
+Panama,1997,F
+Panama,1998,F
+Panama,1999,F
+Panama,2000,F
+Panama,2001,F
+Panama,2002,F
+Panama,2003,F
+Panama,2004,F
+Panama,2005,F
+Panama,2006,F
+Panama,2007,F
+Panama,2008,F
+Panama,2009,F
+Panama,2010,F
+Panama,2011,F
+Panama,2012,F
+Panama,2013,F
+Panama,2014,F
+Panama,2015,F
+Panama,2016,F
+Panama,2017,F
+Panama,2018,F
+Panama,2019,F
+Panama,2020,F
+Panama,2021,F
+Papua New Guinea,1990,F
+Papua New Guinea,1991,F
+Papua New Guinea,1992,F
+Papua New Guinea,1993,PF
+Papua New Guinea,1994,PF
+Papua New Guinea,1995,PF
+Papua New Guinea,1996,PF
+Papua New Guinea,1997,PF
+Papua New Guinea,1998,F
+Papua New Guinea,1999,F
+Papua New Guinea,2000,F
+Papua New Guinea,2001,F
+Papua New Guinea,2002,F
+Papua New Guinea,2003,PF
+Papua New Guinea,2004,PF
+Papua New Guinea,2005,PF
+Papua New Guinea,2006,PF
+Papua New Guinea,2007,PF
+Papua New Guinea,2008,PF
+Papua New Guinea,2009,PF
+Papua New Guinea,2010,PF
+Papua New Guinea,2011,PF
+Papua New Guinea,2012,PF
+Papua New Guinea,2013,PF
+Papua New Guinea,2014,PF
+Papua New Guinea,2015,PF
+Papua New Guinea,2016,PF
+Papua New Guinea,2017,PF
+Papua New Guinea,2018,PF
+Papua New Guinea,2019,PF
+Papua New Guinea,2020,PF
+Papua New Guinea,2021,PF
+Paraguay,1990,PF
+Paraguay,1991,PF
+Paraguay,1992,PF
+Paraguay,1993,PF
+Paraguay,1994,PF
+Paraguay,1995,PF
+Paraguay,1996,PF
+Paraguay,1997,PF
+Paraguay,1998,PF
+Paraguay,1999,PF
+Paraguay,2000,PF
+Paraguay,2001,PF
+Paraguay,2002,PF
+Paraguay,2003,PF
+Paraguay,2004,PF
+Paraguay,2005,PF
+Paraguay,2006,PF
+Paraguay,2007,PF
+Paraguay,2008,PF
+Paraguay,2009,PF
+Paraguay,2010,PF
+Paraguay,2011,PF
+Paraguay,2012,PF
+Paraguay,2013,PF
+Paraguay,2014,PF
+Paraguay,2015,PF
+Paraguay,2016,PF
+Paraguay,2017,PF
+Paraguay,2018,PF
+Paraguay,2019,PF
+Paraguay,2020,PF
+Paraguay,2021,PF
+Peru,1990,PF
+Peru,1991,PF
+Peru,1992,PF
+Peru,1993,PF
+Peru,1994,PF
+Peru,1995,PF
+Peru,1996,PF
+Peru,1997,PF
+Peru,1998,PF
+Peru,1999,PF
+Peru,2000,PF
+Peru,2001,F
+Peru,2002,F
+Peru,2003,F
+Peru,2004,F
+Peru,2005,F
+Peru,2006,F
+Peru,2007,F
+Peru,2008,F
+Peru,2009,F
+Peru,2010,F
+Peru,2011,F
+Peru,2012,F
+Peru,2013,F
+Peru,2014,F
+Peru,2015,F
+Peru,2016,F
+Peru,2017,F
+Peru,2018,F
+Peru,2019,F
+Peru,2020,PF
+Peru,2021,F
+Philippines,1990,PF
+Philippines,1991,PF
+Philippines,1992,PF
+Philippines,1993,PF
+Philippines,1994,PF
+Philippines,1995,PF
+Philippines,1996,F
+Philippines,1997,F
+Philippines,1998,F
+Philippines,1999,F
+Philippines,2000,F
+Philippines,2001,F
+Philippines,2002,F
+Philippines,2003,F
+Philippines,2004,F
+Philippines,2005,PF
+Philippines,2006,PF
+Philippines,2007,PF
+Philippines,2008,PF
+Philippines,2009,PF
+Philippines,2010,PF
+Philippines,2011,PF
+Philippines,2012,PF
+Philippines,2013,PF
+Philippines,2014,PF
+Philippines,2015,PF
+Philippines,2016,PF
+Philippines,2017,PF
+Philippines,2018,PF
+Philippines,2019,PF
+Philippines,2020,PF
+Philippines,2021,PF
+Poland,1990,F
+Poland,1991,F
+Poland,1992,F
+Poland,1993,F
+Poland,1994,F
+Poland,1995,F
+Poland,1996,F
+Poland,1997,F
+Poland,1998,F
+Poland,1999,F
+Poland,2000,F
+Poland,2001,F
+Poland,2002,F
+Poland,2003,F
+Poland,2004,F
+Poland,2005,F
+Poland,2006,F
+Poland,2007,F
+Poland,2008,F
+Poland,2009,F
+Poland,2010,F
+Poland,2011,F
+Poland,2012,F
+Poland,2013,F
+Poland,2014,F
+Poland,2015,F
+Poland,2016,F
+Poland,2017,F
+Poland,2018,F
+Poland,2019,F
+Poland,2020,F
+Poland,2021,F
+Portugal,1990,F
+Portugal,1991,F
+Portugal,1992,F
+Portugal,1993,F
+Portugal,1994,F
+Portugal,1995,F
+Portugal,1996,F
+Portugal,1997,F
+Portugal,1998,F
+Portugal,1999,F
+Portugal,2000,F
+Portugal,2001,F
+Portugal,2002,F
+Portugal,2003,F
+Portugal,2004,F
+Portugal,2005,F
+Portugal,2006,F
+Portugal,2007,F
+Portugal,2008,F
+Portugal,2009,F
+Portugal,2010,F
+Portugal,2011,F
+Portugal,2012,F
+Portugal,2013,F
+Portugal,2014,F
+Portugal,2015,F
+Portugal,2016,F
+Portugal,2017,F
+Portugal,2018,F
+Portugal,2019,F
+Portugal,2020,F
+Portugal,2021,F
+Qatar,1990,NF
+Qatar,1991,NF
+Qatar,1992,NF
+Qatar,1993,NF
+Qatar,1994,NF
+Qatar,1995,NF
+Qatar,1996,NF
+Qatar,1997,NF
+Qatar,1998,NF
+Qatar,1999,NF
+Qatar,2000,NF
+Qatar,2001,NF
+Qatar,2002,NF
+Qatar,2003,NF
+Qatar,2004,NF
+Qatar,2005,NF
+Qatar,2006,NF
+Qatar,2007,NF
+Qatar,2008,NF
+Qatar,2009,NF
+Qatar,2010,NF
+Qatar,2011,NF
+Qatar,2012,NF
+Qatar,2013,NF
+Qatar,2014,NF
+Qatar,2015,NF
+Qatar,2016,NF
+Qatar,2017,NF
+Qatar,2018,NF
+Qatar,2019,NF
+Qatar,2020,NF
+Qatar,2021,NF
+Romania,1990,NF
+Romania,1991,PF
+Romania,1992,PF
+Romania,1993,PF
+Romania,1994,PF
+Romania,1995,PF
+Romania,1996,F
+Romania,1997,F
+Romania,1998,F
+Romania,1999,F
+Romania,2000,F
+Romania,2001,F
+Romania,2002,F
+Romania,2003,F
+Romania,2004,F
+Romania,2005,F
+Romania,2006,F
+Romania,2007,F
+Romania,2008,F
+Romania,2009,F
+Romania,2010,F
+Romania,2011,F
+Romania,2012,F
+Romania,2013,F
+Romania,2014,F
+Romania,2015,F
+Romania,2016,F
+Romania,2017,F
+Romania,2018,F
+Romania,2019,F
+Romania,2020,F
+Romania,2021,F
+Russia,1990,-
+Russia,1991,PF
+Russia,1992,PF
+Russia,1993,PF
+Russia,1994,PF
+Russia,1995,PF
+Russia,1996,PF
+Russia,1997,PF
+Russia,1998,PF
+Russia,1999,PF
+Russia,2000,PF
+Russia,2001,PF
+Russia,2002,PF
+Russia,2003,PF
+Russia,2004,NF
+Russia,2005,NF
+Russia,2006,NF
+Russia,2007,NF
+Russia,2008,NF
+Russia,2009,NF
+Russia,2010,NF
+Russia,2011,NF
+Russia,2012,NF
+Russia,2013,NF
+Russia,2014,NF
+Russia,2015,NF
+Russia,2016,NF
+Russia,2017,NF
+Russia,2018,NF
+Russia,2019,NF
+Russia,2020,NF
+Russia,2021,NF
+Rwanda,1990,NF
+Rwanda,1991,NF
+Rwanda,1992,NF
+Rwanda,1993,NF
+Rwanda,1994,NF
+Rwanda,1995,NF
+Rwanda,1996,NF
+Rwanda,1997,NF
+Rwanda,1998,NF
+Rwanda,1999,NF
+Rwanda,2000,NF
+Rwanda,2001,NF
+Rwanda,2002,NF
+Rwanda,2003,NF
+Rwanda,2004,NF
+Rwanda,2005,NF
+Rwanda,2006,NF
+Rwanda,2007,NF
+Rwanda,2008,NF
+Rwanda,2009,NF
+Rwanda,2010,NF
+Rwanda,2011,NF
+Rwanda,2012,NF
+Rwanda,2013,NF
+Rwanda,2014,NF
+Rwanda,2015,NF
+Rwanda,2016,NF
+Rwanda,2017,NF
+Rwanda,2018,NF
+Rwanda,2019,NF
+Rwanda,2020,NF
+Rwanda,2021,NF
+Samoa,1990,F
+Samoa,1991,F
+Samoa,1992,F
+Samoa,1993,F
+Samoa,1994,F
+Samoa,1995,F
+Samoa,1996,F
+Samoa,1997,F
+Samoa,1998,F
+Samoa,1999,F
+Samoa,2000,F
+Samoa,2001,F
+Samoa,2002,F
+Samoa,2003,F
+Samoa,2004,F
+Samoa,2005,F
+Samoa,2006,F
+Samoa,2007,F
+Samoa,2008,F
+Samoa,2009,F
+Samoa,2010,F
+Samoa,2011,F
+Samoa,2012,F
+Samoa,2013,F
+Samoa,2014,F
+Samoa,2015,F
+Samoa,2016,F
+Samoa,2017,F
+Samoa,2018,F
+Samoa,2019,F
+Samoa,2020,F
+Samoa,2021,F
+San Marino,1990,-
+San Marino,1991,-
+San Marino,1992,F
+San Marino,1993,F
+San Marino,1994,F
+San Marino,1995,F
+San Marino,1996,F
+San Marino,1997,F
+San Marino,1998,F
+San Marino,1999,F
+San Marino,2000,F
+San Marino,2001,F
+San Marino,2002,F
+San Marino,2003,F
+San Marino,2004,F
+San Marino,2005,F
+San Marino,2006,F
+San Marino,2007,F
+San Marino,2008,F
+San Marino,2009,F
+San Marino,2010,F
+San Marino,2011,F
+San Marino,2012,F
+San Marino,2013,F
+San Marino,2014,F
+San Marino,2015,F
+San Marino,2016,F
+San Marino,2017,F
+San Marino,2018,F
+San Marino,2019,F
+San Marino,2020,F
+San Marino,2021,F
+Sao Tome and Principe,1990,PF
+Sao Tome and Principe,1991,F
+Sao Tome and Principe,1992,F
+Sao Tome and Principe,1993,F
+Sao Tome and Principe,1994,F
+Sao Tome and Principe,1995,F
+Sao Tome and Principe,1996,F
+Sao Tome and Principe,1997,F
+Sao Tome and Principe,1998,F
+Sao Tome and Principe,1999,F
+Sao Tome and Principe,2000,F
+Sao Tome and Principe,2001,F
+Sao Tome and Principe,2002,F
+Sao Tome and Principe,2003,F
+Sao Tome and Principe,2004,F
+Sao Tome and Principe,2005,F
+Sao Tome and Principe,2006,F
+Sao Tome and Principe,2007,F
+Sao Tome and Principe,2008,F
+Sao Tome and Principe,2009,F
+Sao Tome and Principe,2010,F
+Sao Tome and Principe,2011,F
+Sao Tome and Principe,2012,F
+Sao Tome and Principe,2013,F
+Sao Tome and Principe,2014,F
+Sao Tome and Principe,2015,F
+Sao Tome and Principe,2016,F
+Sao Tome and Principe,2017,F
+Sao Tome and Principe,2018,F
+Sao Tome and Principe,2019,F
+Sao Tome and Principe,2020,F
+Sao Tome and Principe,2021,F
+Saudi Arabia,1990,NF
+Saudi Arabia,1991,NF
+Saudi Arabia,1992,NF
+Saudi Arabia,1993,NF
+Saudi Arabia,1994,NF
+Saudi Arabia,1995,NF
+Saudi Arabia,1996,NF
+Saudi Arabia,1997,NF
+Saudi Arabia,1998,NF
+Saudi Arabia,1999,NF
+Saudi Arabia,2000,NF
+Saudi Arabia,2001,NF
+Saudi Arabia,2002,NF
+Saudi Arabia,2003,NF
+Saudi Arabia,2004,NF
+Saudi Arabia,2005,NF
+Saudi Arabia,2006,NF
+Saudi Arabia,2007,NF
+Saudi Arabia,2008,NF
+Saudi Arabia,2009,NF
+Saudi Arabia,2010,NF
+Saudi Arabia,2011,NF
+Saudi Arabia,2012,NF
+Saudi Arabia,2013,NF
+Saudi Arabia,2014,NF
+Saudi Arabia,2015,NF
+Saudi Arabia,2016,NF
+Saudi Arabia,2017,NF
+Saudi Arabia,2018,NF
+Saudi Arabia,2019,NF
+Saudi Arabia,2020,NF
+Saudi Arabia,2021,NF
+Senegal,1990,PF
+Senegal,1991,PF
+Senegal,1992,PF
+Senegal,1993,PF
+Senegal,1994,PF
+Senegal,1995,PF
+Senegal,1996,PF
+Senegal,1997,PF
+Senegal,1998,PF
+Senegal,1999,PF
+Senegal,2000,PF
+Senegal,2001,PF
+Senegal,2002,F
+Senegal,2003,F
+Senegal,2004,F
+Senegal,2005,F
+Senegal,2006,F
+Senegal,2007,F
+Senegal,2008,PF
+Senegal,2009,PF
+Senegal,2010,PF
+Senegal,2011,PF
+Senegal,2012,F
+Senegal,2013,F
+Senegal,2014,F
+Senegal,2015,F
+Senegal,2016,F
+Senegal,2017,F
+Senegal,2018,F
+Senegal,2019,PF
+Senegal,2020,PF
+Senegal,2021,PF
+Serbia,1990,-
+Serbia,1991,-
+Serbia,1992,-
+Serbia,1993,-
+Serbia,1994,-
+Serbia,1995,-
+Serbia,1996,-
+Serbia,1997,-
+Serbia,1998,-
+Serbia,1999,-
+Serbia,2000,-
+Serbia,2001,-
+Serbia,2002,-
+Serbia,2003,-
+Serbia,2004,-
+Serbia,2005,-
+Serbia,2006,F
+Serbia,2007,F
+Serbia,2008,F
+Serbia,2009,F
+Serbia,2010,F
+Serbia,2011,F
+Serbia,2012,F
+Serbia,2013,F
+Serbia,2014,F
+Serbia,2015,F
+Serbia,2016,F
+Serbia,2017,F
+Serbia,2018,PF
+Serbia,2019,PF
+Serbia,2020,PF
+Serbia,2021,PF
+Serbia and Montenegro,1990,-
+Serbia and Montenegro,1991,-
+Serbia and Montenegro,1992,-
+Serbia and Montenegro,1993,-
+Serbia and Montenegro,1994,-
+Serbia and Montenegro,1995,-
+Serbia and Montenegro,1996,-
+Serbia and Montenegro,1997,-
+Serbia and Montenegro,1998,-
+Serbia and Montenegro,1999,-
+Serbia and Montenegro,2000,-
+Serbia and Montenegro,2001,-
+Serbia and Montenegro,2002,-
+Serbia and Montenegro,2003,F
+Serbia and Montenegro,2004,F
+Serbia and Montenegro,2005,F
+Serbia and Montenegro,2006,-
+Serbia and Montenegro,2007,-
+Serbia and Montenegro,2008,-
+Serbia and Montenegro,2009,-
+Serbia and Montenegro,2010,-
+Serbia and Montenegro,2011,-
+Serbia and Montenegro,2012,-
+Serbia and Montenegro,2013,-
+Serbia and Montenegro,2014,-
+Serbia and Montenegro,2015,-
+Serbia and Montenegro,2016,-
+Serbia and Montenegro,2017,-
+Serbia and Montenegro,2018,-
+Serbia and Montenegro,2019,-
+Serbia and Montenegro,2020,-
+Serbia and Montenegro,2021,-
+Seychelles,1990,NF
+Seychelles,1991,NF
+Seychelles,1992,PF
+Seychelles,1993,PF
+Seychelles,1994,PF
+Seychelles,1995,PF
+Seychelles,1996,PF
+Seychelles,1997,PF
+Seychelles,1998,PF
+Seychelles,1999,PF
+Seychelles,2000,PF
+Seychelles,2001,PF
+Seychelles,2002,PF
+Seychelles,2003,PF
+Seychelles,2004,PF
+Seychelles,2005,PF
+Seychelles,2006,PF
+Seychelles,2007,PF
+Seychelles,2008,PF
+Seychelles,2009,PF
+Seychelles,2010,PF
+Seychelles,2011,PF
+Seychelles,2012,PF
+Seychelles,2013,PF
+Seychelles,2014,PF
+Seychelles,2015,PF
+Seychelles,2016,PF
+Seychelles,2017,PF
+Seychelles,2018,PF
+Seychelles,2019,PF
+Seychelles,2020,F
+Seychelles,2021,F
+Sierra Leone,1990,PF
+Sierra Leone,1991,PF
+Sierra Leone,1992,NF
+Sierra Leone,1993,NF
+Sierra Leone,1994,NF
+Sierra Leone,1995,NF
+Sierra Leone,1996,PF
+Sierra Leone,1997,NF
+Sierra Leone,1998,PF
+Sierra Leone,1999,PF
+Sierra Leone,2000,PF
+Sierra Leone,2001,PF
+Sierra Leone,2002,PF
+Sierra Leone,2003,PF
+Sierra Leone,2004,PF
+Sierra Leone,2005,PF
+Sierra Leone,2006,PF
+Sierra Leone,2007,PF
+Sierra Leone,2008,PF
+Sierra Leone,2009,PF
+Sierra Leone,2010,PF
+Sierra Leone,2011,PF
+Sierra Leone,2012,F
+Sierra Leone,2013,PF
+Sierra Leone,2014,PF
+Sierra Leone,2015,PF
+Sierra Leone,2016,PF
+Sierra Leone,2017,PF
+Sierra Leone,2018,PF
+Sierra Leone,2019,PF
+Sierra Leone,2020,PF
+Sierra Leone,2021,PF
+Singapore,1990,PF
+Singapore,1991,PF
+Singapore,1992,PF
+Singapore,1993,PF
+Singapore,1994,PF
+Singapore,1995,PF
+Singapore,1996,PF
+Singapore,1997,PF
+Singapore,1998,PF
+Singapore,1999,PF
+Singapore,2000,PF
+Singapore,2001,PF
+Singapore,2002,PF
+Singapore,2003,PF
+Singapore,2004,PF
+Singapore,2005,PF
+Singapore,2006,PF
+Singapore,2007,PF
+Singapore,2008,PF
+Singapore,2009,PF
+Singapore,2010,PF
+Singapore,2011,PF
+Singapore,2012,PF
+Singapore,2013,PF
+Singapore,2014,PF
+Singapore,2015,PF
+Singapore,2016,PF
+Singapore,2017,PF
+Singapore,2018,PF
+Singapore,2019,PF
+Singapore,2020,PF
+Singapore,2021,PF
+Slovakia,1990,-
+Slovakia,1991,-
+Slovakia,1992,-
+Slovakia,1993,PF
+Slovakia,1994,F
+Slovakia,1995,F
+Slovakia,1996,PF
+Slovakia,1997,PF
+Slovakia,1998,F
+Slovakia,1999,F
+Slovakia,2000,F
+Slovakia,2001,F
+Slovakia,2002,F
+Slovakia,2003,F
+Slovakia,2004,F
+Slovakia,2005,F
+Slovakia,2006,F
+Slovakia,2007,F
+Slovakia,2008,F
+Slovakia,2009,F
+Slovakia,2010,F
+Slovakia,2011,F
+Slovakia,2012,F
+Slovakia,2013,F
+Slovakia,2014,F
+Slovakia,2015,F
+Slovakia,2016,F
+Slovakia,2017,F
+Slovakia,2018,F
+Slovakia,2019,F
+Slovakia,2020,F
+Slovakia,2021,F
+Slovenia,1990,-
+Slovenia,1991,F
+Slovenia,1992,F
+Slovenia,1993,F
+Slovenia,1994,F
+Slovenia,1995,F
+Slovenia,1996,F
+Slovenia,1997,F
+Slovenia,1998,F
+Slovenia,1999,F
+Slovenia,2000,F
+Slovenia,2001,F
+Slovenia,2002,F
+Slovenia,2003,F
+Slovenia,2004,F
+Slovenia,2005,F
+Slovenia,2006,F
+Slovenia,2007,F
+Slovenia,2008,F
+Slovenia,2009,F
+Slovenia,2010,F
+Slovenia,2011,F
+Slovenia,2012,F
+Slovenia,2013,F
+Slovenia,2014,F
+Slovenia,2015,F
+Slovenia,2016,F
+Slovenia,2017,F
+Slovenia,2018,F
+Slovenia,2019,F
+Slovenia,2020,F
+Slovenia,2021,F
+Solomon Islands,1990,F
+Solomon Islands,1991,F
+Solomon Islands,1992,F
+Solomon Islands,1993,F
+Solomon Islands,1994,F
+Solomon Islands,1995,F
+Solomon Islands,1996,F
+Solomon Islands,1997,F
+Solomon Islands,1998,F
+Solomon Islands,1999,F
+Solomon Islands,2000,PF
+Solomon Islands,2001,PF
+Solomon Islands,2002,PF
+Solomon Islands,2003,PF
+Solomon Islands,2004,PF
+Solomon Islands,2005,PF
+Solomon Islands,2006,PF
+Solomon Islands,2007,PF
+Solomon Islands,2008,PF
+Solomon Islands,2009,PF
+Solomon Islands,2010,PF
+Solomon Islands,2011,PF
+Solomon Islands,2012,PF
+Solomon Islands,2013,PF
+Solomon Islands,2014,PF
+Solomon Islands,2015,PF
+Solomon Islands,2016,F
+Solomon Islands,2017,F
+Solomon Islands,2018,F
+Solomon Islands,2019,F
+Solomon Islands,2020,F
+Solomon Islands,2021,F
+Somalia,1990,NF
+Somalia,1991,NF
+Somalia,1992,NF
+Somalia,1993,NF
+Somalia,1994,NF
+Somalia,1995,NF
+Somalia,1996,NF
+Somalia,1997,NF
+Somalia,1998,NF
+Somalia,1999,NF
+Somalia,2000,NF
+Somalia,2001,NF
+Somalia,2002,NF
+Somalia,2003,NF
+Somalia,2004,NF
+Somalia,2005,NF
+Somalia,2006,NF
+Somalia,2007,NF
+Somalia,2008,NF
+Somalia,2009,NF
+Somalia,2010,NF
+Somalia,2011,NF
+Somalia,2012,NF
+Somalia,2013,NF
+Somalia,2014,NF
+Somalia,2015,NF
+Somalia,2016,NF
+Somalia,2017,NF
+Somalia,2018,NF
+Somalia,2019,NF
+Somalia,2020,NF
+Somalia,2021,NF
+South Africa,1990,PF
+South Africa,1991,PF
+South Africa,1992,PF
+South Africa,1993,PF
+South Africa,1994,F
+South Africa,1995,F
+South Africa,1996,F
+South Africa,1997,F
+South Africa,1998,F
+South Africa,1999,F
+South Africa,2000,F
+South Africa,2001,F
+South Africa,2002,F
+South Africa,2003,F
+South Africa,2004,F
+South Africa,2005,F
+South Africa,2006,F
+South Africa,2007,F
+South Africa,2008,F
+South Africa,2009,F
+South Africa,2010,F
+South Africa,2011,F
+South Africa,2012,F
+South Africa,2013,F
+South Africa,2014,F
+South Africa,2015,F
+South Africa,2016,F
+South Africa,2017,F
+South Africa,2018,F
+South Africa,2019,F
+South Africa,2020,F
+South Africa,2021,F
+South Korea,1990,F
+South Korea,1991,F
+South Korea,1992,F
+South Korea,1993,F
+South Korea,1994,F
+South Korea,1995,F
+South Korea,1996,F
+South Korea,1997,F
+South Korea,1998,F
+South Korea,1999,F
+South Korea,2000,F
+South Korea,2001,F
+South Korea,2002,F
+South Korea,2003,F
+South Korea,2004,F
+South Korea,2005,F
+South Korea,2006,F
+South Korea,2007,F
+South Korea,2008,F
+South Korea,2009,F
+South Korea,2010,F
+South Korea,2011,F
+South Korea,2012,F
+South Korea,2013,F
+South Korea,2014,F
+South Korea,2015,F
+South Korea,2016,F
+South Korea,2017,F
+South Korea,2018,F
+South Korea,2019,F
+South Korea,2020,F
+South Korea,2021,F
+South Sudan,1990,-
+South Sudan,1991,-
+South Sudan,1992,-
+South Sudan,1993,-
+South Sudan,1994,-
+South Sudan,1995,-
+South Sudan,1996,-
+South Sudan,1997,-
+South Sudan,1998,-
+South Sudan,1999,-
+South Sudan,2000,-
+South Sudan,2001,-
+South Sudan,2002,-
+South Sudan,2003,-
+South Sudan,2004,-
+South Sudan,2005,-
+South Sudan,2006,-
+South Sudan,2007,-
+South Sudan,2008,-
+South Sudan,2009,-
+South Sudan,2010,-
+South Sudan,2011,NF
+South Sudan,2012,NF
+South Sudan,2013,NF
+South Sudan,2014,NF
+South Sudan,2015,NF
+South Sudan,2016,NF
+South Sudan,2017,NF
+South Sudan,2018,NF
+South Sudan,2019,NF
+South Sudan,2020,NF
+South Sudan,2021,NF
+Spain,1990,F
+Spain,1991,F
+Spain,1992,F
+Spain,1993,F
+Spain,1994,F
+Spain,1995,F
+Spain,1996,F
+Spain,1997,F
+Spain,1998,F
+Spain,1999,F
+Spain,2000,F
+Spain,2001,F
+Spain,2002,F
+Spain,2003,F
+Spain,2004,F
+Spain,2005,F
+Spain,2006,F
+Spain,2007,F
+Spain,2008,F
+Spain,2009,F
+Spain,2010,F
+Spain,2011,F
+Spain,2012,F
+Spain,2013,F
+Spain,2014,F
+Spain,2015,F
+Spain,2016,F
+Spain,2017,F
+Spain,2018,F
+Spain,2019,F
+Spain,2020,F
+Spain,2021,F
+Sri Lanka,1990,PF
+Sri Lanka,1991,PF
+Sri Lanka,1992,PF
+Sri Lanka,1993,PF
+Sri Lanka,1994,PF
+Sri Lanka,1995,PF
+Sri Lanka,1996,PF
+Sri Lanka,1997,PF
+Sri Lanka,1998,PF
+Sri Lanka,1999,PF
+Sri Lanka,2000,PF
+Sri Lanka,2001,PF
+Sri Lanka,2002,PF
+Sri Lanka,2003,PF
+Sri Lanka,2004,PF
+Sri Lanka,2005,PF
+Sri Lanka,2006,PF
+Sri Lanka,2007,PF
+Sri Lanka,2008,PF
+Sri Lanka,2009,PF
+Sri Lanka,2010,PF
+Sri Lanka,2011,PF
+Sri Lanka,2012,PF
+Sri Lanka,2013,PF
+Sri Lanka,2014,PF
+Sri Lanka,2015,PF
+Sri Lanka,2016,PF
+Sri Lanka,2017,PF
+Sri Lanka,2018,PF
+Sri Lanka,2019,PF
+Sri Lanka,2020,PF
+Sri Lanka,2021,PF
+St. Kitts and Nevis,1990,F
+St. Kitts and Nevis,1991,F
+St. Kitts and Nevis,1992,F
+St. Kitts and Nevis,1993,F
+St. Kitts and Nevis,1994,F
+St. Kitts and Nevis,1995,F
+St. Kitts and Nevis,1996,F
+St. Kitts and Nevis,1997,F
+St. Kitts and Nevis,1998,F
+St. Kitts and Nevis,1999,F
+St. Kitts and Nevis,2000,F
+St. Kitts and Nevis,2001,F
+St. Kitts and Nevis,2002,F
+St. Kitts and Nevis,2003,F
+St. Kitts and Nevis,2004,F
+St. Kitts and Nevis,2005,F
+St. Kitts and Nevis,2006,F
+St. Kitts and Nevis,2007,F
+St. Kitts and Nevis,2008,F
+St. Kitts and Nevis,2009,F
+St. Kitts and Nevis,2010,F
+St. Kitts and Nevis,2011,F
+St. Kitts and Nevis,2012,F
+St. Kitts and Nevis,2013,F
+St. Kitts and Nevis,2014,F
+St. Kitts and Nevis,2015,F
+St. Kitts and Nevis,2016,F
+St. Kitts and Nevis,2017,F
+St. Kitts and Nevis,2018,F
+St. Kitts and Nevis,2019,F
+St. Kitts and Nevis,2020,F
+St. Kitts and Nevis,2021,F
+St. Lucia,1990,F
+St. Lucia,1991,F
+St. Lucia,1992,F
+St. Lucia,1993,F
+St. Lucia,1994,F
+St. Lucia,1995,F
+St. Lucia,1996,F
+St. Lucia,1997,F
+St. Lucia,1998,F
+St. Lucia,1999,F
+St. Lucia,2000,F
+St. Lucia,2001,F
+St. Lucia,2002,F
+St. Lucia,2003,F
+St. Lucia,2004,F
+St. Lucia,2005,F
+St. Lucia,2006,F
+St. Lucia,2007,F
+St. Lucia,2008,F
+St. Lucia,2009,F
+St. Lucia,2010,F
+St. Lucia,2011,F
+St. Lucia,2012,F
+St. Lucia,2013,F
+St. Lucia,2014,F
+St. Lucia,2015,F
+St. Lucia,2016,F
+St. Lucia,2017,F
+St. Lucia,2018,F
+St. Lucia,2019,F
+St. Lucia,2020,F
+St. Lucia,2021,F
+St. Vincent and the Grenadines,1990,F
+St. Vincent and the Grenadines,1991,F
+St. Vincent and the Grenadines,1992,F
+St. Vincent and the Grenadines,1993,F
+St. Vincent and the Grenadines,1994,F
+St. Vincent and the Grenadines,1995,F
+St. Vincent and the Grenadines,1996,F
+St. Vincent and the Grenadines,1997,F
+St. Vincent and the Grenadines,1998,F
+St. Vincent and the Grenadines,1999,F
+St. Vincent and the Grenadines,2000,F
+St. Vincent and the Grenadines,2001,F
+St. Vincent and the Grenadines,2002,F
+St. Vincent and the Grenadines,2003,F
+St. Vincent and the Grenadines,2004,F
+St. Vincent and the Grenadines,2005,F
+St. Vincent and the Grenadines,2006,F
+St. Vincent and the Grenadines,2007,F
+St. Vincent and the Grenadines,2008,F
+St. Vincent and the Grenadines,2009,F
+St. Vincent and the Grenadines,2010,F
+St. Vincent and the Grenadines,2011,F
+St. Vincent and the Grenadines,2012,F
+St. Vincent and the Grenadines,2013,F
+St. Vincent and the Grenadines,2014,F
+St. Vincent and the Grenadines,2015,F
+St. Vincent and the Grenadines,2016,F
+St. Vincent and the Grenadines,2017,F
+St. Vincent and the Grenadines,2018,F
+St. Vincent and the Grenadines,2019,F
+St. Vincent and the Grenadines,2020,F
+St. Vincent and the Grenadines,2021,F
+Sudan,1990,NF
+Sudan,1991,NF
+Sudan,1992,NF
+Sudan,1993,NF
+Sudan,1994,NF
+Sudan,1995,NF
+Sudan,1996,NF
+Sudan,1997,NF
+Sudan,1998,NF
+Sudan,1999,NF
+Sudan,2000,NF
+Sudan,2001,NF
+Sudan,2002,NF
+Sudan,2003,NF
+Sudan,2004,NF
+Sudan,2005,NF
+Sudan,2006,NF
+Sudan,2007,NF
+Sudan,2008,NF
+Sudan,2009,NF
+Sudan,2010,NF
+Sudan,2011,NF
+Sudan,2012,NF
+Sudan,2013,NF
+Sudan,2014,NF
+Sudan,2015,NF
+Sudan,2016,NF
+Sudan,2017,NF
+Sudan,2018,NF
+Sudan,2019,NF
+Sudan,2020,NF
+Sudan,2021,NF
+Suriname,1990,PF
+Suriname,1991,PF
+Suriname,1992,PF
+Suriname,1993,PF
+Suriname,1994,PF
+Suriname,1995,PF
+Suriname,1996,PF
+Suriname,1997,PF
+Suriname,1998,PF
+Suriname,1999,PF
+Suriname,2000,F
+Suriname,2001,F
+Suriname,2002,F
+Suriname,2003,F
+Suriname,2004,F
+Suriname,2005,F
+Suriname,2006,F
+Suriname,2007,F
+Suriname,2008,F
+Suriname,2009,F
+Suriname,2010,F
+Suriname,2011,F
+Suriname,2012,F
+Suriname,2013,F
+Suriname,2014,F
+Suriname,2015,F
+Suriname,2016,F
+Suriname,2017,F
+Suriname,2018,F
+Suriname,2019,F
+Suriname,2020,F
+Suriname,2021,F
+Sweden,1990,F
+Sweden,1991,F
+Sweden,1992,F
+Sweden,1993,F
+Sweden,1994,F
+Sweden,1995,F
+Sweden,1996,F
+Sweden,1997,F
+Sweden,1998,F
+Sweden,1999,F
+Sweden,2000,F
+Sweden,2001,F
+Sweden,2002,F
+Sweden,2003,F
+Sweden,2004,F
+Sweden,2005,F
+Sweden,2006,F
+Sweden,2007,F
+Sweden,2008,F
+Sweden,2009,F
+Sweden,2010,F
+Sweden,2011,F
+Sweden,2012,F
+Sweden,2013,F
+Sweden,2014,F
+Sweden,2015,F
+Sweden,2016,F
+Sweden,2017,F
+Sweden,2018,F
+Sweden,2019,F
+Sweden,2020,F
+Sweden,2021,F
+Switzerland,1990,F
+Switzerland,1991,F
+Switzerland,1992,F
+Switzerland,1993,F
+Switzerland,1994,F
+Switzerland,1995,F
+Switzerland,1996,F
+Switzerland,1997,F
+Switzerland,1998,F
+Switzerland,1999,F
+Switzerland,2000,F
+Switzerland,2001,F
+Switzerland,2002,F
+Switzerland,2003,F
+Switzerland,2004,F
+Switzerland,2005,F
+Switzerland,2006,F
+Switzerland,2007,F
+Switzerland,2008,F
+Switzerland,2009,F
+Switzerland,2010,F
+Switzerland,2011,F
+Switzerland,2012,F
+Switzerland,2013,F
+Switzerland,2014,F
+Switzerland,2015,F
+Switzerland,2016,F
+Switzerland,2017,F
+Switzerland,2018,F
+Switzerland,2019,F
+Switzerland,2020,F
+Switzerland,2021,F
+Syria,1990,NF
+Syria,1991,NF
+Syria,1992,NF
+Syria,1993,NF
+Syria,1994,NF
+Syria,1995,NF
+Syria,1996,NF
+Syria,1997,NF
+Syria,1998,NF
+Syria,1999,NF
+Syria,2000,NF
+Syria,2001,NF
+Syria,2002,NF
+Syria,2003,NF
+Syria,2004,NF
+Syria,2005,NF
+Syria,2006,NF
+Syria,2007,NF
+Syria,2008,NF
+Syria,2009,NF
+Syria,2010,NF
+Syria,2011,NF
+Syria,2012,NF
+Syria,2013,NF
+Syria,2014,NF
+Syria,2015,NF
+Syria,2016,NF
+Syria,2017,NF
+Syria,2018,NF
+Syria,2019,NF
+Syria,2020,NF
+Syria,2021,NF
+Taiwan,1990,PF
+Taiwan,1991,PF
+Taiwan,1992,PF
+Taiwan,1993,PF
+Taiwan,1994,PF
+Taiwan,1995,PF
+Taiwan,1996,F
+Taiwan,1997,F
+Taiwan,1998,F
+Taiwan,1999,F
+Taiwan,2000,F
+Taiwan,2001,F
+Taiwan,2002,F
+Taiwan,2003,F
+Taiwan,2004,F
+Taiwan,2005,F
+Taiwan,2006,F
+Taiwan,2007,F
+Taiwan,2008,F
+Taiwan,2009,F
+Taiwan,2010,F
+Taiwan,2011,F
+Taiwan,2012,F
+Taiwan,2013,F
+Taiwan,2014,F
+Taiwan,2015,F
+Taiwan,2016,F
+Taiwan,2017,F
+Taiwan,2018,F
+Taiwan,2019,F
+Taiwan,2020,F
+Taiwan,2021,F
+Tajikistan,1990,-
+Tajikistan,1991,PF
+Tajikistan,1992,NF
+Tajikistan,1993,NF
+Tajikistan,1994,NF
+Tajikistan,1995,NF
+Tajikistan,1996,NF
+Tajikistan,1997,NF
+Tajikistan,1998,NF
+Tajikistan,1999,NF
+Tajikistan,2000,NF
+Tajikistan,2001,NF
+Tajikistan,2002,NF
+Tajikistan,2003,NF
+Tajikistan,2004,NF
+Tajikistan,2005,NF
+Tajikistan,2006,NF
+Tajikistan,2007,NF
+Tajikistan,2008,NF
+Tajikistan,2009,NF
+Tajikistan,2010,NF
+Tajikistan,2011,NF
+Tajikistan,2012,NF
+Tajikistan,2013,NF
+Tajikistan,2014,NF
+Tajikistan,2015,NF
+Tajikistan,2016,NF
+Tajikistan,2017,NF
+Tajikistan,2018,NF
+Tajikistan,2019,NF
+Tajikistan,2020,NF
+Tajikistan,2021,NF
+Tanzania,1990,NF
+Tanzania,1991,NF
+Tanzania,1992,PF
+Tanzania,1993,NF
+Tanzania,1994,NF
+Tanzania,1995,PF
+Tanzania,1996,PF
+Tanzania,1997,PF
+Tanzania,1998,PF
+Tanzania,1999,PF
+Tanzania,2000,PF
+Tanzania,2001,PF
+Tanzania,2002,PF
+Tanzania,2003,PF
+Tanzania,2004,PF
+Tanzania,2005,PF
+Tanzania,2006,PF
+Tanzania,2007,PF
+Tanzania,2008,PF
+Tanzania,2009,PF
+Tanzania,2010,PF
+Tanzania,2011,PF
+Tanzania,2012,PF
+Tanzania,2013,PF
+Tanzania,2014,PF
+Tanzania,2015,PF
+Tanzania,2016,PF
+Tanzania,2017,PF
+Tanzania,2018,PF
+Tanzania,2019,PF
+Tanzania,2020,PF
+Tanzania,2021,PF
+Thailand,1990,F
+Thailand,1991,PF
+Thailand,1992,PF
+Thailand,1993,PF
+Thailand,1994,PF
+Thailand,1995,PF
+Thailand,1996,PF
+Thailand,1997,PF
+Thailand,1998,F
+Thailand,1999,F
+Thailand,2000,F
+Thailand,2001,F
+Thailand,2002,F
+Thailand,2003,F
+Thailand,2004,F
+Thailand,2005,PF
+Thailand,2006,NF
+Thailand,2007,PF
+Thailand,2008,PF
+Thailand,2009,PF
+Thailand,2010,PF
+Thailand,2011,PF
+Thailand,2012,PF
+Thailand,2013,PF
+Thailand,2014,NF
+Thailand,2015,NF
+Thailand,2016,NF
+Thailand,2017,NF
+Thailand,2018,NF
+Thailand,2019,PF
+Thailand,2020,NF
+Thailand,2021,NF
+The Gambia,1990,F
+The Gambia,1991,F
+The Gambia,1992,F
+The Gambia,1993,F
+The Gambia,1994,NF
+The Gambia,1995,NF
+The Gambia,1996,NF
+The Gambia,1997,NF
+The Gambia,1998,NF
+The Gambia,1999,NF
+The Gambia,2000,NF
+The Gambia,2001,PF
+The Gambia,2002,PF
+The Gambia,2003,PF
+The Gambia,2004,PF
+The Gambia,2005,PF
+The Gambia,2006,PF
+The Gambia,2007,PF
+The Gambia,2008,PF
+The Gambia,2009,PF
+The Gambia,2010,PF
+The Gambia,2011,NF
+The Gambia,2012,NF
+The Gambia,2013,NF
+The Gambia,2014,NF
+The Gambia,2015,NF
+The Gambia,2016,NF
+The Gambia,2017,PF
+The Gambia,2018,PF
+The Gambia,2019,PF
+The Gambia,2020,PF
+The Gambia,2021,PF
+Timor-Leste,1990,-
+Timor-Leste,1991,-
+Timor-Leste,1992,-
+Timor-Leste,1993,-
+Timor-Leste,1994,-
+Timor-Leste,1995,-
+Timor-Leste,1996,-
+Timor-Leste,1997,-
+Timor-Leste,1998,-
+Timor-Leste,1999,PF
+Timor-Leste,2000,PF
+Timor-Leste,2001,PF
+Timor-Leste,2002,PF
+Timor-Leste,2003,PF
+Timor-Leste,2004,PF
+Timor-Leste,2005,PF
+Timor-Leste,2006,PF
+Timor-Leste,2007,PF
+Timor-Leste,2008,PF
+Timor-Leste,2009,PF
+Timor-Leste,2010,PF
+Timor-Leste,2011,PF
+Timor-Leste,2012,PF
+Timor-Leste,2013,PF
+Timor-Leste,2014,PF
+Timor-Leste,2015,PF
+Timor-Leste,2016,PF
+Timor-Leste,2017,F
+Timor-Leste,2018,F
+Timor-Leste,2019,F
+Timor-Leste,2020,F
+Timor-Leste,2021,F
+Togo,1990,NF
+Togo,1991,NF
+Togo,1992,NF
+Togo,1993,NF
+Togo,1994,NF
+Togo,1995,NF
+Togo,1996,NF
+Togo,1997,NF
+Togo,1998,NF
+Togo,1999,PF
+Togo,2000,PF
+Togo,2001,PF
+Togo,2002,NF
+Togo,2003,NF
+Togo,2004,NF
+Togo,2005,NF
+Togo,2006,NF
+Togo,2007,PF
+Togo,2008,PF
+Togo,2009,PF
+Togo,2010,PF
+Togo,2011,PF
+Togo,2012,PF
+Togo,2013,PF
+Togo,2014,PF
+Togo,2015,PF
+Togo,2016,PF
+Togo,2017,PF
+Togo,2018,PF
+Togo,2019,PF
+Togo,2020,PF
+Togo,2021,PF
+Tonga,1990,PF
+Tonga,1991,PF
+Tonga,1992,PF
+Tonga,1993,PF
+Tonga,1994,PF
+Tonga,1995,PF
+Tonga,1996,PF
+Tonga,1997,PF
+Tonga,1998,PF
+Tonga,1999,PF
+Tonga,2000,PF
+Tonga,2001,PF
+Tonga,2002,PF
+Tonga,2003,PF
+Tonga,2004,PF
+Tonga,2005,PF
+Tonga,2006,PF
+Tonga,2007,PF
+Tonga,2008,PF
+Tonga,2009,PF
+Tonga,2010,PF
+Tonga,2011,PF
+Tonga,2012,F
+Tonga,2013,F
+Tonga,2014,F
+Tonga,2015,F
+Tonga,2016,F
+Tonga,2017,F
+Tonga,2018,F
+Tonga,2019,F
+Tonga,2020,F
+Tonga,2021,F
+Trinidad and Tobago,1990,F
+Trinidad and Tobago,1991,F
+Trinidad and Tobago,1992,F
+Trinidad and Tobago,1993,F
+Trinidad and Tobago,1994,F
+Trinidad and Tobago,1995,F
+Trinidad and Tobago,1996,F
+Trinidad and Tobago,1997,F
+Trinidad and Tobago,1998,F
+Trinidad and Tobago,1999,F
+Trinidad and Tobago,2000,F
+Trinidad and Tobago,2001,PF
+Trinidad and Tobago,2002,PF
+Trinidad and Tobago,2003,PF
+Trinidad and Tobago,2004,PF
+Trinidad and Tobago,2005,F
+Trinidad and Tobago,2006,F
+Trinidad and Tobago,2007,F
+Trinidad and Tobago,2008,F
+Trinidad and Tobago,2009,F
+Trinidad and Tobago,2010,F
+Trinidad and Tobago,2011,F
+Trinidad and Tobago,2012,F
+Trinidad and Tobago,2013,F
+Trinidad and Tobago,2014,F
+Trinidad and Tobago,2015,F
+Trinidad and Tobago,2016,F
+Trinidad and Tobago,2017,F
+Trinidad and Tobago,2018,F
+Trinidad and Tobago,2019,F
+Trinidad and Tobago,2020,F
+Trinidad and Tobago,2021,F
+Tunisia,1990,PF
+Tunisia,1991,PF
+Tunisia,1992,PF
+Tunisia,1993,NF
+Tunisia,1994,NF
+Tunisia,1995,NF
+Tunisia,1996,NF
+Tunisia,1997,PF
+Tunisia,1998,NF
+Tunisia,1999,NF
+Tunisia,2000,NF
+Tunisia,2001,NF
+Tunisia,2002,NF
+Tunisia,2003,NF
+Tunisia,2004,NF
+Tunisia,2005,NF
+Tunisia,2006,NF
+Tunisia,2007,NF
+Tunisia,2008,NF
+Tunisia,2009,NF
+Tunisia,2010,NF
+Tunisia,2011,PF
+Tunisia,2012,PF
+Tunisia,2013,PF
+Tunisia,2014,F
+Tunisia,2015,F
+Tunisia,2016,F
+Tunisia,2017,F
+Tunisia,2018,F
+Tunisia,2019,F
+Tunisia,2020,F
+Tunisia,2021,PF
+Turkey,1990,PF
+Turkey,1991,PF
+Turkey,1992,PF
+Turkey,1993,PF
+Turkey,1994,PF
+Turkey,1995,PF
+Turkey,1996,PF
+Turkey,1997,PF
+Turkey,1998,PF
+Turkey,1999,PF
+Turkey,2000,PF
+Turkey,2001,PF
+Turkey,2002,PF
+Turkey,2003,PF
+Turkey,2004,PF
+Turkey,2005,PF
+Turkey,2006,PF
+Turkey,2007,PF
+Turkey,2008,PF
+Turkey,2009,PF
+Turkey,2010,PF
+Turkey,2011,PF
+Turkey,2012,PF
+Turkey,2013,PF
+Turkey,2014,PF
+Turkey,2015,PF
+Turkey,2016,PF
+Turkey,2017,NF
+Turkey,2018,NF
+Turkey,2019,NF
+Turkey,2020,NF
+Turkey,2021,NF
+Turkmenistan,1990,-
+Turkmenistan,1991,PF
+Turkmenistan,1992,NF
+Turkmenistan,1993,NF
+Turkmenistan,1994,NF
+Turkmenistan,1995,NF
+Turkmenistan,1996,NF
+Turkmenistan,1997,NF
+Turkmenistan,1998,NF
+Turkmenistan,1999,NF
+Turkmenistan,2000,NF
+Turkmenistan,2001,NF
+Turkmenistan,2002,NF
+Turkmenistan,2003,NF
+Turkmenistan,2004,NF
+Turkmenistan,2005,NF
+Turkmenistan,2006,NF
+Turkmenistan,2007,NF
+Turkmenistan,2008,NF
+Turkmenistan,2009,NF
+Turkmenistan,2010,NF
+Turkmenistan,2011,NF
+Turkmenistan,2012,NF
+Turkmenistan,2013,NF
+Turkmenistan,2014,NF
+Turkmenistan,2015,NF
+Turkmenistan,2016,NF
+Turkmenistan,2017,NF
+Turkmenistan,2018,NF
+Turkmenistan,2019,NF
+Turkmenistan,2020,NF
+Turkmenistan,2021,NF
+Tuvalu,1990,F
+Tuvalu,1991,F
+Tuvalu,1992,F
+Tuvalu,1993,F
+Tuvalu,1994,F
+Tuvalu,1995,F
+Tuvalu,1996,F
+Tuvalu,1997,F
+Tuvalu,1998,F
+Tuvalu,1999,F
+Tuvalu,2000,F
+Tuvalu,2001,F
+Tuvalu,2002,F
+Tuvalu,2003,F
+Tuvalu,2004,F
+Tuvalu,2005,F
+Tuvalu,2006,F
+Tuvalu,2007,F
+Tuvalu,2008,F
+Tuvalu,2009,F
+Tuvalu,2010,F
+Tuvalu,2011,F
+Tuvalu,2012,F
+Tuvalu,2013,F
+Tuvalu,2014,F
+Tuvalu,2015,F
+Tuvalu,2016,F
+Tuvalu,2017,F
+Tuvalu,2018,F
+Tuvalu,2019,F
+Tuvalu,2020,F
+Tuvalu,2021,F
+Uganda,1990,PF
+Uganda,1991,NF
+Uganda,1992,NF
+Uganda,1993,NF
+Uganda,1994,PF
+Uganda,1995,PF
+Uganda,1996,PF
+Uganda,1997,PF
+Uganda,1998,PF
+Uganda,1999,PF
+Uganda,2000,PF
+Uganda,2001,PF
+Uganda,2002,PF
+Uganda,2003,PF
+Uganda,2004,PF
+Uganda,2005,PF
+Uganda,2006,PF
+Uganda,2007,PF
+Uganda,2008,PF
+Uganda,2009,PF
+Uganda,2010,PF
+Uganda,2011,PF
+Uganda,2012,PF
+Uganda,2013,PF
+Uganda,2014,NF
+Uganda,2015,NF
+Uganda,2016,NF
+Uganda,2017,PF
+Uganda,2018,NF
+Uganda,2019,NF
+Uganda,2020,NF
+Uganda,2021,NF
+Ukraine,1990,-
+Ukraine,1991,PF
+Ukraine,1992,PF
+Ukraine,1993,PF
+Ukraine,1994,PF
+Ukraine,1995,PF
+Ukraine,1996,PF
+Ukraine,1997,PF
+Ukraine,1998,PF
+Ukraine,1999,PF
+Ukraine,2000,PF
+Ukraine,2001,PF
+Ukraine,2002,PF
+Ukraine,2003,PF
+Ukraine,2004,PF
+Ukraine,2005,F
+Ukraine,2006,F
+Ukraine,2007,F
+Ukraine,2008,F
+Ukraine,2009,F
+Ukraine,2010,PF
+Ukraine,2011,PF
+Ukraine,2012,PF
+Ukraine,2013,PF
+Ukraine,2014,PF
+Ukraine,2015,PF
+Ukraine,2016,PF
+Ukraine,2017,PF
+Ukraine,2018,PF
+Ukraine,2019,PF
+Ukraine,2020,PF
+Ukraine,2021,PF
+United Arab Emirates,1990,NF
+United Arab Emirates,1991,NF
+United Arab Emirates,1992,PF
+United Arab Emirates,1993,NF
+United Arab Emirates,1994,NF
+United Arab Emirates,1995,NF
+United Arab Emirates,1996,NF
+United Arab Emirates,1997,NF
+United Arab Emirates,1998,NF
+United Arab Emirates,1999,NF
+United Arab Emirates,2000,NF
+United Arab Emirates,2001,NF
+United Arab Emirates,2002,NF
+United Arab Emirates,2003,NF
+United Arab Emirates,2004,NF
+United Arab Emirates,2005,NF
+United Arab Emirates,2006,NF
+United Arab Emirates,2007,NF
+United Arab Emirates,2008,NF
+United Arab Emirates,2009,NF
+United Arab Emirates,2010,NF
+United Arab Emirates,2011,NF
+United Arab Emirates,2012,NF
+United Arab Emirates,2013,NF
+United Arab Emirates,2014,NF
+United Arab Emirates,2015,NF
+United Arab Emirates,2016,NF
+United Arab Emirates,2017,NF
+United Arab Emirates,2018,NF
+United Arab Emirates,2019,NF
+United Arab Emirates,2020,NF
+United Arab Emirates,2021,NF
+United Kingdom,1990,F
+United Kingdom,1991,F
+United Kingdom,1992,F
+United Kingdom,1993,F
+United Kingdom,1994,F
+United Kingdom,1995,F
+United Kingdom,1996,F
+United Kingdom,1997,F
+United Kingdom,1998,F
+United Kingdom,1999,F
+United Kingdom,2000,F
+United Kingdom,2001,F
+United Kingdom,2002,F
+United Kingdom,2003,F
+United Kingdom,2004,F
+United Kingdom,2005,F
+United Kingdom,2006,F
+United Kingdom,2007,F
+United Kingdom,2008,F
+United Kingdom,2009,F
+United Kingdom,2010,F
+United Kingdom,2011,F
+United Kingdom,2012,F
+United Kingdom,2013,F
+United Kingdom,2014,F
+United Kingdom,2015,F
+United Kingdom,2016,F
+United Kingdom,2017,F
+United Kingdom,2018,F
+United Kingdom,2019,F
+United Kingdom,2020,F
+United Kingdom,2021,F
+United States,1990,F
+United States,1991,F
+United States,1992,F
+United States,1993,F
+United States,1994,F
+United States,1995,F
+United States,1996,F
+United States,1997,F
+United States,1998,F
+United States,1999,F
+United States,2000,F
+United States,2001,F
+United States,2002,F
+United States,2003,F
+United States,2004,F
+United States,2005,F
+United States,2006,F
+United States,2007,F
+United States,2008,F
+United States,2009,F
+United States,2010,F
+United States,2011,F
+United States,2012,F
+United States,2013,F
+United States,2014,F
+United States,2015,F
+United States,2016,F
+United States,2017,F
+United States,2018,F
+United States,2019,F
+United States,2020,F
+United States,2021,F
+Uruguay,1990,F
+Uruguay,1991,F
+Uruguay,1992,F
+Uruguay,1993,F
+Uruguay,1994,F
+Uruguay,1995,F
+Uruguay,1996,F
+Uruguay,1997,F
+Uruguay,1998,F
+Uruguay,1999,F
+Uruguay,2000,F
+Uruguay,2001,F
+Uruguay,2002,F
+Uruguay,2003,F
+Uruguay,2004,F
+Uruguay,2005,F
+Uruguay,2006,F
+Uruguay,2007,F
+Uruguay,2008,F
+Uruguay,2009,F
+Uruguay,2010,F
+Uruguay,2011,F
+Uruguay,2012,F
+Uruguay,2013,F
+Uruguay,2014,F
+Uruguay,2015,F
+Uruguay,2016,F
+Uruguay,2017,F
+Uruguay,2018,F
+Uruguay,2019,F
+Uruguay,2020,F
+Uruguay,2021,F
+USSR,1990,PF
+USSR,1991,-
+USSR,1992,-
+USSR,1993,-
+USSR,1994,-
+USSR,1995,-
+USSR,1996,-
+USSR,1997,-
+USSR,1998,-
+USSR,1999,-
+USSR,2000,-
+USSR,2001,-
+USSR,2002,-
+USSR,2003,-
+USSR,2004,-
+USSR,2005,-
+USSR,2006,-
+USSR,2007,-
+USSR,2008,-
+USSR,2009,-
+USSR,2010,-
+USSR,2011,-
+USSR,2012,-
+USSR,2013,-
+USSR,2014,-
+USSR,2015,-
+USSR,2016,-
+USSR,2017,-
+USSR,2018,-
+USSR,2019,-
+USSR,2020,-
+USSR,2021,-
+Uzbekistan,1990,-
+Uzbekistan,1991,PF
+Uzbekistan,1992,NF
+Uzbekistan,1993,NF
+Uzbekistan,1994,NF
+Uzbekistan,1995,NF
+Uzbekistan,1996,NF
+Uzbekistan,1997,NF
+Uzbekistan,1998,NF
+Uzbekistan,1999,NF
+Uzbekistan,2000,NF
+Uzbekistan,2001,NF
+Uzbekistan,2002,NF
+Uzbekistan,2003,NF
+Uzbekistan,2004,NF
+Uzbekistan,2005,NF
+Uzbekistan,2006,NF
+Uzbekistan,2007,NF
+Uzbekistan,2008,NF
+Uzbekistan,2009,NF
+Uzbekistan,2010,NF
+Uzbekistan,2011,NF
+Uzbekistan,2012,NF
+Uzbekistan,2013,NF
+Uzbekistan,2014,NF
+Uzbekistan,2015,NF
+Uzbekistan,2016,NF
+Uzbekistan,2017,NF
+Uzbekistan,2018,NF
+Uzbekistan,2019,NF
+Uzbekistan,2020,NF
+Uzbekistan,2021,NF
+Vanuatu,1990,F
+Vanuatu,1991,F
+Vanuatu,1992,F
+Vanuatu,1993,F
+Vanuatu,1994,F
+Vanuatu,1995,F
+Vanuatu,1996,F
+Vanuatu,1997,F
+Vanuatu,1998,F
+Vanuatu,1999,F
+Vanuatu,2000,F
+Vanuatu,2001,F
+Vanuatu,2002,F
+Vanuatu,2003,F
+Vanuatu,2004,F
+Vanuatu,2005,F
+Vanuatu,2006,F
+Vanuatu,2007,F
+Vanuatu,2008,F
+Vanuatu,2009,F
+Vanuatu,2010,F
+Vanuatu,2011,F
+Vanuatu,2012,F
+Vanuatu,2013,F
+Vanuatu,2014,F
+Vanuatu,2015,F
+Vanuatu,2016,F
+Vanuatu,2017,F
+Vanuatu,2018,F
+Vanuatu,2019,F
+Vanuatu,2020,F
+Vanuatu,2021,F
+Venezuela,1990,F
+Venezuela,1991,F
+Venezuela,1992,PF
+Venezuela,1993,PF
+Venezuela,1994,PF
+Venezuela,1995,PF
+Venezuela,1996,F
+Venezuela,1997,F
+Venezuela,1998,F
+Venezuela,1999,PF
+Venezuela,2000,PF
+Venezuela,2001,PF
+Venezuela,2002,PF
+Venezuela,2003,PF
+Venezuela,2004,PF
+Venezuela,2005,PF
+Venezuela,2006,PF
+Venezuela,2007,PF
+Venezuela,2008,PF
+Venezuela,2009,PF
+Venezuela,2010,PF
+Venezuela,2011,PF
+Venezuela,2012,PF
+Venezuela,2013,PF
+Venezuela,2014,PF
+Venezuela,2015,PF
+Venezuela,2016,NF
+Venezuela,2017,NF
+Venezuela,2018,NF
+Venezuela,2019,NF
+Venezuela,2020,NF
+Venezuela,2021,NF
+Vietnam,1990,NF
+Vietnam,1991,NF
+Vietnam,1992,NF
+Vietnam,1993,NF
+Vietnam,1994,NF
+Vietnam,1995,NF
+Vietnam,1996,NF
+Vietnam,1997,NF
+Vietnam,1998,NF
+Vietnam,1999,NF
+Vietnam,2000,NF
+Vietnam,2001,NF
+Vietnam,2002,NF
+Vietnam,2003,NF
+Vietnam,2004,NF
+Vietnam,2005,NF
+Vietnam,2006,NF
+Vietnam,2007,NF
+Vietnam,2008,NF
+Vietnam,2009,NF
+Vietnam,2010,NF
+Vietnam,2011,NF
+Vietnam,2012,NF
+Vietnam,2013,NF
+Vietnam,2014,NF
+Vietnam,2015,NF
+Vietnam,2016,NF
+Vietnam,2017,NF
+Vietnam,2018,NF
+Vietnam,2019,NF
+Vietnam,2020,NF
+Vietnam,2021,NF
+"Vietnam, N.",1990,-
+"Vietnam, N.",1991,-
+"Vietnam, N.",1992,-
+"Vietnam, N.",1993,-
+"Vietnam, N.",1994,-
+"Vietnam, N.",1995,-
+"Vietnam, N.",1996,-
+"Vietnam, N.",1997,-
+"Vietnam, N.",1998,-
+"Vietnam, N.",1999,-
+"Vietnam, N.",2000,-
+"Vietnam, N.",2001,-
+"Vietnam, N.",2002,-
+"Vietnam, N.",2003,-
+"Vietnam, N.",2004,-
+"Vietnam, N.",2005,-
+"Vietnam, N.",2006,-
+"Vietnam, N.",2007,-
+"Vietnam, N.",2008,-
+"Vietnam, N.",2009,-
+"Vietnam, N.",2010,-
+"Vietnam, N.",2011,-
+"Vietnam, N.",2012,-
+"Vietnam, N.",2013,-
+"Vietnam, N.",2014,-
+"Vietnam, N.",2015,-
+"Vietnam, N.",2016,-
+"Vietnam, N.",2017,-
+"Vietnam, N.",2018,-
+"Vietnam, N.",2019,-
+"Vietnam, N.",2020,-
+"Vietnam, N.",2021,-
+"Vietnam, S.",1990,-
+"Vietnam, S.",1991,-
+"Vietnam, S.",1992,-
+"Vietnam, S.",1993,-
+"Vietnam, S.",1994,-
+"Vietnam, S.",1995,-
+"Vietnam, S.",1996,-
+"Vietnam, S.",1997,-
+"Vietnam, S.",1998,-
+"Vietnam, S.",1999,-
+"Vietnam, S.",2000,-
+"Vietnam, S.",2001,-
+"Vietnam, S.",2002,-
+"Vietnam, S.",2003,-
+"Vietnam, S.",2004,-
+"Vietnam, S.",2005,-
+"Vietnam, S.",2006,-
+"Vietnam, S.",2007,-
+"Vietnam, S.",2008,-
+"Vietnam, S.",2009,-
+"Vietnam, S.",2010,-
+"Vietnam, S.",2011,-
+"Vietnam, S.",2012,-
+"Vietnam, S.",2013,-
+"Vietnam, S.",2014,-
+"Vietnam, S.",2015,-
+"Vietnam, S.",2016,-
+"Vietnam, S.",2017,-
+"Vietnam, S.",2018,-
+"Vietnam, S.",2019,-
+"Vietnam, S.",2020,-
+"Vietnam, S.",2021,-
+Yemen,1990,PF
+Yemen,1991,PF
+Yemen,1992,PF
+Yemen,1993,PF
+Yemen,1994,NF
+Yemen,1995,NF
+Yemen,1996,NF
+Yemen,1997,NF
+Yemen,1998,NF
+Yemen,1999,NF
+Yemen,2000,NF
+Yemen,2001,NF
+Yemen,2002,NF
+Yemen,2003,PF
+Yemen,2004,PF
+Yemen,2005,PF
+Yemen,2006,PF
+Yemen,2007,PF
+Yemen,2008,PF
+Yemen,2009,NF
+Yemen,2010,NF
+Yemen,2011,NF
+Yemen,2012,NF
+Yemen,2013,NF
+Yemen,2014,NF
+Yemen,2015,NF
+Yemen,2016,NF
+Yemen,2017,NF
+Yemen,2018,NF
+Yemen,2019,NF
+Yemen,2020,NF
+Yemen,2021,NF
+"Yemen, N.",1990,-
+"Yemen, N.",1991,-
+"Yemen, N.",1992,-
+"Yemen, N.",1993,-
+"Yemen, N.",1994,-
+"Yemen, N.",1995,-
+"Yemen, N.",1996,-
+"Yemen, N.",1997,-
+"Yemen, N.",1998,-
+"Yemen, N.",1999,-
+"Yemen, N.",2000,-
+"Yemen, N.",2001,-
+"Yemen, N.",2002,-
+"Yemen, N.",2003,-
+"Yemen, N.",2004,-
+"Yemen, N.",2005,-
+"Yemen, N.",2006,-
+"Yemen, N.",2007,-
+"Yemen, N.",2008,-
+"Yemen, N.",2009,-
+"Yemen, N.",2010,-
+"Yemen, N.",2011,-
+"Yemen, N.",2012,-
+"Yemen, N.",2013,-
+"Yemen, N.",2014,-
+"Yemen, N.",2015,-
+"Yemen, N.",2016,-
+"Yemen, N.",2017,-
+"Yemen, N.",2018,-
+"Yemen, N.",2019,-
+"Yemen, N.",2020,-
+"Yemen, N.",2021,-
+"Yemen, S.",1990,-
+"Yemen, S.",1991,-
+"Yemen, S.",1992,-
+"Yemen, S.",1993,-
+"Yemen, S.",1994,-
+"Yemen, S.",1995,-
+"Yemen, S.",1996,-
+"Yemen, S.",1997,-
+"Yemen, S.",1998,-
+"Yemen, S.",1999,-
+"Yemen, S.",2000,-
+"Yemen, S.",2001,-
+"Yemen, S.",2002,-
+"Yemen, S.",2003,-
+"Yemen, S.",2004,-
+"Yemen, S.",2005,-
+"Yemen, S.",2006,-
+"Yemen, S.",2007,-
+"Yemen, S.",2008,-
+"Yemen, S.",2009,-
+"Yemen, S.",2010,-
+"Yemen, S.",2011,-
+"Yemen, S.",2012,-
+"Yemen, S.",2013,-
+"Yemen, S.",2014,-
+"Yemen, S.",2015,-
+"Yemen, S.",2016,-
+"Yemen, S.",2017,-
+"Yemen, S.",2018,-
+"Yemen, S.",2019,-
+"Yemen, S.",2020,-
+"Yemen, S.",2021,-
+Yugoslavia,1990,PF
+Yugoslavia,1991,NF
+Yugoslavia,1992,PF
+Yugoslavia,1993,NF
+Yugoslavia,1994,NF
+Yugoslavia,1995,NF
+Yugoslavia,1996,NF
+Yugoslavia,1997,NF
+Yugoslavia,1998,NF
+Yugoslavia,1999,PF
+Yugoslavia,2000,PF
+Yugoslavia,2001,PF
+Yugoslavia,2002,F
+Yugoslavia,2003,-
+Yugoslavia,2004,-
+Yugoslavia,2005,-
+Yugoslavia,2006,-
+Yugoslavia,2007,-
+Yugoslavia,2008,-
+Yugoslavia,2009,-
+Yugoslavia,2010,-
+Yugoslavia,2011,-
+Yugoslavia,2012,-
+Yugoslavia,2013,-
+Yugoslavia,2014,-
+Yugoslavia,2015,-
+Yugoslavia,2016,-
+Yugoslavia,2017,-
+Yugoslavia,2018,-
+Yugoslavia,2019,-
+Yugoslavia,2020,-
+Yugoslavia,2021,-
+Zambia,1990,PF
+Zambia,1991,F
+Zambia,1992,F
+Zambia,1993,PF
+Zambia,1994,PF
+Zambia,1995,PF
+Zambia,1996,PF
+Zambia,1997,PF
+Zambia,1998,PF
+Zambia,1999,PF
+Zambia,2000,PF
+Zambia,2001,PF
+Zambia,2002,PF
+Zambia,2003,PF
+Zambia,2004,PF
+Zambia,2005,PF
+Zambia,2006,PF
+Zambia,2007,PF
+Zambia,2008,PF
+Zambia,2009,PF
+Zambia,2010,PF
+Zambia,2011,PF
+Zambia,2012,PF
+Zambia,2013,PF
+Zambia,2014,PF
+Zambia,2015,PF
+Zambia,2016,PF
+Zambia,2017,PF
+Zambia,2018,PF
+Zambia,2019,PF
+Zambia,2020,PF
+Zambia,2021,PF
+Zimbabwe,1990,PF
+Zimbabwe,1991,PF
+Zimbabwe,1992,PF
+Zimbabwe,1993,PF
+Zimbabwe,1994,PF
+Zimbabwe,1995,PF
+Zimbabwe,1996,PF
+Zimbabwe,1997,PF
+Zimbabwe,1998,PF
+Zimbabwe,1999,PF
+Zimbabwe,2000,PF
+Zimbabwe,2001,NF
+Zimbabwe,2002,NF
+Zimbabwe,2003,NF
+Zimbabwe,2004,NF
+Zimbabwe,2005,NF
+Zimbabwe,2006,NF
+Zimbabwe,2007,NF
+Zimbabwe,2008,NF
+Zimbabwe,2009,NF
+Zimbabwe,2010,NF
+Zimbabwe,2011,NF
+Zimbabwe,2012,NF
+Zimbabwe,2013,NF
+Zimbabwe,2014,NF
+Zimbabwe,2015,PF
+Zimbabwe,2016,PF
+Zimbabwe,2017,NF
+Zimbabwe,2018,PF
+Zimbabwe,2019,PF
+Zimbabwe,2020,NF
+Zimbabwe,2021,NF

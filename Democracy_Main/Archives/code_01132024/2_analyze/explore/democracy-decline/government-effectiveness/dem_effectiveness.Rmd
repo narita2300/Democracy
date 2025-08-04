@@ -1,0 +1,133 @@
+---
+title: "Democracy and Government Effectiveness"
+author: "Ayumi Sudo"
+date: "11/10/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load libraries and data
+```{r}
+library(readxl)
+library(dplyr)
+library(tidyr)
+
+raw <- read_excel("Dropbox/Democracy/MainAnalysis/input/channels21st/wgidataset.xlsx", 
+    sheet = "GovernmentEffectiveness", range = "A15:ED229")
+
+colnames(raw)[1] <- "country"
+colnames(raw)[2] <- "code"
+
+goveff <- cbind(raw[,c("country", "code")], raw[,seq(3, 134, by = 6)])
+
+colnames(goveff)[3:5] <- lapply(seq(1996, 2000, by =2), function(x) paste("YR", x, sep=""))
+colnames(goveff)[6:24] <- lapply(seq(2002, 2020, by =1), function(x) paste("YR", x, sep=""))
+
+goveff_long <- gather(goveff, year, goveff, YR1996:YR2020,factor_key=TRUE)
+goveff_long$year <- strtoi(substr(goveff_long$year, 3, 6))
+goveff_long$goveff <- as.numeric(goveff_long$goveff)
+goveff_long <- goveff_long[goveff_long$goveff != "#N/A",]
+
+# merge the goveff_long dataset with the V-Dem regime type for 2000
+## load V-Dem data 
+vdem <- read_csv("Dropbox/Democracy/MainAnalysis/input/democracy/Country_Year_V-Dem_Core_CSV_v11.1/V-Dem-CY-Core-v11.1.csv")
+# limit to after 1960 and keep only relevant variables for now
+vdem <- vdem[vdem$year>=1960,c("country_text_id",
+                               "year",
+                               "v2x_polyarchy", 
+                               "v2x_libdem",
+                               "v2x_partipdem", 
+                               "v2x_delibdem",
+                               "v2x_egaldem", 
+                               "v2x_regime")] 
+
+vdem2000 <- vdem[vdem$year==2000, c("country_text_id", "v2x_regime")]
+colnames(vdem2000)[2] <- "regime2000"
+vdem <- merge(vdem, vdem2000, by="country_text_id", all = TRUE)
+
+goveff_long <- merge(goveff_long, vdem, 
+                     by.x = c("code", "year"), 
+                     by.y=c("country_text_id", "year"),
+                     all.x = TRUE)
+goveff_long <- goveff_long[!is.na(goveff_long$regime2000),]
+
+# standardize key variables over the whole dataset 
+goveff_long$v2x_polyarchy <- scale(goveff_long$v2x_polyarchy)
+goveff_long$goveff <- scale(goveff_long$goveff)
+```
+
+
+## Produce summary stats table
+```{r}
+stargazer(goveff_long$goveff, 
+          summary= TRUE, 
+          omit.summary.stat = c("p25", 
+                                "p75"))
+```
+
+## Look at trends in government effectiveness in 2001-2019 based on the regime in 2000
+```{r}
+ggplot(goveff_long, aes(x = year, 
+                        y = goveff, 
+                        color = regime2000)) + 
+  geom_point() + 
+  stat_summary(data = goveff_long[goveff_long$regime2000 == 0,],fun=mean, geom="line", color="blue") 
+
+```
+
+```{r}
+regime_names <- c(
+  `0` = "Closed autocracies in 2000",
+  `1` = "Electoral autocracies in 2000",
+  `2` = "Electoral democracies in 2000",
+  `3` = "Liberal democracies in 2000" )
+
+ggplot(goveff_long[goveff_long$year > 2000,],
+       aes(x = year,
+           y = goveff)) + 
+  geom_point() + 
+  facet_wrap(~regime2000, 
+             labeller = as_labeller(regime_names)) + 
+  stat_summary(data = goveff_long[goveff_long$year > 2000,],
+               fun=mean, geom="line") + 
+  labs(x = "Year", 
+       y = "Government Effectiveness Index ", 
+       title = "Democracy and Government Effectiveness in 2001-2020")
+
+ggsave("/Users/ayumis/Dropbox/アプリ/Overleaf/Curse_of_Democracy/supporting_files/figures/democracy_goveff_timeseries_byregime2000.png", width = 8, height = 6)
+
+```
+
+
+## Look at the OLS relationship between democracy and government effectiveness in 2000, 2010, and 2020
+```{r}
+ggplot(subset(goveff_long, year == 2000 | year == 2010 | year == 2020), 
+       aes(x = v2x_polyarchy,
+           y = goveff,
+           label = code)) + 
+  geom_text() + 
+  facet_wrap(~year) + 
+  geom_smooth(method='lm', formula=y~x) + 
+  labs(x = "Democracy Index (V-Dem)", 
+       y = "Government Effectiveness Index", 
+       title = "OLS: Democracy and Government Effectiveness")
+
+ggsave("/Users/ayumis/Dropbox/アプリ/Overleaf/Curse_of_Democracy/supporting_files/figures/democracy_goveff.png", width = 8, height = 6)
+
+m2000 <- lm(goveff ~ v2x_polyarchy, 
+            subset(goveff_long, year == 2000))
+m2010 <- lm(goveff ~ v2x_polyarchy, 
+            subset(goveff_long, year == 2010))
+m2020 <- lm(goveff ~ v2x_polyarchy, 
+            subset(goveff_long, year == 2020))
+stargazer(m2000, m2010, m2020,
+          column.labels = c("2000", "2010", "2020"), 
+          dep.var.labels = "Government Effectiveness Index")
+
+```
+
+
+

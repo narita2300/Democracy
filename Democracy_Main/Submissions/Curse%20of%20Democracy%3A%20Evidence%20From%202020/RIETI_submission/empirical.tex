@@ -1,0 +1,74 @@
+
+To identify the causal effect of democracy, we adopt several exogenous sources of variation in political systems. In particular, we adopt five different instrumental variables (IV) strategies, as introduced by \citet{ajr}, \citet{hj}, \citet{econ-con}, \citet{easterly2003}, and \citet{ajr2014}. Here we explain each IV strategy in further detail. 
+
+This literature has identified the effects of institutions by tracing back their origins to more fundamental determinants such as (i) the incentives of colonial powers to invest in institution building, as proxied by settler mortality (Acemoglu et al., 2000), (ii) colonial origin itself (Hall and Jones, 1999), and (iii) natural resource endowments (Engerman and Sokoloff, 1997). A parallel literature has documented the importance of trade for growth in the very long run (notably Frankel and Romer, 1999). This literature has identified the effects of trade by exploiting the deep geographical determinants of trade—countries that are landlocked and/or remote from major markets tend to trade less than those that are not.
+
+\noindent \textbf{European Settler Mortality} 
+
+\begin{itemize}
+    \item Originally suggested by \citet{ajr}
+    \item \citet{ajr} uses European settler mortality as an IV to estimate the causal effect of institutions on economic performance. They show, by using settler mortality as an instrument for institutional quality, that the effect of institutions on income becomes stronger.
+    \item They justify this IV on the grounds that the quality of institutions today is a function of how deadly that colony was for European settlers. In places where Europeans faced higher mortality rates (Sub-Saharan Africa, Central America), they did not want to settle, and therefore installed extractive institutions to extract as many resources out of the colony as possible. In places like the US or New Zealand, where European settler mortality was lower, Europeans settled and installed inclusive institutions. The effect of these institutions persist to the present. 
+    \item Acemoglu, Johnson, and Robinson (2001) (AJR) also suggest institutional quality as a fundamental determinant of economic development, but they have a “germs” theory of institutions. AJR base their theory on three premises. First, AJR note that Europeans adopted different types of colonization strategies. At one end of the spectrum, the Europeans settled and created institutions to support private property and check the power of the State. These “settler colonies” include the United States, Australia, and New Zealand. At the other end of the spectrum, Europeans did not aim to settle and instead sought to extract as much from the colony as possible. In these “extractive states,” Europeans did not create institutions to support private property rights; rather, they established institutions that empowered the elite to extract gold, silver, cash crops, etc. (e.g., Congo, Burundi, Ivory Coast, Ghana, Bolivia, Mexico, Peru).
+    \item The second component of AJR’s theory holds that the type of colonization strategy was heavily influenced by the feasibility of settlement. In areas where “germs” created high mortality among potential settlers, Europeans tended to create extractive states. In areas where “germs” favored settlement, Europeans tended to form settler colonies. For instance, AJR note that the Pilgrims decided to settle in the American colonies instead of Guyana partially because of the high mortality rates in Guyana (similarly, Sokoloff and Engerman (2000) note that a Puritan colony on Providence Island off the coast of Nicaragua did not last long). Moreover, Curtin (1964, 1989, 1998) documents that the European press published colonial mortality rates widely, so that potential settlers had information about colonial “germs.” Thus, according to the endowment theory, the disease environment shaped colonization strategy and the types of institutions established by Europeans colonizers.
+    \item Used by:  \citet{rodrik2004institutions}, \citet{boschini2004resource}, \citet{dollar}
+\end{itemize}
+
+\noindent \textbf{Fraction Speaking English/European, Frankel-Romer trade share}
+
+\begin{itemize}
+    \item Originally suggested by \citet{hj}
+    \item We use as instruments the share of the population that speaks English and the share that speaks a major European language (following Hall and Jones, 1999). These instruments are intended to capture the influences of colonial origin on current institutional quality.
+    \item Frankel and Romer (1999) predict bilateral trade between two countries using an expanded version of the gravity model of trade (where trade is a function of the distance between the countries, their size, and whether they have a common border). Their constructed trade share, then, is simply the sum of these fitted values across all possible trading partners and is a good instrument for trade (perhaps better than population) which is all that we have in 1913.
+    \item Frankel and Romer (1999) and Frankel et al (1996) argue that geography matters for economic development through government policy, specifically trade openness. They argue that openness per se has a strong causal effect on per capita income, instrumenting for openness with a country’s natural propensity to trade based on the gravity model. In the gravity model, predicted trade between two countries goes up with the area and population size of the trading partner and down with the distance between two countries. Trade also goes down with higher population size of the home country (more trade takes place within They construct “natural openness” by summing up the predicted bilateral trade shares of each country with all
+borders relative to across borders) and goes down if the country is landlocked.
+the other countries in the world. According this line of research, geography matters for many poor developing countries because they are far from markets and thus less likely to realize benefits from trade.
+    \item Used by: \citet{rajan}, \citet{econ-constitution}, \citet{boschini2004resource}, \citet{dollar}, \citet{kaufmann1999governance}
+    \item Kaufmann et al. (1999) also use this reasoning by using percent speaking English and percent speaking a European language as instruments for their institutional variables, getting a strong effect on per capita income.
+\end{itemize}
+
+
+\noindent \textbf{Legal Origin}
+\begin{itemize}
+    \item Originally suggested by \citet{econ-con}
+    \item Djankov et al. (2002, 2003), building on work by La Porta et al. (1997, 1998) and by legal scholars such as Dawson (1960) and Merryman (1985), show that the “legal origin” of a country has an important effect on the degree of legal formalism, and, most relevant for our sample, countries with a French (civil‐law) legal origin have substantially higher degrees of legal formalism than English (common‐law) legal origin countries. Moreover, as these authors argue, at least for former European colonies, the legal system can be thought of as “exogenous” because it was imposed by colonial powers.2 We show that legal origin also has a large, precisely estimated, and robust effect on the other measures of contracting institutions.
+    \item Used by: \citet{acemoglu2005unbundling}
+\end{itemize}
+
+\noindent \textbf{Natural Endowments}
+\begin{itemize}
+    \item The “crops” hypothesis is due to Engerman and Sokoloff (1997) and Sokoloff and Engerman (2000) (henceforth ES). ES argue that the land endowments of Latin America lent themselves to commodities featuring economies of scale and/or the use of slave and indigenous labor (sugar cane, rice, silver) and thus were historically associated with power concentrated in the hands of the plantation and mining elite. In contrast, the endowments of North America lent themselves to commodities grown on family farms (wheat, maize) and thus promoted the growth of a large middle class in which power was widely distributed
+    \item Originally suggested by \citet{easterly2003}
+    \item Our measures of “crops/minerals” are dummies for whether a country produced any of a given set of leading commodities in 1998-1999. 
+\end{itemize}
+
+\noindent \textbf{Population Density in 1500s}
+\begin{itemize}
+    \item Originally suggested by \citet{acemoglu2003}
+\end{itemize}
+
+
+\noindent \textbf{Estimating equation} We estimate the relationship between democracy and Covid-19 outcomes using the following empirical framework: 
+
+\begin{equation}
+    \label{eqn:2sls-second}
+    Y_i = \mu + \alpha Democracy_i + X^{'}_i \gamma + \epsilon_i
+\end{equation}
+
+\begin{equation}
+    \label{eqn:2sls-first}
+    \text{First Stage: } 
+    Democracy_i = \zeta + \beta Z^{'}_i + X^{'}_i \delta + \upsilon_i
+\end{equation}
+
+\noindent In equation \ref{eqn:2sls-second}, the coefficient $\alpha$ represents the OLS estimate of the effect of $Democracy_i$, the normalized democracy measure, on $Y_i$, the outcome variable (Covid-19-related deaths per million or GDP growth in 2020), conditional on country characteristics represented by the control vector $X^{'}_i$. Equation \ref{eqn:2sls-first} estimates the first stage relationship between the normalized democracy index $Democracy_i$ and the IVs, $Z^{'}$. The coefficient $\beta$ estimates the effect of $Z^{'}$ on $Democracy_i$, the normalized democracy measure, conditional on country characteristics represented by the control vector $X^{'}_i$. In both equations, we allow different weightings of countries: no weighting, weighting by population and weighting by GDP.
+
+The reduced form effect of the IVs on Covid-19-related outcomes can be written as follows:
+
+\begin{equation}
+    \label{eqn:reduced}
+    Y_i = \tilde{\mu} + \tilde{\alpha}Democracy_i + X^{'}_i\tilde{\gamma} + \tilde{\epsilon}_i
+\end{equation}
+where $\tilde{\alpha}$ represents the reduced form impact of log European settler mortality on Covid-19-related outcomes. For all main results, we report the estimated OLS ($\alpha$) and two-stage least squares ($\frac{\tilde{\alpha}}{\beta}$) coefficients. 
+
+\noindent \textbf{First-stage results} Figure \ref{fig:first-stage} shows the first-stage relationship between European settler mortality and current democracy levels. The slope of the regression line is equivalent to the coefficient $\tilde{\beta}$ from equation \ref{eqn:2sls-first}. The negative relationship between settler mortality and the democracy index implies that higher levels of settler mortality caused European colonizers to set up more ``extractive" states, which persisted over time and led to less democratic political regimes. 

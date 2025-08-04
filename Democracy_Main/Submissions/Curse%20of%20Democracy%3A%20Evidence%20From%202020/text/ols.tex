@@ -1,0 +1,12 @@
+Before we explore democracy's causal effect, we first see how democratic and authoritarian countries fare during the pandemic. Figure \ref{fig:ols} shows that higher levels of democracy are associated with bigger GDP loss in 2020 and more deaths from Covid-19. 
+
+To quantify their magnitude and statistical significance, we run the following OLS regressions of each outcome against Freedom House's democracy index: 
+    \begin{equation}
+    \label{eqn:ols}
+        Y_i = \mu + \alpha Democracy_i +  X^{'}_i \gamma + \epsilon_i
+    \end{equation}
+\noindent where $Y_i$ is the outcome variable for country $i$ (GDP growth rates or Covid-19-related deaths per million in 2020), $\mu$ is the intercept, $Democracy_i$ is the democracy index (normalized to have standard deviation one), $X^{'}_i$ is a vector of other country-level covariates, and $\epsilon_i$ is a residual. The coefficient of interest is $\alpha$, which quantifies the association between democracy and the outcome. We weight countries by GDP in the baseline specification. Results are similar with weighting by population and with no weighting. 
+
+The OLS estimates in Table \ref{tab:2sls}'s Panel B show that democracy is significantly associated with worse outcomes. In column 5, for example, a standard deviation increase in the democracy measure corresponds to a 2.3 (s.e. = 0.6) percentage-point decrease in GDP in 2020 and an increase of 264.0 (s.e. = 65.3) in Covid-19-related deaths per million. 
+
+The addition of controls does not change the results. It is plausible that factors such as climate, population density, population aging, and the prevalence of diabetes affect these outcomes. To control for these factors, we add absolute latitude, mean temperature, mean precipitation, population density, median age, and diabetes prevalence as covariates. The resulting estimates in Panel C's column 6 differ from the univariate regressions in column 5 only by around 15\%. The estimates are -2.0 (s.e. = 0.4) for GDP growth rates in 2020 and 333.8 (s.e. = 66.6) for Covid-19-related deaths per million. We obtain similar estimates across different samples with and without controls.

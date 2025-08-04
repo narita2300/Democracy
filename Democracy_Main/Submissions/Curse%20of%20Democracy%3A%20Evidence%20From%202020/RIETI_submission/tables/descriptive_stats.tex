@@ -1,0 +1,169 @@
+
+\begin{landscape}
+\begin{table}[!htbp] \centering 
+\begin{threeparttable}
+  \caption{Descriptive Statistics} 
+  \label{tab:descriptive-stats} 
+\begin{tabular}{@{\extracolsep{0pt}}llcccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+& Variable & \multicolumn{1}{c}{N} & \multicolumn{1}{c}{Mean} & \multicolumn{1}{c}{St. Dev.} & \multicolumn{1}{c}{Min} & \multicolumn{1}{c}{Median} & \multicolumn{1}{c}{Max} \\ 
+\hline \\[-1.8ex] 
+Outcomes & Covid-19-related Deaths Per Million & 156 & 311.4 & 385.0 & 0.2 & 104.9 & 1,685.0 \\  
+& & & & & (Burundi) & (Finland) & (Belgium)\\
+% Covid-19 Cases Per Million & 156 & 16,772.7 & 18,872.0 & 8.5 & 9,282.7 & 76,818.8 \\ 
+% & & & & (Tanzania) & (Norway) & (Montenegro) \\
+& GDP Growth 2019-20 & 156 & $-$5.4 & 7.2 & $-$67 & $-$5 & 26 \\
+& & & & & (Libya) & (Afghanistan) & (Guyana)\\
+ \hline \\[-1.8ex] 
+Treatment & Democracy Index & 156 & 2.5 & 1.0 & 0.5 & 2.6 & 4.5 \\
+& & & & & (Congo) & (Senegal) & (Norway)\\
+& Representative Gov. Index & 149 & 2.4 & 1.0 & 0.0 & 2.5 & 3.8 \\ 
+& & & & & (Burkina Faso) & (Botswana) & (Chile) \\
+& Polity Index & 153 & 0.7 & 1.0 & $-$1.7 & 1.2 & 1.7 \\ 
+& & & & & (Bahrain) & (Armenia) & (Australia) \\
+% & Freedom House Index & 156 & 2.0 & 1.0 & 0.1 & 2.1 & 3.5 \\
+% & & & & & (Eritrea) & (Georgia) & (Finland) \\
+\hline \\[-1.8ex] 
+Control & Absolute Latitude & 156 & 27.1 & 17.4 & 0 & 25 & 65 \\ 
+ & & & & & (Congo) & (Libya) & (Iceland)\\
+& Mean Temperature & 156 & 18.5 & 8.3 & $-$6.0 & 22.0 & 28.9 \\ 
+& & & & & (Canada) & (Australia) & (Mali) \\
+& Mean Precipitation & 156 & 87.1 & 62.3 & 2.5 & 71.4 & 259.1 \\ 
+& & & & & (Egypt) & (Belgium) & (Malaysia)\\
+& GDP Per Capita & 156 & 18,858.4 & 19,854.2 & 661.2 & 12,265.8 & 116,935.6 \\ 
+& & & & & (CAR) & (Peru) & (Qatar) \\
+& Population Density & 156 & 195.1 & 666.2 & 2.0 & 78.4 & 7,915.7 \\ 
+& & & & & (Mongolia) & (Morocco) & (Singapore)\\\hline \\[-1.8ex] 
+IVs & Log European Settler Mortality & 81 & 4.6 & 1.3 & 0.9 & 4.4 & 8.0 \\ 
+& & & & & (UK) & (Trinidad \& Tobago) & (Mali) \\
+& Fraction Speaking English & 124 & 0.1 & 0.2 & 0.0 & 0.0 & 1.0 \\ 
+& & & & & (Angola) & (Angola) & (UK) \\
+& Fraction Speaking European & 124 & 0.2 & 0.4 & 0.0 & 0.0 & 1.0 \\ 
+& & & & & (Angola) & (Angola) & (France) \\
+& Log Frankel-Romer Trade Share & 124 & 2.9 & 0.8 & 0.8 & 2.9 & 5.6 \\ 
+& & & & & (China) & (Germany) & (Luxembourg) \\
+\hline \\[-1.8ex] 
+ & \multicolumn{6}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
+\end{tabular} 
+
+\begin{tablenotes}
+            \item{\textit{Notes:}} Parentheses contain country names corresponding to the minimum, median and maximum values of each variable below the corresponding values. In the case where we observe multiple countries corresponding to the same minimum, median or maximum, we choose the country that comes first in alphabetical order. In the case where we do not find a country that corresponds exactly to the median, we use the country that has the closest value.  All democracy indices have been normalized by their respective standard-deviations. For more detailed descriptions, refer to Table \ref{tab:data_sources} in the Appendix.
+        \end{tablenotes}
+\end{threeparttable}
+\end{table}  
+\end{landscape}
+
+\begin{comment}
+\begin{table}[!htbp] \centering 
+\begin{threeparttable}
+  \caption{Descriptive Statistics} 
+  \label{descriptive-stats} 
+\begin{tabular}{@{\extracolsep{0pt}}lcccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+& \multicolumn{1}{c}{N} & \multicolumn{1}{c}{Mean} & \multicolumn{1}{c}{St. Dev.} & \multicolumn{1}{c}{Min} & \multicolumn{1}{c}{Median} & \multicolumn{1}{c}{Max} \\ 
+\hline \\[-1.8ex] 
+\textbf{Outcomes} & & & & & & \\ \\
+Covid-19-related Deaths Per Million & 156 & 311.4 & 385.0 & 0.2 & 104.9 & 1,685.0 \\  
+& & & & (Burundi) & (Finland) & (Belgium)\\
+% Covid-19 Cases Per Million & 156 & 16,772.7 & 18,872.0 & 8.5 & 9,282.7 & 76,818.8 \\ 
+% & & & & (Tanzania) & (Norway) & (Montenegro) \\
+GDP Change 2019-20 & 156 & $-$5.4 & 7.2 & $-$67 & $-$5 & 26 \\
+& & & & (Libya) & (Afghanistan) & (Guyana)\\
+ \hline \\[-1.8ex] 
+ \textbf{Treatments} & & & & & & \\ \\
+Democracy Index & 156 & 2.5 & 1.0 & 0.5 & 2.6 & 4.5 \\
+& & & & (Congo) & (Senegal) & (Norway)\\
+Representative Gov. Index & 149 & 2.4 & 1.0 & 0.0 & 2.5 & 3.8 \\ 
+& & & & (Burkina Faso) & (Botswana) & (Chile) \\
+Polity Index & 153 & 0.7 & 1.0 & $-$1.7 & 1.2 & 1.7 \\ 
+& & & & (Bahrain) & (Armenia) & (Australia) \\
+% & Freedom House Index & 156 & 2.0 & 1.0 & 0.1 & 2.1 & 3.5 \\
+% & & & & & (Eritrea) & (Georgia) & (Finland) \\
+\hline \\[-1.8ex] 
+\textbf{Control \& Weighting} & & & & & & \\ \\
+Absolute Latitude & 156 & 27.1 & 17.4 & 0 & 25 & 65 \\ 
+& & & & (Congo) & (Libya) & (Iceland)\\
+Mean Temperature & 156 & 18.5 & 8.3 & $-$6.0 & 22.0 & 28.9 \\ 
+& & & & (Canada) & (Australia) & (Mali) \\
+Mean Precipitation & 156 & 87.1 & 62.3 & 2.5 & 71.4 & 259.1 \\ 
+& & & & (Egypt) & (Belgium) & (Malaysia)\\
+GDP Per Capita & 156 & 18,858.4 & 19,854.2 & 661.2 & 12,265.8 & 116,935.6 \\ 
+& & & & (CAR) & (Peru) & (Qatar) \\
+Population Density & 156 & 195.1 & 666.2 & 2.0 & 78.4 & 7,915.7 \\ 
+& & & & (Mongolia) & (Morocco) & (Singapore)\\\hline \\[-1.8ex] 
+\textbf{Instruments} & & & & & & \\ \\
+Log European Settler Mortality & 81 & 4.6 & 1.3 & 0.9 & 4.4 & 8.0 \\ 
+& & & & (UK) & (Trinidad \& Tobago) & (Mali) \\
+Fraction Speaking English & 124 & 0.1 & 0.2 & 0.0 & 0.0 & 1.0 \\ 
+& & & & (Angola) & (Angola) & (UK) \\
+Fraction Speaking European & 124 & 0.2 & 0.4 & 0.0 & 0.0 & 1.0 \\ 
+& & & & (Angola) & (Angola) & (France) \\
+Log Frankel-Romer Trade Share & 124 & 2.9 & 0.8 & 0.8 & 2.9 & 5.6 \\ 
+& & & & (China) & (Germany) & (Luxembourg) \\
+\hline \\[-1.8ex] 
+ & \multicolumn{6}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
+\end{tabular} 
+
+\begin{tablenotes}
+            \item{\textit{Notes:}} Parentheses contain country names corresponding to the minimum, median and maximum values of each variable below the corresponding values. In the case where we observe multiple countries corresponding to the same minimum, median or maximum, we choose the country that comes first in alphabetical order. In the case where we do not find a country that corresponds exactly to the median, we use the country that has the closest value.  All democracy indices have been normalized by their respective standard-deviations. For more detailed descriptions, refer to Table \ref{tab:data_sources} in the Appendix.
+        \end{tablenotes}
+\end{threeparttable}
+\end{table}  
+\end{comment}
+
+
+\begin{comment}
+\begin{table}[!htbp] \centering 
+\begin{threeparttable}
+  \caption{Descriptive Statistics} 
+  \label{descriptive-stats} 
+\footnotesize
+\begin{tabular}{@{\extracolsep{0pt}}llccc|ccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & Variable & \multicolumn{1}{c}{N} & \multicolumn{1}{c}{Mean} & \multicolumn{1}{c}{St. Dev.} & \multicolumn{1}{c}{Min} & \multicolumn{1}{c}{Median} & \multicolumn{1}{c}{Max} \\ 
+\hline \\[-1.8ex] 
+Outcomes & Covid-19-related Deaths Per Million & 156 & 311.4 & 385.0 & 0.2 & 104.9 & 1,685.0 \\  
+& & & & & (Burundi) & (Finland) & (Belgium)\\
+ & Covid-19 Cases Per Million & 156 & 16,772.7 & 18,872.0 & 8.5 & 9,282.7 & 76,818.8 \\ 
+ & & & & & (Tanzania) & (Norway) & (Montenegro) \\
+ & GDP Change 2019-20 & 156 & $-$5.4 & 7.2 & $-$67 & $-$5 & 26 \\
+ & & & & & (Libya) & (Afghanistan) & (Guyana)\\
+ \hline \\[-1.8ex] 
+Treatments & Democracy Index & 156 & 2.5 & 1.0 & 0.5 & 2.6 & 4.5 \\
+& & & & & (Congo) & (Senegal) & (Norway)\\
+ & Representative Gov. Index 2019 & 149 & 2.4 & 1.0 & 0.0 & 2.5 & 3.8 \\ 
+ & & & & & (Burkina Faso) & (Botswana) & (Chile) \\
+& Polity Index & 153 & 0.7 & 1.0 & $-$1.7 & 1.2 & 1.7 \\ 
+ & & & & & (Bahrain) & (Armenia) & (Australia) \\
+% & Freedom House Index & 156 & 2.0 & 1.0 & 0.1 & 2.1 & 3.5 \\
+% & & & & & (Eritrea) & (Georgia) & (Finland) \\
+\hline \\[-1.8ex] 
+ & Absolute Latitude & 156 & 27.1 & 17.4 & 0 & 25 & 65 \\ 
+ & & & & & (Congo) & (Libya) & (Iceland)\\
+Control \& & Mean Temperature & 156 & 18.5 & 8.3 & $-$6.0 & 22.0 & 28.9 \\ 
+& & & & & (Canada) & (Australia) & (Mali) \\
+Weighting & Mean Precipitation & 156 & 87.1 & 62.3 & 2.5 & 71.4 & 259.1 \\ 
+& & & & & (Egypt) & (Belgium) & (Malaysia)\\
+ & GDP Per Capita & 156 & 18,858.4 & 19,854.2 & 661.2 & 12,265.8 & 116,935.6 \\ 
+ & & & & & (CAR) & (Peru) & (Qatar) \\
+ & Population Density & 156 & 195.1 & 666.2 & 2.0 & 78.4 & 7,915.7 \\ 
+ & & & & & (Mongolia) & (Morocco) & (Singapore)\\\hline \\[-1.8ex] 
+Instruments & Log European Settler Mortality & 81 & 4.6 & 1.3 & 0.9 & 4.4 & 8.0 \\ 
+& & & & & (UK) & (Trinidad \& Tobago) & (Mali) \\
+ & Fraction Speaking European & 124 & 0.2 & 0.4 & 0.0 & 0.0 & 1.0 \\ 
+ & & & & & (Angola) & (Angola) & (France) \\
+& Log Frankel-Romer Trade Share & 124 & 2.9 & 0.8 & 0.8 & 2.9 & 5.6 \\ 
+& & & & & (China) & (Germany) & (Luxembourg) \\
+\hline \\[-1.8ex] 
+ & \multicolumn{7}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
+\end{tabular} 
+
+\begin{tablenotes}
+            \item{\textit{Notes:}} Parentheses contain country names corresponding to the minimum, median and maximum values of each variable below the corresponding values. In the case where we observe multiple countries corresponding to the same minimum, median or maximum, we choose the country that comes first in alphabetical order. In the case where we do not find a country that corresponds exactly to the median, we use the country that has the closest value.  All democracy indices (Democracy Index, Representative Gov. Index, Polity Index and the Freedom House Index) have been normalized by their respective standard-deviations. For more detailed descriptions, refer to Table \ref{tab:data_sources} in the Appendix.
+        \end{tablenotes}
+\end{threeparttable}
+\end{table}  
+\end{comment}

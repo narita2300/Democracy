@@ -1,0 +1,61 @@
+\subsection{Democracy is associated with worse Covid-19-related outcomes}
+
+\textcolor{red}{Note: Copy and pasted the OLS part of Acemoglu's paper.}
+
+Figure \ref{fig:ols} shows that higher levels of democracy are associated with more deaths from Covid-19 and bigger GDP loss in 2020. 
+
+Table \ref{tab:ols} reports ordinary least-squares (OLS) regressions of Covid-19-related deaths per million (in Panel A) and GDP growth rates in 2020 (in Panel B) against the democracy index. The linear regressions are for the equation: 
+    
+    \begin{equation}
+    \label{eqn:ols}
+        Y_i = \mu_i + \alpha Democracy_i +  X^{'}_i \gamma + \epsilon_i
+    \end{equation}
+    
+\noindent where $Y_i$ is the outcome variable (Covid-19-related deaths per million or GDP growth in 2020) for country $i$, $\mu$ is the intercept, $Democracy_i$ is the normalized democracy index, $X^{'}_i$ is a vector of other covariates, and $\epsilon_i$ is a random error term. The coefficient of interest is $\alpha$, which captures the effect of democracy on Covid-19-related outcomes. We allow different weightings of countries: no weighting, weighting by population and weighting by GDP. 
+
+Columns (1)-(3) in Panel A show that there is a strong positive correlation between democracy and Covid-19-related deaths per million. Columns (1)-(3) in Panel B show that a strong negative correlation exists between democracy and GDP growth in 2020. To get a sense of the magnitude of the effect of democratic regimes on Covid-19-related performance, let us compare two countries, Myanmar, which has approximately the 25th percentile of the normalized democracy measure in this sample, 1.61, and Slovakia, which has approximately the 75th percentile, 3.26. The estimates in column (2) are 180.8 for Covid-19 deaths per million and -3.1 for GDP growth per a standard deviation increase in the democracy index. This indicates that there should be on average a difference of 290 Covid-19-related deaths per million and -5\% difference in GDP growth rates between the two countries. In practice, the gap is 350 for Covid-19-related deaths per million and -9.1\% for GDP growth rates. Therefore, if the effect estimated in Table \ref{tab:ols} were causal, it would imply a fairly large effect of institutions on performance, but still less than the actual gap in Covid-19 outcomes between Myanmar and Slovakia. 
+
+Experimental evidence shows that Covid-19 is sensitive to temperature, humidity and solar radiation \citep{chin}. To control for this, we add absolute latitude, mean temperature and mean precipitation as regressors. We also control for GDP per capita and population density. The results in columns (4)-(6) indicate that these controls do not change the quantitative and statistical significance of the OLS estimates. 
+
+Overall, the results in Table \ref{tab:ols} show that democracy is associated with more deaths attributed to Covid-19 and greater negative shocks to GDP. Nevertheless, there are two important reasons for not interpreting this relationship as causal. First, there are many omitted determinants of Covid-19-related outcomes that will naturally be correlated with democracies. Moreover, the democracy variable is likely to be measured with error, which creates attenuation bias. These issues could be solved if we had IVs for democratic regimes. Such an IV must be an important factor in accounting for the variation among political systems, but have no direct effect on performance in the Covid-19 pandemic. In the next section, we test several IVs and report the resulting 2SLS estimates.
+
+\begin{comment}
+\subsection{Democracy is associated with worse Covid-19-related outcomes}
+
+\textcolor{red}{Note: Copy and pasted the OLS part of Acemoglu's paper. Copy and pasted parts are in blue. The edited version for this paper is in black.}
+
+
+Figure \ref{fig:ols} shows that higher levels of democracy are associated with more deaths from Covid-19 and bigger GDP loss in 2020. 
+
+{\color{blue}
+Table 2 reports ordinary least-squares (OLS) regressions of log per capita income on the protection against expropriation variable in a variety of samples. The linear regressions are for the equation
+
+where yi is income per capita in country i, Ri is the protection against expropriation measure, Xi is a vector of other covariates, and  is a random error term. The coefficient of interest throughout the paper is , the effect of institu- tions on income per capita.}
+
+Table \ref{tab:ols} reports ordinary least-squares (OLS) regressions of Covid-19-related deaths per million (in Panel A) and GDP growth rates in 2020 (in Panel B) against the democracy index, which is normalized by its standard deviation. The linear regressions are for the equation: 
+    
+    \begin{equation}
+    \label{eqn:ols}
+        Y_i = \mu_i + \alpha Democracy_i +  X^{'}_i \gamma + \epsilon_i
+    \end{equation}
+    
+\noindent where $Y_i$ is the outcome variable (Covid-19-related deaths per million or GDP growth in 2020) in country $i$, $\mu$ is the intercept, $Democracy_i$ is the normalized democracy index, $X^{'}_i$ is a vector of other covariates, and $\epsilon_i$ is a random error term. The coefficient of interest is $\alpha$, which captures the effect of democracy on Covid-19-related outcomes. We allow different weightings of countries in our OLS regression: no weighting, weighting by population and weighting by GDP. 
+
+{\color{blue}
+
+Column (1) shows that in the whole world sample there is a strong correlation between our measure of institutions and income per capita. Column (2) shows that the impact of the insti- tutions variable on income per capita in our base sample is quite similar to that in the whole world, and Figure 2 shows this relationship di- agrammatically for our base sample consisting of 64 countries. The R2 of the regression in column (1) indicates that over 50 percent of the variation in income per capita is associated with variation in this index of institutions. To get a sense of the magnitude of the effect of institutions on performance, let us compare two countries, Nigeria, which has approximately the 25th percentile of the institutional measure in this sample, 5.6, and Chile, which has approximately the 75th percentile of the institutions index, 7.8. The estimate in column (1), 0.52, indicates that there should be on average a 1.14- log-point difference between the log GDPs of the corresponding countries (or approximately a 2-fold difference—e1.14  1  2.1). In practice, this GDP gap is 253 log points (approximately 11-fold). Therefore, if the effect estimated in Table 2 were causal, it would imply a fairly large effect of institutions on performance, but still much less than the actual income gap between Nigeria and Chile.}
+
+Columns (1)-(3) in Panel A show that, regardless of the weighting method, there is a strong positive correlation between our measure of democracy and Covid-19-related deaths per million. Columns (1)-(3) in Panel B show that a strong negative correlation exists between the democracy index and GDP growth rates in 2020. To get a sense of the magnitude of the effect of democratic regimes on Covid-19-related performance, let us compare two countries, Myanmar, which has approximately the 25th percentile of the normalized democracy measure in this sample, 1.61, and Slovakia, which has approximately the 75th percentile, 3.26. The estimates in column (2) are 180.8 for Covid-19 deaths per million and -3.1 for GDP growth in 2020 per a standard deviation increase in the democracy index. This indicates that there should be on average a difference of 290 Covid-19-related deaths per million and -5 point difference in GDP growth rates between the two countries. In practice, the gap is 350 for Covid-19-related deaths per million and -9.1 for GDP growth rates. Therefore, if the effect estimated in Table \ref{tab:ols} were causal, it would imply a fairly large effect of institutions on performance, but still less than the actual gap in Covid-19 outcomes between Myanmar and Slovakia. 
+
+{\color{blue}
+
+Many social scientists, including Monte- squieu [1784] (1989), Diamond (1997), and Sachs and coauthors, have argued for a direct effect of climate on performance, and Gallup et al. (1998) and Hall and Jones (1999) document the correlation between distance from the equa- tor and economic performance. To control for this, in columns (3)–(6), we add latitude as a regressor (we follow the literature in using the absolute value measure of latitude, i.e., distance from the equator, scaled between 0 and 1). This changes the coefficient of the index of institu- tions little. Latitude itself is also significant and has the sign found by the previous studies. In columns (4) and (6), we also add dummies for Africa, Asia, and other continents, with Amer- ica as the omitted group. Although protection against expropriation risk remains significant, the continent dummies are also statistically and quantitatively significant. The Africa dummy in column (6) indicates that in our sample African countries are 90 log points (approximately 145 percent) poorer even after taking the effect of institutions into account. Finally, in columns (7) and (8), we repeat our basic regressions using the log of output per worker from Hall and Jones (1999), with very similar results.}
+
+Experimental evidence shows that Covid-19 is sensitive to temperature, humidity and solar radiation \citep{chin}. To control for this, we add absolute latitude, mean temperature and mean precipitation as regressors. We also control for GDP per capita and population density. The coefficients in columns (4)-(6) remain large and mostly statistically significant. 
+
+{\color{blue}
+
+Overall, the results in Table 2 show a strong correlation between institutions and economic performance. Nevertheless, there are a number of important reasons for not interpreting this relationship as causal. First, rich economies may be able to afford, or perhaps prefer, better institutions. Arguably more important than this reverse causality problem, there are many omit- ted determinants of income differences that will naturally be correlated with institutions. Finally, the measures of institutions are constructed ex post, and the analysts may have had a natural bias in seeing better institutions in richer places. As well as these problems introducing positive bias in the OLS estimates, the fact that the institutions variable is measured with consider- able error and corresponds poorly to the “cluster of institutions” that matter in practice creates attenuation and may bias the OLS estimates downwards. All of these problems could be solved if we had an instrument for institutions. Such an instrument must be an important factor in accounting for the institutional variation that we observe, but have no direct effect on perfor- mance. Our discussion in Section I suggests that settler mortality during the time of colonization is a plausible instrument.}
+
+Overall, the results in Table \ref{tab:ols} show democracy is associated with more deaths attributed to Covid-19 and greater negative shocks to GDP. Nevertheless, there are two important reasons for not interpreting this relationship as causal. First, there are many omitted determinants of Covid-19-related outcomes that will naturally be correlated with democracies. Moreover, the democracy variable is likely to be measured with error, which creates attenuation bias. These issues could be solved if we had IVs for democratic regimes. Such an IV must be an important factor in accounting for the variation among political systems, but have no direct effect on performance in the Covid-19 pandemic. Our discussion in section \ref{sec:intro} suggests that settler mortality during the time of colonization is a plausible IV. 
+\end{comment}

@@ -1,0 +1,52 @@
+\begin{landscape}
+\begin{table}[!htbp] \centering 
+  \caption{2SLS Regressions with Continent Dummies} 
+  \label{tab:2sls-continent-dummies} 
+  \begin{threeparttable}
+\begin{tabular}{@{\extracolsep{0pt}}lcccccccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+
+\\[-1.8ex] & (1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) & (10)\\ 
+\hline \\[-1.8ex] 
+ & \multicolumn{10}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-11} 
+\\[-1.8ex] & \multicolumn{10}{c}{Panel A: GDP Growth Rates in 2020} \\ \\ 
+  Democracy Index (Freedom House) & $-$4.4$^{***}$ & $-$3.9$^{***}$ & $-$2.7$^{*}$ & $-$3.1$^{***}$ & $-$5.0$^{***}$ & $-$3.4$^{***}$ & $-$3.7 & $-$4.2$^{**}$ & $-$1.4 & $-$3.8 \\ 
+ & (1.3) & (1.1) & (1.6) & (1.0) & (1.1) & (1.1) & (2.3) & (1.7) & (6.0) & (2.4) \\ 
+ Include continent dummies? & \xmark & \xmark  & \xmark & \xmark   & \xmark & \xmark  & \xmark & \xmark  & \xmark & \xmark \\ \\
+ 
+ %\hline \\[-1.8ex] 
+
+  Democracy Index (Freedom House) & $-$5.2$^{***}$ & $-$2.2 & $-$2.4 & $-$2.9$^{*}$ & $-$5.4$^{***}$ & $-$3.7$^{***}$ & $-$1.8 & $-$5.1$^{**}$ & $-$4.3 & $-$0.7 \\ 
+  & (2.0) & (2.1) & (3.7) & (1.6) & (0.9) & (1.0) & (2.8) & (2.1) & (2.8) & (4.2) \\ 
+ Include continent dummies? & \cmark & \cmark  & \cmark & \cmark & \cmark & \cmark  & \cmark & \cmark & \cmark & \cmark  \\ \hline \\[-1.8ex] 
+
+
+
+  & \multicolumn{10}{c}{\textit{Dependent variable:} } \\ 
+\cline{2-11} 
+\\[-1.8ex] & \multicolumn{10}{c}{Panel B: Covid-19-related Deaths Per Million} \\ \\
+Democracy Index (Freedom House) & 424.9$^{***}$ & 390.5$^{***}$ & 542.9$^{**}$ & 500.0$^{***}$ & 112.1 & 347.3$^{***}$ & 510.9 & 355.2$^{***}$ & 1,164.8 & 752.3$^{*}$ \\ 
+   & (149.9) & (65.9) & (226.2) & (93.7) & (104.2) & (71.0) & (365.4) & (72.0) & (1,455.8) & (398.3) \\ 
+Include continent dummies? & \xmark & \xmark  & \xmark & \xmark   & \xmark & \xmark  & \xmark & \xmark  & \xmark & \xmark \\  \\
+ % \hline \\[-1.8ex] 
+ Democracy Index (Freedom House) & 206.5 & 182.3$^{**}$ & 166.7 & 213.6 & 95.2$^{***}$ & 126.9$^{*}$ & 73.2 & 107.0 & 81.7 & $-$55.5 \\ 
+  & (141.5) & (74.0) & (160.2) & (146.2) & (35.0) & (65.6) & (135.5) & (75.8) & (100.9) & (194.7)  \\ 
+Include continent dummies? & \cmark & \cmark  & \cmark & \cmark & \cmark & \cmark  & \cmark & \cmark & \cmark & \cmark   \\ \hline \\[-1.8ex] 
+
+   IVs & \multicolumn{2}{c}{settler mortality} & \multicolumn{2}{c}{lang.\&trade} & \multicolumn{2}{c}{legal origins} &  \multicolumn{2}{c}{crops} &  \multicolumn{2}{c}{pop. density} \\
+  % \hline \\[-1.8ex] 
+Controls & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark\\ 
+N & 84 & 84 & 129 & 129 & 153 & 153 & 161 & 161 & 153 & 153 \\ 
+\hline 
+\hline \\[-1.8ex] 
+  & \multicolumn{10}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\begin{tablenotes}
+\item {\footnotesize {\textit{Notes:} This table compares the result of 2SLS regressions on Covid-19 outcomes including and excluding dummy variables for continent. Panel A shows the 2SLS estimates of democracy's effect on GDP growth rates in 2020. Panel B shows the 2SLS estimates of democracy's effect on Covid-19 related deaths per million. The first rows in each panel use exclude continent dummies from the regression, while the second rows include them in the regression. Columns (1), (3), (5), (7) and (9) have no controls, while columns (2), (4), (6), (8) and (10) have the following controls: absolute latitude, mean temperature, mean precipitation, population density, median age and diabetes prevalence. For IVs, columns (1)-(2) use log European settler mortality , columns (3)-(4) use the fraction speaking English, fraction speaking European, and the Frankel-Romer trade share, columns (5)-(6) use British legal origin and French legal origin, columns (7)-(8) use the ability to grow crops (bananas, coffee, maize, millet, rice, rubber and wheat), and columns (9)-(10) use log population density in 1500s. Robust 2SLS standard errors are in parentheses.}}
+\end{tablenotes}
+\end{threeparttable}
+
+\end{table} 
+\end{landscape}

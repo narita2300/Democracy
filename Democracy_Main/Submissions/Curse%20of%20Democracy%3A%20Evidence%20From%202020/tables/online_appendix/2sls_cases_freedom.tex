@@ -1,0 +1,70 @@
+
+\begin{table}[!htbp] \centering
+  \caption{2SLS Regressions on Covid-19 Cases Per Million}
+  \label{tab:2sls-cases} 
+  \footnotesize
+  \begin{threeparttable}
+\begin{tabular}{@{\extracolsep{0pt}}lcccccccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{10}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-11} 
+\\[-1.8ex] & \multicolumn{10}{c}{Covid-19-related Cases Per Million} \\ 
+\\[-1.8ex] & (1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) & (10)\\ 
+\hline \\[-1.8ex] 
+  & \multicolumn{10}{c}{Panel A: Two-Stage Least Squares} \\
+ Democracy Index & 20,608$^{***}$ & 18,999$^{***}$ & 23,526$^{**}$ & 23,758$^{***}$ & 5,728 & 17,991$^{***}$ & 23,684 & 20,620$^{***}$ & 56,277 & 37,610$^{**}$ \\ 
+ (Freedom House) & (7,817) & (3,628) & (10,203) & (3,997) & (4,739) & (4,772) & (16,038) & (4,017) & (67,014) & (16,809) \\ 
+\hline \\[-1.8ex] 
+   & \multicolumn{10}{c}{Panel B: First Stage for the Democracy Index (Freedom House)} \\
+  Log European Settler Mortality & $-$0.4$^{**}$ & $-$0.5$^{***}$ &  &  &  &  &  &  &  &  \\ 
+  & (0.2) & (0.2) &  &  &  &  &  &  &  &  \\ 
+  Fraction Speaking English &  &  & 0.7$^{**}$ & 1.1$^{**}$ &  &  &  &  &  &  \\ 
+  &  &  & (0.3) & (0.5) &  &  &  &  &  &  \\ 
+  Fraction Speaking European &  &  & 1.1$^{***}$ & 0.8$^{***}$ &  &  &  &  &  &  \\ 
+  &  &  & (0.3) & (0.3) &  &  &  &  &  &  \\ 
+  Frankel-Romer Trade Share &  &  & 0.3 & $-$0.1 &  &  &  &  &  &  \\ 
+  &  &  & (0.3) & (0.2) &  &  &  &  &  &  \\ 
+  British Legal Origin &  &  &  &  & 1.3$^{***}$ & 1.9$^{***}$ &  &  &  &  \\ 
+  &  &  &  &  & (0.4) & (0.3) &  &  &  &  \\ 
+  French Legal Origin &  &  &  &  & 0.9$^{**}$ & 1.3$^{***}$ &  &  &  &  \\ 
+  &  &  &  &  & (0.4) & (0.3) &  &  &  &  \\ 
+  Bananas &  &  &  &  &  &  & $-$0.02 & 0.03 &  &  \\ 
+  &  &  &  &  &  &  & (0.3) & (0.3) &  &  \\ 
+  Coffee &  &  &  &  &  &  & 0.2 & 1.0$^{**}$ &  &  \\ 
+  &  &  &  &  &  &  & (0.4) & (0.5) &  &  \\ 
+  Maize &  &  &  &  &  &  & 0.8 & $-$0.2 &  &  \\ 
+  &  &  &  &  &  &  & (0.6) & (0.5) &  &  \\ 
+  Millet &  &  &  &  &  &  & $-$0.5 & 0.2 &  &  \\ 
+  &  &  &  &  &  &  & (0.4) & (0.3) &  &  \\ 
+  Rice &  &  &  &  &  &  & $-$0.2 & $-$0.4 &  &  \\ 
+  &  &  &  &  &  &  & (0.4) & (0.4) &  &  \\ 
+  Sugarcane &  &  &  &  &  &  & $-$0.1 & $-$0.01 &  &  \\ 
+  &  &  &  &  &  &  & (0.4) & (0.3) &  &  \\ 
+  Rubber &  &  &  &  &  &  & $-$0.4 & $-$1.1$^{**}$ &  &  \\ 
+  &  &  &  &  &  &  & (0.6) & (0.4) &  &  \\ 
+  Wheat &  &  &  &  &  &  & 0.2 & 0.5 &  &  \\ 
+  &  &  &  &  &  &  & (0.4) & (0.3) &  &  \\ 
+  Log Population Density in 1500s &  &  &  &  &  &  &  &  & $-$0.1 & $-$0.1 \\ 
+  &  &  &  &  &  &  &  &  & (0.1) & (0.1) \\ 
+R$^{2}$ & 0.2 & 0.5 & 0.3 & 0.6 & 0.3 & 0.6 & 0.1 & 0.5 & 0.02 & 0.4 \\ 
+F Statistic & 20.2$^{***}$ & 10.8$^{***}$ & 16.7$^{***}$ & 22.1$^{***}$ & 30.1$^{***}$ & 27.1$^{***}$ & 2.0$^{*}$ & 11.1$^{***}$ & 3.5$^{*}$ & 14.8$^{***}$ \\ 
+ \hline \\[-1.8ex] 
+  & \multicolumn{10}{c}{Panel C: Ordinary Least Squares} \\
+ Democracy Index & 10,269$^{***}$ & 13,502$^{***}$ & 9,385$^{***}$ & 11,700$^{***}$ & 9,117$^{***}$ & 11,081$^{***}$ & 9,048$^{***}$ & 10,941$^{***}$ & 9,120$^{***}$ & 11,088$^{***}$ \\ 
+  & (3,904) & (3,995) & (2,924) & (4,228) & (2,961) & (3,762) & (2,834) & (3,752) & (1,109) & (1,175) \\ 
+R$^{2}$ & 0.4 & 0.6 & 0.3 & 0.5 & 0.3 & 0.5 & 0.3 & 0.5 & 0.3 & 0.5 \\ 
+ \hline \\[-1.8ex] 
+
+Weighting & Pop & Pop & Pop & Pop & Pop & Pop & Pop & Pop & Pop & Pop \\ 
+Controls & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark\\ 
+N & 84 & 84 & 129 & 129 & 153 & 153 & 161 & 161 & 153 & 153 \\ 
+\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{10}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\begin{tablenotes} 
+\item {\footnotesize {\textit{Notes:} The Democracy Index (Freedom House) is the sum of the political rights and civil liberties scales from Freedom in the World 2020 by Freedom House and has been normalized by its standard deviation. Panel A reports the two-stage least squares estimates of the effect of democracy on Covid-19 cases per million, using five different instrumental variable strategies. Panel B reports the corresponding first stage regressions. Panel C reports the coefficients from an OLS regression of Covid-19-related cases per million against the Freedom House index.  Columns (1), (3), (5), (7) and (9) have no controls, while columns (2), (4), (6), (8) and (10) have the following controls: absolute latitude, mean temperature, mean precipitation, population density, median age and diabetes prevalence. All regressions have been weighted by population.}}
+\end{tablenotes}
+\end{threeparttable}
+\end{table} 

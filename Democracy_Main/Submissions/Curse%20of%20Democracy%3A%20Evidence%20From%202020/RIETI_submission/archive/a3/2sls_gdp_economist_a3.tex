@@ -1,0 +1,97 @@
+
+\afterpage{% Insert after the current page
+\clearpage
+\thispagestyle{empty}
+\KOMAoptions{paper=A3,paper=landscape, width=\textwidth}
+\addtolength{\hoffset}{-12.0cm}
+\addtolength{\voffset}{-6.0cm}
+\recalctypearea
+
+\begin{table}[] 
+  \caption{2SLS Regression on GDP growth rates in 2020 using the Center for Economist Intelligence Unit's democracy index} \centering
+  \label{} 
+  \small
+  \begin{threeparttable}
+\begin{tabular}{@{\extracolsep{0pt}}lcccccccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{10}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-11} 
+\\[-1.8ex] & \multicolumn{10}{c}{GDP growth rates in 2020} \\ 
+\\[-1.8ex] & (1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) & (10)\\ 
+\hline \\[-1.8ex] 
+  & \multicolumn{10}{c}{Panel A: Two-Stage Least Squares} \\
+  Democracy index  & $-$3.9$^{***}$ & $-$3.6$^{***}$ & $-$2.7$^{*}$ & $-$3.0$^{***}$ & $-$4.8$^{***}$ & $-$3.7$^{***}$ & $-$5.1$^{**}$ & $-$6.0$^{*}$ & $-$1.5 & $-$3.7 \\ 
+  & (1.2) & (1.1) & (1.6) & (0.9) & (1.1) & (1.1) & (2.4) & (3.3) & (6.2) & (2.2) \\ 
+ \hline \\[-1.8ex] 
+   & \multicolumn{10}{c}{Panel B: First Stage for polity index} \\
+   Log European settler mortality & $-$0.4$^{***}$ & $-$0.5$^{***}$ &  &  &  &  &  &  &  &  \\ 
+  & (0.1) & (0.2) &  &  &  &  &  &  &  &  \\ 
+  Fraction speaking English &  &  & 0.7$^{***}$ & 1.3$^{***}$ &  &  &  &  &  &  \\ 
+  &  &  & (0.3) & (0.4) &  &  &  &  &  &  \\ 
+  Fraction speaking European &  &  & 1.0$^{***}$ & 0.7$^{***}$ &  &  &  &  &  &  \\ 
+  &  &  & (0.3) & (0.2) &  &  &  &  &  &  \\ 
+  Frankel-Romer trade share &  &  & 0.2 & $-$0.1 &  &  &  &  &  &  \\ 
+  &  &  & (0.3) & (0.2) &  &  &  &  &  &  \\ 
+  Legal origin: UK &  &  &  &  & 1.3$^{***}$ & 2.1$^{***}$ &  &  &  &  \\ 
+  &  &  &  &  & (0.2) & (0.2) &  &  &  &  \\ 
+  Legal origin: France &  &  &  &  & 0.7$^{***}$ & 1.3$^{***}$ &  &  &  &  \\ 
+  &  &  &  &  & (0.2) & (0.2) &  &  &  &  \\ 
+  Legal origin: Germany &  &  &  &  & $-$0.1 & 0.4 &  &  &  &  \\ 
+  &  &  &  &  & (0.5) & (0.4) &  &  &  &  \\ 
+  Legal origin: Scandinavian &  &  &  &  & 2.6$^{***}$ & 2.4$^{***}$ &  &  &  &  \\ 
+  &  &  &  &  & (0.05) & (0.3) &  &  &  &  \\ 
+  Landlock &  &  &  &  &  &  & $-$0.7$^{**}$ & $-$0.3 &  &  \\ 
+  &  &  &  &  &  &  & (0.3) & (0.3) &  &  \\ 
+  Oil &  &  &  &  &  &  & $-$0.7$^{***}$ & $-$0.7$^{***}$ &  &  \\ 
+  &  &  &  &  &  &  & (0.2) & (0.2) &  &  \\ 
+  Bananas &  &  &  &  &  &  & $-$0.3 & $-$0.1 &  &  \\ 
+  &  &  &  &  &  &  & (0.2) & (0.2) &  &  \\ 
+  Coffee &  &  &  &  &  &  & 0.1 & 0.3 &  &  \\ 
+  &  &  &  &  &  &  & (0.2) & (0.2) &  &  \\ 
+  Copper &  &  &  &  &  &  & 0.5 & 0.3 &  &  \\ 
+  &  &  &  &  &  &  & (0.4) & (0.2) &  &  \\ 
+  Maize &  &  &  &  &  &  & $-$0.3 & $-$0.1 &  &  \\ 
+  &  &  &  &  &  &  & (0.5) & (0.4) &  &  \\ 
+  Millet &  &  &  &  &  &  & 0.2 & 0.3$^{**}$ &  &  \\ 
+  &  &  &  &  &  &  & (0.2) & (0.1) &  &  \\ 
+  Rice &  &  &  &  &  &  & 0.4 & 0.3 &  &  \\ 
+  &  &  &  &  &  &  & (0.4) & (0.2) &  &  \\ 
+  Silver &  &  &  &  &  &  & 0.4 & 0.2 &  &  \\ 
+  &  &  &  &  &  &  & (0.4) & (0.2) &  &  \\ 
+  Sugarcane &  &  &  &  &  &  & $-$0.5 & $-$0.4 &  &  \\ 
+  &  &  &  &  &  &  & (0.5) & (0.3) &  &  \\ 
+  Rubber &  &  &  &  &  &  & $-$0.1 & 0.05 &  &  \\ 
+  &  &  &  &  &  &  & (0.2) & (0.2) &  &  \\ 
+  Wheat &  &  &  &  &  &  & $-$0.04 & 0.1 &  &  \\ 
+  &  &  &  &  &  &  & (0.1) & (0.2) &  &  \\ 
+  Log population density in 1500 &  &  &  &  &  &  &  &  & $-$0.1 & $-$0.2 \\ 
+  &  &  &  &  &  &  &  &  & (0.1) & (0.1) \\ 
+  R$^{2}$ & 0.2 & 0.6 & 0.3 & 0.7 & 0.3 & 0.7 & 0.7 & 0.9 & 0.02 & 0.5 \\ 
+F Statistic & 26.2$^{***}$ (df = 1; 79) & 13.9$^{***}$ (df = 7; 73) & 14.7$^{***}$ (df = 3; 120) & 24.5$^{***}$ (df = 9; 114) & 15.7$^{***}$ (df = 4; 147) & 30.0$^{***}$ (df = 10; 141) & 11.6$^{***}$ (df = 12; 55) & 16.5$^{***}$ (df = 18; 49) & 3.0$^{*}$ (df = 1; 145) & 17.1$^{***}$ (df = 7; 139) \\ 
+\hline  \\[-1.8ex] 
+   & \multicolumn{10}{c}{Panel C: Ordinary Least Squares} \\
+Democracy index & $-$3.9$^{***}$ & $-$3.6$^{***}$ & $-$3.4$^{***}$ & $-$3.1$^{***}$ & $-$3.2$^{***}$ & $-$3.0$^{***}$ & $-$3.6$^{**}$ & $-$4.2 & $-$3.3$^{***}$ & $-$3.0$^{***}$ \\ 
+  & (0.8) & (0.8) & (0.8) & (0.7) & (0.8) & (0.7) & (1.4) & (2.7) & (0.4) & (0.5) \\ 
+R$^{2}$ & 0.5 & 0.6 & 0.4 & 0.6 & 0.3 & 0.4 & 0.2 & 0.4 & 0.3 & 0.5 \\ 
+F Statistic & 75.6$^{***}$ (df = 1; 79) & 15.4$^{***}$ (df = 7; 73) & 86.2$^{***}$ (df = 1; 122) & 21.8$^{***}$ (df = 7; 116) & 76.2$^{***}$ (df = 1; 150) & 16.7$^{***}$ (df = 7; 144) & 19.5$^{***}$ (df = 1; 66) & 5.6$^{***}$ (df = 7; 60) & 74.7$^{***}$ (df = 1; 145) & 16.4$^{***}$ (df = 7; 139) \\ 
+  \hline \\[-1.8ex] 
+Weighting & Pop & Pop & Pop & Pop & Pop & Pop & Pop & Pop & Pop & Pop \\ 
+Observations & 81 & 81 & 124 & 124 & 152 & 152 & 68 & 68 & 147 & 147 \\ 
+\hline 
+\hline \\[-1.8ex] 
+  & \multicolumn{10}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular}
+\begin{tablenotes} 
+\item {\footnotesize {\textit{Note:} The democracy index is from the Democracy Index 2019 and has been normalized by its standard deviation. Panel A reports the two-stage least squares estimates of the effect of democracy on GDP growth rates in 2020, using five different instrumental variable strategies. Panel B reports the corresponding first stage regressions. Panel C reports the coefficients from an OLS regression of the dependent variable against the Freedom House index.  Columns (1), (3), (5) and (7) have no controls, while columns (2), (4), (6) and (8) have the following controls: absolute latitude, mean temperature, mean precipitation, population density, median age and diabetes prevalence. All regressions have been weighted by population.}}
+\end{tablenotes}
+\end{threeparttable}
+
+\end{table} 
+
+
+\clearpage
+\KOMAoptions{paper=A4,pagesize}
+\recalctypearea
+}
+

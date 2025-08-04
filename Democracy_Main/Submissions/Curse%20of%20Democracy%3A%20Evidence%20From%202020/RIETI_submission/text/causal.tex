@@ -1,0 +1,196 @@
+% The mortality IV is well-known, so it’s enough to precisely define the estimating equation and refer to AJR and follow-up studies
+
+\subsection{2SLS estimation} \label{sec:2sls-main}
+
+\textcolor{red}{Note: Copy and pasted from Derenoncourt's empirical strategy section and also from ``The Skeptic's Guide to Institutions"}
+
+Our empirical strategy builds on the approach of \citet{ajr} that uses European settler mortality as an IV to estimate the causal effect of institutions on economic performance. 
+
+They justify this IV on the grounds that the quality of institutions today is a function of how deadly that colony was for European settlers. In places where Europeans faced higher mortality rates (Sub-Saharan Africa, Central America), they did not want to settle, and therefore installed extractive institutions to extract as many resources out of the colony as possible. In places like the US or New Zealand, where European settler mortality was lower, Europeans settled and installed inclusive institutions. The effect of these institutions persist to the present. 
+
+% The validity of this instrument has been extensively explored in recent papers.  
+
+\noindent \textbf{Estimating equation} We estimate the relationship between democracy and Covid-19 outcomes using the following empirical framework: 
+
+\begin{equation}\tag{1}
+    \label{eqn:2sls-second}
+    Y_i = \mu + \alpha Democracy_i + X^{'}_i \gamma + \epsilon_i
+\end{equation}
+
+\begin{equation}
+    \label{eqn:2sls-first}
+    \text{First Stage: } 
+    Democracy_i = \zeta + \beta log M_i + X^{'}_i \delta + \upsilon_i
+\end{equation}
+
+\noindent We already saw equation \ref{eqn:2sls-second} in Section \ref{sec:ols}'s OLS regression. Recall that the coefficient $\alpha$ represents the OLS estimate of the effect of $Democracy_i$, the normalized democracy measure, on $Y_i$, the outcome variable (Covid-19-related deaths per million or GDP growth in 2020), conditional on country characteristics represented by the control vector $X^{'}_i$. Equation \ref{eqn:2sls-first} estimates the first stage relationship between the normalized democracy index $Democracy_i$ and the log of European settler mortality rate, $\log{M_i}$. The coefficient $\beta$ estimates the effect of $\log{M_i}$ on $Democracy_i$, the normalized democracy measure, conditional on country characteristics represented by the control vector $X^{'}_i$. 
+
+%For all main results, we report the estimated OLS ($\alpha$) and two-stage least squares ($\frac{\tilde{\alpha}}{\beta}$) coefficients. 
+
+The reduced form effect of log European settler mortality on Covid-19-related outcomes is:
+
+\begin{equation}
+    \label{eqn:reduced}
+    Y_i = \tilde{\mu} + \tilde{\alpha}Democracy_i + X^{'}_i\tilde{\gamma} + \tilde{\epsilon}_i
+\end{equation}
+where $\tilde{\alpha}$ represents the reduced form impact of log European settler mortality on Covid-19-related outcomes. For all main results, we report the estimated OLS ($\alpha$) and two-stage least squares ($\frac{\tilde{\alpha}}{\beta}$) coefficients. 
+
+
+\noindent \textbf{First-stage results} Figure \ref{fig:first-stage} shows the first-stage relationship between European settler mortality and current democracy levels. The slope of the regression line is equivalent to the coefficient $\tilde{\beta}$ from equation \ref{eqn:2sls-first}. The negative relationship between settler mortality and the democracy index implies that higher levels of settler mortality caused European colonizers to set up more ``extractive" states, which persisted over time and led to less democratic political regimes. 
+
+\textcolor{red}{Note: Copy and pasted from Acemoglu's 2SLS results section. Copy and pasted parts are in blue. The edited version for this paper is in black.}
+
+\noindent \textbf{Reduced-form results} Figure \ref{fig:reduced-form} shows the reduced form relationship between European settler mortality and Covid-19-related outcomes represented in equation \ref{eqn:reduced}. It indicates that higher European settler mortality caused lower levels of democracy and this on average led to fewer deaths and higher GDP growth rates. 
+
+\noindent \textbf{2SLS results} Panel A of Table \ref{tab:2sls} reports 2SLS estimates and Panel B gives the corresponding first stages. Panel B's column (1) displays the strong first-stage relationship between (log) settler mortality and current democratic levels, as shown in Figure \ref{fig:first-stage}. The corresponding 2SLS estimate of the impact of democracy on Covid-19-related outcomes in columns (1) and (5) is a 370.6 increase in Covid-19-related deaths per million and a 3.8\% decrease in GDP growth in 2020. 
+
+{\color{red} Question: How do we explain the way that the 2SLS estimates for Covid-19 deaths per million in Panel A’s column (1) is larger than the OLS estimates in Panel C, but the 2SLS estimates for GDP growth rates in 2020 in Panel A’s column (5) is smaller than (or nearly the same as) the OLS estimates? }
+
+%These 2SLS estimates are larger than the OLS estimates reported in Panel C. This points to two main potential reasons: the existence of measurement error of ``true" democracy and the existence of omitted variables in the OLS regression that are negatively related to Covid-19 deaths per million and positively related to GDP change between 2019 and 2020. In reality the set of democratic institutions that matter for performance in the pandemic is very complex, and any single measure is bound to capture only part of the “true institutions,” creating a typical measurement error problem. Moreover, what matters for current performance is presumably not only democratic levels today, but also political regimes in the past. In any case, this is a classic case of measurement error and hard to resolve completely. Our measure of democracy which refers to 2019 will not be perfectly correlated with these. On the other hand, the existence of omitted variables that are negatively related to Covid-19 mortality and positively related to economic growth is interesting and calls for future analysis. 
+
+Do these 2SLS estimates make quantitative sense? Does it imply that democratic differences can explain a significant fraction of differences in Covid-19 outcomes across countries? Let us once again compare two countries with high and low democratic levels, Myanmar and Slovakia. Our 2SLS estimates implies that the 1.6 difference in the normalized democracy index between the two countries should translate into a 590 difference in Covid-19-related deaths per million and a -6.1\% difference in GDP growth rates in 2020. In practice, the presence of measurement error complicates this interpretation, because some of the difference between Myanmar and Slobakia's democracy index may reflect measurement error. Therefore, the 590 difference in Covid-19-related deaths per million and -6.1\% difference in GDP growth rates is an upper bound. In any case, the estimates in Table \ref{tab:2sls} imply a substantial, but not implausibly large, effect of democratic differences on Covid-19-related outcomes. 
+
+Columns (2) and (6) document that our results are not driven by US and China. When US and China are excluded, the estimates remain highly significant and change by little. The estimated effect of democratic regimes is now 355.4 (s.e. 138.3) for Covid-19-related deaths and -5.0 (s.e. 1.7) for GDP growth in 2020. 
+
+In columns (3) and (7), we add controls for climate, wealth and population density. The addition of these controls does not change the estimated effect of democracy, and the climate controls (absolute latitude, mean temperature and precipitation) are jointly statistically insignificant at the 10-percent level. This suggests that, once democracy is controlled for, climate is not a significant determinant of performance in the pandemic. Finally, in columns (4) and (8), we repeat the regression with controls on the sample excluding the US and China. Although the robust 2SLS standard errors for the estimate of the effect of democracy on Covid-19 mortality is larger, the estimates are consistent with our baseline results.  
+
+Overall, the results in Table \ref{tab:2sls} show that democracy caused worse performance in the pandemic.
+
+\subsection{Alternative IVs} \label{2sls-alternative}
+
+\textcolor{red}{Note: Mostly copy and pasted from Hall and Jones' paper. Also copied from Rodrik et al's work. }
+
+We also employ an alternative set of IVs introduced by \citet{hj}: the fraction of population speaking English as a mother tongue, the fraction of population speaking a Western European language (English, French, German, Portuguese or Spanish) as a mother tongue and the Frankel-Romer trade share. \footnote{In their paper, they also use absolute latitude as one of their IVs, but we do not use include it into our 2SLS regression because it is unclear whether it satisfies the exclusion restriction.} The two language variables are correlates of the extent of historical Western European influence. The Frankel-Romer trade share is the predicted share of trade in a country's economy, based on the gravity model of international trade. It acts as a proxy for a country's population and geographical features. 
+
+\noindent \textbf{Estimating Equation} Although the empirical framework remains mostly the same as in Section \ref{sec:2sls-main}, the first-stage regression using the alternative IVs is now:
+
+\begin{equation}
+    \text{First Stage: }Democracy_i = \zeta + \beta_1 EngFrac_i + \beta_2 EuroFrac_i + \beta_3 \log{FrankelRomer}_i + X^{'}_i \delta + \upsilon_i
+\end{equation}
+
+\noindent where $EngFrac_i$, $EuroFrac_i$ and $FrankelRomer_i$ correspond to country $i$'s fraction of population speaking English, fraction of population speaking a Western European language, and the Frakel-Romer predicted trade share. $X_i$ corresponds to the vector of control variables. 
+
+\noindent \textbf{2SLS results} Table \ref{tab:2sls-instruments} compares the estimates of the causal effect of democracy on Covid-19-related deaths per million using the IV strategies of Acemoglu et al. (AJR) and Hall and Jones (HJ). 
+
+Panel B's columns (3) shows the result of the first stage regression on the democracy index without controls, using the IVs proposed by Hall and Jones. The F-statistic is 14.7. Column (4) shows the result with controls. The corresponding F-statistic is 26.1. 
+
+%Compared to the F-statistics of log European settler mortality, 26.2, the F-statistic is now smaller (14.7), implying that the IVs are relatively weak. However, the F-statistics remain larger than the threshold of 10 required to ensure that the maximum bias in IV estimators to be less than 10\% \citep{staiger-stock}. Thus, although the point estimates may be less reliable, they still aid in confirming the validity of our baseline results. 
+
+Panel A shows that the 2SLS estimates using Hall and Jones' IVs are consistent with our baseline results. The regressions without controls in columns (3) and (5) estimates 554.3 for Covid-19-related deaths per million and -2.7\% for GDP growth rates in 2020. In columns (4) and (6), the regression with controls estimates 565.4 for deaths and -4.2\% for GDP growth rates. With the exception of column (7), all of these estimates are statistically significant at the 10\% level. In summary, we continue to estimate a statistically and qualitatively significant causal effect of democracy on Covid-19 mortality and economic growth. 
+
+\begin{comment}
+% The mortality IV is well-known, so it’s enough to precisely define the estimating equation and refer to AJR and follow-up studies
+
+\subsection{2SLS estimation} \label{sec:2sls-main}
+
+\textcolor{red}{Note: Copy and pasted from Derenoncourt's empirical strategy section. Copy and pasted parts are in blue. The edited version for this paper is in black.}
+
+{\color{blue} I estimate the relationship between the Great Migra- tion and upward mobility using the following empirical framework:
+
+In equation 4, the coefficient $\beta$ represents the OLS estimate of the effect of GMCZ, the percentile of a commuting zone’s 1940-1970 black population in-crease, on y, the average adult income rank of children with parents at p,C Z income rank p, conditional on baseline characteristics and census division fixed effects represented by the control vector XCZ. Equation 5 estimates the first stage relationship between the percentile of predicted black population change GMCZ and the percentile of actual black population change, GMCZ. The reduced form effect of my instrument for the Great Migration on upward mo- bility can be written as follows: 
+\\
+where $\beta$ represents the reduced form impact of the percentile of predicted
+black population change on upward mobility. For all main results, I report the estimated OLS (), reduced form (), and two-stage least squares ()
+coefficients.}
+
+We estimate the relationship between democratic regimes and Covid-19 outcomes using the following empirical framework: 
+
+\begin{equation}\tag{1}
+    \label{eqn:2sls-second}
+    Y_i = \mu + \alpha Democracy_i + X^{'}_i \gamma + \epsilon_i
+\end{equation}
+
+\begin{equation}
+    \label{eqn:2sls-first}
+    \text{First Stage: } 
+    Democracy_i = \zeta + \beta log M_i + X^{'}_i \delta + \upsilon_i
+\end{equation}
+
+\noindent We already saw equation \ref{eqn:2sls-second} in Section \ref{sec:ols}'s OLS regression. Recall that the coefficient $\alpha$ represents the OLS estimate of the effect of $Democracy_i$, the normalized democracy index, on $Y_i$, the outcome variable (Covid-19-related deaths per million or GDP growth in 2020), conditional on country characteristics represented by the control vector $X^{'}_i$. Equation \ref{eqn:2sls-first} estimates the first stage relationship between the normalized democracy index $Democracy_i$ and the log of European settler mortality rate, $\log{M_i}$. The coefficient $\beta$ estimates the effect of $\log{M_i}$ on $Democracy_i$, the normalized democracy measure, conditional on country characteristics represented by the control vector $X^{'}_i$. 
+
+%For all main results, we report the estimated OLS ($\alpha$) and two-stage least squares ($\frac{\tilde{\alpha}}{\beta}$) coefficients. 
+
+Figure \ref{fig:first-stage} shows the first-stage relationship between European settler mortality and current democracy levels. The slope of the regression line is equivalent to the coefficient $\tilde{\beta}$ from equation \ref{eqn:2sls-first}. The negative relationship between settler mortality and the democracy index implies that higher levels of settler mortality caused European colonizers to set up more ``extractive" states, which persisted over time and led to less democratic political regimes. 
+
+The reduced form effect of log European settler mortality on Covid-19-related outcomes can be written as follows:
+
+\begin{equation}
+    \label{eqn:reduced}
+    Y_i = \tilde{\mu} + \tilde{\alpha}Democracy_i + X^{'}_i\tilde{\gamma} + \tilde{\epsilon}_i
+\end{equation}
+where $\tilde{\alpha}$ represents the reduced form impact of log European settler mortality on Covid-19-related outcomes. For all main results, we report the estimated OLS ($\alpha$) and two-stage least squares ($\frac{\tilde{\alpha}}{\beta}$) coefficients. 
+
+{\color{blue} 
+
+Figure 5 shows a binned scatterplot of the relationship between GM, the percentile of actual black population increase, and GM, the percentile of predicted black population increase, where both measures have been residualized on census division fixed effects and the set of 1940 baseline controls: educational upward mobility, the share of the labor force in manufacturing, and the share of the 1940 urban population made up of recent southern black migrants from any southern county. The y-axis plots mean percentile of black population change within each 5-percentile bin of predicted black population change. The slope of the regression line is equivalent to the coefficient δ from equation 5. A one-percentile larger predicted black population increase is associated with a 0.3 percentile greater actual black population increase over the time period. The F-statistic on the first stage is 15.3.}
+
+\textcolor{red}{Note: Copy and pasted from Acemoglu's 2SLS results section. Copy and pasted parts are in blue. The edited version for this paper is in black.}
+
+Figure \ref{fig:reduced-form} shows the reduced form relationship between European settler mortality and Covid-19-related outcomes represented in equation \ref{eqn:reduced}. It indicates that higher European settler mortality caused lower levels of democracy and this on average led to fewer deaths and higher GDP growth rates. 
+
+{\color{blue}
+
+Panel A of Table 4 reports 2SLS estimates and Panel B gives the corresponding first stages. Pabel B's column (1) displays the strong first-stage relationship between (log) settler mortality and current institutions in our base sample, also shown in Table 3. The corresponding 2SLS estimate of the impact of institutions on income per capita is 0.94. This estimate is highly significant with a standard error of 0.16, and in fact larger than the OLS estimates reported in Table 2. This suggests that measurement error in the institutions variables that creates attenu- ation bias is likely to be more important than reverse causality and omitted variables biases. Here we are referring to “measurement error” broadly construed. In reality the set of institu- tions that matter for economic performance is very complex, and any single measure is bound to capture only part of the “true institutions,” creating a typical measurement error problem. Moreover, what matters for current income is presumably not only institutions today, but also institutions in the past. Our measure of institu- tions which refers to 1985–1995 will not be perfectly correlated with these.}
+
+Panel A of Table \ref{tab:2sls} reports 2SLS estimates of the coefficient of interest from equation \ref{eqn:2sls-second} and Panel B gives the corresponding first stages. Panel B's column (1) displays the strong first-stage relationship between (log) settler mortality and current democratic levels, as shown in Figure \ref{fig:first-stage}. The corresponding 2SLS estimate of the impact of democracy on Covid-19-related outcomes is a 370.6 increase in Covid-19-related deaths per million and a 3.8 decrease in GDP growth rates in 2020. 
+
+{\color{red} Question: How do we explain the way that the 2SLS estimates for Covid-19 deaths per million in Panel A’s column (1) is larger than the OLS estimates in Panel C, but the 2SLS estimates for GDP growth rates in 2020 in Panel A’s column (5) is smaller than (or nearly the same as) the OLS estimates? }
+
+%These 2SLS estimates are larger than the OLS estimates reported in Panel C. This points to two main potential reasons: the existence of measurement error of ``true" democracy and the existence of omitted variables in the OLS regression that are negatively related to Covid-19 deaths per million and positively related to GDP change between 2019 and 2020. In reality the set of democratic institutions that matter for performance in the pandemic is very complex, and any single measure is bound to capture only part of the “true institutions,” creating a typical measurement error problem. Moreover, what matters for current performance is presumably not only democratic levels today, but also political regimes in the past. In any case, this is a classic case of measurement error and hard to resolve completely. Our measure of democracy which refers to 2019 will not be perfectly correlated with these. On the other hand, the existence of omitted variables that are negatively related to Covid-19 mortality and positively related to economic growth is interesting and calls for future analysis. 
+
+{\color{blue}
+Does the 2SLS estimate make quantitative sense? Does it imply that institutional differences can explain a significant fraction of income dif-ferences across countries? Let us once again com- pare two “typical” countries with high and low expropriation risk, Nigeria and Chile (these coun- tries are typical for the IV regression in the sense that they are practically on the regression line). Our 2SLS estimate, 0.94, implies that the 2.24 differences in expropriation risk between these two countries should translate into 206 log point (approximately 7-fold) difference. In practice, the presence of measurement error complicates this interpretation, because some of the difference be- tween Nigeria and Chile’ s expropriation index may reflect measurement error. Therefore, the 7-fold difference is an upper bound. In any case, the estimates in Table 4 imply a substantial, but not implausibly large, effect of institutional differ- ences on income per capita.}
+
+Do these 2SLS estimates make quantitative sense? Does it imply that democratic differences can explain a significant fraction of differences in Covid-19 outcomes across countries? Let us once again compare two countries with high and low democratic levels, Myanmar and Slovakia. Our 2SLS estimates implies that the 1.6 difference in the normalized democracy index between the two countries should translate into a 590 difference in Covid-19-related deaths per million and a -6.1 difference in GDP growth rates in 2020. In practice, the presence of measurement error complicates this interpretation, because some of the difference between Myanmar and Slobakia's democracy index may reflect measurement error. Therefore, the 590 difference in Covid-19-related deaths per million and -6.1 difference in GDP growth rates is an upper bound. In any case, the estimates in Table \ref{tab:2sls} imply a substantial, but not implausibly large, effect of democratic differences on Covid-19-related outcomes. 
+
+{\color{blue}
+
+Columns (3) and (4) document that our results
+are not driven by the Neo-Europes. When we
+exclude the United States, Canada, Australia, and
+New Zealand, the estimates remain highly signif-
+icant, and in fact increase a little. For example, the
+coefficient for institutions is now 1.28 (s.e.
+0.36) without the latitude control, and 1.21 (s.e.
+0.35) when we control for latitude. Columns (5)
+and (6) show that our results are also robust to
+dropping all the African countries from our sam-
+ple. The estimates without Africa are somewhat
+smaller, but also more precise. For example, the
+coefficient for institutions is 0.58 (s.e.  0.1)
+without the latitude control, and still 0.58 (s.e.0.12) when we control for latitude.}
+
+Columns (2) and (6) document that our results are not driven by US and China. When US and China are excluded, the estimates remain highly significant and change by little. The estimated effect of democratic regimes is now 355.4 (s.e. 138.3) for Covid-19-related deaths and -5.0 (s.e. 1.7) for GDP growth in 2020. 
+
+{\color{blue}
+In columns (7) and (8), we add continent dum- mies to the regressions (for Africa, Asia, and other, with America as the omitted group). The addition of these dummies does not change the estimated effect of institutions, and the dummies are jointly insignificant at the 5-percent level, though the dummy for Asia is significantly differ- ent from that of America. The fact that the African dummy is insignificant suggests that the reason why African countries are poorer is not due to cultural or geographic factors, but mostly ac- counted for by the existence of worse institutions in Africa. Finally, in column (9) we repeat our basic regression using log of output per worker as calculated by Hall and Jones (1999). The result is very close to our baseline result. The 2SLS coef-ficient is 0.98 instead of 0.94 as in column (1). This shows that whether we use income per capita or output per worker has little effect on our results. Overall, the results in Table 4 show a large effect of institutions on economic performance. In the rest of the paper, we investigate the robustness of these results. 
+
+}
+
+In columns (3) and (7), we add controls for climate, wealth and population density. The addition of these controls does not change the estimated effect of democracy, and the climate controls (absolute latitude, mean temperature and precipitation) are jointly statistically insignificant at the 10-percent level. This suggests that climate is not a significant determinant of performance in the pandemic. Finally, in columns (4) and (8), we repeat the regression with controls on the sample excluding the US and China. Although the robust 2SLS standard errors for the estimate of the effect of democracy on Covid-19 mortality is larger, the estimates are consistent with our baseline results.  
+
+Overall, the results in Table \ref{tab:2sls} show a large effect of democratic regimes on performance in the Covid-19 pandemic.
+
+\subsection{Alternative IVs} \label{2sls-alternative}
+
+\textcolor{red}{Note: Mostly copy and pasted from Hall and Jones' paper.}
+
+We also employ an alternative set of IVs introduced by \citet{hj}: the fraction of population speaking English as a mother tongue, the fraction of population speaking a Western European language (English, French, German, Portuguese or Spanish) as a mother tongue and the Frankel-Romer trade share. \footnote{In their paper, they also use absolute latitude as one of their IVs, but we do not use include it into our 2SLS regression because it is unclear whether it satisfies the exclusion restriction.} The two language variables are correlates of the extent of Western European influence and act as identifying exogenous variation. By creating a separate variable for the English-speaking population, we allow it to have separate effects. The Frankel-Romer trade share is the predicted share of trade in a country's economy, based on the gravity model of international trade which considers a country's population and geographical features. 
+
+Although the empirical framework remains mostly the same as in Section \ref{sec:2sls-main}, the first-stage regression using the alternative IVs is now:
+
+\begin{equation}
+    \text{First Stage: }Democracy_i = \zeta + \beta_1 EngFrac_i + \beta_2 EuroFrac_i + \beta_3 \log{FrankelRomer}_i + X^{'}_i \delta + \upsilon_i
+\end{equation}
+
+\noindent where $EngFrac_i$, $EuroFrac_i$ and $FrankelRomer_i$ correspond to country $i$'s fraction of population speaking English, fraction of population speaking a Western European language, and the Frakel-Romer predicted trade share. $X_i$ corresponds to the vector of control variables. 
+
+Table \ref{tab:2sls-instruments} compares the estimates of the causal effect of democracy on Covid-19-related deaths per million using the IV strategies of Acemoglu et al. and Hall and Jones. 
+
+Panel B's columns (3) shows the result of the first stage regression on the democracy index without controls, using the IVs proposed by Hall and Jones. The F-statistic is 14.7. Column (4) shows the result with controls. The corresponding F-statistic is 26.1. 
+
+%Compared to the F-statistics of log European settler mortality, 26.2, the F-statistic is now smaller (14.7), implying that the IVs are relatively weak. However, the F-statistics remain larger than the threshold of 10 required to ensure that the maximum bias in IV estimators to be less than 10\% \citep{staiger-stock}. Thus, although the point estimates may be less reliable, they still aid in confirming the validity of our baseline results. 
+
+Panel A shows that the 2SLS estimates using Hall and Jones' IVs are consistent with our baseline results. The regressions without controls in columns (3) and (5) estimates 554.3 for Covid-19-related deaths per million and -2.7 for GDP growth rates in 2020. In columns (4) and (6), the regression with controls estimates 565.4 for deaths and -4.2 for GDP growth rates. With the exception of column (7), all of these estimates are statistically significant at the 10\% level. In summary, we continue to estimate a statistically and qualitatively significant causal effect of democracy on Covid-19 mortality and economic growth. 
+
+\end{comment}

@@ -1,0 +1,97 @@
+
+\begin{table}[!htbp] \centering 
+  \caption{2SLS Regression with Alternative Democracy Indices} 
+  \label{tab:2sls-indices} 
+   \begin{threeparttable}
+\begin{tabular}{@{\extracolsep{0pt}}lcccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+  & (1) & (2) & (3) & (4) & (5) & (6)\\ 
+  
+  
+\hline \\[-1.8ex] & \multicolumn{6}{c}{Panel A: Covid-19-related Deaths Per Million} \\
+\cline{2-7} \\[-1.8ex]
+Democracy Index & 370.6$^{***}$ & 296.8$^{*}$ &  &  &  &  \\ 
+  & (137.2) & (161.4) &  &  &  &   \\ 
+Representative Gov. Index &  &  & 419.7$^{*}$ & 379.0 &  &  \\ 
+  &  &  & (226.7) & (242.8) &  &  \\ 
+  Polity Index &  &  &  &  & 520.5 & 311.9 \\ 
+  &  &  &  &  & (374.4) & (237.1)  \\ 
+ 
+  
+\hline \\[-1.8ex]  & \multicolumn{6}{c}{Panel B: GDP Growth 2019-20} \\
+ \cline{2-7} \\[-1.8ex]
+Democracy Index & $-$3.8$^{***}$ & $-$5.7$^{**}$ &  &  &  & \\ 
+  & (1.4) & (2.6) &  &  &  &  \\ 
+  Representative Gov. Index &  &  & $-$4.3$^{**}$ & $-$7.3$^{*}$ &  & \\ 
+  &  &  & (1.9) & (4.1) &  & \\ 
+  Polity Index &  &  &  &  & $-$5.4$^{**}$ & $-$6.0$^{**}$ \\ 
+  &  &  &  &  & (2.1) & (2.6)\\ 
+ \hline \\[-1.8ex] 
+Weighting & Pop & Pop & Pop & Pop & Pop & Pop\\ 
+Control & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark \\ 
+N & 81 & 81 & 76 & 76 & 80 & 80 \\ 
+\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{6}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular}
+\begin{tablenotes} 
+\item  {\textit{Note:} All democracy indices have been normalized by their respective standard deviations. Panel A reports the results of 2SLS regressions on Covid-19-related deaths per million; Panel B reports the results of 2SLS regressions on percentage change in GDP between 2019 and 2020.  The 2SLS estimates all use log European settler mortality as an IV and have been weighted by population. Columns (1) (3) and (5) have no controls, while (2), (4), (6) have the following control variables: absolute latitude, mean temperature, mean precipitation, GDP per capita and population density. Robust standard errors are in parentheses.}
+
+\end{tablenotes}
+\end{threeparttable}
+\end{table} 
+
+
+% include the Freedom Index
+\begin{comment}
+\begin{table}[H] \centering 
+  \caption{2SLS Regression on Covid-19-related Outcomes with Alternative Democracy Indices} 
+  \label{tab:2sls-indices} 
+   \begin{threeparttable}
+   \footnotesize
+\begin{tabular}{@{\extracolsep{0pt}}lcccccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+  & (1) & (2) & (3) & (4) & (5) & (6) & (7) & (8)\\ 
+  
+  
+\hline \\[-1.8ex] & \multicolumn{8}{c}{Panel A: Covid-19-related Deaths Per Million} \\
+\cline{2-9} \\[-1.8ex]
+Democracy Index & 370.6$^{***}$ & 296.8$^{*}$ &  &  &  &  &  &  \\ 
+  & (137.2) & (161.4) &  &  &  &  &  &  \\ 
+Representative Gov. Index &  &  & 419.7$^{*}$ & 379.0 &  &  &  &  \\ 
+  &  &  & (226.7) & (242.8) &  &  &  &  \\ 
+  Polity Index &  &  &  &  & 520.5 & 311.9 &  &  \\ 
+  &  &  &  &  & (374.4) & (237.1) &  &  \\ 
+  % Freedom House Index &  &  &  &  &  &  & 621.6$^{**}$ & $-$5,115.4 \\ 
+  % &  &  &  &  &  &  & (261.2) & (30,879.2) \\ 
+ 
+  
+   \hline \\[-1.8ex]  & \multicolumn{8}{c}{Panel B: GDP Change 2019-20} \\
+ \cline{2-9} \\[-1.8ex]
+Democracy Index & $-$3.8$^{***}$ & $-$5.7$^{**}$ &  &  &  &  &  &  \\ 
+  & (1.4) & (2.6) &  &  &  &  &  &  \\ 
+  Representative Gov. Index &  &  & $-$4.3$^{**}$ & $-$7.3$^{*}$ &  &  &  &  \\ 
+  &  &  & (1.9) & (4.1) &  &  &  &  \\ 
+  Polity Index &  &  &  &  & $-$5.4$^{**}$ & $-$6.0$^{**}$ &  &  \\ 
+  &  &  &  &  & (2.1) & (2.6) &  &  \\ 
+  % Freedom House Index &  &  &  &  &  &  & $-$6.4 & 97.9 \\ 
+  % &  &  &  &  &  &  & (5.0) & (555.8) \\ 
+ \hline \\[-1.8ex] 
+Weighting & Pop & Pop & Pop & Pop & Pop & Pop & Pop & Pop \\ 
+Control & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark \\ 
+N & 81 & 81 & 76 & 76 & 80 & 80 & 81 & 81 \\ 
+\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{8}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular}
+\begin{tablenotes} 
+\item  {\textit{Note:} All four democracy indices have been normalized by their respective standard deviations. Panel A reports the results of 2SLS regressions on Covid-19-related deaths per million; Panel B reports the results of 2SLS regressions on percentage change in GDP between 2019 and 2020.  The 2SLS estimates all use log European settler mortality as an instrument and have been weighted by population. Columns (1) (3) and (5) have no controls, while (2), (4), (6) have the following control variables: absolute latitude, mean temperature, mean precipitation, GDP per capita and population density. Robust standard errors are in parentheses.}
+
+\end{tablenotes}
+\end{threeparttable}
+\end{table} 
+\end{comment}
+
+

@@ -1,0 +1,65 @@
+\begin{landscape}
+\begin{table}[!htbp] \centering 
+  \caption{2SLS Regression with Alternative Weightings} 
+  \label{tab:2sls-compare-weighting} 
+  \begin{threeparttable}
+\begin{tabular}{@{\extracolsep{0pt}}lcccccccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+
+\\[-1.8ex] & (1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) & (10)\\ 
+\hline \\[-1.8ex] 
+ & \multicolumn{10}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-11} 
+\\[-1.8ex] & \multicolumn{10}{c}{Panel A: GDP Growth Rates in 2020} \\  \\
+Democracy Index     &        -3.1\sym{***}&        -2.6\sym{***}&        -2.7\sym{***}&        -2.1\sym{***}&        -3.5\sym{*}  &        -2.6\sym{***}&        -2.5\sym{***}&        -2.4\sym{***}&        -0.2         &        -2.1\sym{**} \\
+                    &       (0.7)         &       (0.7)         &       (0.7)         &       (0.6)         &       (1.4)         &       (0.6)         &       (0.7)         &       (0.4)         &       (3.2)         &       (0.7)         \\
+ Weighting & GDP & GDP & GDP & GDP & GDP & GDP & GDP & GDP & GDP & GDP \\ 
+ 
+Democracy Index     &        -4.4\sym{***}&        -4.1\sym{***}&        -2.4         &        -2.6\sym{***}&        -5.5\sym{***}&        -4.5\sym{**} &        -3.4\sym{*}  &        -4.4\sym{***}&        -0.5         &        -3.2         \\
+                    &       (1.3)         &       (1.0)         &       (1.6)         &       (0.8)         &       (1.5)         &       (1.5)         &       (1.4)         &       (1.2)         &       (7.0)         &       (1.7)         \\
+
+ Weighting & Pop & Pop & Pop & Pop & Pop & Pop & Pop & Pop & Pop & Pop  \\% \hline \\[-1.8ex] 
+
+Democracy Index     &        -4.8\sym{**} &        -0.3         &        -3.4\sym{**} &        -2.5         &         1.3         &         0.7         &        -4.0\sym{***}&        -4.3\sym{**} &        -9.6         &         0.7         \\
+                    &       (1.6)         &      (95.3)         &       (1.1)         &       (1.9)         &       (1.3)         &       (2.1)         &       (1.0)         &       (1.6)         &      (24.3)         &       (6.3)         \\
+
+
+ Weighting & None & None & None & None & None & None & None & None & None & None \\ 
+ \hline \\[-1.8ex] 
+
+  & \multicolumn{10}{c}{\textit{Dependent variable:} } \\ 
+\cline{2-11} 
+\\[-1.8ex] & \multicolumn{10}{c}{Panel B: Covid-19-related Deaths Per Million} \\  \\
+Democracy Index     &       440.5\sym{***}&       494.0\sym{***}&       416.9\sym{**} &       519.7\sym{***}&       550.4         &       483.9\sym{***}&       297.4\sym{***}&       389.1\sym{***}&      1035.2         &       486.4\sym{***}\\
+                    &      (87.6)         &     (120.0)         &     (127.8)         &     (105.9)         &     (335.6)         &      (94.9)         &      (90.0)         &      (70.1)         &    (1051.3)         &     (137.9)         \\
+
+ Weighting & GDP & GDP & GDP & GDP & GDP & GDP & GDP & GDP & GDP & GDP   \\
+
+Democracy Index     &       427.9\sym{**} &       393.3\sym{***}&       534.5\sym{*}  &       536.1\sym{***}&       117.5         &       317.0\sym{***}&       451.3\sym{**} &       349.3\sym{***}&      1230.8         &       731.2\sym{*}  \\
+                    &     (148.0)         &      (71.6)         &     (209.9)         &      (96.3)         &     (115.8)         &      (89.1)         &     (159.6)         &      (77.5)         &    (1562.0)         &     (327.3)         \\
+
+
+ Weighting & Pop & Pop & Pop & Pop & Pop & Pop & Pop & Pop & Pop & Pop  \\ % \hline \\[-1.8ex] 
+
+Democracy Index     &       381.2\sym{***}&      6762.8         &       258.2\sym{***}&       215.6\sym{*}  &        53.4         &      -260.6\sym{*}  &       227.0\sym{***}&       -82.8         &      1567.7         &      -190.2         \\
+                    &     (100.0)         &   (69773.6)         &      (64.9)         &     (106.7)         &      (90.4)         &     (122.4)         &      (55.1)         &     (101.9)         &    (3079.6)         &     (335.6)         \\
+   Weighting & None & None & None & None & None & None & None & None & None & None \\
+ \hline \\[-1.8ex] 
+   IVs & \multicolumn{2}{c}{settler mortality} & \multicolumn{2}{c}{language \& trade} & \multicolumn{2}{c}{legal origins} &  \multicolumn{2}{c}{crops \& minerals} &  \multicolumn{2}{c}{pop. density} \\
+  % \hline \\[-1.8ex] 
+Controls & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark\\ 
+ N  &          85         &          85         &         140         &         140         &         168         &         168         &         149         &         149         &         155         &         155         \\
+
+\hline 
+\hline \\[-1.8ex] 
+  & \multicolumn{10}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\begin{tablenotes}
+\item {\footnotesize {\textit{Notes:} This table shows the results of 2SLS regressions on Covid-19 outcomes with weighting of observations by GDP, weighting by population, and no weighting. The Democracy Index (Freedom House) is the sum of the political rights and civil liberties scales from \emph{Freedom in the World 2020} by Freedom House. It is normalized to have standard deviation one. Panel A shows the 2SLS estimates of democracy's effect on GDP growth rates in 2020. Panel B shows the 2SLS estimates of democracy's effect on Covid-19 related deaths per million. Columns 1, 3, 5, 7, and 9 have no controls, while columns 2, 4, 6, 8, and 10 have the following controls: absolute latitude, mean temperature, mean precipitation, population density, median age, and diabetes prevalence. For IVs, columns 1 and 2 use log European settler mortality, columns 3 and 4 use the fraction speaking English, the fraction speaking European, and the Frankel-Romer trade share, columns 5 and 6 use British legal origin, French legal origin, and German legal origin, columns 7 and 8 use the ability to grow crops and mine minerals (bananas, coffee, copper, maize, millet, silver, sugarcane, rice, rubber, and wheat), and columns 9 and 10 use log population density in the 1500s. Robust standard errors are in parentheses.}}
+\end{tablenotes}
+\end{threeparttable}
+\end{table} 
+\end{landscape}
+
+% The sample definition and the corresponding estimates in this table is slightly different from those in Table \ref{tab:2sls-compare-indices} (In Table \ref{tab:2sls-compare-indices}, we delete observations where we do not have data for all three democracy indices. In this table, we delete observations for which we do not have population and GDP data.) 

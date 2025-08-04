@@ -1,0 +1,40 @@
+\begin{table}[!htbp] \centering 
+  \caption{2SLS Regressions on Potential Channels Behind Democracy's Effect} 
+  \label{tab:channels} 
+  \small
+  \begin{threeparttable}
+\begin{tabular}{@{\extracolsep{0pt}}lcccccccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & (1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) & (10)\\ 
+\hline \\[-1.8ex] 
+\textbf{ Panel A: Severity} & \multicolumn{10}{c}{ Dependent Variable is Containment Health Index at 10th Covid-19 Case} \\ 
+\cline{2-11}  \\[-1.8ex]
+Democracy Index     &        -0.4\sym{***}&        -0.4\sym{***}&        -0.4\sym{***}&        -0.4\sym{***}&        -0.5\sym{**} &        -0.5\sym{***}&        -0.4\sym{***}&        -0.5\sym{***}&        -0.9         &        -0.4\sym{***}\\
+                    &      (0.08)         &      (0.09)         &      (0.07)         &      (0.06)         &       (0.2)         &      (0.07)         &      (0.06)         &      (0.04)         &       (0.5)         &      (0.07)         \\
+
+ \textbf{ Panel B: Coverage} & \multicolumn{10}{c}{ Dependent Variable is Coverage of Containment Measures at 10th Covid-19 Case} \\ 
+\cline{2-11}  \\[-1.8ex]
+  Democracy Index     &        -9.5\sym{***}&        -8.6\sym{***}&        -9.5\sym{***}&       -11.5\sym{***}&       -12.7\sym{*}  &       -12.6\sym{***}&        -9.8\sym{***}&       -11.1\sym{***}&       -25.9         &       -12.0\sym{***}\\
+                    &       (2.7)         &       (2.3)         &       (1.9)         &       (1.4)         &       (5.0)         &       (1.7)         &       (1.7)         &       (0.9)         &      (19.2)         &       (1.4)         \\
+
+ \textbf { Panel C: Speed}  & \multicolumn{10}{c}{Dependent Variable is Days Between 10th Covid-19 Case and Any Containment Measure} \\ 
+\cline{2-11}  \\[-1.8ex]
+Democracy Index     &         0.7         &        -6.6\sym{**} &        0.03         &        -1.4         &       -10.8         &        -4.8\sym{*}  &        -0.7         &        -6.3\sym{***}&       -20.0         &        -6.2\sym{*}  \\
+                    &       (4.1)         &       (2.4)         &       (3.3)         &       (2.2)         &       (8.1)         &       (2.4)         &       (2.9)         &       (1.7)         &      (24.8)         &       (3.1)         \\
+
+
+ \hline \\[-1.8ex] 
+    IVs & \multicolumn{2}{c}{settler mortality} & \multicolumn{2}{c}{language \& trade} & \multicolumn{2}{c}{legal origins} &  \multicolumn{2}{c}{crops \& minerals} &  \multicolumn{2}{c}{pop. density} \\
+Controls & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark\\ 
+N   &          84         &          84         &         133         &         133         &         155         &         155         &         138         &         138         &         146         &         146         \\
+
+\hline 
+\hline \\[-1.8ex] 
+  & \multicolumn{10}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\begin{tablenotes} 
+\item {\footnotesize {\textit{Notes:} This table reports the 2SLS regression estimates of democracy's effect on potential channels behind democracy's negative impact, using five different IV strategies. The Democracy Index (Freedom House) is the sum of the political rights and civil liberties scales from \textit{Freedom in the World 2020} by Freedom House. It is normalized to have standard deviation one. Panel A reports the 2SLS estimates of democracy's effect on the containment health index at the 10th confirmed case of Covid-19. The containment health index by the Oxford COVID-19 Government Response Tracker (OxCGRT) measures the strictness of containment policy. It is normalized to have standard deviation one. Panel B reports the 2SLS estimates of democracy's effect on the coverage of containment measures at the 10th confirmed case of Covid-19. The coverage of containment measures at the 10th confirmed Covid-19 case is the percentage across 13 domains where the government introduces any containment response. The domains are schools, workplaces, public events, gatherings, public transport, stay-at-home requirements, domestic travel, international travel, public information campaigns, testing, contact tracing, facial coverings, and vaccinations. Panel C reports the 2SLS estimates of democracy's effect on the number of days between the 10th confirmed case of Covid-19 and the introduction of any containment measure. We calculate the number of days between the 10th confirmed Covid-19 case and the introduction of any containment measure by subtracting the date when the 10th Covid-19 case is confirmed from the date when the containment health index becomes positive (all countries begin at zero). Columns 1, 3, 5, 7, and 9 have no controls, while columns 2, 4, 6, 8, and 10 have the following controls: absolute latitude, mean temperature, mean precipitation, population density, median age, and diabetes prevalence. For IVs, columns 1 and 2 use log European settler mortality, columns 3 and 4 use the fraction speaking English, the fraction speaking European, and the Frankel-Romer trade share, columns 5 and 6 use British legal origin, French legal origin, and German legal origin, columns 7 and 8 use the ability to grow crops and mine minerals (bananas, coffee, copper, maize, millet, rice, rubber, silver, sugarcane, and wheat), and columns 9 and 10 use log population density in the 1500s. For all regressions, we weight observations by GDP. Robust standard errors are in parentheses. }}
+\end{tablenotes}
+\end{threeparttable}
+\end{table} 

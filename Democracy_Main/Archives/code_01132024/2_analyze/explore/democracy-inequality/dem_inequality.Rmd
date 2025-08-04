@@ -1,0 +1,270 @@
+---
+title: "Inequality and Democracy"
+author: "Ayumi Sudo"
+date: "11/9/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Load necessary packages and data 
+```{r packages}
+# install.packages("countrycode")
+# install.packages("devtools")
+# devtools::install_github("WIDworld/wid-r-tool")
+library(wid)
+library(readxl)
+library(readr)
+library(haven)
+library(countrycode)
+library(ggplot2)
+library(collapse)
+library(stargazer)
+
+## load data on income share of the 50th percentile from the World Inequality Dataset
+# df <- read_excel("Downloads/WID_Data_09112021-035152.xls",
+#                  col_names = FALSE)
+# colnames(df)[1] <- "country_name"
+# colnames(df)[2] <- "indicator"
+# colnames(df)[3] <- "code"
+# colnames(df)[4] <- "year"
+# colnames(df)[5] <- "value"
+# df <- df[df$year>=1960,] # limit to after 1960
+
+d <- download_wid(years = seq(from = 1980, to = 2019, by = 1.0),
+             indicators = c("sptinc"), 
+             perc = c("p0p50", "p99p100"))
+d$iso <- countrycode(d$country, 
+                     origin = "iso2c", 
+                     destination = "iso3c")
+d <- d[!is.na(d$iso),]
+
+w <- download_wid(years = seq(from = 1980, to = 2019, by = 1.0),
+             indicators = c("shweal"), 
+             perc = c("p0p50", "p99p100"))
+
+## load V-Dem data 
+vdem <- read_csv("Dropbox/Democracy/MainAnalysis/input/democracy/Country_Year_V-Dem_Core_CSV_v11.1/V-Dem-CY-Core-v11.1.csv")
+# limit to after 1960 and keep only relevant variables for now
+vdem <- vdem[vdem$year>=1960,c("country_text_id",
+                               "year",
+                               "v2x_polyarchy", 
+                               "v2x_libdem",
+                               "v2x_partipdem", 
+                               "v2x_delibdem",
+                               "v2x_egaldem", 
+                               "v2x_regime")] 
+vdem2000 <- vdem[vdem$year==2000, c("country_text_id", "v2x_regime")]
+colnames(vdem2000)[2] <- "regime2000"
+vdem <- merge(vdem, vdem2000, by="country_text_id", all = TRUE)
+
+## load ANRR data 
+anrr <- read_dta("Dropbox/Readings/DemocracyDoesCauseGrowth/replication_files_ddcg/DDCGdata_final.dta")
+# limit to after 1960 and only keep relevant variables for now
+anrr <- anrr[anrr$year>=1960,c("year",
+                               "wbcode", 
+                               "dem", 
+                               "gdppercapitaconstant2000us", 
+                               "PopulationtotalSPPOPTOTL")]
+colnames(anrr)[4] <- "gdppc"
+colnames(anrr)[5] <- "pop"
+
+```
+## Prepare to merge the three datasets together
+```{r prep}
+# merge anrr1(wbcode) and vdem1(country_text_id)
+m <- merge(vdem, anrr, 
+            by.x = c("country_text_id", "year"), 
+            by.y = c("wbcode", "year"),
+            all=FALSE, 
+            no.dups = TRUE)
+m <- merge(m, d,
+           by.x = c("country_text_id","year"), 
+           by.y = c("iso", "year"), 
+           all = FALSE, 
+           no.dups = TRUE)
+m <- m[!is.na(m$regime2000),]
+
+# indicator to aggregate to ten years 
+m$decade <- floor(m$year/10)*10
+```
+## Trend in percentage share of top 1% and bottom 50% by regime in 2000
+```{r}
+regime_names <- c(
+  `0` = "Closed autocracies in 2000",
+  `1` = "Electoral autocracies in 2000",
+  `2` = "Electoral democracies in 2000",
+  `3` = "Liberal democracies in 2000" )
+
+p <- ggplot(m[m$percentile == "p99p100",], 
+            aes(x= year, 
+                y = value)) + 
+  geom_point() + 
+  stat_summary(fun=mean, geom="line", color="blue") +
+  stat_summary(fun=median, geom="line", color="red") +
+  facet_wrap(~regime2000, labeller = as_labeller(regime_names))
+p
+
+p <- ggplot(m[m$percentile == "p0p50",], 
+            aes(x= year, 
+                y = value)) + 
+  geom_point() + 
+  stat_summary(fun=mean, geom="line", color="blue") +
+  stat_summary(fun=median, geom="line", color="red") +
+  facet_wrap(~v2x_regime, labeller = as_labeller(regime_names))
+p
+```
+## Correlation between democracy and income share of top 1% by decade (unweighted)
+```{r}
+p <- ggplot(m[(m$percentile == "p99p100") & (m$year == m$decade),], 
+            aes(x= v2x_polyarchy, 
+                y = value, 
+                label = country_text_id)) + 
+  geom_text() +
+  facet_wrap(~decade) + 
+  geom_smooth(method='lm', formula=y~x) +
+  labs(x = "Democracy Index (V-Dem)", 
+       y = "Income share of top 1%", 
+       title = "Democracy and Income Share of Top 1% (unweighted)")
+p
+ggsave("/Users/ayumis/Dropbox/アプリ/Overleaf/Curse_of_Democracy/supporting_files/figures/democracy_p99p100_bydecade.png", width = 8, height = 6)
+
+m1980 <- lm(value ~ v2x_polyarchy, 
+         m[(m$percentile == "p99p100") & (m$year == 1980), ])
+summary(m1980)
+
+m1990 <- lm(value ~ v2x_polyarchy, 
+         m[(m$percentile == "p99p100") & (m$year == 1990), ])
+summary(m1990)
+
+m2000 <- lm(value ~ v2x_polyarchy, 
+         m[(m$percentile == "p99p100") & (m$year == 2000), ])
+summary(m1980)
+
+m2010 <- lm(value ~ v2x_polyarchy, 
+         m[(m$percentile == "p99p100") & (m$year == 2010), ])
+summary(m2010)
+
+stargazer(m1980, m1990, m2000, m2010, 
+          column.labels = c("1980", "1990", "2000", "2010"))
+
+```
+## Correlation between democracy and income share of bottom 50% by decade (unweighted)
+```{r}
+p <- ggplot(m[(m$percentile == "p0p50") & (m$year == m$decade),], 
+            aes(x= v2x_polyarchy, 
+                y = value, 
+                label = country_text_id)) + 
+  geom_text() +
+  facet_wrap(~decade) + 
+  geom_smooth(method='lm', formula=y~x) +
+  labs(x = "Democracy Index (V-Dem)", 
+       y = "Income share of bottom 50%", 
+       title = "Democracy and Income Share of Bottom 50% (unweighted)")
+p
+ggsave("/Users/ayumis/Dropbox/アプリ/Overleaf/Curse_of_Democracy/supporting_files/figures/democracy_p0p50_bydecade.png", width = 8, height = 6)
+
+m1980 <- lm(value ~ v2x_polyarchy, 
+         m[(m$percentile == "p0p50") & (m$year == 1980), ])
+summary(m1980)
+
+m1990 <- lm(value ~ v2x_polyarchy, 
+         m[(m$percentile == "p0p50") & (m$year == 1990), ])
+summary(m1990)
+
+m2000 <- lm(value ~ v2x_polyarchy, 
+         m[(m$percentile == "p0p50") & (m$year == 2000), ])
+summary(m1980)
+
+m2010 <- lm(value ~ v2x_polyarchy, 
+         m[(m$percentile == "p0p50") & (m$year == 2010), ])
+summary(m2010)
+
+stargazer(m1980, m1990, m2000, m2010, 
+          column.labels = c("1980", "1990", "2000", "2010"))
+```
+## Correlation between democracy and income share of top 1% by decade (pop-weighted)
+```{r}
+# Correlation between democracy and income share of top 1% 
+p <- ggplot(m[(m$percentile == "p99p100") & (m$year == m$decade),], 
+            aes(x= v2x_polyarchy, 
+                y = value, 
+                label = country_text_id, 
+                weight = pop)) + 
+  geom_text() +
+  facet_wrap(~decade) + 
+  geom_smooth(method='lm', formula=y~x) +
+  labs(x = "Democracy Index (V-Dem)", 
+       y = "Income share of top 1%", 
+       title = "Democracy and Income Share of Top 1% (pop-weighted)")
+p
+ggsave("/Users/ayumis/Dropbox/アプリ/Overleaf/Curse_of_Democracy/supporting_files/figures/democracy_p99p100_bydecade_popweight.png", width = 8, height = 6)
+
+m1980 <- lm(value ~ v2x_polyarchy, 
+         m[(m$percentile == "p99p100") & (m$year == 1980), ], 
+         weights = pop)
+summary(m1980)
+
+m1990 <- lm(value ~ v2x_polyarchy, 
+         m[(m$percentile == "p99p100") & (m$year == 1990), ], 
+         weights = pop)
+summary(m1990)
+
+m2000 <- lm(value ~ v2x_polyarchy, 
+         m[(m$percentile == "p99p100") & (m$year == 2000), ],
+         weights = pop)
+summary(m1980)
+
+m2010 <- lm(value ~ v2x_polyarchy, 
+         m[(m$percentile == "p99p100") & (m$year == 2010), ],
+         weights = pop)
+summary(m2010)
+
+stargazer(m1980, m1990, m2000, m2010, 
+          column.labels = c("1980", "1990", "2000", "2010"))
+```
+## Correlation between democracy and income share of bottom 50% by decade (pop-weighted)
+```{r}
+p <- ggplot(m[(m$percentile == "p0p50") & (m$year == m$decade),], 
+            aes(x= v2x_polyarchy, 
+                y = value, 
+                label = country_text_id, 
+                weight = pop)) + 
+  geom_text() +
+  facet_wrap(~decade) + 
+  geom_smooth(method='lm', formula=y~x) +
+  labs(x = "Democracy Index (V-Dem)", 
+       y = "Income share of bottom 50%", 
+       title = "Democracy and Income Share of Bottom 50% (pop-weighted)")
+p
+
+ggsave("/Users/ayumis/Dropbox/アプリ/Overleaf/Curse_of_Democracy/supporting_files/figures/democracy_p0p50_bydecade_popweight.png", width = 8, height = 6)
+```
+
+```{r}
+m1980 <- lm(value ~ v2x_polyarchy, 
+         m[(m$percentile == "p0p50") & (m$year == 1980), ], 
+         weights = pop)
+summary(m1980)
+
+m1990 <- lm(value ~ v2x_polyarchy, 
+         m[(m$percentile == "p0p50") & (m$year == 1990), ], 
+         weights = pop)
+summary(m1990)
+
+m2000 <- lm(value ~ v2x_polyarchy, 
+         m[(m$percentile == "p0p50") & (m$year == 2000), ],
+         weights = pop)
+summary(m1980)
+
+m2010 <- lm(value ~ v2x_polyarchy, 
+         m[(m$percentile == "p0p50") & (m$year == 2010), ],
+         weights = pop)
+summary(m2010)
+
+stargazer(m1980, m1990, m2000, m2010, 
+          column.labels = c("1980", "1990", "2000", "2010"))
+```
+

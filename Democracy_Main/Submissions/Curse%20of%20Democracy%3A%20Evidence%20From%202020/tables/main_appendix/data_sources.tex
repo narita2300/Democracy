@@ -1,0 +1,77 @@
+
+\begin{table}[!htbp]
+    \centering
+    \caption{Data Sources and Description} 
+    \label{tab:sources}
+    \scriptsize
+\begin{tabularx}{\linewidth}{p{0.07\linewidth} p{0.2\linewidth} p{0.27\linewidth} p{0.36\linewidth}} 
+    \hline \\[-1.8ex]
+    & \textbf{Variable}  &  \textbf{Data Source} & \textbf{Short Description}\\ 
+    \hline \\[-1.8ex]
+    
+    Outcomes 
+    & GDP Growth Rate in 2020 & \citet{internationalmonetaryfundWorldEconomicOutlook2020} & Annual percentage change in real GDP between 2019 and 2020.\\
+    
+    & Covid-19-related Deaths Per Million & \citet{CSSE} & Total number of deaths per million attributed to Covid-19 between 2020/01/22 (earliest available in dataset) and 2020/12/31. \\
+    
+    & Covid-19 Cases Per Million & \citet{CSSE} & Total confirmed cases of Covid-19 per million between 2020/01/22 (earliest available in dataset) and 2020/12/31. \\
+    \hline \\[-1.8ex]
+    
+    Treatments 
+    
+    & Democracy Index (Freedom House) & \citet{freedomhouseFreedomWorld20202020} &  Index measuring the degree of democratic freedom by taking the sum of the political rights (0 to 40) and civil liberties (0 to 60) scales. Ranges from 0 (least free) to 100 (most free).  \\
+    
+     & Democracy Index (Center for Systemic Peace) & \citet{centerforsystemicpeacePolity5AnnualTime2018} &  Index measuring the level of democracy by subtracting the autocracy score (0 (least autocratic) to 10 (most autocratic)) from the democracy score (0 (least democratic) to 10 (most democratic)). Ranges from -10 (strongly autocratic) to +10 (strongly democratic).\\ 
+    
+     & Democracy Index (Economist Intelligence Unit) & \citet{DemocracyIndex2020} & Index measuring the state of democracy. Ranges from 0 (least democratic) to 100 (most democratic). \\
+
+\hline \\[-1.8ex]
+
+    Weightings \& Controls 
+    
+    & GDP (Current USD, Billions) & \citet{theworldbankgroupGDPCurrentUS2020} & Gross domestic product at purchasing power parity in current U.S. billion dollars. Dollar figures for GDP are converted from domestic currencies using single year official exchange rates. \\ 
+    
+        & Population (Millions) & \citet{unitednationsdepartmentofeconomicandsocialaffairspopulationdivisionWorldPopulationProspects2019} & Total population in 2020 in millions. \\
+
+    & Absolute Latitude & \citet{GooglePublicData} & Absolute value of the latitude of the centroid of each country (i.e., a measure of distance from the equator).\\
+    
+    & Mean Temperature & \citet{theworldbankgroupClimateChangeKnowledge2020} & The average of average monthly temperature from 1991-2016 in degrees Celcius. \\
+    
+    & Mean Precipitation & \citet{theworldbankgroupClimateChangeKnowledge2020} & The average of average monthly precipitation from 1991-2016 in millimeters. \\
+    
+    & Population Density & \citet{unitednationsdepartmentofeconomicandsocialaffairspopulationdivisionWorldPopulationProspects2019} & The number of people divided by land area, measured in square kilometers. \\
+    
+    & Median Age & \citet{unitednationsdepartmentofeconomicandsocialaffairspopulationdivisionWorldPopulationProspects2019} & UN projections of the median age of the population in 2020. \\
+    
+    & Diabetes Prevalence & \citet{internationaldiabetesfederationIDFDiabetesAtlas2019} & Percentage of population with diabetes aged 20 to 79 in 2017. \\ \hline \\[-1.8ex]
+    
+
+    IVs & 
+    Log European Settler Mortality & \citet{ColonialOriginsReplicationData}. & The log of annualized deaths per thousand mean strength of European settlers between the seventeenth and nineteenth century.\\ %Original data from \citet{curtinDeathMigrationEurope1989}.
+    
+    & Fraction Speaking English & \citet{hallWhyCountriesProduceReplicationData}. & The fraction of the population speaking English as a mother tongue in 1992.\\ %Original data from \citet{hunterEthnologueLanguagesWorld1992, gunnemarkCountriesPeoplesTheir1991}
+    
+    & Fraction Speaking European & \citet{hallWhyCountriesProduceReplicationData}. & The fraction of the population speaking English, French, German, Portuguese or Spanish as a mother tongue in 1992.\\ %Original data from  \citet{hunterEthnologueLanguagesWorld1992, gunnemarkCountriesPeoplesTheir1991} 
+    
+    & Log Frankel-Romer Trade Share & \citet{hallWhyCountriesProduceReplicationData} & The log of Frankel-Romer predicted share based on Frankel and Romer (1999).\\ 
+    
+    & British Legal Origin, French Legal Origin, German Legal Origin & \citet{portaLawFinanceReplicationData} & Dummy variables coded 1 if the country's legal origin is British, French, or German, respectively, and 0 otherwise. \\
+    
+    & Bananas, Coffee, Maize, Millet, Rice, Sugarcane, Rubber, Wheat & \citet{easterlyReplicationData, foodandagricultureassociationoftheunitednationsFAOGlobalStatistical2020} & Dummy variables coded 1 if the country produced any of the particular commodity in 1990, and 0 otherwise. \\
+    
+    & Copper, Silver & \citet{easterlyReplicationData, CopperStatistics, SilverStatistics} & Dummy variables coded 1 if the country mined any of the particular commodity in 1990, and 0 otherwise. \\
+    
+    & Log Population Density in 1500s & \citet{UnbundlingInstitutionsReplicationData}. & The log of the population density in the 1500s measured as the number of inhabitants per square kilometer.  \\ \hline \\[-1.8ex] % Original data from \citet{mcevedyAtlasWorldPopulation1978}.
+    
+    Policy Responses &
+    
+    Containment Health Index at 10th Covid-19 Case & \citet{OxCGRT} & The containment health index measures the strictness of government responses by taking the average of 13 sub-scores that considers the severity and geographic scope of measures in its domain. The sub-scores first records severity on an ordinal scale (for example, the school sub-index is on a 0 (no measure) to 4 (require closing) scale) and subtracts 0.5 if it is targeted. Then, the scale is normalized. The domains are schools, workplaces, public events, gatherings, public transport, stay-at-home requirements, domestic travel, international travel, public information campaigns, testing, contact tracing, facial coverings, and vaccinations. We use the index at the date when the 10th case of Covid-19 is confirmed. \\
+    
+    & Coverage of Containment Measures at 10th Covid-19 Case & \citet{OxCGRT} & The percentage of the 13 domains in which the data records any policy introduction at the date when the 10th case of Covid-19 is confirmed. \\
+    
+    & Days between 10th Covid-19 Case and Any Containment Measure & \citet{OxCGRT} & The number of days between the date when the 10th Covid-19 case is confirmed and the date when the containment health index becomes positive. 
+    
+\\ \hline
+
+\end{tabularx}
+\end{table}
