@@ -185,6 +185,10 @@ do run_all.do
 
 | Paper element | Generating code (path) |
 | --- | --- |
+| Figure 1: Correlation Between Democracy and Growth | `Democracy_Main/MainAnalysis/code/2_analyze/figures/main/figure1.R` |
+| Figure 2: Causal Effects of Democracy: First Look | `Democracy_Main/MainAnalysis/code/2_analyze/figures/main/figure2.R` |
+| Table 1: 2SLS and GMM Estimates of Democracy’s Effects | `Democracy_Main/MainAnalysis/code/2_analyze/tables/main/table2.do`, `Democracy_Main/MainAnalysis/code/2_analyze/tables/main/table2_invalid_iv.R` |
+| Table 2: Mechanisms Behind Democracy’s Effect in 2001-2019 | `Democracy_Main/MainAnalysis/code/2_analyze/tables/main/final_table_mech.do` |
 | Table A2: Descriptive Statistics | `Democracy_Main/MainAnalysis/code/2_analyze/tables/appendix/table1.R` |
 | Table A3: Additional Descriptive Statistics | `Democracy_Main/MainAnalysis/code/2_analyze/tables/appendix/02_descriptive_stats.R` |
 | Table A4: Democracy Indices for 30 Countries with Largest Total GDP in 2019 | `Democracy_Main/MainAnalysis/code/2_analyze/tables/appendix/03_dem_ranking.do` |
