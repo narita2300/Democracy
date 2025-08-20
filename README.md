@@ -213,7 +213,6 @@ For questions about this replication package, please contact the authors or subm
 | Figure A3 ((a)-(d)): Correlation Between Democracy and Economic Growth by Decade | `Democracy_Main/MainAnalysis/code/2_analyze/figures/appendix/01_corr_auto_notitle.R` |
 | Table A22: Democracy’s Effect on Economic Growth by Decade | `Democracy_Main/MainAnalysis/code/2_analyze/tables/appendix/30_2sls_by_decade.do` |
 | Figure A4 ((a)-(f)): Correlation Between Democracy Quadratic and Economic Growth by Decade | `Democracy_Main/MainAnalysis/code/2_analyze/figures/appendix/01_corr_auto_notitle_quad.R` |
-| Figure A5 ((a)-(f)): Correlation Between Democracy Quadratic and Residualized Economic Growth by Decade | not found |
 | Figure A6 ((a)-(c)): Correlation Between Democracy Change and Outcomes | `Democracy_Main/MainAnalysis/code/2_analyze/figures/appendix/figure1_change.R` |
 | Table A23: 2SLS Regression Estimates of Democracy Change’s Effects | `Democracy_Main/MainAnalysis/code/2_analyze/tables/appendix/table2_change.do` |
 | Table A24: Effect of Democratization on (Log) GDP per Capita | `Dem_Growth_Extend/replication_files_ddcg/do_files/Table2_final.do` |
