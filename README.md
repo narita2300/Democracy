@@ -181,10 +181,6 @@ cd Democracy_Main/MainAnalysis/code
 do run_all.do
 ```
 
-## Contact
-
-For questions about this replication package, please contact the authors or submit an issue to this repository.
-
 ## Mapping of Paper Tables/Figures to Code
 
 | Paper element | Generating code (path) |
@@ -219,3 +215,7 @@ For questions about this replication package, please contact the authors or subm
 | Table A25: IV Estimates of the Effect of Democratization on (Log) GDP per Capita | `Dem_Growth_Extend/replication_files_ddcg/do_files/Table6_final.do` |
 | Figure A7: Dynamic Panel Model Estimates of the Effects of Democratization on Log GDP Per Capita | `Dem_Growth_Extend/replication_files_ddcg/do_files/Figure2_final.do` |
 | Table A26: Potential Policy Mechanisms Behind Democracy’s Effect in 2020-22 | `Democracy_Main/MainAnalysis/code/2_analyze/tables/appendix/32_2sls_policy_mechanisms.do` |
+
+## Contact
+
+For questions about this replication package, please contact the authors or submit an issue to this repository.
