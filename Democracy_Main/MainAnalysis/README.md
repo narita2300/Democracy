@@ -11,20 +11,6 @@ chmod +x set_paths.sh
 ./set_paths.sh
 ```
 
-## Create Output Directories
-Before running the analysis, you may need to create the following output directories if they don't exist:
-```bash
-mkdir -p Democracy_Main/MainAnalysis/output/data
-mkdir -p Democracy_Main/MainAnalysis/output/tables
-mkdir -p Democracy_Main/MainAnalysis/output/tables/appendix
-mkdir -p Democracy_Main/MainAnalysis/output/tables/coefs
-mkdir -p Democracy_Main/MainAnalysis/output/tables/extensions
-mkdir -p Democracy_Main/MainAnalysis/output/tables/old
-mkdir -p Democracy_Main/MainAnalysis/output/tables/old/coefs
-```
-
-These directories are required for the code to store generated datasets, tables, and coefficients.
-
 ## Running the Analysis
 The easiest way to reproduce all results is to run the master script, which executes all do-files in the correct order.
 ```stata
