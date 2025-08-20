@@ -60,4 +60,4 @@ foreach outcome of local outcomes{
 }
 
 include "${path_code}/2_analyze/tables/PanelCombine_simple.do"
-panelcombine, use(robust_panel1.tex robust_panel2.tex robust_panel3.tex) paneltitles("`: var label `:word 1 of `outcomes'''" "`: var label `:word 2 of `outcomes'''" "`: var label `:word 3 of `outcomes'''") columncount(13) save(/Users/leonardofancello/Desktop/Yale/Democracy/MainAnalysisRep/code/2_analyze/tables/appendix/13_2sls_outliers.tex) cleanup
+panelcombine, use(robust_panel1.tex robust_panel2.tex robust_panel3.tex) paneltitles("`: var label `:word 1 of `outcomes'''" "`: var label `:word 2 of `outcomes'''" "`: var label `:word 3 of `outcomes'''") columncount(13) save(${path_output}/appendix/13_2sls_outliers.tex) cleanup

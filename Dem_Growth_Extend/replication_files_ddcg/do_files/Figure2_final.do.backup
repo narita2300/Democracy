@@ -17,7 +17,7 @@ cap ssc install spmack
 /*********************/
 /*Sets base directory*/
 /*********************/
-global project "/home/rg884/project/Dem_Growth_Extend"  /* Set base directory                         */
+global project "/Users/leonardofancello/Dropbox/Democracy/Dem_Growth_Extend"
 global limit=30                                                                             /* Number of years to plot */
 
 /****************/

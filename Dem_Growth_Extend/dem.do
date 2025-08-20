@@ -2,7 +2,7 @@
 Creates the dichotomous measure of democracy described in "Democracy Does Cause Growth" ANRR
 */
 
-global path "/Users/leonardofancello/Dropbox/Democracy/Dem_Growth_Extend"
+global path "/Users/masaoishihara/Democracy/Dem_Growth_Extend"
 
 /* 
 Polity: http://www.systemicpeace.org/inscrdata.html
