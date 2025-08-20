@@ -94,6 +94,20 @@ This package contains the source code and datasets required to reproduce the ana
 - Data download and setup: 10-15 minutes
 - **Total installation time: 25-45 minutes**
 
+## Create Output Directories
+Before running the analysis, you may need to create the following output directories if they don't exist:
+```bash
+mkdir -p Democracy_Main/MainAnalysis/output/data
+mkdir -p Democracy_Main/MainAnalysis/output/tables
+mkdir -p Democracy_Main/MainAnalysis/output/tables/appendix
+mkdir -p Democracy_Main/MainAnalysis/output/tables/coefs
+mkdir -p Democracy_Main/MainAnalysis/output/tables/extensions
+mkdir -p Democracy_Main/MainAnalysis/output/tables/old
+mkdir -p Democracy_Main/MainAnalysis/output/tables/old/coefs
+```
+
+These directories are required for the code to store generated datasets, tables, and coefficients.
+
 ## 3. Demo
 
 ### Instructions to run on data
