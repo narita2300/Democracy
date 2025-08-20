@@ -95,7 +95,7 @@ This package contains the source code and datasets required to reproduce the ana
 - **Total installation time: 25-45 minutes**
 
 ## Create Output Directories
-Before running the analysis, you may need to create the following output directories if they don't exist:
+Before running the analysis, you may need to create the following output directories:
 ```bash
 mkdir -p Democracy_Main/MainAnalysis/output/data
 mkdir -p Democracy_Main/MainAnalysis/output/tables
@@ -184,3 +184,39 @@ do run_all.do
 ## Contact
 
 For questions about this replication package, please contact the authors or submit an issue to this repository.
+
+## Mapping of Paper Tables/Figures to Code
+
+| Paper element | Generating code (path) |
+| --- | --- |
+| Table A2: Descriptive Statistics | `Democracy_Main/MainAnalysis/code/2_analyze/tables/appendix/table1.R` |
+| Table A3: Additional Descriptive Statistics | `Democracy_Main/MainAnalysis/code/2_analyze/tables/appendix/02_descriptive_stats.R` |
+| Table A4: Democracy Indices for 30 Countries with Largest Total GDP in 2019 | `Democracy_Main/MainAnalysis/code/2_analyze/tables/appendix/03_dem_ranking.do` |
+| Table A5: Correlation Among Democracy Indices | `Democracy_Main/MainAnalysis/code/2_analyze/tables/appendix/05_corr_dem_indices.do` |
+| Table A6: Correlation Between Democracy and Economic Growth With Control for Baseline GDP | `Democracy_Main/MainAnalysis/code/2_analyze/tables/appendix/06_ols_control_gdp.do` |
+| Table A7: First-stage Regression Estimates of IVs’ Effects on Democracy | `Democracy_Main/MainAnalysis/code/2_analyze/tables/appendix/15_first_stage.do` |
+| Table A8: First-stage Monotonicity Check: By Continent | `Democracy_Main/MainAnalysis/code/2_analyze/tables/appendix/08_monotonicity_check.do` |
+| Table A9: Correlation Among IVs | `Democracy_Main/MainAnalysis/code/2_analyze/tables/appendix/09_ivs_corr.do` |
+| Figure A1 ((a)-(f)): Reduced Forms for Causal Effects of Democracy | `Democracy_Main/MainAnalysis/code/2_analyze/figures/appendix/rf_figure.R` |
+| Table A11: Additional Mechanisms in 2001-2019 | `Democracy_Main/MainAnalysis/code/2_analyze/tables/appendix/mechanism_appendix.do` |
+| Figure A2 ((a)-(i)): Correlation Between Democracy and Additional Outcomes | `Democracy_Main/MainAnalysis/code/2_analyze/figures/appendix/figure_happiness.R`, `figure_top_income.R`, `figure_co2_emissions.R`, `figure_energy.R`, `figure_deaths.R` |
+| Table A12: 2SLS Regression Estimates of Democracy’s Effects on Additional Outcomes | `Democracy_Main/MainAnalysis/code/2_analyze/tables/appendix/additional_outcomes.do` |
+| Table A13: 2SLS Regression Estimates of Democracy’s Effects on GDP per Capita Growth | `Democracy_Main/MainAnalysis/code/2_analyze/tables/appendix/19_table2_pc.do` |
+| Table A14: 2SLS Regression with Alternative Democracy Indices | `Democracy_Main/MainAnalysis/code/2_analyze/tables/appendix/24_2sls_indices.do` |
+| Table A15: 2SLS Regression Estimates Before, During, and After the Great Recession | `Democracy_Main/MainAnalysis/code/2_analyze/tables/appendix/20_2sls_recession.do` |
+| Table A16: 2SLS Regression Excluding the US and China | `Democracy_Main/MainAnalysis/code/2_analyze/tables/appendix/27_2sls_exclude_US_China.do` |
+| Table A17: 2SLS Regression Excluding Outliers | `Democracy_Main/MainAnalysis/code/2_analyze/tables/appendix/28_2sls_outliers.do` |
+| Table A18: 2SLS Regression Excluding G7 Countries | `Democracy_Main/MainAnalysis/code/2_analyze/tables/appendix/29_2sls_remove_g7.do` |
+| Table A19: 2SLS Regression with Alternative Weightings | `Democracy_Main/MainAnalysis/code/2_analyze/tables/appendix/25_2sls_weighting.do` |
+| Table A20: Democracy’s Effect on Economic Growth With Control for Baseline GDP | `Democracy_Main/MainAnalysis/code/2_analyze/tables/appendix/21_2sls_control_gdp.do` |
+| Table A21: 2SLS Regression with Continent Controls | `Democracy_Main/MainAnalysis/code/2_analyze/tables/appendix/23_2sls_control_continent.do` |
+| Figure A3 ((a)-(d)): Correlation Between Democracy and Economic Growth by Decade | `Democracy_Main/MainAnalysis/code/2_analyze/figures/appendix/01_corr_auto_notitle.R` |
+| Table A22: Democracy’s Effect on Economic Growth by Decade | `Democracy_Main/MainAnalysis/code/2_analyze/tables/appendix/30_2sls_by_decade.do` |
+| Figure A4 ((a)-(f)): Correlation Between Democracy Quadratic and Economic Growth by Decade | `Democracy_Main/MainAnalysis/code/2_analyze/figures/appendix/01_corr_auto_notitle_quad.R` |
+| Figure A5 ((a)-(f)): Correlation Between Democracy Quadratic and Residualized Economic Growth by Decade | not found |
+| Figure A6 ((a)-(c)): Correlation Between Democracy Change and Outcomes | `Democracy_Main/MainAnalysis/code/2_analyze/figures/appendix/figure1_change.R` |
+| Table A23: 2SLS Regression Estimates of Democracy Change’s Effects | `Democracy_Main/MainAnalysis/code/2_analyze/tables/appendix/table2_change.do` |
+| Table A24: Effect of Democratization on (Log) GDP per Capita | `Dem_Growth_Extend/replication_files_ddcg/do_files/Table2_final.do` |
+| Table A25: IV Estimates of the Effect of Democratization on (Log) GDP per Capita | `Dem_Growth_Extend/replication_files_ddcg/do_files/Table6_final.do` |
+| Figure A7: Dynamic Panel Model Estimates of the Effects of Democratization on Log GDP Per Capita | `Dem_Growth_Extend/replication_files_ddcg/do_files/Figure2_final.do` |
+| Table A26: Potential Policy Mechanisms Behind Democracy’s Effect in 2020-22 | `Democracy_Main/MainAnalysis/code/2_analyze/tables/appendix/32_2sls_policy_mechanisms.do` |
