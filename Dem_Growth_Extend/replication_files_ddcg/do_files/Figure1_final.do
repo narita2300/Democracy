@@ -16,7 +16,7 @@ cap ssc install spmack
 /*********************/
 /*Sets base directory*/
 /*********************/
-global project "/Users/leonardofancello/Dropbox/Democracy/Dem_Growth_Extend"
+global project "/Users/masaoishihara/Democracy/Dem_Growth_Extend"
 
 /****************/
 /*Set start and end year*/

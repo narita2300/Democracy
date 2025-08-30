@@ -1,4 +1,4 @@
-global path "/Users/leonardofancello/Dropbox/Democracy/Dem_Growth_Extend"
+global path "/Users/masaoishihara/Democracy/Dem_Growth_Extend"
 
 // use ${path}/replication_files_ddcg/DDCGdata_final.dta
 use ${path}/data/extended.dta, clear

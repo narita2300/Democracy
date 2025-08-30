@@ -83,7 +83,7 @@ forv num = 1/3{
 	local end_year = `end_year'+10
 }
 
-foreach var in investment loginvestment rtfpna logrtfpna trade logtrade tax logtax primary logprimary secondary logsecondary mortality logmortality import_value logimport_value export_value logexport_value manu_va_growth logmanu_va_growth serv_va_growth logserv_va_growth import_gdp export_gdp agr_va_growth logagr_va_growth capital_growth logcapital_growth labor_growth loglabor_growth import_growth export_growth{
+foreach var in investment loginvestment rtfpna logrtfpna trade logtrade tax logtax primary logprimary secondary logsecondary mortality logmortality{
 
 	local varlist
 	forval year = 2001(1)2019 {
@@ -93,8 +93,8 @@ foreach var in investment loginvestment rtfpna logrtfpna trade logtrade tax logt
 }
 
 
-rename mean_labor_growth_2001_2019 mean_labor_2001_2019 
-rename labor2000 mean_labor_2000
+// rename mean_labor_growth_2001_2019 mean_labor_2001_2019 
+// rename labor2000 mean_labor_2000
 // rename import_value2 mean_import_value2_2001_2019
 // rename export_value2 mean_export_value2_2001_2019
 //rename fdi_2001_2019 mean_fdi_2001_2019 
@@ -182,14 +182,14 @@ label variable mean_tfpgrowth_2001_2019 "Mean TFP Growth Rate in 2001-2019"
 egen mean_conflict_2001_2019 = rowmean(conflict2001-conflict2019)
 label variable mean_conflict_2001_2019 "Mean Conflict Index in 2001-2019"
 
-egen mean_rd_expenditure_2001_2019 = rowmean(rd_expenditure2001-rd_expenditure2019)
-label variable mean_rd_expenditure_2001_2019 "Mean R&D Expenditure in 2001-2019 (% of GDP)"
+// egen mean_rd_expenditure_2001_2019 = rowmean(rd_expenditure2001-rd_expenditure2019)
+// label variable mean_rd_expenditure_2001_2019 "Mean R&D Expenditure in 2001-2019 (% of GDP)"
 
-egen mean_rd_researchers_2001_2019 = rowmean(rd_researchers2001-rd_researchers2019)
-label variable mean_rd_researchers_2001_2019 "Mean R&D Researchers per Million People in 2001-2019"
+// egen mean_rd_researchers_2001_2019 = rowmean(rd_researchers2001-rd_researchers2019)
+// label variable mean_rd_researchers_2001_2019 "Mean R&D Researchers per Million People in 2001-2019"
 
-egen mean_new_business_2001_2019 = rowmean(new_business2001-new_business2019)
-label variable mean_new_business_2001_2019 "Mean No. of New Business Registrations per 1000 People in 2001-2019"
+// egen mean_new_business_2001_2019 = rowmean(new_business2001-new_business2019)
+// label variable mean_new_business_2001_2019 "Mean No. of New Business Registrations per 1000 People in 2001-2019"
 
 forval year = 1992 (1)2013 {
 		

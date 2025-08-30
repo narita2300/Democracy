@@ -21,7 +21,7 @@ ssc install estout, replace
 ************************************ set main path
 
 **** CHANGE THIS PATH FOR YOUR SYSTEM:
-global main_path "/Users/leonardofancello/Dropbox"
+global main_path "/Users/masaoishihara"
 
 ************************************
 ************************************ set directory

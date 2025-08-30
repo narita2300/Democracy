@@ -2,7 +2,7 @@
 Extends variables from the main dataset in "Democracy Does Cause Growth" ANRR
 */
 
-global path "/Users/leonardofancello/Dropbox/Democracy/Dem_Growth_Extend"
+global path "/Users/masaoishihara/Democracy/Dem_Growth_Extend"
 
 local START = 1960
 local END = 2020

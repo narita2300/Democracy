@@ -26,22 +26,22 @@ global main_path "/Users/leonardofancello/Dropbox"
 ************************************
 ************************************ set directory
 
-cd ${main_path}/Democracy/MainAnalysis
+cd ${main_path}/Democracy/Democracy_Main/MainAnalysis
 
 ************************************
 ************************************ set folders for results and data
 
-global path_code ${main_path}/Democracy/MainAnalysis/code
+global path_code ${main_path}/Democracy/Democracy_Main/MainAnalysis/code
 
 global path_analyze ${path_code}/2_analyze
 
 global path_tables ${path_analyze}/tables
 
-global path_input ${main_path}/Democracy/MainAnalysis/input
+global path_input ${main_path}/Democracy/Democracy_Main/MainAnalysis/input
 
-global path_data ${main_path}/Democracy/MainAnalysis/output/data
+global path_data ${main_path}/Democracy/Democracy_Main/MainAnalysis/output/data
 
-global path_output ${main_path}/Democracy/MainAnalysis/output/tables
+global path_output ${main_path}/Democracy/Democracy_Main/MainAnalysis/output/tables
 
 global path_coefs ${path_output}/coefs
 

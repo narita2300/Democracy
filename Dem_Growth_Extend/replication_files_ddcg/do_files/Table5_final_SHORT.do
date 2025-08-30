@@ -19,7 +19,7 @@ cap ssc install parmest
 /*********************/
 /*Sets base directory*/
 /*********************/
-global project "/Users/leonardofancello/Dropbox/Democracy/Dem_Growth_Extend"
+global project "/Users/masaoishihara/Democracy/Dem_Growth_Extend"
 local  repsBS=100                                                                           /* Number of bootstrap repetitions            */
 
 /****************/

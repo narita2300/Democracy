@@ -20,7 +20,7 @@ cap ssc install spmack
 /*Sets base directory*/
 /*********************/
 // global project "/home/rg884/project/Dem_Growth_Extend"  /* Set base directory                         */
-global project "/Users/richardgong/Dropbox/Dem_Growth_Extend"  /* Set base directory                         */
+global project "/Users/leonardofancello/Dropbox/Democracy/Dem_Growth_Extend"
 global limit=25                                                                             /* Evaluate effects 25 years after transition */
 // local repsBS=100                                                                            /* Number of bootstrap repetitions            */
 local repsBS=3                                                                            /* Number of bootstrap repetitions            */

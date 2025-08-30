@@ -453,16 +453,16 @@ save ${path_data}/`shortname'.dta, replace
 // save ${path_data}/`shortname'.dta, replace
 
 
-use ${path_data}/import_value.dta, clear
-local shortnames export_value manu_va_growth serv_va_growth import_gdp export_gdp manu_va_gdp serv_va_gdp rd_expenditure rd_researchers new_business agr_va_growth labor_particip_rate capital_growth capital labor import_growth export_growth
-local n:word count `shortnames'
-di `n'
-forvalues i = 1/`n'{
-	local shortname "`:word `i' of `shortnames''"
-	di "`shortname'"
-	merge 1:1 NAMES_STD using ${path_data}/`shortname'.dta, nogenerate
-}
-save ${path_data}/innovation.dta, replace
+// use ${path_data}/import_value.dta, clear
+// local shortnames export_value manu_va_growth serv_va_growth import_gdp export_gdp manu_va_gdp serv_va_gdp rd_expenditure rd_researchers new_business agr_va_growth labor_particip_rate capital_growth capital labor import_growth export_growth
+// local n:word count `shortnames'
+// di `n'
+// forvalues i = 1/`n'{
+//	local shortname "`:word `i' of `shortnames''"
+//	di "`shortname'"
+//	merge 1:1 NAMES_STD using ${path_data}/`shortname'.dta, nogenerate
+// }
+// save ${path_data}/innovation.dta, replace
 
 ********************************************************************************* VA Agr
 import delimited ${path_input}/channels21st/old_channels/va_agr.csv, clear
@@ -1006,10 +1006,10 @@ merge 1:1 NAMES_STD using ${path_data}/ddcg.dta
 drop if _merge==2
 drop _merge
 
-*** merge with innovation.dta
-merge 1:1 NAMES_STD using ${path_data}/innovation.dta
-drop if _merge==2
-drop _merge
+// *** merge with innovation.dta
+// merge 1:1 NAMES_STD using ${path_data}/innovation.dta
+// drop if _merge==2
+// drop _merge
 
 // *** merge with china_import.dta
 // merge 1:1 NAMES_STD using ${path_data}/china_import.dta

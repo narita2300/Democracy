@@ -16,7 +16,7 @@ replace new_v2smpolhate_2001_2019 = -1*new_v2smpolhate_2001_2019
 replace new_v2smpolsoc_2001_2019 = -1*new_v2smpolsoc_2001_2019
 
 rename mean_capital_g_2001_2019 new_capital_g_2001_2019
-rename mean_labor_2001_2019 new_labor_2001_2019
+// rename mean_labor_2001_2019 new_labor_2001_2019
 rename mean_tfpgrowth_2001_2019 new_tfpgrowth_2001_2019
 rename mean_fdi_2001_2019 new_fdi_2001_2019
 rename mean_imp_2001_2019 new_imp_2001_2019
@@ -28,7 +28,7 @@ rename secondary_school1 new_secondary_school1_2001_2019
 
 
 local count = 1
-local outcomes ftti seatw_popul v2smpolhate v2smpolsoc capital_g rd_expenditure_g labor tfpgrowth imp exp primary_school1 secondary_school1 pop_growth median_age
+local outcomes ftti seatw_popul v2smpolhate v2smpolsoc capital_g tfpgrowth
 
 foreach outcome of local outcomes{
 	mean(new_`outcome'_2001_2019)
