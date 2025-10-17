@@ -1,5 +1,9 @@
 
 ************************************ 
+************************************ Install required packages
+cap ssc install wid, replace
+
+************************************ 
 ************************************ GDP Growth Rates 
 
 import delimited "${path_input}/outcomes/gdp/API_NY.GDP.MKTP.KD.ZG_DS2_en_csv_v2_6508481.csv", varnames(5) clear 

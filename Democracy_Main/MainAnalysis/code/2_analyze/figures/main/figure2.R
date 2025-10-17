@@ -13,9 +13,9 @@ library(ggrepel)
 
 ################################################################################
 # Load dataset
-total <- read_dta(file.path(main_path, "Democracy/Democracy/Democracy_Main/MainAnalysis/output/data/total.dta"))
+total <- read_dta(file.path(main_path, "Democracy/Democracy_Main/MainAnalysis/output/data/total.dta"))
 total <- as.data.frame(total)
-setwd(file.path(main_path, "Democracy/Democracy/Democracy_Main/MainAnalysis/output/figures"))
+setwd(file.path(main_path, "Democracy/Democracy_Main/MainAnalysis/output/figures"))
 
 
 # Figure 2

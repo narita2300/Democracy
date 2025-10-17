@@ -3,19 +3,25 @@
 source(file.path(dirname(dirname(dirname(dirname(dirname(getwd()))))), "paths.R"))
 
 ################################################################################
-# Load libraries
+# Install and load libraries
+# Check if 'RobustIV' is installed; if not, install it
+if (!requireNamespace("RobustIV", quietly = TRUE)) {
+  install.packages("RobustIV")
+}
+
 library(ggplot2)
 library(viridis)
 library(hrbrthemes)
 library(tidyverse)
 library(haven)
 library(ggrepel)
+library(RobustIV)
 
 ################################################################################
 # Load dataset
-total <- read_dta(file.path(main_path, "Democracy/MainAnalysis/output/data/total.dta"))
+total <- read_dta(file.path(main_path, "Democracy/Democracy_Main/MainAnalysis/output/data/total.dta"))
 total <- as.data.frame(total)
-setwd(file.path(main_path, "Democracy/MainAnalysis/output/figures/appendix"))
+setwd(file.path(main_path, "Democracy/Democracy_Main/MainAnalysis/output/figures/appendix"))
 
 ################################################################################
 

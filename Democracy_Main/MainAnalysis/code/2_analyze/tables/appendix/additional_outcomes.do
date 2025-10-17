@@ -102,10 +102,10 @@ foreach outcome of local outcomes{
 		
 				// without controls
 				// file to store the relevant f-statistics, coefs, and se
-				//file open f10 using ${path_coefs}/fstats_iv`i'_nocontrols.tex, replace write
-				file open f11 using ${path_coefs}/`outcome'_iv`i'_nocontrols_coef.tex, replace write
-				file open f12 using ${path_coefs}/`outcome'_iv`i'_nocontrols_se.tex, replace write
-				file open f13 using ${path_coefs}/`outcome'_iv`i'_nocontrols_coef_abs.tex, replace write
+				//file open ao_f10 using ${path_coefs}/fstats_iv`i'_nocontrols.tex, replace write
+				file open ao_f11 using ${path_coefs}/`outcome'_iv`i'_nocontrols_coef.tex, replace write
+				file open ao_f12 using ${path_coefs}/`outcome'_iv`i'_nocontrols_se.tex, replace write
+				file open ao_f13 using ${path_coefs}/`outcome'_iv`i'_nocontrols_coef_abs.tex, replace write
 				
 				eststo: ivreg2 `outcome' (`index'=${iv`i'}) `weight', robust
 				//scalar fstat = e(widstat)
@@ -116,24 +116,24 @@ foreach outcome of local outcomes{
 				local se = string(round(_se[`index'], 0.1), "%03.1f")
 				local coef_abs = string(abs(round(_b[`index'], 0.1)), "%03.1f")
 				
-				//file write f10 "`fs1'" "\unskip"
-				//file close f10
+				//file write ao_f10 "`fs1'" "\unskip"
+				//file close ao_f10
 
-				file write f11 "`coef'" "\unskip"
-				file close f11
+				file write ao_f11 "`coef'" "\unskip"
+				file close ao_f11
 
-				file write f12 "`se'" "\unskip"
-				file close f12
+				file write ao_f12 "`se'" "\unskip"
+				file close ao_f12
 				
-				file write f13 "`coef_abs'" "\unskip"
-				file close f13
+				file write ao_f13 "`coef_abs'" "\unskip"
+				file close ao_f13
 				
 				// with controls 
 				// file to store the relevant f-statistics, coefs, and se
-				//file open f20 using ${path_coefs}/fstats_iv`i'_withcontrols.tex, replace write
-				file open f21 using ${path_coefs}/`outcome'_iv`i'_withcontrols_coef.tex, replace write
-				file open f22 using ${path_coefs}/`outcome'_iv`i'_withcontrols_se.tex, replace write
-				file open f23 using ${path_coefs}/`outcome'_iv`i'_withcontrols_coef_abs.tex, replace write
+				//file open ao_f20 using ${path_coefs}/fstats_iv`i'_withcontrols.tex, replace write
+				file open ao_f21 using ${path_coefs}/`outcome'_iv`i'_withcontrols_coef.tex, replace write
+				file open ao_f22 using ${path_coefs}/`outcome'_iv`i'_withcontrols_se.tex, replace write
+				file open ao_f23 using ${path_coefs}/`outcome'_iv`i'_withcontrols_coef_abs.tex, replace write
 				
 				eststo: ivreg2 `outcome' `covariates' (`index'=${iv`i'}) `weight', robust
 				//scalar fstat = e(widstat)
@@ -144,17 +144,17 @@ foreach outcome of local outcomes{
 				local se = string(round(_se[`index'], 0.1), "%03.1f")
 				local coef_abs = string(abs(round(_b[`index'], 0.1)), "%03.1f")
 				
-				//file write f20 "`fs2'" "\unskip"
-				//file close f20
+				//file write ao_f20 "`fs2'" "\unskip"
+				//file close ao_f20
 
-				file write f21 "`coef'" "\unskip"
-				file close f21
+				file write ao_f21 "`coef'" "\unskip"
+				file close ao_f21
 
-				file write f22 "`se'" "\unskip"
-				file close f22
+				file write ao_f22 "`se'" "\unskip"
+				file close ao_f22
 				
-				file write f23 "`coef_abs'" "\unskip"
-				file close f23
+				file write ao_f23 "`coef_abs'" "\unskip"
+				file close ao_f23
 	}
 	
 	if `count' == 9{
@@ -208,9 +208,9 @@ foreach outcome of local outcomes{
 		
 				local colnum = (`i'-1)*2 + 1
 		
-				file open f11 using ${path_coefs}/`outcome'_col`colnum'_ols_coef.tex, replace write
-				file open f12 using ${path_coefs}/`outcome'_col`colnum'_ols_se.tex, replace write
-				file open f13 using ${path_coefs}/`outcome'_col`colnum'_ols_coef_abs.tex, replace write
+				file open ao_f11 using ${path_coefs}/`outcome'_col`colnum'_ols_coef.tex, replace write
+				file open ao_f12 using ${path_coefs}/`outcome'_col`colnum'_ols_se.tex, replace write
+				file open ao_f13 using ${path_coefs}/`outcome'_col`colnum'_ols_coef_abs.tex, replace write
 				
 				if `i' == 6{
 					eststo: reg `outcome' `index' if logem != . & lpd1500s !=. & legor_uk !=. & EurFrac !=. & bananas!=. & copper !=. `weight', vce(robust)
@@ -223,20 +223,20 @@ foreach outcome of local outcomes{
 				local se = string(round(_se[`index'], 0.1), "%03.1f")
 				local coef_abs = string(abs(round(_b[`index'], 0.1)), "%03.1f")
 				
-				file write f11 "`coef'" "\unskip"
-				file close f11
+				file write ao_f11 "`coef'" "\unskip"
+				file close ao_f11
 				
-				file write f12 "`se'" "\unskip"
-				file close f12
+				file write ao_f12 "`se'" "\unskip"
+				file close ao_f12
 				
-				file write f13 "`coef_abs'" "\unskip"
-				file close f13
+				file write ao_f13 "`coef_abs'" "\unskip"
+				file close ao_f13
 				
 				local colnum = (`i'-1)*2 + 2
 				
-				file open f21 using ${path_coefs}/`outcome'_col`colnum'_ols_coef.tex, replace write
-				file open f22 using ${path_coefs}/`outcome'_col`colnum'_ols_se.tex, replace write
-				file open f23 using ${path_coefs}/`outcome'_col`colnum'_ols_coef_abs.tex, replace write
+				file open ao_f21 using ${path_coefs}/`outcome'_col`colnum'_ols_coef.tex, replace write
+				file open ao_f22 using ${path_coefs}/`outcome'_col`colnum'_ols_se.tex, replace write
+				file open ao_f23 using ${path_coefs}/`outcome'_col`colnum'_ols_coef_abs.tex, replace write
 
 				if `i' == 6{
 					eststo: reg `outcome' `index' `covariates' if logem != . & lpd1500s !=. & legor_uk !=. & EurFrac !=. & bananas!=. & copper !=. `weight', vce(robust)
@@ -248,14 +248,14 @@ foreach outcome of local outcomes{
 				local coef = string(round(_b[`index'], 0.1), "%03.1f")
 				local se = string(round(_se[`index'], 0.1), "%03.1f")
 				
-				file write f21 "`coef'" "\unskip"
-				file close f21
+				file write ao_f21 "`coef'" "\unskip"
+				file close ao_f21
 
-				file write f22 "`se'" "\unskip"
-				file close f22
+				file write ao_f22 "`se'" "\unskip"
+				file close ao_f22
 				
-				file write f23 "`coef_abs'" "\unskip"
-				file close f23
+				file write ao_f23 "`coef_abs'" "\unskip"
+				file close ao_f23
 
 	}
 	

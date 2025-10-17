@@ -155,6 +155,7 @@ do ${path_tables}/main/final_table_mech.do
 
 // in R run ${path_analyze}/figures/main/figure1.R
 // in R run ${path_analyze}/figures/main/figure2.R
+// in R run ${path_tables}/main/table2_invalid_iv.R
 
 ************************************
 ************************************ Generate appendix tables
