@@ -191,7 +191,7 @@ ggsave("/Users/leonardofancello/Desktop/Yale/Democracy/MainAnalysisRep/Presentat
 ## 7. Labor (using original variable name)
 ggplot(total, 
        aes(x = democracy_vdem2000, 
-           y = mean_labor_2001_2019,  # Using original variable name
+           y = mean_labor_growth_2001_2019,  # Using correct variable name
            weight = total_gdp2000,
            size = total_gdp2000,
            fill = democracy_vdem2000)) + 

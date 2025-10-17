@@ -27,9 +27,9 @@ printm <- function(Var){
 
 ################################################################################
 # Load dataset
-total <- read_dta(file.path(main_path, "Democracy/MainAnalysis/output/data/total.dta"))
+total <- read_dta(file.path(main_path, "Democracy/Democracy_Main/MainAnalysis/output/data/total.dta"))
 total <- as.data.frame(total)
-setwd(file.path(main_path, "Democracy/MainAnalysis/output/figures/appendix"))
+setwd(file.path(main_path, "Democracy/Democracy_Main/MainAnalysis/output/figures/appendix"))
 
 ################################################################################
 outcomes <- total[, c(

@@ -3,7 +3,12 @@
 source(file.path(dirname(dirname(dirname(dirname(dirname(getwd()))))), "paths.R"))
 
 ################################################################################
-# Load libraries
+# Install and load libraries
+# Check if 'sjmisc' is installed; if not, install it
+if (!requireNamespace("sjmisc", quietly = TRUE)) {
+  install.packages("sjmisc")
+}
+
 library(ggplot2)
 library(viridis)
 library(hrbrthemes)
@@ -26,9 +31,9 @@ printm <- function(Var){
 }
 
 ################################################################################
-total <- read_dta(file.path(main_path, "Democracy/MainAnalysis/output/data/total.dta"))
+total <- read_dta(file.path(main_path, "Democracy/Democracy_Main/MainAnalysis/output/data/total.dta"))
 total <- as.data.frame(total)
-setwd(main_path, "/Democracy/MainAnalysisRep/output/tables")
+setwd(file.path(main_path, "Democracy/Democracy_Main/MainAnalysis/output/tables"))
 ################################################################################
 
 # outcomes <- total[, c(
@@ -339,7 +344,7 @@ while (line < 11 + ncol(IVs)){
 mechanisms <- total[, c(
   "mean_capital_g_2001_2019",
   "rd_expenditure1",
-  "mean_labor_2001_2019",
+  "mean_labor_growth_2001_2019",
   "mean_tfpgrowth_2001_2019",
   "mean_imp_2001_2019",
   "mean_exp_2001_2019",
